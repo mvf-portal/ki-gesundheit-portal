@@ -197,10 +197,30 @@ Fuer jede Studie:
   aus PubMed ersetzt; rate hier nichts.)
 - year: Erscheinungsjahr, z. B. "2026"
 - pmid: die PubMed-ID
-- title: praegnanter deutscher Titel
-- sum: 1 Satz auf Deutsch, was die Studie untersucht hat
+- title: praegnanter deutscher Titel. **Er MUSS mit der digitalen bzw.
+  KI-bezogenen Fragestellung beginnen; der klinische Anwendungsfall steht
+  hinten oder gar nicht drin.** Fast jede Arbeit in diesem Feld hat einen
+  klinischen Traegerfall - Beatmung, Hautkrebs, Atemnot -, und die Abstracts
+  sind danach betitelt. Wer das uebernimmt, macht aus dem Portal eine
+  beliebige medizinische Studiensammlung: Wer nur die Ueberschrift liest,
+  sieht dann eine Intensivmedizin-Studie statt einer Arbeit ueber
+  Datenschutz beim Modelltraining.
+  Gut:      "KI-Training ueber fuenf Kliniken hinweg, ohne Patientendaten zu
+             teilen: was der Datenschutz an Genauigkeit kostet"
+            "Elektronische Patientenberichte in der Onkologie: was die
+             Erfassung per App am Behandlungsverlauf aendert"
+  Schlecht: "Foederiertes Lernen zur Vorhersage der Beatmungsentwoehnung"
+            (fuehrt mit dem Anlassfall, die eigentliche Frage verschwindet)
+- sum: 1 Satz auf Deutsch, was die Studie untersucht hat. Wenn der klinische
+  Fall nur der Anlass ist, an dem gerechnet wurde, sage das ausdruecklich -
+  sonst haelt die Leserschaft ihn fuer den Gegenstand der Arbeit.
 - result: Deutsch, die konkreten Zahlen/Befunde + ein kurzer Einordnungssatz.
-  Deutsches Zahlenformat mit Komma (z. B. 0,63).
+  Deutsches Zahlenformat mit Komma (z. B. 0,63). **Der Einordnungssatz darf
+  nicht behaupten, was die Autoren selbst ablehnen.** Wo ein Abstract eine
+  Deutung ausdruecklich zurueckweist ("should be read as a performance
+  comparison rather than a privacy-performance trade-off"), diese Einschraenkung
+  uebernehmen statt sie zu ueberschreiben. Ein Rechercheportal referiert, es
+  wertet nicht auf.
 - transfer: EIN Halbsatz (höchstens 12 Wörter), warum das Ergebnis für Deutschland
   taugt - oder wo die Grenze liegt. Nenne Land bzw. System und Datengrundlage.
   Keine ganzen Sätze, keine Wiederholung des Titels.
