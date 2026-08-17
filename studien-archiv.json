@@ -13,6 +13,19 @@
   "aufgenommen": "2026-08-17"
  },
  {
+  "pmid": "42596010",
+  "journal": "Scand J Trauma Resusc Emerg Med",
+  "year": "2026",
+  "title": "Reanimations-App im Simulationsversuch: kein Vorteil bei erfahrenen Teams",
+  "sum": "Randomisierte Machbarkeitsstudie mit 40 interprofessionellen Zweierteams (80 Teilnehmende) an einem Nürnberger Klinikum, die den innerklinischen Herzstillstand mit und ohne die App CPR Leader durchspielten.",
+  "result": "Die Arbeitsbelastung (NASA-TLX) lag mit 49,2 ± 13,6 gegenüber 54,1 ± 14,6 Punkten ohne belastbaren Unterschied (p = 0,2) — mit mehr Anstrengung in der App-Gruppe und mehr Frustration in der Kontrollgruppe. Teamleistung, nichttechnische Fertigkeiten und alle Reanimationskennzahlen blieben gleich; in der Kontrollgruppe begann die Thoraxkompression bei Kammerflimmern sogar früher. Die Autoren führen das auf die hohe Erfahrung der Teilnehmenden zurück.",
+  "transfer": "Deutsches Klinikum, Simulation — auf ungeübte Teams nicht übertragbar",
+  "author": "Kamphausen A et al.",
+  "pubdate": "12.08.2026",
+  "added": "14.08.2026",
+  "aufgenommen": "2026-08-17"
+ },
+ {
   "pmid": "42595763",
   "journal": "NPJ Prim Care Respir Med",
   "year": "2026",
@@ -49,19 +62,6 @@
   "aufgenommen": "2026-08-17"
  },
  {
-  "pmid": "42596010",
-  "journal": "Scand J Trauma Resusc Emerg Med",
-  "year": "2026",
-  "title": "Reanimations-App im Simulationsversuch: kein Vorteil bei erfahrenen Teams",
-  "sum": "Randomisierte Machbarkeitsstudie mit 40 interprofessionellen Zweierteams (80 Teilnehmende) an einem Nürnberger Klinikum, die den innerklinischen Herzstillstand mit und ohne die App CPR Leader durchspielten.",
-  "result": "Die Arbeitsbelastung (NASA-TLX) lag mit 49,2 ± 13,6 gegenüber 54,1 ± 14,6 Punkten ohne belastbaren Unterschied (p = 0,2) — mit mehr Anstrengung in der App-Gruppe und mehr Frustration in der Kontrollgruppe. Teamleistung, nichttechnische Fertigkeiten und alle Reanimationskennzahlen blieben gleich; in der Kontrollgruppe begann die Thoraxkompression bei Kammerflimmern sogar früher. Die Autoren führen das auf die hohe Erfahrung der Teilnehmenden zurück.",
-  "transfer": "Deutsches Klinikum, Simulation — auf ungeübte Teams nicht übertragbar",
-  "author": "Kamphausen A et al.",
-  "pubdate": "12.08.2026",
-  "added": "14.08.2026",
-  "aufgenommen": "2026-08-17"
- },
- {
   "pmid": "42592762",
   "journal": "Dan Med J",
   "year": "2026",
@@ -72,6 +72,45 @@
   "author": "Biesenbach P et al.",
   "pubdate": "04.06.2026",
   "added": "13.08.2026",
+  "aufgenommen": "2026-08-17"
+ },
+ {
+  "pmid": "42587293",
+  "journal": "BMC Med Inform Decis Mak",
+  "year": "2026",
+  "author": "Zoch M et al.",
+  "pubdate": "12.08.2026",
+  "added": "13.08.2026",
+  "transfer": "Deutsche Unikliniken, medizininformatik-initiative Standard, direkt auf deutsches Gesundheitssystem anwendbar.",
+  "title": "Dezentralisierte Studien zu seltenen Erkrankungen mit sekundären Gesundheitsdaten in Deutschland",
+  "sum": "CORD-MI-Projekt führt dezentralisierte Analysen zu Cystischer Fibrose, Phenylketonurie und Kawasaki-Syndrom durch, nutzt Routinedaten aus 20 deutschen Unikliniken ohne zentralisierte Datenzusammenführung.",
+  "result": "Ergebnisse von bis zu 17 Zentren erreicht; identifiziert Hürden: Kodierungsungenauigkeiten für seltene Erkrankungen, Informationsverlust durch Maskierung, Verzerrungen im Gesundheitsprozess; zeigt Machbarkeit decentraler Forschung bei seltenen Erkrankungen.",
+  "aufgenommen": "2026-08-17"
+ },
+ {
+  "pmid": "42584738",
+  "journal": "Quality of Life Research",
+  "year": "2026",
+  "author": "Scheel-Hincke LL et al.",
+  "pubdate": "12.08.2026",
+  "added": "12.08.2026",
+  "transfer": "Skandinavien höherer Digitalisierungsgrad, aber ähnliche Versorgungsstruktur; Befunde auf deutsche Onkologie übertragbar.",
+  "title": "Elektronische Patientenberichte (ePRO) zur Therapiebereitschaftsprüfung in der Lungenkrebsbehandlung",
+  "sum": "Implementierungsstudie an dänischem Onkologiezentrum evaluiert ein ePRO-System als Ersatz für Telefonkontakte vor Chemotherapie mit Mixed-Methods-Design und RE-AIM-Framework.",
+  "result": "Fragebogen-Compliance stieg von 17,7% auf 76,3%; Pflegepersonal sparte etwa 6 Minuten pro Behandlung; 704 Patienten mit 6.134 abgeschlossenen Fragebögen; Patienten und Personal bewerteten das System als sinnvoll und akzeptabel.",
+  "aufgenommen": "2026-08-17"
+ },
+ {
+  "pmid": "42579605",
+  "journal": "JMIR Cancer",
+  "year": "2026",
+  "author": "Meyerheim M et al.",
+  "pubdate": "11.08.2026",
+  "added": "11.08.2026",
+  "transfer": "Deutschland und Tschechien, EU-Setting, vergleichbare pädiatrisch-onkologische Standards.",
+  "title": "ePRO-basierte digitale Plattform mit Serious Game in pädiatrischer Onkologie und Palliativmedizin",
+  "sum": "Multizentrisches Machbarkeitsstudium an 3 Standorten (Deutschland, Tschechien) testet Akzeptanz und Engagement einer ePRO-Plattform mit Gamification für 83 Kinder und Jugendliche mit Krebs und 10 Fachpersonen.",
+  "result": "Rekrutierungsrate 55%, Abbruchquote 18%, hohe Usability-Bewertung; Engagement nahm über Zeit ab, besonders bei älteren Kindern; Patienten zeigten höhere Motivation bei Rückmeldungen durch Fachpersonen.",
   "aufgenommen": "2026-08-17"
  }
 ]
