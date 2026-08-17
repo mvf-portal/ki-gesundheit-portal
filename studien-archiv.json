@@ -1,0 +1,77 @@
+[
+ {
+  "pmid": "42600153",
+  "journal": "JMIR Med Inform",
+  "year": "2026",
+  "title": "Föderiertes Lernen über fünf Intensivdatenbanken: Vorhersage der erfolgreichen Beatmungsentwöhnung",
+  "sum": "Retrospektiver Vergleich dreier Lernverfahren an 24.521 Intensivpatienten aus fünf Datenbanken (darunter das Universitätsklinikum Augsburg), überführt in das OMOP-Datenmodell.",
+  "result": "Zentrales Training auf zusammengelegten Daten erreichte AUROC 0,81, föderiertes Lernen ohne Weitergabe von Patientendaten 0,74, rein lokales Training je nach Haus 0,68 bis 0,84. Der Preis des Datenschutzes ist damit beziffert: rund sieben AUROC-Punkte gegenüber der Poollösung — und lokal starke Häuser verlieren durch Föderation sogar.",
+  "transfer": "Deutsche Klinikdaten im OMOP-Modell, direkt auf MII-Strukturen übertragbar",
+  "author": "Sheikhalishahi S et al.",
+  "pubdate": "14.08.2026",
+  "added": "14.08.2026",
+  "aufgenommen": "2026-08-17"
+ },
+ {
+  "pmid": "42595763",
+  "journal": "NPJ Prim Care Respir Med",
+  "year": "2026",
+  "title": "KI-optimierte Diagnosepfade bei chronischer Atemnot: welche Untersuchung sich zuerst lohnt",
+  "sum": "Aus schwedischen Bevölkerungsdaten entwickeltes Reinforcement-Learning-Modell, das für 16 mögliche Ursachen von Atemnot die kostengünstigste Untersuchungsreihenfolge bestimmt.",
+  "result": "Das Modell setzt durchgehend einfache und billige Schritte an den Anfang: Body-Mass-Index, Angst- und Depressionsscreening, körperliche Aktivität und Spirometrie, erst danach Diffusionskapazität, CT-Thorax und Hämoglobin. Die Lunge wird vor dem Herzen abgeklärt. Die Reihenfolge war über Geschlecht und Rauchstatus hinweg weitgehend gleich — die Personalisierung brachte weniger als die Sequenzierung.",
+  "transfer": "Schweden, steuerfinanziert — Kostengewichte hierzulande anders, Reihenfolge nicht",
+  "author": "Olsson M et al.",
+  "pubdate": "13.08.2026",
+  "aufgenommen": "2026-08-17"
+ },
+ {
+  "pmid": "42594257",
+  "journal": "JMIR Mhealth Uhealth",
+  "year": "2026",
+  "title": "Zwölf Monate App-Nutzung nach gynäkologischer Krebserkrankung: wer dabeibleibt und wer nicht",
+  "sum": "Auswertung der Server-Protokolle von 378 Frauen aus fünf norwegischen Kliniken, denen im Rahmen der regulären Nachsorge eine Bewegungs-App samt Aktivitätsmesser angeboten wurde.",
+  "result": "272 von 378 (72 Prozent) protokollierten mindestens zwei Wochen, 225 (60 Prozent) übertrugen Schrittdaten; im Mittel 5.657 Schritte täglich. Die Nutzung brach um die Wochen 16, 32 und 44 ein, erholte sich aber binnen drei Wochen — Aussetzer statt Abbruch. Nutzerinnen waren im Schnitt 6,7 Jahre jünger (95%-KI −9,6 bis −3,9), häufiger berufstätig und höher gebildet als Nichtnutzerinnen.",
+  "transfer": "Norwegen, Regelversorgung — Bildungsgefälle der Nutzung dürfte hier ebenso auftreten",
+  "author": "Fosstveit SH et al.",
+  "pubdate": "13.08.2026",
+  "aufgenommen": "2026-08-17"
+ },
+ {
+  "pmid": "42593153",
+  "journal": "Acta Derm Venereol",
+  "year": "2026",
+  "title": "Registerdaten statt Bauchgefühl: maschinelle Gruppierung von 106.490 Hautkrebspatienten",
+  "sum": "Machine-Learning-Phänomapping des dänischen Hautkrebsregisters (2014 bis 2022) mit dem Ziel, für die Versorgungsplanung unterscheidbare Patientengruppen zu finden.",
+  "result": "Sieben Cluster: eines mit 23.590 Personen (22,2 Prozent) jung, gebildet, einkommensstark, medizinisch unkompliziert, mit risikoarmen Basalzellkarzinomen; vier Cluster mit 58.736 Personen (55,2 Prozent) höherer dermatologischer Krankheitslast; zwei Cluster mit 24.164 Personen (22,7 Prozent) stark komorbid und immunsupprimiert. Der Ressourcenbedarf unterscheidet sich zwischen diesen Gruppen erheblich — ein Argument für differenzierte Versorgungspfade statt eines Pfades für alle.",
+  "transfer": "Dänisches Register, ambulante Dermatologie — Datenlage hierzulande schlechter",
+  "author": "Sieborg J et al.",
+  "pubdate": "13.08.2026",
+  "aufgenommen": "2026-08-17"
+ },
+ {
+  "pmid": "42596010",
+  "journal": "Scand J Trauma Resusc Emerg Med",
+  "year": "2026",
+  "title": "Reanimations-App im Simulationsversuch: kein Vorteil bei erfahrenen Teams",
+  "sum": "Randomisierte Machbarkeitsstudie mit 40 interprofessionellen Zweierteams (80 Teilnehmende) an einem Nürnberger Klinikum, die den innerklinischen Herzstillstand mit und ohne die App CPR Leader durchspielten.",
+  "result": "Die Arbeitsbelastung (NASA-TLX) lag mit 49,2 ± 13,6 gegenüber 54,1 ± 14,6 Punkten ohne belastbaren Unterschied (p = 0,2) — mit mehr Anstrengung in der App-Gruppe und mehr Frustration in der Kontrollgruppe. Teamleistung, nichttechnische Fertigkeiten und alle Reanimationskennzahlen blieben gleich; in der Kontrollgruppe begann die Thoraxkompression bei Kammerflimmern sogar früher. Die Autoren führen das auf die hohe Erfahrung der Teilnehmenden zurück.",
+  "transfer": "Deutsches Klinikum, Simulation — auf ungeübte Teams nicht übertragbar",
+  "author": "Kamphausen A et al.",
+  "pubdate": "12.08.2026",
+  "added": "14.08.2026",
+  "aufgenommen": "2026-08-17"
+ },
+ {
+  "pmid": "42592762",
+  "journal": "Dan Med J",
+  "year": "2026",
+  "title": "Dreißig Jahre telemedizinische Versorgung auf See: was Dauerbetrieb bewirkt",
+  "sum": "Retrospektive Kohortenstudie über sämtliche Beratungen des dänischen Funkarztdienstes Radio Medical Danmark von 1995 bis 2024.",
+  "result": "49.999 versorgte Seeleute; die Zahl der Beratungen stieg von 240 (1995) auf 4.829 (2024). Der Anteil der Fälle, die eine Ausschiffung oder Evakuierung erforderten, sank von über 10 auf rund 5 Prozent. Häufigste Anlässe: Muskel-Skelett-Beschwerden (18,8 Prozent), Hauterkrankungen (14,6 Prozent), Bauchbeschwerden (11,5 Prozent). Die Halbierung der Evakuierungsquote ist der eigentliche Befund — Telemedizin ersetzt hier nicht Nähe, sondern Transport.",
+  "transfer": "Dänemark, zentralisiert an einer Notaufnahme — Modell für Fernversorgung generell",
+  "author": "Biesenbach P et al.",
+  "pubdate": "04.06.2026",
+  "added": "13.08.2026",
+  "aufgenommen": "2026-08-17"
+ }
+]
