@@ -1,5 +1,18 @@
 [
  {
+  "pmid": "42580812",
+  "journal": "BMJ Health Care Inform",
+  "year": "2026",
+  "author": "Schwietering J et al.",
+  "pubdate": "11.08.2026",
+  "added": "11.08.2026",
+  "transfer": "Deutsche Leitlinien und Kontext; direkt auf hiesige CDSS-Anforderungen übertragbar.",
+  "title": "Large Language Models für deutsche Leitlinienempfehlungen: Retrieval-Augmented Generation mit Benchmark-Evaluierung",
+  "sum": "Entwicklung und Validierung des cpgQA-DE-Benchmarks mit 200 Fragen aus 10 deutschen Fachleitlinien; Evaluierung von LLMs mit Retrieval-Augmented Generation.",
+  "result": "Best-Performing-Kombination (GPT-5 + multilingual-e5-large) erreichte 95% Genauigkeit; Open-Weight-Modell gpt-oss-120b mit RAG erzielte 90% Genauigkeit. RAG verbesserte Leistung über alle Modelle hinweg deutlich.",
+  "aufgenommen": "2026-08-18"
+ },
+ {
   "pmid": "42600153",
   "journal": "JMIR Med Inform",
   "year": "2026",

@@ -1019,62 +1019,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "17. Aug. 2026, 14:21 Uhr";
+const SNAP_DATE = "18. Aug. 2026, 07:16 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
     journal:"JMIR Med Inform", year:"2026", pmid:"42600153",
     author:"Sheikhalishahi S et al.", pubdate:"14.08.2026",
     added:"14.08.2026",
-    title:"KI-Training über fünf Kliniken hinweg, ohne Patientendaten zu teilen: was der Datenschutz an Genauigkeit kostet",
-    sum:"Vergleich dreier Trainingsverfahren an 24.521 Intensivpatienten aus fünf Datenbanken, darunter das Universitätsklinikum Augsburg, alle überführt in das OMOP-Datenmodell — die Frage ist nicht die Beatmung, sondern ob föderiertes Lernen das Zusammenlegen von Behandlungsdaten ersetzen kann.",
-    result:"Zentrales Training auf zusammengelegten Daten erreichte AUROC 0,81, föderiertes Lernen ohne Weitergabe von Patientendaten 0,74, rein lokales Training je nach Haus 0,68 bis 0,84. Der Abstand ist damit beziffert: rund sieben AUROC-Punkte — und Häuser mit guter eigener Datenlage verlieren durch die Föderation sogar. Die Autoren betonen, dass sie den Datenschutzgewinn nicht gemessen haben; die Zahlen sind ein Leistungsvergleich, keine Abwägung.",
-    transfer:"Deutsche und Schweizer Intensivdaten im OMOP-Modell, MII-Strukturen vergleichbar"
+    title:"Federated Learning für Beatmungsentwöhnung: Modellleistung ohne zentrale Patientendatensharing",
+    sum:"Retrospektive Analyse von fünf ICU-Datenbanken (24.521 Patienten) vergleicht Federated Learning, lokales Lernen und zentralisiertes Lernen zur Vorhersage erfolgreicher Beatmungsentwöhnung.",
+    result:"Zentralisiertes Lernen erreichte beste Genauigkeit (AUROC 0,81, AUPRC 0,57, F1 0,54); Federated Learning (AUROC 0,74, AUPRC 0,56, F1 0,52) zeigte niedrigere, aber akzeptable Leistung bei Datenschutz; lokales Lernen variierte stark (AUROC 0,68–0,84). Ergebnis ist ein Leistungs-, nicht nur Datenschutzvergleich.",
+    transfer:"Deutschland mit ähnlichen Datenschutz- und Klinikverbünde-Anforderungen relevant."
   },
   {
     journal:"NPJ Prim Care Respir Med", year:"2026", pmid:"42595763",
     author:"Olsson M et al.", pubdate:"13.08.2026",
     added:"13.08.2026",
-    title:"KI-basierte Optimierung diagnostischer Pfade bei chronischer Atemnot",
-    sum:"Reinforcement-Learning-Modell identifiziert kosteneffiziente, individualisierte Diagnose-Sequenzen für Dyspnoe-Patienten mittels schwedischer Bevölkerungsdaten mit 16 klinisch relevanten Differenzialdiagnosen.",
-    result:"Modell priorisiert systematisch klinische Evaluationen, BMI-Messung, Angst/Depression-Screening, Spirometrie, dann Diffusionsmessungen und CT; erreicht hohe Diagnostikausbeute bei niedrigen Kosten ohne Angabe konkreter AUC/Testgütekriterien.",
-    transfer:"Schweden/Nordeuropa deutlich höherer Digitalisierungsgrad; Algorithmus-Struktur und Pfad-Logik sind länderunabhängig."
-  },
-  {
-    journal:"Scand J Trauma Resusc Emerg Med", year:"2026", pmid:"42596010",
-    author:"Kamphausen A et al.", pubdate:"12.08.2026",
-    added:"14.08.2026",
-    title:"App-gestützte Reanimationshilfe in simulierter Notfallmedizin",
-    sum:"Randomisierte Machbarkeitsstudie mit 40 interprofessionellen Teams prüft, ob eine Notfall-App (CPR Leader) die Lebensrettungskompetenz und Workload bei Herzstillstand in der Simulation verbessert.",
-    result:"Keine signifikanten Unterschiede zwischen App-Gruppe und Kontrollgruppe bei NASA-TLX (49,2±13,6 vs. 54,1±14,6; p=0,2), TEAM- und ANTS-Scores; Thoraxkompressionen begannen in der Kontrollgruppe schneller bei Kammerflimmern.",
-    transfer:"Deutschsprachige Studie, Paracelsus Medical University Nürnberg, übertragbar auf hiesige Notfallstrukturen."
+    title:"KI-gestützte Optimierung diagnostischer Abläufe bei chronischer Atemnot: Kosteneffektivität und Reihenfolge",
+    sum:"Reinforcement-Learning-Modell identifiziert optimal geordnete, kosteneffektive diagnostische Schritte für Atemnot anhand schwedischer Bevölkerungsdaten mit 16 definierten Krankheiten und Tests.",
+    result:"KI-Algorithmus empfahl zunächst klinische Evaluation (BMI, Angst/Depression, Aktivität, Spirometrie), dann Diffusionsmessung, CT und Hämoglobin. Strategie priorisierte Lungenuntersuchung vor Herzdiagnostik, führte zu früherer Diagnose bei geringeren Kosten bei hohem diagnostischem Ertrag.",
+    transfer:"Schwedisch-skandinavische Digitalisierung, Übertragbarkeit bedingt durch höheren Reifegrad als Deutschland."
   },
   {
     journal:"Qual Life Res", year:"2026", pmid:"42584738",
     author:"Scheel-Hincke LL et al.", pubdate:"12.08.2026",
     added:"12.08.2026",
-    title:"Elektronische Patientenberichte (ePRO) zur Therapiebereitschaftsprüfung in der Lungenkrebsbehandlung",
-    sum:"Implementierungsstudie an dänischem Onkologiezentrum evaluiert ein ePRO-System als Ersatz für Telefonkontakte vor Chemotherapie mit Mixed-Methods-Design und RE-AIM-Framework.",
-    result:"Fragebogen-Compliance stieg von 17,7% auf 76,3%; Pflegepersonal sparte etwa 6 Minuten pro Behandlung; 704 Patienten mit 6.134 abgeschlossenen Fragebögen; Patienten und Personal bewerteten das System als sinnvoll und akzeptabel.",
-    transfer:"Skandinavien höherer Digitalisierungsgrad, aber ähnliche Versorgungsstruktur; Befunde auf deutsche Onkologie übertragbar."
+    title:"Elektronische Patienteneberichte zur Behandlungsreife in der Lungenkrebsversorgung: Implementierung und Zeitersparnis",
+    sum:"Dänische Mixed-Methods-Studie zur Implementierung eines ePRO-Systems zur Ersetzung von Telefonanrufen vor Chemotherapie in Routine-Lungenkrebsbehandlung an zwei Häusern.",
+    result:"704 Patienten, 6.134 Fragebögen; Abschlussrate stieg von 17,7% auf 76,3%. ePRO-Workflow sparte ~6 Minuten pro Behandlung an Pflegepersonalzeit. Patienten und Personal befanden das System sinnvoll und akzeptabel; ermöglichte gezielteren Einsatz von Follow-up.",
+    transfer:"Dänemark, EU-Versorgungssystem; direkt übertragbar auf deutsche Workflow- und Dokumentationserfordernisse."
   },
   {
-    journal:"BMC Med Inform Decis Mak", year:"2026", pmid:"42587293",
-    author:"Zoch M et al.", pubdate:"12.08.2026",
-    added:"13.08.2026",
-    title:"Dezentralisierte Studien zu seltenen Erkrankungen mit sekundären Gesundheitsdaten in Deutschland",
-    sum:"CORD-MI-Projekt führt dezentralisierte Analysen zu Cystischer Fibrose, Phenylketonurie und Kawasaki-Syndrom durch, nutzt Routinedaten aus 20 deutschen Unikliniken ohne zentralisierte Datenzusammenführung.",
-    result:"Ergebnisse von bis zu 17 Zentren erreicht; identifiziert Hürden: Kodierungsungenauigkeiten für seltene Erkrankungen, Informationsverlust durch Maskierung, Verzerrungen im Gesundheitsprozess; zeigt Machbarkeit decentraler Forschung bei seltenen Erkrankungen.",
-    transfer:"Deutsche Unikliniken, medizininformatik-initiative Standard, direkt auf deutsches Gesundheitssystem anwendbar."
+    journal:"Scand J Trauma Resusc Emerg Med", year:"2026", pmid:"42596010",
+    author:"Kamphausen A et al.", pubdate:"12.08.2026",
+    added:"14.08.2026",
+    title:"App-gestützte Reanimationshilfe im Krankenhaus: Randomisierte Simulation ohne Verbesserung bei erfahrenem Personal",
+    sum:"Randomisierte Simulationsstudie mit 40 interprofessionellen Teams (80 Personen) vergleicht Reanimation mit CPR-Leader-App vs. Standard bei erfahrenem Klinikpersonal.",
+    result:"NASA-TLX-Score vergleichbar (49,2±13,6 vs. 54,1±14,6, p=0,2); keine signifikanten Unterschiede in Teamleistung (TEAM), Non-Technical Skills (ANTS) oder Reanimationsmetriken (Rhythmusanalyse, Defibrillation, Medikation, Thoraxkompression). Frühere Thoraxkompression in Kontrollgruppe bei Kammerflimmern.",
+    transfer:"Deutschland, deutsches Klinikpersonal in Nürnberg; übertragbar auf lokale Reanimationsszenarien."
+  },
+  {
+    journal:"BMJ Health Care Inform", year:"2026", pmid:"42580812",
+    author:"Schwietering J et al.", pubdate:"11.08.2026",
+    added:"11.08.2026",
+    title:"Large Language Models für deutsche Leitlinienempfehlungen: Retrieval-Augmented Generation mit Benchmark-Evaluierung",
+    sum:"Entwicklung und Validierung des cpgQA-DE-Benchmarks mit 200 Fragen aus 10 deutschen Fachleitlinien; Evaluierung von LLMs mit Retrieval-Augmented Generation.",
+    result:"Best-Performing-Kombination (GPT-5 + multilingual-e5-large) erreichte 95% Genauigkeit; Open-Weight-Modell gpt-oss-120b mit RAG erzielte 90% Genauigkeit. RAG verbesserte Leistung über alle Modelle hinweg deutlich.",
+    transfer:"Deutsche Leitlinien und Kontext; direkt auf hiesige CDSS-Anforderungen übertragbar."
   },
   {
     journal:"JMIR Cancer", year:"2026", pmid:"42579605",
     author:"Meyerheim M et al.", pubdate:"11.08.2026",
     added:"11.08.2026",
-    title:"ePRO-basierte digitale Plattform mit Serious Game in pädiatrischer Onkologie und Palliativmedizin",
-    sum:"Multizentrisches Machbarkeitsstudium an 3 Standorten (Deutschland, Tschechien) testet Akzeptanz und Engagement einer ePRO-Plattform mit Gamification für 83 Kinder und Jugendliche mit Krebs und 10 Fachpersonen.",
-    result:"Rekrutierungsrate 55%, Abbruchquote 18%, hohe Usability-Bewertung; Engagement nahm über Zeit ab, besonders bei älteren Kindern; Patienten zeigten höhere Motivation bei Rückmeldungen durch Fachpersonen.",
-    transfer:"Deutschland und Tschechien, EU-Setting, vergleichbare pädiatrisch-onkologische Standards."
+    title:"Elektronische Patientenberichte und Gamification in pädiatrischer Onkologie: Machbarkeit und Engagement über Zeit",
+    sum:"Multicenter-Observationsstudie (Dezember 2020–September 2022) an drei Standorten (Deutschland, Tschechien) zur Machbarkeit einer ePRO-Plattform mit Serious Game für pädiatrische Krebspatienten (6–17 J.) und Betreuer.",
+    result:"Rekrutierungsrate 55%, Abbruchrate 18%. Usability überwiegend positiv bewertet; langfristiges Engagement sank über Zeit, besonders bei älteren Kindern. Adhärenz variierte nach Altersgruppe und HCP-Beteiligung. HCP-Feedback zur Motivation wichtig, aber uneinheitliche Kommunikationswirkung wahrgenommen.",
+    transfer:"Deutschland und Tschechien, EU-Kontext; Erkenntnisse zur altersgerechten Gamification und Workflow-Integration übertragbar."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
