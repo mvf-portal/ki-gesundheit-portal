@@ -91,10 +91,17 @@ SYSTEM = (
 USER_TEMPLATE = """Unten stehen aktuelle PubMed-Abstracts (nach Datum sortiert).
 
 Waehle GENAU 6 Studien aus, die (a) eine digitale Technologie oder ein
-KI-Verfahren IN DER GESUNDHEITSVERSORGUNG untersuchen UND (b) im Abstract
-KONKRETE quantitative Ergebnisse nennen (Prozentwerte, Sensitivitaet/Spezifitaet,
-Odds/Hazard Ratios, Zeitersparnis, Fallzahlen, p-Werte). Ueberspringe Studien
-ohne Abstract oder ohne konkrete Ergebnisse. Achte auf thematische Vielfalt.
+KI-Verfahren IN DER GESUNDHEITSVERSORGUNG untersuchen UND (b) im Abstract ein
+BENENNBARES ERGEBNIS berichten. Bei quantitativen Arbeiten heisst das: konkrete
+Zahlen (Prozentwerte, Sensitivitaet/Spezifitaet, Odds/Hazard Ratios,
+Zeitersparnis, Fallzahlen, p-Werte) - und die gehoeren dann auch in die
+Zusammenfassung.
+Qualitative Studien (Interviews, Fokusgruppen) und Expertenpapiere sind
+ausdruecklich zugelassen; bei ihnen tritt an die Stelle der Zahl die klar benannte
+Kernaussage. Was NICHT genuegt, ist ein Abstract, der nur ankuendigt, was untersucht
+wurde, ohne zu sagen, was dabei herauskam.
+Ueberspringe Studien ohne Abstract oder ohne benennbares Ergebnis. Achte auf
+thematische Vielfalt und mische quantitative und qualitative Arbeiten.
 
 THEMATISCHE RANGFOLGE - in dieser Reihenfolge bevorzugen:
   1. Anwendung in der Versorgung: KI-gestuetzte Diagnostik und Entscheidungs-
@@ -114,8 +121,8 @@ THEMATISCHE RANGFOLGE - in dieser Reihenfolge bevorzugen:
 NICHT in die Auswahl gehoeren: reine Modellentwicklung ohne Versorgungsbezug,
 Arbeiten, die maschinelles Lernen nur als Auswertungsverfahren einer
 epidemiologischen Fragestellung verwenden, Benchmark-Vergleiche ohne klinische
-Anwendung, Bildverarbeitung an Phantomen oder Zelllinien sowie Uebersichten
-ohne eigene Zahlen.
+Anwendung, Bildverarbeitung an Phantomen oder Zelllinien sowie Uebersichten,
+die nichts Eigenes berichten.
 
 ZWEI HARTE REGELN ZUR ZUSAMMENSETZUNG (sie gehen der thematischen Rangfolge vor):
 
