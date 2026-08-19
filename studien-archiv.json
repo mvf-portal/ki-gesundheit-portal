@@ -1,5 +1,57 @@
 [
  {
+  "pmid": "42613108",
+  "journal": "BMJ Open",
+  "year": "2026",
+  "author": "Aasdahl L et al.",
+  "pubdate": "18.08.2026",
+  "added": "18.08.2026",
+  "transfer": "Norwegisches Gesundheitssystem, vergleichbare Sozialversicherung mit Deutschland.",
+  "title": "KI-gestützte Selbstmanagement-App für Arbeitsfähigkeit nach Muskelskelettverletzungen: SmaRTWork-RCT in Norwegen",
+  "sum": "Randomisierte kontrollierte Studie zur Wirksamkeit einer individualisierten, KI-basierten App zur Unterstützung der Rückkehr in den Beruf bei Patienten mit Muskelskelettstörungen, durchgeführt in Norwegen mit 298 Teilnehmern über 12 Monate.",
+  "result": "Primäres Outcome: Zeitraum bis zu einer nachhaltigen Rückkehr zur Arbeit (mindestens ein Monat ohne Krankmeldung) wird über Registry-Daten gemessen; sekundäre Outcomes erfassen Gesundheitsmaße nach 3, 6 und 12 Monaten. Die Studie ist noch nicht abgeschlossen (Protokoll); Ergebnisse stehen aus.",
+  "aufgenommen": "2026-08-19"
+ },
+ {
+  "pmid": "42612211",
+  "journal": "JMIR Med Inform",
+  "year": "2026",
+  "author": "Roth J et al.",
+  "pubdate": "18.08.2026",
+  "added": "18.08.2026",
+  "transfer": "Deutschland (RWTH Aachen), direkt übertragbar auf deutsche Operationssäle und Dokumentationspflichten.",
+  "title": "Telemedizinische Fernüberwachung in kritischen Anästhesie-Szenarien: Simulationsstudie mit Standards-konformem System",
+  "sum": "Randomisierte Simulationsstudie mit 16 Anästhesie-Assistenzärten, die ein standardisiertes Telemedizin-Überwachungssystem (TSV) mit konventioneller Telefonunterstützung während Notfallszenarien vergleicht.",
+  "result": "SOP-Vollständigung Interventionsgruppe 91,6 % (SD 0,05), Kontrollgruppe 92,5 % (SD 0,04), kein signifikanter Unterschied (P=0,67). Mentale Belastung niedriger mit TSV, aber höhere zeitliche Anforderungen; Nutzer bewerteten TSV als praktikable Alternative.",
+  "aufgenommen": "2026-08-19"
+ },
+ {
+  "pmid": "42611049",
+  "journal": "J Med Internet Res",
+  "year": "2026",
+  "author": "Soyer J et al.",
+  "pubdate": "18.08.2026",
+  "added": "18.08.2026",
+  "transfer": "Frankreich, vergleichbare Digitalisierungsstandards und Forschungsinfrastruktur in Kontinentaleuropa.",
+  "title": "Gemischte Reminder-Strategien zur Steigerung der E-Cohort-Teilnahme: randomisierte Kontrollstudie",
+  "sum": "Randomisierte Kontrollstudie mit 20.487 Teilnehmern, die E-Mail-, SMS- und kombinierte Reminder-Strategien zur Verbesserung der Rekrutierung in einer großen französischen Online-Kohorte (Le French Gut) vergleicht.",
+  "result": "Kombinierte Strategie (E-Mail + SMS + institutionelle E-Mail) erhöhte die Abschlussquote um 27 % (9,4 % vs. 7,4–8,3 %; P<0,001). SMS führte zu schnelleren Antworten (mittlerer Abstand 6,3 Tage vs. 7,0–7,2 Tage), institutionelle E-Mails zeigten höhere Klickrate (23,1 % vs. 19,6 %; P<0,001).",
+  "aufgenommen": "2026-08-19"
+ },
+ {
+  "pmid": "42610794",
+  "journal": "Eur J Neurol",
+  "year": "2026",
+  "author": "Kirschner P et al.",
+  "pubdate": "Aug. 2026",
+  "added": "18.08.2026",
+  "transfer": "Deutschland (CE-Kennzeichnung europäisch gültig), aber regulatorischer Rahmen unterscheidet sich von FDA; klinischer Nutzen unabhängig vom Zulassungsstatus.",
+  "title": "CE-gekennzeichneter Large-Language-Model-Chatbot für evidenzbasierte Neurologie: Funktionalitätsprüfung",
+  "sum": "Evaluierung von Prof. Valmed, dem ersten CE-gekennzeichneten LLM-Tool für medizinische Informationsbeschaffung in Europa, an einem 130-Item-Benchmark basierend auf Richtlinien der American Academy of Neurology.",
+  "result": "Prof. Valmed erreichte 76,2 % korrekte Antworten, 14,6 % ungenau, 6,9 % falsch, 2,3 % verweigert. Performance vergleichbar mit handelsüblichen LLM-Tools, signifikant besser als 8 Modelle, aber schlechter als ein reasoning-fähiges System mit Whitelisting von Neurologie-Quellen. CE-Kennzeichnung garantiert eher regulatorische Konformität als Leistungsvorteil.",
+  "aufgenommen": "2026-08-19"
+ },
+ {
   "pmid": "42580812",
   "journal": "BMJ Health Care Inform",
   "year": "2026",
