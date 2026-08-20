@@ -1,5 +1,44 @@
 [
  {
+  "pmid": "42618288",
+  "journal": "BMJ Health Care Inform",
+  "year": "2026",
+  "author": "Jeffery H et al.",
+  "pubdate": "19.08.2026",
+  "added": "19.08.2026",
+  "transfer": "Britisches Universitätsklinikum, internationale Guidelines, Strukturtransfer auf Deutschland möglich",
+  "title": "Klinische Entscheidungsunterstützung für Brustmultidisziplinäre Team-Meetings: validierte KI reduziert Behandlungsvariabilität",
+  "sum": "Qualitätsverbesserungsprojekt zur Validierung einer KI-gestützten Entscheidungsunterstützung (Deontics CDS) für Brust-MDT-Meetings basierend auf internationale Leitlinien an Brust-Chirurgiezentrum (London).",
+  "result": "250 Patientinnen (100 benigne, 150 maligne) schrittweise hinzugefügt. Konkordanz zwischen MDT-Entscheidung und Standard-of-Care-Empfehlung verbesserte sich von 82% auf 100% (benigne) und von 94% auf 100% (maligne). Abschließend 100% Konkordanz für beide Gruppen.",
+  "aufgenommen": "2026-08-20"
+ },
+ {
+  "pmid": "42616612",
+  "journal": "JMIR Aging",
+  "year": "2026",
+  "author": "Grosser J et al.",
+  "pubdate": "19.08.2026",
+  "added": "19.08.2026",
+  "transfer": "Deutsche Klinikdaten, vergleichbares Sozialversicherungssystem, Implementierungskontext der Routine",
+  "title": "Telemedizinische Intervention mit Frühwarnsystem in Pflegeheimen: Wirkung auf Hospitalisierungen",
+  "sum": "Clusterzufallstudie in 24 Pflegeheimen (westliches Deutschland) zu einer intersektoral organisierten Telemedizin mit Frühwarnsystem und mobilen medizinischen Laien bei akuten Versorgungsfällen in der vollstationären Altenpflege.",
+  "result": "2.394 Studienpersonen über 8 Perioden. Knapp zwei Drittel aller ausgetesteten Modellspezifikationen zeigten einen schützenden (negativen) Effekt auf Hospitalisierungen, aber kein Modell erreichte statistische Signifikanz (p<0,05). Externe Faktoren (Flutkatastrophe, COVID-19) wurden als Einflussfaktoren genannt.",
+  "aufgenommen": "2026-08-20"
+ },
+ {
+  "pmid": "42616132",
+  "journal": "Clin Oral Investig",
+  "year": "2026",
+  "author": "Kupka JR et al.",
+  "pubdate": "19.08.2026",
+  "added": "19.08.2026",
+  "transfer": "Deutsche Universitätsklinik, vergleichbare Struktur und DRG-Kodierung",
+  "title": "Datengestützte Entscheidungsunterstützung für chirurgische Rekonstruktion bei Mundhöhlenkrebs",
+  "sum": "Klassifikationsbaum-Analyse an 88 Patienten mit Plattenepithelkarzinom zur Identifikation von objektiven Schwellwerten zwischen lokaler/regionaler und mikrovaskulärer Rekonstruktion unter Berücksichtigung klinischer und ökonomischer Parameter.",
+  "result": "Tumor-Lokalisation, Durchmesser und Resektionstyp als entscheidende Prädiktoren. Lokale Rekonstruktion zeigte signifikant niedrigere perioperative Morbidität (geringere Raten für Tracheotomie und PEG-Sonde, kürzere ICU/Krankenhausaufenthalte). Regional-Verfahren ökonomisch überlegen; mikrovaskuläre Eingriffe brauchten deutlich längere OP-Zeiten. Lappenüberlebensrate: 96,7%.",
+  "aufgenommen": "2026-08-20"
+ },
+ {
   "pmid": "42613108",
   "journal": "BMJ Open",
   "year": "2026",
