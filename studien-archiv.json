@@ -1,5 +1,57 @@
 [
  {
+  "pmid": "42628031",
+  "journal": "JMIR Form Res",
+  "year": "2026",
+  "author": "Yang MA et al.",
+  "pubdate": "21.08.2026",
+  "added": "21.08.2026",
+  "transfer": "Südkorea, NLP und Datenschutz-Aspekte aber auf deutsche Teleberatungsszenarien übertragbar; zeigt Notwendigkeit von Governance vor Einsatz",
+  "title": "Menschlich regulierte KI-Informationstechnologie für sichere psychische Teleberatung: Governance-Framework und Risikokontroll-Layers",
+  "sum": "Sekundäre Rahmenentwicklung mit Anforderungs-Mapping für sichere KI-gestützte psychische Beratung, basierend auf Korean AI Hub Beratungs-Datensätzen und Analyse von Fehler-Modi von Zusammenfassungs- und Screening-Modellen.",
+  "result": "Dokumentiert Fehlermuster in LLM-generierten Zusammenfassungen: 55,4% enthielten unbegründete Inhalte, 31,7% über-diagnostische Formulierungen, 54,7% medikalisierte Ausdrücke; insgesamt 91,4% der Test-Fälle triggerten mindestens eine regelbasierte Sicherheits-Flag. Entwickelt 7-stufigen Workflow, 6 Kontroll-Layers, operatives Sicherheits-Gate und Crosswalk zwischen Workflow und Kontrolle. Keine Deployment ohne menschliche Validierung empfohlen.",
+  "aufgenommen": "2026-08-22"
+ },
+ {
+  "pmid": "42627987",
+  "journal": "J Med Internet Res",
+  "year": "2026",
+  "author": "Schaffernak I et al.",
+  "pubdate": "21.08.2026",
+  "added": "21.08.2026",
+  "transfer": "Deutsche Studienteilnehmer:innen, Messaging für KI-Implementierung auf lokale Kontexte übertragbar",
+  "title": "KI-gestützte klinische Entscheidungsunterstützung in der Medizin: Patient:innenvertrauen hängt von der Modus und Timing des AI-Einsatzes ab",
+  "sum": "Zwei experimentelle Studien testeten, wie Typ und Timing von KI-Unterstützung für Ärzte das Vertrauen von Patient:innen in medizinische Entscheidungen beeinflussen.",
+  "result": "Diagnose-KI (im Vergleich zu beschreibender KI) reduzierte das Vertrauen in medizinische Entscheidungen signifikant (5,00 vs. 5,37 auf 7er-Skala; p=0,002) und die wahrgenommene Glaubwürdigkeit des Arztes (4,93 vs. 5,40; p<0,001). Wenn Ärzte KI-Ergebnisse unabhängig von ihrer eigenen Einschätzung prüften (sequenzielle Entscheidungsfindung), verschärfte sich dieser Effekt nicht – das Vertrauen blieb höher als bei gleichzeitiger KI- und Informationsprüfung. Das Vertrauen in Ärztliche Unabhängigkeit spielte eine zentrale Rolle.",
+  "aufgenommen": "2026-08-22"
+ },
+ {
+  "pmid": "42627683",
+  "journal": "J Med Internet Res",
+  "year": "2026",
+  "author": "Warmer S et al.",
+  "pubdate": "21.08.2026",
+  "added": "21.08.2026",
+  "transfer": "Deutsche Universitätskliniken, ähnliche Dokumentationspflichten und unstrukturierte Klinikabrechnungstexte",
+  "title": "Large Language Models zur automatisierten Klassifizierung postoperativer Komplikationen aus Kliniktexten: Zero-Shot-Ansatz im Krankenhaus",
+  "sum": "Sechs LLMs wurden getestet, um postoperative Komplikationen nach der Clavien-Dindo-Klassifikation direkt aus Entlassungsbriefen von Leberchirurgie-Patienten zu erfassen, ohne spezielles Training auf diese Daten.",
+  "result": "Open-Weight-Modelle erreichten Genauigkeiten von 0,75–0,78 für die 5-stufige Klassifikation (F1-Score 0,76–0,78), für binäre Klassifikation (kritisch vs. unkritisch) 0,93–0,94 (F1 0,93–0,95, Cohen κ 0,76–0,79). Performance näherte sich dem Benchmark zwischen zwei Fachleuten (κ=0,75). Proprietary Modelle erreichten 0,78 bzw. 0,94–0,98. Ein Ensemble-Ansatz verbesserte die Robustheit.",
+  "aufgenommen": "2026-08-22"
+ },
+ {
+  "pmid": "42618758",
+  "journal": "Nature",
+  "year": "2026",
+  "author": "Clusmann J et al.",
+  "pubdate": "19.08.2026",
+  "added": "20.08.2026",
+  "transfer": "Deutschland und EU, EU-Regulierung (KI-Verordnung, MDR) direkt relevant; Sicherheits-Befunde modell- und systemunabhängig",
+  "title": "Sicherheit und Sicherheitsrisiken großer Sprachmodelle im Klinikalltag: Systematische Übersicht über Hazards, Mitigationen und Stakeholder-Verantwortung",
+  "sum": "Systematische Bewertung der aktuellen Literatur zu Sicherheit und Datensicherheit von LLMs in klinischen Settings, mit Kartierung von Hazards auf Entwicklungsphasen (Design, Daten, Modell, Inferenz, Umgebung) und Identifikation von Mitigationsmechanismen.",
+  "result": "Review dokumentiert kritische Sicherheitslücken: Halluzinationen und Verzerrungen, Datenschutz-Verletzungen beim Training, Anfälligkeit für Prompt-Injections und Jailbreaks, fehlende Nachverfolgbarkeit, unzureichende Mensch-Maschine-Interaktion. Mitigationsebenen reichen von Optimierungsbeschränkungen über Knowledge-Integrity bis zur klinischen Überwachung. Nennt neun Stakeholder-Gruppen und deren Verantwortungen – kein einzelner Wert, aber klares Framework.",
+  "aufgenommen": "2026-08-22"
+ },
+ {
   "pmid": "42624602",
   "journal": "BMJ Open",
   "year": "2026",
