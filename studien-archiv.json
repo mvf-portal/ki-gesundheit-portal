@@ -1,5 +1,31 @@
 [
  {
+  "pmid": "42610815",
+  "journal": "Radiology",
+  "year": "2026",
+  "author": "Ruitenbeek HC et al.",
+  "pubdate": "Aug. 2026",
+  "added": "18.08.2026",
+  "transfer": "Drei europäische Länder mit vergleichbaren Versorgungssystemen und Bildstandards.",
+  "title": "KI-Unterstützung bei Frakturdiagnose in Radiographien: Multinationaler Validierungstest an drei europäischen Zentren mit Kliniker-Performance",
+  "sum": "Retrospektive multizentrische Validierungsstudie eines vorkonfigurierten Fraktur-KI-Tools an 1500 Röntgenbildern aus Niederlanden, Dänemark und Deutschland; Effekt auf Kliniker-Sensitivität und Spezifität untersucht.",
+  "result": "KI-Sensitivität über Zentren: 80–86%, Spezifität 93–96%; keine signifikanten Unterschiede zwischen Zentren (p=0,23). Mit KI-Hilfe verbesserte sich die Kliniker-Sensitivität um 11 Prozentpunkte (95% CI: 6,8–14,4; p<0,001), während Spezifität stabil blieb (Δ=0,6 Pp, p=0,34). Tool-Performance zeigte sich konsistent über Länder und Bildprotokolle.",
+  "aufgenommen": "2026-08-23"
+ },
+ {
+  "pmid": "42610731",
+  "journal": "JMIR Form Res",
+  "year": "2026",
+  "author": "Leysen D et al.",
+  "pubdate": "11.08.2026",
+  "added": "18.08.2026",
+  "transfer": "Österreich, vergleichbares deutsches Gesundheitssystem und Rehastandardisierung.",
+  "title": "Digitale Gesundheitsanwendung zur Unterstützung regelmäßiger Bewegung nach kardialer Rehabilitation: Feasibility-Pilotstudie in Österreich",
+  "sum": "Randomisierte kontrollierte Pilotstudie (n=34, davon 16 Intervention) der aktivplan-App als digitale Unterstützung für Bewegungsverhalten nach kardialer Phase-II-Rehabilitation in Österreich über 10 Wochen.",
+  "result": "Rekrutierungsrate 0,6–1,0 Patienten/Woche, Dropout 18%, Datenvollständigkeit 97,4%. Patientenadhärenz hoch: 71% geplante Aktivitäten abgeschlossen, durchschnittlich 39 zusätzliche Aktivitäten pro Teilnehmer. Keine Nebenwirkungen. HCPs berichteten hohe Implementierungstreue (Normalization Measure Development: 3,75/5), Patienten und Personal positiv zur Machbarkeit und Intervention.",
+  "aufgenommen": "2026-08-23"
+ },
+ {
   "pmid": "42628031",
   "journal": "JMIR Form Res",
   "year": "2026",
