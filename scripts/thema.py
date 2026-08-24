@@ -161,7 +161,10 @@ Fuer jede Studie:
   aus PubMed ersetzt; rate hier nichts.)
 - year: Erscheinungsjahr, z. B. "2026"
 - pmid: die PubMed-ID
-- title: praegnanter deutscher Titel. **Er MUSS mit der digitalen bzw.
+- title: praegnanter deutscher Titel, **hoechstens 160 Zeichen**. Der
+  Torwaechter lehnt alles ueber 200 Zeichen ab und stoppt damit die ganze
+  Ausgabe - Methode und Population gehoeren nicht in den Titel, sie stehen
+  in sum und transfer. **Er MUSS mit der digitalen bzw.
   KI-bezogenen Fragestellung beginnen; der klinische Anwendungsfall steht
   hinten oder gar nicht drin.** Fast jede Arbeit in diesem Feld hat einen
   klinischen Traegerfall - Beatmung, Hautkrebs, Atemnot -, und die Abstracts
