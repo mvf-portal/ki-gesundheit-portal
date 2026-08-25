@@ -1071,62 +1071,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "24. Aug. 2026, 07:58 Uhr";
+const SNAP_DATE = "25. Aug. 2026, 07:05 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
+  {
+    journal:"Lancet Oncol", year:"2026", pmid:"42636838",
+    author:"Lara González LE et al.", pubdate:"Sept. 2026",
+    added:"24.08.2026",
+    title:"Digital- und AI-basierte Immunzellquantifikation in HER2-positivem Brustkrebs: prognostische Wertigkeit und Therapieertrag-Vorhersage",
+    sum:"Sekundäranalyse der Phase-3-Studie APHINITY (4.262 Patientinnen) mit Vergleich manueller, digitaler und AI-basierter Stromalentzündungsmessung sowie AI-abgeleiteter Raummerkmale für Prognostik und Therapie-Nutzen-Schichtung unter Pertuzumab.",
+    result:"Manuelle Scoring-Reproduzierbarkeit (ICC 0,84); AI-Methode reklassifizierte 11,6% node-positiver Fälle von immun-niedrig zu immun-hoch, mit verbesserter Behandlungsvorhersage; HRs für invasive krankheitsfreie Überlebenszeit 0,36–0,48 unter Pertuzumab bei hohen TIL-Werten; AI-Hotspot-Scores lieferten zusätzliche Information (alle p&lt;0,010).",
+    transfer:"Mehrzentrale europäische Studie (Deutschland, Schweiz, Niederlande, Belgien), vergleichbarer Versorgungskontext"
+  },
+  {
+    journal:"JMIR Form Res", year:"2026", pmid:"42636435",
+    author:"Walter E et al.", pubdate:"24.08.2026",
+    added:"24.08.2026",
+    title:"Digitale Adipositas-Intervention: 3.511 € Kosteneinsparung und 0,07 QALY-Gewinn pro Patient in zehn Jahren",
+    sum:"Gesundheitsökonomische Modellierung für Deutschland einer mobilen App zur Gewichtsmanagement über zehn Jahre im Vergleich zu üblicher Versorgung.",
+    result:"Die App generierte Kosteneinsparungen von 3.511,85 € pro Patient, mit Gewinn von 0,0683 QALYs (≈ 3,6 Wochen in perfekter Gesundheit); Prävalenz Typ-2-Diabetes sank um 1,6 Prozentpunkte, reduzierte Diabetesdauer um acht Monate.",
+    transfer:"Deutsches Gesundheitssystem, Parametrisierung für lokale Versorgungsrealität verfügbar"
+  },
   {
     journal:"J Med Internet Res", year:"2026", pmid:"42627987",
     author:"Schaffernak I et al.", pubdate:"21.08.2026",
     added:"21.08.2026",
-    title:"Klinische Akzeptanz von KI-Entscheidungsunterstützung hängt von Kontrollwahrnehmung ab: zwei vignetten-basierte Experimente zur Patientenbewertung",
-    sum:"Zwei Experimente mit deutschen Laien (n=489 und 570) untersuchten, wie die Art und das Timing von KI-Unterstützung bei ärztlichen Entscheidungen das Vertrauen von Patienten beeinfluss – deskriptive KI-Unterstützung versus diagnostische Vorschläge, sequenziell oder gleichzeitig mit ärztlicher Bewertung.",
-    result:"Diagnostische KI-Unterstützung senkte das Vertrauen in medizinische Entscheidungen (5,00 vs. 5,37, p=0,002) und wahrgenommene Anbieter-Glaubwürdigkeit (4,93 vs. 5,40, p&lt;0,001) im Vergleich zu deskriptiver Unterstützung. Dieser Effekt verschwand, wenn Ärzte KI-Output nach eigenständiger Beurteilung prüften. Bereitschaft zur Befolgung unterschied sich nicht signifikant (5,42 vs. 5,62, p=0,25).",
-    transfer:"Deutschland und deutschsprachiger Raum, Patientenwahrnehmung von CDSS-Integration"
+    title:"Timing von KI-Entscheidungsunterstützung beeinflusst Patientenvertrauen in Arztentscheidungen",
+    sum:"Zwei experimentelle Vignetten-Studien in Deutschland (n=489, n=570) mit Messungen von Patientenvertrauen, Vertrauenswürdigkeit des Arztes und Absicht zur Befolgung medizinischen Rats bei Einsatz diagnostischer versus deskriptiver AI-Unterstützung.",
+    result:"Diagnostische AI-Unterstützung führte zu signifikant niedrigerem Vertrauen in Arzentscheidungen (5,00 vs. 5,37; p=0,002) und Vertrauenswürdigkeit (4,93 vs. 5,40; p&lt;0,001); sequenzielle Entscheidungsfindung (Arzt erst selbst beurteilt, dann AI) verbesserte Vertrauen im Vergleich zu simultaner Nutzung.",
+    transfer:"Deutschland, repräsentativ für deutschsprachige Bevölkerung und Gesundheitssystem"
+  },
+  {
+    journal:"BMJ Open", year:"2026", pmid:"42629153",
+    author:"Novak A et al.", pubdate:"21.08.2026",
+    added:"21.08.2026",
+    title:"Klinische Wirkung von AI-gestützter Frakturdiagnostik in britischen Notaufnahmen und Verletzungsambulanzen",
+    sum:"Laufende Cluster-randomisierte Cross-over-Studie über sechs Monate in vier UK-Trusts zur Messung der Auswirkung eines CE-geprüften AI-Tools auf ungeeignete Arztkontakte, Versorgungsergebnisse und Kosteneffektivität bei Verdacht auf Knochenverletzungen.",
+    result:"Studienprotokoll beschreiben; primärer Outcome ist Inzidenz unangemessener Arzt-Patienten-Kontakte (wiederholte Krankenhausbesuche, Überweisungen, Nachverfolgung wegen übersehener Frakturen) in Phase 'AI an' vs. 'AI aus'; sekundäre Outcomes umfassen Lebensqualität, klinisches Urteil, Kosten.",
+    transfer:"Großbritannien, aber strukturelle Nähe zu deutschem System und zu europäischen Regulierungsrahmen"
   },
   {
     journal:"J Med Internet Res", year:"2026", pmid:"42627683",
     author:"Warmer S et al.", pubdate:"21.08.2026",
     added:"21.08.2026",
-    title:"Large Language Models zur automatisierten Klassifikation postoperativer Komplikationen aus Entlassungsbriefen: Zero-Shot-Leistung bei Leberchirurgie",
-    sum:"Sechs große Sprachmodelle (offen und proprietär) wurden auf ihre Fähigkeit getestet, postoperative Komplikationen aus klinischen Entlassungsbriefen nach Clavien-Dindo-Klassifikation einzustufen, ohne explizites Training (Zero-Shot), validiert gegen Expertenannotationen an 650 Leberchirurgie-Fällen.",
-    result:"Offene Modelle erreichten Genauigkeiten von 0,75–0,78 für Mehrklass-Vorhersage (F1=0,76–0,78, Cohen κ=0,50–0,63) und 0,93–0,94 für binäre Klassifikation (κ=0,76–0,79), nahe an menschlicher Interrater-Übereinstimmung (κ=0,75). Proprietary Modelle erzieltlich auf 50 Fällen 0,78 bzw. 0,94–0,98 Genauigkeit; Ensemble-Ansätze zeigten zusätzliche Gewinne.",
-    transfer:"Deutsche Klinikdaten zu Dokumentation und Komplikationen"
-  },
-  {
-    journal:"BMJ Open", year:"2026", pmid:"42624602",
-    author:"Quentin E et al.", pubdate:"20.08.2026",
-    added:"20.08.2026",
-    title:"Automatische Erkennung von Beckentzündungen aus Krankenhaus-Diagnosecodern mit Natural Language Processing: Algorithmus-Entwicklung und externe Validierung",
-    sum:"Ein NLP-basierter Algorithmus wurde zur Identifikation von Beckentzündungs-Episoden (PID) aus 1956 Patienten mit 2191 Klinikvisiten in französischen Krankenhäusern entwickelt und anhand von Expertenlabeln validiert, um Chlamydia-trachomatis-Fälle zu erfassen.",
-    result:"Algorithmus mit 10 diagnostischen Codes erzielte bei NLP-klassifizierten Besuchen Recall 0,80, Präzision 0,74, F1-Score 0,77. Bei Expert-Klassifikation (n=93): Recall 0,76, Präzision 0,82, F1-Score 0,79. Identifizierte 901 PID-Episoden in 880 Patienten; 9,9 % mit C.-trachomatis-Nachweis.",
-    transfer:"Frankreich, vergleichbares Versicherungssystem, Dokumentationsstandards ähnlich Deutschland"
+    title:"Large Language Models zur Klassifikation postoperativer Komplikationen aus Arztbriefen: Zero-Shot-Performance nähert sich Fachkompetenz",
+    sum:"Validierungsstudie in Deutschland (650 Leberfalloperationen) mit sechs Experten-Krankenschwestern, die die Fähigkeit von vier Open-Weight- und zwei Proprietär-LLMs zur Zero-Shot-Klassifikation postoperativer Komplikationen nach Clavien-Dindo-System aus Entlassungsbriefen testeten.",
+    result:"Open-Weight-Modelle erreichten 75–78% Genauigkeit für feinkörnige Klassifikation (F1-Scores 0,76–0,78); für binäre Klassifikation 93–94% Genauigkeit mit Cohen κ von 0,76–0,79, nahe bei Zwischen-Gutachter-Benchmark (κ=0,75); Ensemble-Methoden zeigten weitere Verbesserungen.",
+    transfer:"Deutschland, Universitätsklinik Essen, echte OP-Dokumentation, Datensatz unselektiert"
   },
   {
     journal:"BMC Health Serv Res", year:"2026", pmid:"42618915",
     author:"Schulz C et al.", pubdate:"19.08.2026",
     added:"20.08.2026",
-    title:"KI-generierte Gesundheitsinformation versus Fachperson-Texte: Nutzer bewerten ChatGPT höher bei Verständlichkeit und Empathie",
-    sum:"224 deutsche Laien bewerteten in Paarvergleichen zwei Antworten auf die gleiche Gesundheitsfrage – eine von Physiotherapeut, eine von ChatGPT-4 – zu Verständlichkeit, Empathie, Diskriminierungsinhalte und klinischer Qualität.",
-    result:"KI-Antwort wurde bei Verständlichkeit (p&lt;0,001) und Empathie (p&lt;0,001) signifikant höher bewertet als Humantext. Wahrnehmung von Diskriminierungsinhalten war selten und unterschied sich nicht (p ns). Expertenbeurteilung favoritisierte KI-Text auch in Genauigkeit und Vollständigkeit, aber Designs unterschieden sich erheblich (Länge, Struktur).",
-    transfer:"Deutschland, deutschsprachige Bevölkerung, Anforderungen an Gesundheitskommunikation"
+    title:"KI-generierte vs. humane Gesundheitsinformation: Nutzerwahrnehmung von Klarheit und Empathie",
+    sum:"Deutsche Bevölkerungsstudie mit 224 Personen, die AI-erzeugte und human-verfasste Gesundheitsinformationen zur gleichen Frage verglichen, mit Schwerpunkt auf wahrgenommene Verständlichkeit, Empathie und klinische Qualität.",
+    result:"AI-Antwort signifikant höher bewertet bei Verständlichkeit und Empathie (p &lt; 0,001); Expert-Bewertung favoritisierte AI auch bei klinischer Genauigkeit und Vollständigkeit, aber Unterschiede in Länge und Struktur zwischen Antworten waren substanziell.",
+    transfer:"Deutschland, explorative Einzelfall-Analyse; Nutzerwahrnehmung versus klinische Validität noch zu klären"
   },
   {
-    journal:"Nature", year:"2026", pmid:"42618758",
-    author:"Clusmann J et al.", pubdate:"19.08.2026",
-    added:"20.08.2026",
-    title:"Sicherheit und Schutz von großen Sprachmodellen in klinischen Workflows: systematische Kartierung von Bedrohungen über Entwicklungsstufen",
-    sum:"Systematischer Review zur Kartierung von Sicherheitsgefahren und Schutzmaßnahmen bei der Integration von LLMs in klinische Versorgung, mit Fokus auf Designrisiken, Datenintegrität, Modellausrichtung, Nutzer-System-Interaktion und Umgebung.",
-    result:"Identifizierte kritische Sicherheitsebenen über alle Entwicklungsstufen hinweg (Design, Daten, Modell, Inferenz, Umgebung) und kartierte aktuelle Mitigationsmethoden sowie Verantwortlichkeiten nach Stakeholder. Keine numerischen Effektmaße publiziert; systematische Risikocharakterisierung für klinische Relevanz bereitgestellt.",
-    transfer:"Deutschland und Europa, regulatorischer Rahmen (MDR, KI-VO)"
-  },
-  {
-    journal:"JMIR Aging", year:"2026", pmid:"42616612",
-    author:"Grosser J et al.", pubdate:"19.08.2026",
-    added:"19.08.2026",
-    title:"Telemedizin-basierte Früherkennung akuter Fälle in Pflegeheimen reduziert Krankenhauseinweisungen nicht signifikant: Stufenkeil-RCT mit Spezifikationskurven-Analyse",
-    sum:"Stepped-Wedge-Clusterrandomisierte Studie an 24 Pflegeheimen in Westdeutschland (n=2422 Patienten über 8 Trimester) evaluierte intersektorale Telemedizin mit Früheaklarm-System und mobilen Hilfskräften zur Vermeidung von Notaufnahmen.",
-    result:"Von 1260 analysiertenModellen zeigten etwa zwei Drittel einen protektiven Effekt auf Krankenhauseinweisungen, aber kein Modell erreichte statistische Signifikanz (alle p&gt;0,05). Externe Faktoren (Hochwasser, COVID-19) beeinträchtigten vermutlich die Intervention. Keine signifikante Reduktion der Hospitalisierungen nachgewiesen.",
-    transfer:"Deutschland, deutschsprachiges Pflegeheim-Setting, Langzeitversorgung und Telemedizin"
+    journal:"JMIR Med Inform", year:"2026", pmid:"42612211",
+    author:"Roth J et al.", pubdate:"18.08.2026",
+    added:"18.08.2026",
+    title:"Telemedizinische Anästhesie-Supervision in kritischen Szenarien: Simulation zeigt vergleichbare Leistung zu Vor-Ort-Beteuung",
+    sum:"Randomisiert-kontrollierte Simulation mit 16 Anästhesie-Assistenten, die ein neuartiges Tele-Supervision-System mit Video/Audio/Datenverbindung versus konventionelle Telefonberatung mit Vor-Ort-Unterstützung bei anaphylaktischen Reaktionen verglichen.",
+    result:"Keine signifikanten Unterschiede in Standard-Operating-Procedures-Compliance (92,5% Vor-Ort vs. 91,6% Tele-Supervision; p=0,67); beide Gruppen proaktierten ≥6 SOP-Maßnahmen; NASA-TLX zeigte niedrigere mentale, aber höhere zeitliche Last in Tele-Supervision-Gruppe; Nutzer sahen Tele-Supervision als gangbar an.",
+    transfer:"Deutschland (RWTH Aachen), strukturelle Nähe deutschsprachiger Gesundheitssysteme"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===

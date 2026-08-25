@@ -1,5 +1,44 @@
 [
  {
+  "pmid": "42636838",
+  "journal": "Lancet Oncol",
+  "year": "2026",
+  "author": "Lara González LE et al.",
+  "pubdate": "Sept. 2026",
+  "added": "24.08.2026",
+  "transfer": "Mehrzentrale europäische Studie (Deutschland, Schweiz, Niederlande, Belgien), vergleichbarer Versorgungskontext",
+  "title": "Digital- und AI-basierte Immunzellquantifikation in HER2-positivem Brustkrebs: prognostische Wertigkeit und Therapieertrag-Vorhersage",
+  "sum": "Sekundäranalyse der Phase-3-Studie APHINITY (4.262 Patientinnen) mit Vergleich manueller, digitaler und AI-basierter Stromalentzündungsmessung sowie AI-abgeleiteter Raummerkmale für Prognostik und Therapie-Nutzen-Schichtung unter Pertuzumab.",
+  "result": "Manuelle Scoring-Reproduzierbarkeit (ICC 0,84); AI-Methode reklassifizierte 11,6% node-positiver Fälle von immun-niedrig zu immun-hoch, mit verbesserter Behandlungsvorhersage; HRs für invasive krankheitsfreie Überlebenszeit 0,36–0,48 unter Pertuzumab bei hohen TIL-Werten; AI-Hotspot-Scores lieferten zusätzliche Information (alle p<0,010).",
+  "aufgenommen": "2026-08-25"
+ },
+ {
+  "pmid": "42636435",
+  "journal": "JMIR Form Res",
+  "year": "2026",
+  "author": "Walter E et al.",
+  "pubdate": "24.08.2026",
+  "added": "24.08.2026",
+  "transfer": "Deutsches Gesundheitssystem, Parametrisierung für lokale Versorgungsrealität verfügbar",
+  "title": "Digitale Adipositas-Intervention: 3.511 € Kosteneinsparung und 0,07 QALY-Gewinn pro Patient in zehn Jahren",
+  "sum": "Gesundheitsökonomische Modellierung für Deutschland einer mobilen App zur Gewichtsmanagement über zehn Jahre im Vergleich zu üblicher Versorgung.",
+  "result": "Die App generierte Kosteneinsparungen von 3.511,85 € pro Patient, mit Gewinn von 0,0683 QALYs (≈ 3,6 Wochen in perfekter Gesundheit); Prävalenz Typ-2-Diabetes sank um 1,6 Prozentpunkte, reduzierte Diabetesdauer um acht Monate.",
+  "aufgenommen": "2026-08-25"
+ },
+ {
+  "pmid": "42629153",
+  "journal": "BMJ Open",
+  "year": "2026",
+  "author": "Novak A et al.",
+  "pubdate": "21.08.2026",
+  "added": "21.08.2026",
+  "transfer": "Großbritannien, aber strukturelle Nähe zu deutschem System und zu europäischen Regulierungsrahmen",
+  "title": "Klinische Wirkung von AI-gestützter Frakturdiagnostik in britischen Notaufnahmen und Verletzungsambulanzen",
+  "sum": "Laufende Cluster-randomisierte Cross-over-Studie über sechs Monate in vier UK-Trusts zur Messung der Auswirkung eines CE-geprüften AI-Tools auf ungeeignete Arztkontakte, Versorgungsergebnisse und Kosteneffektivität bei Verdacht auf Knochenverletzungen.",
+  "result": "Studienprotokoll beschreiben; primärer Outcome ist Inzidenz unangemessener Arzt-Patienten-Kontakte (wiederholte Krankenhausbesuche, Überweisungen, Nachverfolgung wegen übersehener Frakturen) in Phase 'AI an' vs. 'AI aus'; sekundäre Outcomes umfassen Lebensqualität, klinisches Urteil, Kosten.",
+  "aufgenommen": "2026-08-25"
+ },
+ {
   "pmid": "42610815",
   "journal": "Radiology",
   "year": "2026",
