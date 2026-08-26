@@ -1,5 +1,57 @@
 [
  {
+  "pmid": "42640879",
+  "journal": "PLoS Med",
+  "year": "2026",
+  "author": "Whitfield E et al.",
+  "pubdate": "25.08.2026",
+  "added": "25.08.2026",
+  "transfer": "Englische NHS-Daten, UK-Gesundheitssystem, aber erkrankungs- und systemübergreifende Erkenntnisse übertragbar.",
+  "title": "Notfaldiagnose als häufiger Versorgungsdefekt: elektronische Gesundheitsdaten zeigen 13 Erkrankungen mit schlechteren Outcomes",
+  "sum": "Populationsbasierte Kohortenstudie mit verlinkten elektronischen Gesundheitsdaten von 1,7 Millionen Patienten in England zu Häufigkeit und Prognose von Notfalldiagnosen bei 13 nicht-neoplastischen Erkrankungen (1999–2019).",
+  "result": "Notfalldiagnose trat bei 9 von 13 Erkrankungen in mindestens 20% auf; bei Morbus Parkinson 30%, bei COPD 35%. Für 9 von 13 Erkrankungen gab es substanzielle Unterschiede in der 1-Jahres-Mortalität (≥10% Differenz). Bereinigt um Alter, Deprivation, Komorbiditäten: Notfalldiagnose typischerweise mit deutlich höherer 1-Jahres-Mortalität (z.B. Zöliakie: aOR 7,53, 95% KI [5,64–10,1]; IBD: aOR 5,99, [5,30–6,78]). Große Unterschiede beim Krankenhausaufenthalt (z.B. Zöliakie bei Männern: aRR 8,76; Lyme-Borreliose bei Frauen: aRR 5,59). Findings konsistent in zwei CPRD-Subsets und Krebssiten. Limitationen: Annahmen zur Diagnosegenauigkeit.",
+  "aufgenommen": "2026-08-26"
+ },
+ {
+  "pmid": "42640848",
+  "journal": "J Med Internet Res",
+  "year": "2026",
+  "author": "Lindinger GL et al.",
+  "pubdate": "25.08.2026",
+  "added": "25.08.2026",
+  "transfer": "Europäische Multizenterstudie, deutschsprachige und niederländische Teilnehmer vertreten.",
+  "title": "KI-gestützte Risikoprognose bei Herzrhythmusstörungen: Patientensicht in 6 europäischen Ländern",
+  "sum": "Befragung von 470 Herzkranken in Deutschland, Niederlande und UK zur Akzeptanz von Personalized Risk Prediction und KI bei Defibrillator-Entscheidungen (ICD-Indikation).",
+  "result": "51,9% Männer, Durchschnittsalter 61 Jahre. Sechs interpretierbare Faktoren identifiziert: wahrgenommener Nutzen von Risikomodellen, wahrgenommener Nutzen von KI, Transparenzerwartungen, Delegation an Algorithmen, selbstbewertete KI-Kompetenz und Präferenz für gemeinsame Entscheidungsfindung. PRP und KI wurden als nützlich zur Entscheidungsunterstützung wahrgenommen, vorausgesetzt Transparenz ist gewährleistet und Patienten bleiben aktiv eingebunden. Vollständige Delegation an KI wurde breit abgelehnt.",
+  "aufgenommen": "2026-08-26"
+ },
+ {
+  "pmid": "42639113",
+  "journal": "Front Public Health",
+  "year": "2026",
+  "author": "Baglivo F et al.",
+  "pubdate": "10.08.2026",
+  "added": "25.08.2026",
+  "transfer": "Italienischer Public-Health-Kontext, kulturelle Adaptation eines englischen Instruments.",
+  "title": "KI-Chatbot-Usability für öffentliches Gesundheitswesen: italienisches Validierungstool",
+  "sum": "Entwicklung und Validierung des italienischen Chatbot Usability Questionnaire (CUQ-IT) an 77 Fachkräften, die einen Impf-Chatbot (VaxSense) bewerteten.",
+  "result": "77 von 87 Workshop-Teilnehmern evaluierten Usability. KMO = 0,81, Bartlett χ² (120) = 515,36, p < 0,001. Cronbach α = 0,881 (hohe interne Konsistenz). Mittlere CUQ-IT-Usability-Score für VaxSense: 66,60 ± 15,29. Teilnehmer mit höherem KI-Wissen, positiveren Einstellungen und häufigerem KI-Einsatz vergaben signifikant höhere Usability-Scores. Geschlechtsspezifische Unterschiede bei KI-Wissenseinschätzung und Usability-Bewertungen.",
+  "aufgenommen": "2026-08-26"
+ },
+ {
+  "pmid": "42638355",
+  "journal": "J Med Internet Res",
+  "year": "2026",
+  "author": "Jimenez-Garcia S et al.",
+  "pubdate": "24.08.2026",
+  "added": "25.08.2026",
+  "transfer": "Spanien und Finnland; Transfer auf deutsches Gesundheitspersonal mittel wegen unterschiedlicher Digitalisierungsgrade.",
+  "title": "Digitale Gesundheitskompetenz und KI-Einstellungen bei Klinikpersonal: spanisch-finnische Studie",
+  "sum": "Querschnittstudie zu Zusammenhang zwischen digitaler Gesundheitskompetenz (DigiHealthCom, 42 Items) und Einstellungen zu KI bei 229 spanischen und finnischen Gesundheitsfachleuten.",
+  "result": "73,8% Frauen, 53,7% Pflegekräfte, Durchschnittsalter 45,9 Jahre. Mittlere digitale Kompetenz 3,01/5 (SD 0,51), niedrigste bei Evaluierung und Implementierung digitaler Lösungen (2,83/5). Organisatorische Unterstützung moderat (2,51/5). 58,77% äußerten positive KI-Einstellungen. Konfirmatorische Faktoranalyse bestätigte Modellstrukturen. Qualitative Daten zeigten bedingten Optimismus mit Erwartungen bei Effizienz, aber Sorgen bezüglich Training, Governance und menschlicher Kontrolle.",
+  "aufgenommen": "2026-08-26"
+ },
+ {
   "pmid": "42636838",
   "journal": "Lancet Oncol",
   "year": "2026",
