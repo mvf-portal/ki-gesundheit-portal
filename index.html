@@ -1078,71 +1078,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "26. Aug. 2026, 07:05 Uhr";
+const SNAP_DATE = "27. Aug. 2026, 10:36 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"J Med Internet Res", year:"2026", pmid:"42640848",
-    author:"Lindinger GL et al.", pubdate:"25.08.2026",
+    journal:"J Med Internet Res", year:"2026", pmid:"42644847",
+    author:"Li S et al.", pubdate:"26.08.2026",
+    added:"26.08.2026",
+    title:"KI-gestützte Vorhersage von Schwangerschaftskomplikationen in drei Bevölkerungen: Schweiz, Chile, Singapur",
+    sum:"Retrospektive Studie mit über 700.000 Schwangerschaften aus Schweden, Chile und Singapur zur Entwicklung von Machine-Learning-Modellen für die Frühdiagnostik ungünstiger mütterlicher und neonataler Ergebnisse mittels Daten bis 14. Schwangerschaftswoche.",
+    result:"Das LightGBM-Modell erreichte AUROC-Werte von 0,65 in allen drei Populationen, gegenüber 0,53–0,56 für routinemäßige klinische Risikobewertungen (p&lt;0,05). Bei 50 % Falsch-Positive-Rate erreichte das Modell 69,17 % Sensitivität für Schweden, 69,62 % für Chile und 64,93 % für Singapur. Soziodemografische Variablen zählten zu den wichtigsten Prädiktoren.",
+    transfer:"Nachweise aus skandinavischen und asiatischen Daten, teilweise erhöhter Digitalisierungsgrad als Deutschland"
+  },
+  {
+    journal:"J Med Internet Res", year:"2026", pmid:"42647071",
+    author:"Häkkinen A et al.", pubdate:"26.08.2026",
+    added:"26.08.2026",
+    title:"Elektronische Überwachung kontrollierter Substanzen: Nutzerverhalten nach Systemeinführung in Klinik",
+    sum:"Querschnittsstudie mit 599 Befragten (87 % Pflegende, 9 % Apotheker) in einem finnischen Uniklinikum zur Nutzererfahrung mit elektronischem Narkotikakartensystem (eNCC) statt Papierdokumentation, 6 Jahre nach Systemeinführung.",
+    result:"80,9 % der Befragten lehnen Rückkehr zu Papierprozessen ab. 84,9 % bewerteten das System als mühelos für feste Darreichungsformen, 72,3 % für flüssige. Nach Einführung führten Pflegende und Apotheker mehr Untersuchungen und Fehlerkorektionen durch; dieser Anteil sank über Zeit. Unterschiede zwischen Berufsgruppen bestätigt.",
+    transfer:"Finnland, vergleichbares skandinavisches Gesundheitssystem und Digitalisierungsgrad"
+  },
+  {
+    journal:"Sci Rep", year:"2026", pmid:"42642558",
+    author:"Klein CR et al.", pubdate:"26.08.2026",
+    added:"26.08.2026",
+    title:"Erklärbare KI enthüllt Schlüsselfaktoren bei robotergestützter und offener Prostatektomie",
+    sum:"Retrospektive deutsche Kohortenstudie mit 326 Patienten (224 robotergestützt, 102 offen) zur Vorhersage 12 postoperativer Ergebnisse mittels Machine Learning und SHAP-Explainability-Analyse.",
+    result:"Machine-Learning-Modelle erreichten beste Leistung für postoperatives Hämoglobin (R² bis 0,57) und Entscheidung zu Gefrierschnitten (AUC bis 0,89). SHAP-Analyse zeigte: prozedurale Parameter (Katheterliege-Zeit, Aufenthalt) wurden fast ausschließlich durch Operationsansatz erklärt; pathologische Outcomes (ISUP-Grad) durch präoperative Tumorcharakteristika. Präoperatives Hämoglobin war stärkerer Prädiktor für postoperative Anämie als Alter.",
+    transfer:"Deutsche Daten, direkt auf deutsche Kliniken übertragbar"
+  },
+  {
+    journal:"Appl Clin Inform", year:"2026", pmid:"42648708",
+    author:"Nguyen OT et al.", pubdate:"26.08.2026",
+    added:"26.08.2026",
+    title:"KI-gestützte Sprache in der Ambulanz: Patientenakzeptanz und Vertrauen",
+    sum:"Gemischte Methoden-Sekundäranalyse von 20 Patienten nach Implementierung von Ambient-AI-Scribing in der Klinik zur Untersuchung von Akzeptanzfaktoren und Vertrauen in KI-Systeme.",
+    result:"60 % der Patienten hatten moderates Vertrauen in KI; Akzeptanz beeinflusst durch ethische Unbedenklichkeit, positive emotionale Einstellung, minimale Patientenbelastung, wahrgenommene Nutzen und Kohärenz der Intervention. Minimalste Unterschiede in Akzeptanzfaktoren zwischen Vertrauensgruppen. Patienten forderten robuste Aufklärung und Vorabmitteilung vor Einsatz.",
+    transfer:"USA, aber Implementierungs- und Designempfehlungen für europäische Kliniken anwendbar"
+  },
+  {
+    journal:"JMIR Med Inform", year:"2026", pmid:"42642992",
+    author:"Beluffi Marin C et al.", pubdate:"25.08.2026",
+    added:"26.08.2026",
+    title:"Nationale interoperable Datenbasis für seltene Augenkrankheiten (FREDD) – Aufbau und erste Ergebnisse",
+    sum:"Französische Implementierungsstudie zum Aufbau einer regulatorisch konformen, zentralisierten Datenbank für seltene Augenkrankheiten unter INSERM-Aufsicht, mit dynamischen elektronischen Fallberichten und standardisierter Bildverarbeitung.",
+    result:"Seit März 2025 erfolgreich Daten von 1.649 Patienten mit Retinitis pigmentosa integriert (20,3 % aller landesweiten RP-Fälle), über 10.000 ophthalmologische Bilder erfasst, Datenkonsistenzrate 93 % (7 % Inkonsistenzen durch logische Abhängigkeiten), 36,7 % der Patienten mit assoziierter Bildgebung. PP-LLM-Einsatz für zukünftige KI-Lesbarkeit vorbereitet.",
+    transfer:"Frankreich, EU-Datenschutzrahmen und ähnliche Regulatory Affairs wie Deutschland"
+  },
+  {
+    journal:"Inquiry", year:"2026", pmid:"42641147",
+    author:"Standaar LMB et al.", pubdate:"25.08.2026",
     added:"25.08.2026",
-    title:"KI-gestützte Risikoprognose bei Herzrhythmusstörungen: Patientensicht in 6 europäischen Ländern",
-    sum:"Befragung von 470 Herzkranken in Deutschland, Niederlande und UK zur Akzeptanz von Personalized Risk Prediction und KI bei Defibrillator-Entscheidungen (ICD-Indikation).",
-    result:"51,9% Männer, Durchschnittsalter 61 Jahre. Sechs interpretierbare Faktoren identifiziert: wahrgenommener Nutzen von Risikomodellen, wahrgenommener Nutzen von KI, Transparenzerwartungen, Delegation an Algorithmen, selbstbewertete KI-Kompetenz und Präferenz für gemeinsame Entscheidungsfindung. PRP und KI wurden als nützlich zur Entscheidungsunterstützung wahrgenommen, vorausgesetzt Transparenz ist gewährleistet und Patienten bleiben aktiv eingebunden. Vollständige Delegation an KI wurde breit abgelehnt.",
-    transfer:"Europäische Multizenterstudie, deutschsprachige und niederländische Teilnehmer vertreten."
-  },
-  {
-    journal:"PLoS Med", year:"2026", pmid:"42640879",
-    author:"Whitfield E et al.", pubdate:"25.08.2026",
-    added:"25.08.2026",
-    title:"Notfaldiagnose als häufiger Versorgungsdefekt: elektronische Gesundheitsdaten zeigen 13 Erkrankungen mit schlechteren Outcomes",
-    sum:"Populationsbasierte Kohortenstudie mit verlinkten elektronischen Gesundheitsdaten von 1,7 Millionen Patienten in England zu Häufigkeit und Prognose von Notfalldiagnosen bei 13 nicht-neoplastischen Erkrankungen (1999–2019).",
-    result:"Notfalldiagnose trat bei 9 von 13 Erkrankungen in mindestens 20% auf; bei Morbus Parkinson 30%, bei COPD 35%. Für 9 von 13 Erkrankungen gab es substanzielle Unterschiede in der 1-Jahres-Mortalität (≥10% Differenz). Bereinigt um Alter, Deprivation, Komorbiditäten: Notfalldiagnose typischerweise mit deutlich höherer 1-Jahres-Mortalität (z.B. Zöliakie: aOR 7,53, 95% KI [5,64–10,1]; IBD: aOR 5,99, [5,30–6,78]). Große Unterschiede beim Krankenhausaufenthalt (z.B. Zöliakie bei Männern: aRR 8,76; Lyme-Borreliose bei Frauen: aRR 5,59). Findings konsistent in zwei CPRD-Subsets und Krebssiten. Limitationen: Annahmen zur Diagnosegenauigkeit.",
-    transfer:"Englische NHS-Daten, UK-Gesundheitssystem, aber erkrankungs- und systemübergreifende Erkenntnisse übertragbar."
-  },
-  {
-    journal:"JMIR Form Res", year:"2026", pmid:"42636435",
-    author:"Walter E et al.", pubdate:"24.08.2026",
-    added:"24.08.2026",
-    title:"Digitale Adipositas-App kosteneffektiv in Deutschland: 10-Jahres-Markov-Modellierung",
-    sum:"Modellierungsstudie zum Nutzen der Oviva-Direkt-App zur Gewichtsverlust bei Adipösen (BMI 30-45) in Deutschland mit 10-Jahres-Horizont.",
-    result:"App dominiert Standardversorgung: Kosteneinsparungen 3.511,85 € pro Patient, Gewinn von 0,0683 QALYs (ca. 3,6 Wochen Lebensjahre). Direktmedizinische Kosten sanken um etwa 520 €. Typ-2-Diabetes-Prävalenz 1,6 Prozentpunkte niedriger. Szenarioanalysen bestätigten Kosteneffektivität konsistent.",
-    transfer:"Deutsche Gesundheitsökonomie und Versicherungssystem; Markov-Modellierung."
-  },
-  {
-    journal:"J Med Internet Res", year:"2026", pmid:"42638355",
-    author:"Jimenez-Garcia S et al.", pubdate:"24.08.2026",
-    added:"25.08.2026",
-    title:"Digitale Gesundheitskompetenz und KI-Einstellungen bei Klinikpersonal: spanisch-finnische Studie",
-    sum:"Querschnittstudie zu Zusammenhang zwischen digitaler Gesundheitskompetenz (DigiHealthCom, 42 Items) und Einstellungen zu KI bei 229 spanischen und finnischen Gesundheitsfachleuten.",
-    result:"73,8% Frauen, 53,7% Pflegekräfte, Durchschnittsalter 45,9 Jahre. Mittlere digitale Kompetenz 3,01/5 (SD 0,51), niedrigste bei Evaluierung und Implementierung digitaler Lösungen (2,83/5). Organisatorische Unterstützung moderat (2,51/5). 58,77% äußerten positive KI-Einstellungen. Konfirmatorische Faktoranalyse bestätigte Modellstrukturen. Qualitative Daten zeigten bedingten Optimismus mit Erwartungen bei Effizienz, aber Sorgen bezüglich Training, Governance und menschlicher Kontrolle.",
-    transfer:"Spanien und Finnland; Transfer auf deutsches Gesundheitspersonal mittel wegen unterschiedlicher Digitalisierungsgrade."
-  },
-  {
-    journal:"J Med Internet Res", year:"2026", pmid:"42627987",
-    author:"Schaffernak I et al.", pubdate:"21.08.2026",
-    added:"21.08.2026",
-    title:"KI-Entscheidungsunterstützung in Arztgesprächen: Vertrauen hängt vom Timing ab",
-    sum:"Zwei präregistrierte Vignetten-Experimente (n=489, n=570) mit Bürgern in Deutschland zur Frage, wie Typ und Timing von KI-Unterstützung das Vertrauen in ärztliche Entscheidungen beeinflussen.",
-    result:"Studie 1: Diagnostische KI-Unterstützung führte zu signifikant niedrigerem Vertrauen (5,00 vs. 5,37; t486=3,51; p=0,002) und geringerer Anbieter-Vertrauenswürdigkeit (4,93 vs. 5,40; t486=4,46; p&lt;0,001) als deskriptive Unterstützung. Studie 2 replizierte dies und zeigte Interaktionseffekt: diagnostische Unterstützung wurde ungünstiger bewertet, wenn Ärzte Informationen und KI-Output gleichzeitig sahen, nicht wenn sie zuerst unabhängig beurteilten. Qualitative Antworten zeigten Sorgen, dass fehlerhafte KI die Ärzte beeinflusst und dass ärztliche Unabhängigkeit das Vertrauen stärkt.",
-    transfer:"Deutschland, allgemeine Bevölkerung; Übertragbar auf deutsche Versorgungspraxis."
-  },
-  {
-    journal:"JMIR Aging", year:"2026", pmid:"42616612",
-    author:"Grosser J et al.", pubdate:"19.08.2026",
-    added:"19.08.2026",
-    title:"Telemedizin in Pflegeheimen: Schrittweise Studie ohne signifikante Hospitalitätsreduktion",
-    sum:"Prospektive, multizentrische, gestaffelte Cluster-RCT über 24 Pflegeheime in Westdeutschland (Mai 2021–April 2023) mit intersektoraler Telemedizin und mobilen Assistenten bei Notfällen.",
-    result:"1.151 Teilnehmer in Kontrollphase, 1.271 in Interventionsphase. 1.260 Regressionsmodelle analysiert: zwei Drittel zeigten negative (protektive) Effekte, aber kein Modell erreichte statistische Signifikanz (p &lt; 0,05). Effektrichtung und Größe variierten nach Modellierungsansatz, Outcome-Wahl und verwendetem Datensatz. Externe Faktoren (Hochwasser, COVID-19) beeinträchtigten möglicherweise Effektivität.",
-    transfer:"Deutsche Klinikdaten, Versorgungssetting Pflegeheim, aber keine signifikanten Outcomes nachgewiesen."
-  },
-  {
-    journal:"Front Public Health", year:"2026", pmid:"42639113",
-    author:"Baglivo F et al.", pubdate:"10.08.2026",
-    added:"25.08.2026",
-    title:"KI-Chatbot-Usability für öffentliches Gesundheitswesen: italienisches Validierungstool",
-    sum:"Entwicklung und Validierung des italienischen Chatbot Usability Questionnaire (CUQ-IT) an 77 Fachkräften, die einen Impf-Chatbot (VaxSense) bewerteten.",
-    result:"77 von 87 Workshop-Teilnehmern evaluierten Usability. KMO = 0,81, Bartlett χ² (120) = 515,36, p &lt; 0,001. Cronbach α = 0,881 (hohe interne Konsistenz). Mittlere CUQ-IT-Usability-Score für VaxSense: 66,60 ± 15,29. Teilnehmer mit höherem KI-Wissen, positiveren Einstellungen und häufigerem KI-Einsatz vergaben signifikant höhere Usability-Scores. Geschlechtsspezifische Unterschiede bei KI-Wissenseinschätzung und Usability-Bewertungen.",
-    transfer:"Italienischer Public-Health-Kontext, kulturelle Adaptation eines englischen Instruments."
+    title:"Digitale Gesundheitsanwendungen nach Sozioökonomie: Ungleichheit in Nutzung und Akzeptanz",
+    sum:"Querschnittsstudie mit 1.517 niederländischen Patienten mit chronischen Erkrankungen zur Untersuchung von Unterschieden in der Nutzung von fünf eHealth-Anwendungstypen zwischen Bildungsgruppen.",
+    result:"Personen mit niedrigerem Bildungsgrad nutzten signifikant weniger Websites (OR 4,78; 95% KI 3,50–6,53), Apps (OR 2,88), Wearables (OR 2,12) und Patientenportale (OR 3,24). Höhere Bildung assoziiert mit größerer Neigung zu eHealth-Nutzung (RRR 2,21) und weniger Unsicherheit (RRR 0,56). Digitale Versorgung erreicht nicht alle Patienten gleich.",
+    transfer:"Niederlande, vergleichbares Versicherungssystem und Governance wie Deutschland"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
