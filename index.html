@@ -404,6 +404,21 @@
   .mt-abstract summary::before{ content:"\25B8  "; }
   .mt-abstract[open] summary::before{ content:"\25BE  "; }
   .mt-abstract p{ font-size:13px; line-height:1.55; color:var(--ink-soft); margin:6px 0 0; }
+  /* Der Titel in deutscher Fassung traegt die Ueberschrift, das Original
+     steht darunter - zitiert wird das Original, nicht die Uebersetzung. */
+  .mt-original{ font-size:12px; color:var(--ink-faint); margin-top:3px; line-height:1.4; }
+  .uebersetzt-mark{
+    font-size:9.5px; font-weight:700; letter-spacing:.05em; text-transform:uppercase;
+    color:var(--ink-faint); border:1px solid var(--line); border-radius:3px;
+    padding:1px 4px; margin-right:5px; vertical-align:1px;
+  }
+  .meta-blaetter{
+    display:flex; align-items:center; justify-content:center; gap:12px;
+    flex-wrap:wrap; margin-top:14px; padding-top:12px;
+    border-top:1px solid var(--line-soft);
+  }
+  .meta-blaetter:empty{ display:none; }
+  .blatt-stand{ font-size:12px; color:var(--ink-soft); }
   .meta-fuss{ margin-top:14px; padding-top:12px; border-top:1px solid var(--line-soft); }
   .meta-hinweis{ font-size:12px; line-height:1.55; color:var(--ink-faint); margin:10px 0 0; }
   .meta-leer{ font-size:13.5px; color:var(--ink-soft); padding:14px 0; }
@@ -954,7 +969,7 @@
           </details>
           <div class="hints">
             <p><b>So funktioniert die Suche.</b> Begriff eingeben, <b>Eingabetaste</b> drücken oder auf <b>„In allen Datenbanken suchen"</b> klicken — damit werden alle Kacheln auf Ihren Begriff eingestellt. Ein Klick auf eine Kachel öffnet dann <b>direkt die Trefferliste</b> dieser Datenbank in einem neuen Tab; ein zweites Mal suchen müssen Sie dort nicht. Die Kacheln bleiben eingestellt, Sie können also nacheinander mehrere Datenbanken öffnen, ohne den Begriff erneut einzugeben. Ausnahme sind die als <b>„Portal"</b> gekennzeichneten Anbieter — die erlauben technisch keine verlinkbare Trefferadresse.</p>
-            <p><b>Treffer direkt auf dieser Seite.</b> Der Knopf <b>&bdquo;Treffer direkt anzeigen&ldquo;</b> fragt <b id="cntMeta"></b> Datenbanken unmittelbar ab und zeigt die Fundstellen zusammengef&uuml;hrt hier auf der Seite &mdash; jede mit Angabe der Datenbank, aus der sie stammt. Dubletten werden &uuml;ber die DOI zusammengelegt; erscheint eine Arbeit in mehreren Datenbanken, steht sie einmal in der Liste und tr&auml;gt mehrere Herkunftszeichen. Neben Zeitschriftenaufs&auml;tzen sind angemeldete Studien, Preprints und Repositorien darunter; der Filter <b>Art</b> trennt sie. Wo es eine legale frei zug&auml;ngliche Fassung gibt, steht ein Verweis <b>Volltext</b>. Die Liste l&auml;sst sich als Word, Excel, RIS oder BibTeX herunterladen und damit in Zotero, EndNote oder Citavi weiterverarbeiten. Nur diese Datenbanken erlauben eine Abfrage aus dem Browser heraus; alle &uuml;brigen bleiben &uuml;ber die Kacheln zu &ouml;ffnen. Dabei erf&auml;hrt der jeweilige Anbieter Ihren Suchbegriff &mdash; N&auml;heres in den <a href="#datenschutz">Datenschutzhinweisen</a>.</p>
+            <p><b>Treffer direkt auf dieser Seite.</b> Der Knopf <b>&bdquo;Treffer direkt anzeigen&ldquo;</b> fragt <b id="cntMeta"></b> Datenbanken unmittelbar ab und zeigt die Fundstellen zusammengef&uuml;hrt hier auf der Seite &mdash; jede mit Angabe der Datenbank, aus der sie stammt. Dubletten werden &uuml;ber die DOI zusammengelegt; erscheint eine Arbeit in mehreren Datenbanken, steht sie einmal in der Liste und tr&auml;gt mehrere Herkunftszeichen. Die Trefferliste zeigt <b>25 Treffer je Blatt</b>; deren Titel werden ins Deutsche &uuml;bersetzt, das Original steht darunter. Neben Zeitschriftenaufs&auml;tzen sind angemeldete Studien, Preprints und Repositorien darunter; der Filter <b>Art</b> trennt sie. Wo es eine legale frei zug&auml;ngliche Fassung gibt, steht ein Verweis <b>Volltext</b>. Die Liste l&auml;sst sich als Word, Excel, RIS oder BibTeX herunterladen und damit in Zotero, EndNote oder Citavi weiterverarbeiten. Nur diese Datenbanken erlauben eine Abfrage aus dem Browser heraus; alle &uuml;brigen bleiben &uuml;ber die Kacheln zu &ouml;ffnen. Dabei erf&auml;hrt der jeweilige Anbieter Ihren Suchbegriff &mdash; N&auml;heres in den <a href="#datenschutz">Datenschutzhinweisen</a>.</p>
             <p><b>Vollständigkeit.</b> Auch dieses Portal kann nicht sämtliche Artikel „aller Datenbanken" enthalten — das verhindern Lizenz- und Technikgrenzen. Es bündelt stattdessen die maßgeblichen Suchen, sodass eine Recherche systematisch über alle relevanten Datenbanken laufen kann.</p>
             <!-- === THEMA-HINWEIS-START (themenspezifisch; aus dem Themenprofil) === -->
             <p><b>Zwei Literaturen, eine Suche.</b> Dieses Themenfeld wird in zwei getrennten Wissenschaftskulturen publiziert. Die Medizin veröffentlicht in Zeitschriften (Blöcke 01 bis 04 und 08 bis 10); die Informatik veröffentlicht auf <b>Konferenzen und als Preprint</b> — deshalb der eigene Block 03 mit IEEE Xplore, ACM, arXiv und dblp. Wer nur in PubMed sucht, übersieht einen erheblichen Teil der Methodenarbeiten. Block 05 „KI-Modelle, Daten &amp; Standards" führt zu <b>Modellen, Datensätzen und Spezifikationen</b> statt zu Studien, und Block 06 zur <b>Regulierung</b>, die in diesem Feld schneller vorangeht als die Evidenz.</p>
@@ -1085,6 +1100,7 @@
       </div>
     </div>
     <div class="meta-liste" id="metaListe"></div>
+    <div class="meta-blaetter" id="metaBlaetter"></div>
     <div class="meta-fuss">
       <button class="btn-clear" id="metaMehr" type="button" hidden>Weitere Treffer laden</button>
       <p class="meta-hinweis" id="metaFuss"></p>
@@ -1178,9 +1194,13 @@
           <p>Auf Ihren ausdr&uuml;cklichen Klick auf &bdquo;Treffer direkt anzeigen&ldquo; ruft Ihr Browser die &ouml;ffentlichen Programmierschnittstellen mehrerer wissenschaftlicher Datenbanken auf und stellt die Fundstellen auf dieser Seite zusammen. Derzeit sind dies <b>PubMed</b> und <b>ClinicalTrials.gov</b> (beide National Library of Medicine, USA), <b>Europe PMC</b> (EMBL-EBI, Vereinigtes K&ouml;nigreich), <b>OpenAlex</b> (OurResearch, Kanada), <b>Crossref</b> (Vereinigtes K&ouml;nigreich/USA), <b>DOAJ</b> (Directory of Open Access Journals, Schweden) und <b>Zenodo</b> (CERN, Schweiz). Anschlie&szlig;end wird f&uuml;r die vordersten Treffer bei <b>Unpaywall</b> (OurResearch, Kanada) nachgeschlagen, ob eine frei zug&auml;ngliche Fassung vorliegt; &uuml;bermittelt wird dabei nur die DOI der jeweiligen Arbeit.</p>
           <p>Die Abfrage erfolgt <b>unmittelbar von Ihrem Ger&auml;t aus</b>; ein Server dieses Portals ist daran nicht beteiligt und erf&auml;hrt weder Ihren Suchbegriff noch Ihre Treffer. Die genannten Anbieter erhalten dabei Ihren <b>Suchbegriff</b> sowie technische Verbindungsdaten, insbesondere Ihre <b>IP-Adresse</b>, und verarbeiten diese nach ihren eigenen Bestimmungen; hierf&uuml;r sind sie selbst verantwortlich. Gegen&uuml;ber Crossref, OpenAlex und Unpaywall wird zus&auml;tzlich die Kontaktadresse der Redaktion (info@m-vf.de) &uuml;bermittelt &mdash; das ist bei diesen Diensten die vorgesehene Kennzeichnung nicht-kommerzieller Abfragen und betrifft keine Daten von Ihnen.</p>
           <p>Ohne diesen Klick findet keine solche Abfrage statt. Es werden dabei weder Cookies gesetzt noch Daten auf Ihrem Ger&auml;t gespeichert; die Treffer bestehen nur im Arbeitsspeicher Ihres Browsers und sind mit dem Schlie&szlig;en der Seite fort. Rechtsgrundlage ist Ihre durch das Anklicken erkl&auml;rte Einwilligung sowie unser berechtigtes Interesse an der Bereitstellung dieser Rechercheleistung (Art. 6 Abs. 1 lit. a und f DSGVO). Eine Eine &Uuml;bermittlungUuml;bermittlung in die USA erfolgt nur, soweit Sie die Funktion nutzen; sie ist zur Erbringung der von Ihnen angeforderten Recherche erforderlich.</p>
-          <h4>9. Ihre Rechte</h4>
+          <h4>9. &Uuml;bersetzung der Titel</h4>
+          <p>Die Titel der angezeigten Treffer werden ins Deutsche &uuml;bersetzt. Daf&uuml;r sendet Ihr Browser die <b>Titel</b> der jeweils angezeigten 25 Fundstellen an einen Dienst auf unserem eigenen Server (<i>monitor-versorgungsforschung.de</i>). Von dort werden sie zur &Uuml;bersetzung an <b>Anthropic PBC</b> (San Francisco, USA) &uuml;bermittelt, den Anbieter des Sprachmodells Claude; Grundlage ist ein Auftragsverarbeitungsvertrag, und die Daten werden dort nicht zum Training verwendet.</p>
+          <p>&Uuml;bermittelt wird <b>ausschlie&szlig;lich der Titel der Arbeit</b> &mdash; eine Angabe, die in jeder Literaturdatenbank &ouml;ffentlich steht. <b>Nicht</b> &uuml;bermittelt werden Ihr Suchbegriff, Ihre IP-Adresse oder eine Angabe dar&uuml;ber, wer welchen Titel angesehen hat. Auf unserem Server wird die fertige &Uuml;bersetzung unter dem Pr&uuml;fwert des Titels abgelegt und danach allen Leserinnen und Lesern wieder ausgegeben; eine Zuordnung zu einer Person entsteht dabei nicht. Zur Begrenzung missbr&auml;uchlicher Nutzung wird zus&auml;tzlich gez&auml;hlt, wie viele &Uuml;bersetzungen an einem Tag angefordert werden &mdash; nach demselben Verfahren wie in Abschnitt 3, also ohne Speicherung der IP-Adresse.</p>
+          <p>Rechtsgrundlage ist unser berechtigtes Interesse an einer f&uuml;r deutschsprachige Nutzerinnen und Nutzer verst&auml;ndlichen Darstellung (Art. 6 Abs. 1 lit. f DSGVO). F&auml;llt die &Uuml;bersetzung aus, bleibt der Titel in der Originalsprache stehen &mdash; die Recherche funktioniert unver&auml;ndert.</p>
+          <h4>10. Ihre Rechte</h4>
           <p>Sie haben das Recht auf Auskunft (Art. 15), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18), Datenübertragbarkeit (Art. 20) und Widerspruch (Art. 21 DSGVO) sowie das Recht auf Beschwerde bei einer Aufsichtsbehörde (Art. 77 DSGVO). Zuständig ist die Landesbeauftragte für Datenschutz und Informationsfreiheit Nordrhein-Westfalen (LDI NRW).</p>
-          <h4>10. Stand</h4>
+          <h4>11. Stand</h4>
           <p>Stand: August 2026.</p>
         </div>
       </details>
@@ -2653,6 +2673,7 @@ let mtRoh      = '';      // Eingabe des Nutzers, unuebersetzt
 let mtSeite    = 0;
 let mtSort     = 'rang';
 let mtArt      = 'alle';  // Filter auf die Art der Quelle
+let mtBlatt    = 0;       // angezeigtes Blatt der Trefferliste, von 0 an
 let mtLauf     = 0;       // laufende Nummer; aeltere Antworten werden verworfen
 let mtListe    = [];      // zusammengefuehrte Treffer
 let mtSchl     = new Map();
@@ -2666,6 +2687,7 @@ const metaMehrBtn = document.getElementById('metaMehr');
 const metaFussEl  = document.getElementById('metaFuss');
 const goMetaBtn   = document.getElementById('goMeta');
 const metaArtBox  = document.getElementById('metaArt');
+const metaBlaetterEl = document.getElementById('metaBlaetter');
 
 document.getElementById('cntMeta').textContent = MT_QUELLEN.length;
 
@@ -2734,6 +2756,10 @@ function mtAufnehmen(quelle, liste, basis){
 // einem Datensatz kommen kann: Europe PMC liefert Aufsaetze UND Preprints.
 const MT_ARTEN = ['Aufsatz', 'Preprint', 'Studienregister', 'Repositorium'];
 
+/** Treffer je Blatt. Zugleich die Obergrenze dessen, was je Suchschritt
+ *  uebersetzt wird - der Endpunkt nimmt nicht mehr als 25 entgegen. */
+const MT_JE_BLATT = 25;
+
 function mtSortiert(){
   const l = mtArt === 'alle' ? mtListe.slice()
           : mtListe.filter(function(t){ return t.art === mtArt; });
@@ -2767,16 +2793,24 @@ function mtAutorZeile(t){
 }
 
 function mtZeichnen(){
-  const liste = mtSortiert();
+  const alle = mtSortiert();
+  // Angezeigt wird blattweise. Das hat zwei Gruende, und der zweite ist der
+  // wichtigere: Eine Liste von zweihundert Titeln liest niemand am Stueck -
+  // und uebersetzt wird nur, was auf dem Blatt steht. Ohne diese Grenze
+  // wuerde jede Suche zweihundert Uebersetzungen kosten, von denen der Leser
+  // ein Dutzend sieht.
+  const blaetter = Math.max(1, Math.ceil(alle.length / MT_JE_BLATT));
+  if(mtBlatt >= blaetter) mtBlatt = blaetter - 1;
+  const liste = alle.slice(mtBlatt * MT_JE_BLATT, (mtBlatt + 1) * MT_JE_BLATT);
   const fertig = MT_QUELLEN.every(function(q){
     const s = mtStand[q.id]; return s && s.stand !== 'laedt'; });
 
-  if(!liste.length && mtListe.length){
+  if(!alle.length && mtListe.length){
     // Es gibt Treffer, nur nicht in dieser Art - das ist etwas anderes als
     // eine erfolglose Suche und muss auch anders klingen.
     metaListeEl.innerHTML = '<p class="meta-leer">Unter den <b>' + mtListe.length
       + '</b> Fundstellen ist keine der Art <b>' + htmlEsc(mtArt) + '</b>.</p>';
-  } else if(!liste.length){
+  } else if(!alle.length){
     metaListeEl.innerHTML = fertig
       ? '<p class="meta-leer">Keine der abgefragten Datenbanken hat zu <b>'
         + htmlEsc(mtBegriff) + '</b> einen Treffer geliefert. Die Kacheln unten '
@@ -2788,9 +2822,16 @@ function mtZeichnen(){
                      t.journal ? '<i>' + htmlEsc(t.journal) + '</i>' : '',
                      t.jahr ? '<b>' + htmlEsc(t.jahr) + '</b>' : ''
                     ].filter(Boolean).join(' &middot; ');
+      // Steht eine deutsche Fassung bereit, traegt sie die Ueberschrift - und
+      // das Original steht darunter. Nicht nur im Tooltip: Wer zitiert, braucht
+      // den Titel, unter dem die Arbeit tatsaechlich erschienen ist, und muss
+      // sehen koennen, dass die deutsche Zeile eine Uebersetzung ist.
+      const uebersetzt = t.de && t.de !== t.titel;
       return '<article class="mt">'
         + '<a class="mt-titel" href="' + htmlEsc(t.url) + '" target="_blank" rel="noopener">'
-        + htmlEsc(t.titel) + '</a>'
+        + htmlEsc(uebersetzt ? t.de : t.titel) + '</a>'
+        + (uebersetzt ? '<div class="mt-original"><span class="uebersetzt-mark">übersetzt</span> '
+                        + htmlEsc(t.titel) + '</div>' : '')
         + (zeile ? '<div class="mt-meta">' + zeile + '</div>' : '')
         + '<div class="mt-quellen">'
         // Die Art zuerst: Ob eine Fundstelle ein begutachteter Aufsatz, eine
@@ -2818,24 +2859,113 @@ function mtZeichnen(){
     + MT_QUELLEN.length + ' Datenbanken gleichzeitig gesucht — <b>' + mtListe.length
     + '</b> Fundstellen' + (dubletten > 0 ? ', ' + dubletten + ' Dublette'
         + (dubletten === 1 ? '' : 'n') + ' zusammengelegt' : '') + '.'
-    + (mtArt !== 'alle' ? ' Angezeigt werden <b>' + liste.length + '</b> davon '
+    + (mtArt !== 'alle' ? ' Angezeigt werden <b>' + alle.length + '</b> davon '
         + 'mit der Art <b>' + htmlEsc(mtArt) + '</b>.' : '')
     + (mtBegriff !== mtRoh ? ' Gesucht wurde als <b>' + htmlEsc(mtBegriff)
         + '</b> — internationale Datenbanken kennen den deutschen Begriff nicht.' : '');
 
+  mtZeichneBlaetter(blaetter, alle.length);
+
+  // Nachladen erst anbieten, wenn der Leser hinten angekommen ist. Auf Blatt 1
+  // von 7 waere der Knopf eine Aufforderung, sich noch mehr aufzuladen, bevor
+  // das Vorhandene angesehen ist.
   const nochWas = MT_QUELLEN.some(function(q){
     const s = mtStand[q.id];
     return s && s.stand === 'ok' && s.gesamt > mtSeite * MT_PRO_SEITE;
   });
-  metaMehrBtn.hidden = !(fertig && nochWas);
+  metaMehrBtn.hidden = !(fertig && nochWas && mtBlatt === blaetter - 1);
   metaMehrBtn.disabled = false;
   metaMehrBtn.textContent = 'Weitere Treffer laden';
 
   mtZeichneArten();
+  mtUebersetze(liste);
 
   ['mtWord','mtCsv','mtRis','mtBib'].forEach(function(id){
-    document.getElementById(id).disabled = !liste.length;
+    document.getElementById(id).disabled = !alle.length;
   });
+}
+
+// ---- Blaettern ------------------------------------------------------------
+function mtZeichneBlaetter(blaetter, gesamt){
+  if(blaetter <= 1 || !gesamt){ metaBlaetterEl.innerHTML = ''; return; }
+  const von = mtBlatt * MT_JE_BLATT + 1;
+  const bis = Math.min((mtBlatt + 1) * MT_JE_BLATT, gesamt);
+  metaBlaetterEl.innerHTML =
+      '<button type="button" class="dl-btn" data-schritt="-1"' + (mtBlatt === 0 ? ' disabled' : '')
+    + '>&larr; Zurück</button>'
+    + '<span class="blatt-stand">Treffer <b>' + von + '&ndash;' + bis + '</b> von <b>'
+    + gesamt + '</b> &middot; Blatt ' + (mtBlatt + 1) + ' von ' + blaetter + '</span>'
+    + '<button type="button" class="dl-btn" data-schritt="1"'
+    + (mtBlatt >= blaetter - 1 ? ' disabled' : '') + '>Weiter &rarr;</button>';
+}
+
+// ---- Deutsche Titel -------------------------------------------------------
+// Uebersetzt wird auf dem Server von Monitor Versorgungsforschung, nicht hier:
+// Ein API-Schluessel in einer statischen Seite waere im Quelltext mitzulesen.
+// Der Endpunkt beantwortet nur Anfragen von den Hub-Adressen, legt jede
+// Uebersetzung unter dem Hashwert des Titels ab und gibt sie danach allen
+// Lesern aller Portale wieder heraus.
+//
+// Faellt er aus, fehlt er oder ist die Tagesgrenze erreicht, bleibt es beim
+// englischen Titel. Das ist der Grund, warum hier nichts angezeigt wird, was
+// nach Fehler aussieht: Die Trefferliste steht auch ohne Uebersetzung.
+const MT_UEBERSETZER = 'https://www.monitor-versorgungsforschung.de/uebersetzer/u.php';
+// Antwortet der Endpunkt einmal nicht, wird er in dieser Sitzung nicht mehr
+// gefragt. Sonst liefe je Blatt eine Anfrage ins Leere - siebenmal je Suche,
+// und jedes Mal eine rote Zeile in der Konsole des Lesers.
+let mtUebersetzerAus = false;
+
+async function mtUebersetze(blatt){
+  // Nur auf den echten Hub-Adressen. Eine lokale Kopie oder eine Vorschau
+  // soll keine Anfragen ausloesen, die der Endpunkt ohnehin abweist.
+  if(mtUebersetzerAus) return;
+  if(!/\.m-vf\.de$/.test(location.hostname)) return;
+
+  // Nur was auf dem Blatt steht, noch keine deutsche Fassung hat und nicht
+  // bereits unterwegs ist. Kein gemeinsamer Riegel, sondern eine Marke je
+  // Treffer: Wer schnell blaettert, soll nicht ein Blatt unuebersetzt
+  // zurueckbehalten, weil das vorige noch laedt.
+  const offen = blatt.filter(function(t){ return t.titel && !t.de && !t.deLaeuft; });
+  if(!offen.length) return;
+  offen.forEach(function(t){ t.deLaeuft = true; });
+
+  const lauf = mtLauf;
+  try{
+    const antwort = await fetch(MT_UEBERSETZER, {
+      method: 'POST',
+      // text/plain, damit der Browser keine Vorabfrage (Preflight) schickt -
+      // das spart je Blatt einen Weg ueber den Atlantik und eine Stelle, an
+      // der die Serverkonfiguration danebengehen kann.
+      headers: {'Content-Type': 'text/plain;charset=UTF-8'},
+      body: JSON.stringify({t: offen.map(function(t){ return t.titel; })})
+    });
+    if(!antwort.ok){ mtUebersetzerAus = true; return; }
+    const d = await antwort.json();
+    const u = (d && d.u) || {};
+    if(lauf !== mtLauf) return;              // inzwischen neu gesucht
+    let neu = 0;
+    // Der Server antwortet mit Pruefwerten, nicht mit Positionen. Eine
+    // verrutschte Reihenfolge kann deshalb keinen Titel an die falsche Arbeit
+    // heften - bei einer Literaturliste waere das der schlimmste Fehler.
+    for(const t of offen){
+      const k = await mtHash(t.titel);
+      if(u[k]){ t.de = u[k]; neu++; }
+    }
+    if(neu) mtZeichnen();
+  }catch(e){
+    mtUebersetzerAus = true;
+    if(window.console) console.warn('Titeluebersetzung', e);
+  }finally{
+    offen.forEach(function(t){ t.deLaeuft = false; });
+  }
+}
+
+// Derselbe Hashwert wie auf dem Server: Kleinschreibung, Leerraum vereinheitlicht.
+async function mtHash(titel){
+  const norm = titel.trim().replace(/\s+/g, ' ').toLowerCase();
+  const roh = await crypto.subtle.digest('SHA-1', new TextEncoder().encode(norm));
+  return Array.from(new Uint8Array(roh))
+    .map(function(b){ return b.toString(16).padStart(2, '0'); }).join('');
 }
 
 async function mtSuchen(neu){
@@ -2849,6 +2979,7 @@ async function mtSuchen(neu){
 
   if(neu){
     mtListe = []; mtSchl = new Map(); mtSeite = 0;
+    mtBlatt = 0;
     mtRoh = roh;
     // Alle Quellen sind international - sie bekommen die uebersetzte Fassung,
     // dieselbe, die auch in den Kacheln steht.
@@ -2961,11 +3092,11 @@ function mtKopfzeile(){
 
 function mtCSV(liste){
   const feld = function(v){ return '"' + alsKlartext(v).replace(/"/g, '""') + '"'; };
-  const kopf = ['Art','Titel','Autoren bzw. Träger','Journal','Jahr','DOI','PMID','Link',
-                'Volltext (frei zugänglich)','Gefunden in','Zusammenfassung'];
+  const kopf = ['Art','Titel (deutsch)','Titel (Original)','Autoren bzw. Träger','Journal','Jahr',
+                'DOI','PMID','Link','Volltext (frei zugänglich)','Gefunden in','Zusammenfassung'];
   const zeilen = [feld(MT_KOPFTEXT), feld(mtKopfzeile()), '', kopf.map(feld).join(';')];
   liste.forEach(function(t){
-    zeilen.push([t.art, t.titel, (t.autoren || []).join('; '), t.journal, t.jahr,
+    zeilen.push([t.art, t.de || '', t.titel, (t.autoren || []).join('; '), t.journal, t.jahr,
       t.doi ? 'https://doi.org/' + t.doi : '', t.pmid || t.kennung || '', t.url, t.oaUrl,
       (t.quellen || []).join(', '), t.abstract].map(feld).join(';'));
   });
@@ -2978,7 +3109,11 @@ function mtCSV(liste){
 function mtDoc(liste){
   const logo = logoDataUri();
   const eintraege = liste.map(function(t){
-    return '<h2 style="font-size:12.5pt;margin:15pt 0 2pt">' + htmlEsc(t.titel) + '</h2>'
+    return '<h2 style="font-size:12.5pt;margin:15pt 0 2pt">'
+      + htmlEsc(t.de && t.de !== t.titel ? t.de : t.titel) + '</h2>'
+      + (t.de && t.de !== t.titel
+          ? '<p style="margin:0 0 3pt;font-size:9.5pt;color:#777">Originaltitel: '
+            + htmlEsc(t.titel) + '</p>' : '')
       + '<p style="margin:0 0 4pt;color:#555">'
       + ((t.autoren || []).length ? htmlEsc(t.autoren.join(', ')) + ' &middot; ' : '')
       + (t.journal ? '<i>' + htmlEsc(t.journal) + '</i> &middot; ' : '')
@@ -3023,6 +3158,10 @@ function mtRIS(liste){
   liste.forEach(function(t){
     z.push('TY  - ' + (MT_RIS_TYP[t.art] || 'GEN'));
     z.push('TI  - ' + alsKlartext(t.titel));
+    // TI bleibt das Original: Eine Literaturverwaltung muss den Titel fuehren,
+    // unter dem die Arbeit erschienen ist. Die deutsche Fassung ist eine
+    // Lesehilfe und steht deshalb im Feld fuer den uebersetzten Titel.
+    if(t.de && t.de !== t.titel) z.push('TT  - ' + alsKlartext(t.de));
     (t.autoren || []).forEach(function(a){ z.push('AU  - ' + alsKlartext(a)); });
     if(t.journal)  z.push('JO  - ' + alsKlartext(t.journal));
     if(t.jahr)     z.push('PY  - ' + t.jahr);
@@ -3059,6 +3198,7 @@ function mtBibTeX(liste){
     // Geschweifte Klammern im Feldwert wuerden den Eintrag zerlegen.
     const f = function(v){ return alsKlartext(v).replace(/[{}]/g, ''); };
     const zeilen = ['  title = {' + f(t.titel) + '}'];
+    if(t.de && t.de !== t.titel) zeilen.push('  titleaddon = {' + f(t.de) + '}');
     if((t.autoren || []).length) zeilen.push('  author = {' + t.autoren.map(f).join(' and ') + '}');
     if(t.journal) zeilen.push('  journal = {' + f(t.journal) + '}');
     if(t.jahr)    zeilen.push('  year = {' + t.jahr + '}');
@@ -3096,6 +3236,7 @@ document.getElementById('metaSort').addEventListener('click', function(e){
   const b = e.target.closest('.fchip');
   if(!b) return;
   mtSort = b.dataset.sort;
+  mtBlatt = 0;              // eine andere Ordnung faengt vorn an
   this.querySelectorAll('.fchip').forEach(function(x){
     x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
   mtZeichnen();
@@ -3126,10 +3267,22 @@ metaArtBox.addEventListener('click', function(e){
   const b = e.target.closest('.fchip');
   if(!b) return;
   mtArt = b.dataset.art;
+  mtBlatt = 0;
   this.querySelectorAll('.fchip').forEach(function(x){
     x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
   mtZeichnen();
 });
+metaBlaetterEl.addEventListener('click', function(e){
+  const b = e.target.closest('button[data-schritt]');
+  if(!b || b.disabled) return;
+  mtBlatt += Number(b.dataset.schritt);
+  if(mtBlatt < 0) mtBlatt = 0;
+  mtZeichnen();
+  // An den Kopf der Liste, nicht an den der Seite: Wer blaettert, will den
+  // ersten Treffer des neuen Blatts sehen, nicht das Suchfeld.
+  metaWrap.scrollIntoView({behavior: 'smooth', block: 'start'});
+});
+
 input.addEventListener('input', function(){ goMetaBtn.disabled = !input.value.trim(); });
 
 metaFussEl.innerHTML = 'Abgefragt werden <b>' + MT_QUELLEN.length + '</b> der <b>'
@@ -3145,7 +3298,12 @@ metaFussEl.innerHTML = 'Abgefragt werden <b>' + MT_QUELLEN.length + '</b> der <b
   + 'andere Frage als eine Literaturdatenbank und stehen deshalb etwas weiter '
   + 'unten — der Filter <b>Art</b> holt sie nach vorn.'
   + '<br>Wo ein Verweis <b>Volltext</b> steht, gibt es eine legale frei '
-  + 'zugängliche Fassung; nachgeschlagen wird sie über Unpaywall.';
+  + 'zugängliche Fassung; nachgeschlagen wird sie über Unpaywall.'
+  + '<br>Die Titel der angezeigten Treffer werden ins Deutsche übersetzt; '
+  + 'darunter steht jeweils das Original, denn zitiert wird der Titel, unter '
+  + 'dem die Arbeit erschienen ist. Wir empfehlen die Nutzung des Browsers '
+  + '<b>„Chrome“</b>, dann werden alle Inhalte automatisch ins Deutsche '
+  + 'übersetzt.';
 
 // ---- Anfangszustand: nichts ist gesucht, Links zeigen auf die Startseiten.
 verdrahte('');
