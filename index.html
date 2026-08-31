@@ -1418,87 +1418,78 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "30. Aug. 2026, 05:17 Uhr";
+const SNAP_DATE = "31. Aug. 2026, 05:17 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Bipolar Disord", year:"2026", pmid:"42657654",
-    author:"Bassil K et al.", pubdate:"Sept. 2026",
-    added:"27.08.2026",
-    title:"KI-Chatbots bei bipolarer Störung: Vertrauensverlagerung und klinische Risiken",
-    sum:"Qualitative Studie mit zwei Patienten mit bipolarer Störung, die ChatGPT zur Selbstreflexion und psychischen Unterstützung nutzten; Interviews dokumentierten Nutzungsmuster, wahrgenommene Vorteile und Risiken der Vertrauensverlagerung von Fachleuten zu KI.",
-    result:"Beide Patienten nutzten ChatGPT für emotionale und soziale Unterstützung; ein Patient entwickelte emotionale Intimität zur KI, während der andere reflektiertes, intellektualisiertes Engagement zeigte. Wahrgenommene Vorteile: Nichturteilende Unterstützung, bessere Erreichbarkeit als professionelle Betreuung. Risiken: Überabhängigkeit, verminderte Vertrauensfähigkeit in Kliniker, Unkenntnis von KI-Limitationen. Die Studie warnt vor der Vermischung klinischer Rollen und unzureichender Aufklärung über KI-Grenzen.",
-    transfer:"Niederlande – vergleichbares Gesundheitssystem, direkt übertragbare ethische und klinische Bedenken"
-  },
-  {
-    journal:"Medicina (Kaunas)", year:"2026", pmid:"42654507",
-    author:"Glavina A et al.", pubdate:"21.08.2026",
-    added:"27.08.2026",
-    title:"ChatGPT-4o und ChatGPT-5 zur Diagnose oraler Schleimhautläsionen: Klinische Leistung",
-    sum:"Prospektive Studie mit 70 Patienten (21 normal anatomische Varianten, 49 pathologische Läsionen) zur Bewertung der diagnostischen Genauigkeit von ChatGPT-4o und ChatGPT-5 bei der Identifikation oraler Läsionen basierend auf klinischen Fotografien.",
-    result:"Mit Bild allein: ChatGPT-4o 19,0%, ChatGPT-5 9,0% Top-1-Genauigkeit. Mit Bild plus klinischer Information: ChatGPT-4o 69,0%, ChatGPT-5 51,0%. Für normale Varianten (Bild+Text): ChatGPT-4o 81,0%, ChatGPT-5 76,2%. Für pathologische Läsionen: ChatGPT-4o 63,3%, ChatGPT-5 40,8%. Beide Modelle können klinische Diagnose nicht ersetzen; als Entscheidungsunterstützungstool bei strukturierter Information möglich.",
-    transfer:"Kroatien – EU-Regulierungskontext, vergleichbare zahnmedizinische Versorgung"
-  },
-  {
-    journal:"Front Endocrinol (Lausanne)", year:"2026", pmid:"42666695",
-    author:"Chen R et al.", pubdate:"14.08.2026",
+    journal:"J Appl Clin Med Phys", year:"2026", pmid:"42665916",
+    author:"Wang N et al.", pubdate:"Sept. 2026",
     added:"29.08.2026",
-    title:"Künstliche Intelligenz in Prävention von Typ-2-Diabetes: Screening, Risikoprognose und digitale Interventionen",
-    sum:"Narrative systematische Übersichtsarbeit von 2010-2026, die KI-gestützte Ansätze zur Prädiabetes-Früherkennung, Progressionsrisiko-Vorhersage und digitale Lebensstiländerungen untersucht; Bewertung externer Validierung und Versorgungsintegrierbarkeit.",
-    result:"KI-Modelle übertreffen traditionelle Risikoscores durch Integration von klinischen Daten, EHR-Längsschnitten, kontinuierlicher Glukoseüberwachung, tragbaren Signalen und Biomarkern. Einige extern validierte Modelle zeigen klinisch relevante Diskriminationskraft für Hochrisiko-Patienten. Digitale Programme (Apps, Web, tragbar) fördern Verhaltensänderung und reduzieren Abhängigkeit von intensiven Beratungen. Limits: Heterogenität der Prädiabetes-Definitionen, begrenzte externe Validierung in diversen Populationen, ungeklärte Langzeiteffektivität, Datenschutz und Governance-Lücken.",
-    transfer:"Narrative Übersicht, Konzepte auf Deutschland übertragbar, externe Validierung in europäischen Kohorten erforderlich"
+    title:"Deep Learning für automatische Konturierung in der Rektumkrebs-Strahlentherapie: longitudinale Wirksamkeit",
+    sum:"Real-World-Analyse der klinischen Auswirkungen Implementierung und iterativen Updates eines Deep-Learning-Systems zur automatischen Zielvolumen- und Risikoorgankonturierung bei Rektumkrebspatienten (Kohorten: pre-Implementation n=50, post-Implementation n=50, post-Update n=50).",
+    result:"Nach System-Update verbesserten sich Dice-Koeffizienten: CTV von 0,88±0,04 auf 0,93±0,04 (p&lt;0,001), Risikoorgane von 0,88±0,05 auf 0,95±0,02 (p&lt;0,001). Fehlerquote sank um 80,6%. Auto2-assistierte Methode reduzierte Konturierungszeit um 58,8% gegenüber manuell, 21,9% gegenüber Auto1. 99,2% der überarbeiteten Konturen erhielten Likert-Score ≥4 von klinischen Experten.",
+    transfer:"China/Pekinger Krebszentrum, aber Deep-Learning-Architektur und Workflow-Prinzipien auf europäische Zentren übertragbar."
   },
   {
-    journal:"Med Sci (Basel)", year:"2026", pmid:"42646592",
-    author:"Kränzlein J et al.", pubdate:"06.08.2026",
-    added:"26.08.2026",
-    title:"Zeno AI zur Echtzeit-Risikoklassifizierung von Stimmlippenläsionen in Laryngoskopie",
-    sum:"Prospektive Single-Center-Studie mit 109 Patienten zur Validierung des CE-MDR-zertifizierten Systems Zeno AI im Schattenmodus während strukturierter flexibler Laryngoskopie; Vergleich mit Expertenurteil und Histopathologie bei operierten Patienten (n=36).",
-    result:"AI und Expertenurteil stimmten in 99/103 interpretierbaren Fällen überein (96,1%, κ=0,927). Gegenüber Histopathologie (36 Patienten): Sensitivität 88,9%, Spezifität 92,6%, PPV 80,0%, NPV 96,2%. Bei definitiven AI-Outputs (sekundäre Analyse): Sensitivität 100%, Spezifität 91,7%. Unsichere Outputs (n=6) erforderten Expertenbeurteilung. Keine Malignität als benigne klassifiziert; ein Fall mit Dysplasie als unsicher. Histopathologie bleibt Standard für definitive Diagnose.",
-    transfer:"Deutschland – deutsche Kliniken, vergleichbare Dokumentations- und Zulassungsstandards"
+    journal:"Orv Hetil", year:"2026", pmid:"42669146",
+    author:"Trinh SH et al.", pubdate:"30.08.2026",
+    added:"30.08.2026",
+    title:"Strukturierte digitale Dokumentation in der Neonatalanästhesie: Neo Somno Log",
+    sum:"Entwicklung und Pilotierung eines elektronischen Dokumentationssystems für strukturierte Erfassung von intraoperativen Ereignissen bei neonatologischen Anästhesien in Ungarn.",
+    result:"Das System erfasst 864 verschiedene Datenpunkte über 5 Domänen strukturiert und zeitgestempelt. Bei 167 Neugeborenen (Mediangewicht 2900 g) wurden 94 abdominale, 21 neurochirurgische, 22 thorakale, 14 ophthalmologische und 12 weitere Eingriffe dokumentiert. Die Pilotierung zeigte Machbarkeit und Praktikabilität für Versorgungsqualitätsverbesserung und Patientensicherheit.",
+    transfer:"Ungarn, europäisches Universitätsklinikum, strukturierte Papierersetzung durch digitale Datenerfassung."
   },
   {
-    journal:"Front Endocrinol (Lausanne)", year:"2026", pmid:"42609333",
-    author:"He X et al.", pubdate:"03.08.2026",
+    journal:"BMC Med Educ", year:"2026", pmid:"42665827",
+    author:"Schröder K et al.", pubdate:"28.08.2026",
+    added:"28.08.2026",
+    title:"Generative KI in der Physiotherapie-Lehre: Nutzung, Haltungen und KI-Literalität",
+    sum:"Wiederholte Querschnittsbefragung von Physiotherapiestudieren an schwedischer Universität zu Gebrauch und Wahrnehmung von generativen KI-Tools nach curricularen Anpassungen in 2024–2025.",
+    result:"Täglicher KI-Gebrauch stieg von 13% (2024) auf 57% (2025), p&lt;0,001. Diverse Nutzung (Brainstorming, Textverfeinerung) nahm signifikant zu. KI-Literacy-Scores (GAILS-10) waren nach strukturiertem Training deutlich höher (Cohens d=1,0 zwischen Semester 1 und Semester 3), was Unterschiede in Lehrerfolg und Kompetenzentwicklung belegt.",
+    transfer:"Schweden, digitaler Reifungsgrad höher als Deutschland, aber Konzept der strukturierten KI-Literalität-Integration übertragbar."
+  },
+  {
+    journal:"Sci Rep", year:"2026", pmid:"42613359",
+    author:"Leins J et al.", pubdate:"18.08.2026",
     added:"18.08.2026",
-    title:"Machine-Learning-Modell zur Vorhersage von Krebsrisiko bei Herz-Nieren-Metabolik-Syndrom",
-    sum:"Prospektive Kohortenstudie mit 399.034 UK-Biobank-Teilnehmern zur Evaluation von Herz-Nieren-Metabolik(CKM)-Stadium und genetischer Suszeptibilität (Polygenic Risk Score) für Krebsinzidenz; acht ML-Modelle für Risikostratifizierung entwickelt.",
-    result:"Über Median-Follow-up von 13,7 Jahren: 48.247 Krebsfälle. Hazard Ratios für CKM-Stadium 0-4: 1,0 (Referenz), 1,01, 1,21, 2,17. Mit hohem genetischen Risiko und fortgeschrittenem CKM: HR 3,24 (95%-CI 2,68-3,93). Bestes Modell (GBM): Test-AUC 0,801. Web-basierter Rechner für individualisierte Risikoprognose. Nichtlineare Assoziationen für diastolischer RR, Neutrophilenzahl, alkalische Phosphatase, TyG-BMI. Gesamtbilirubin medierte 44,45% der Assoziation.",
-    transfer:"UK-Daten, generalisierbar auf europäische Bevölkerungen mit ähnlichen Risikofaktoren"
+    title:"Machine Learning zur Früherkennung von akutem Nierenschaden nach Nicht-Kardiochirurgie",
+    sum:"Vorhersage postoperativen akuten Nierenschadens (PO-AKI) nach Nicht-Kardio-Operationen mit acht ML-Algorithmen auf großem EHR-Datensatz (n=13.890, 12,37% mit PO-AKI).",
+    result:"Random-Forest-Klassifikator erzielte bestes ROC-AUC von 0,742 (95% CI 0,725–0,762). Prädiktoren: 62 pre-, intra- und postoperative Merkmale einschließlich Blutdruckverlauf. Modellperformance verbesserte sich von präoperativ ROC-AUC 0,722 auf postoperativ 0,738. Feature-Importance variierte zwischen Ensemble- und Nicht-Ensemble-Modellen erheblich.",
+    transfer:"Deutschland, Hannover Medical School, deutsche EHR-Daten, vergleichbare Dokumentationspflichten und Patientenkohorte."
   },
   {
-    journal:"J Appl Clin Med Phys", year:"2026", pmid:"42605022",
-    author:"Aumueller P et al.", pubdate:"Aug. 2026",
+    journal:"JMIR Ment Health", year:"2026", pmid:"42607290",
+    author:"Cortal G et al.", pubdate:"17.08.2026",
     added:"17.08.2026",
-    title:"Deep-Learning-gestützte MRT-Navigation für fokale Prostata-Seed-Brachytherapie: Workflow-Validierung",
-    sum:"Machbarkeitsstudie zum Einsatz des ferngesteuerten, MRT-kompatiblen Robotersystems RCM für transrektale, MRT-gelenkte fokale Prostataimplantation; Phantom-Experimente zur Quantifizierung der Präzision und dosimetrischen Auswirkungen.",
-    result:"Robotische Ausrichtung: mittlere erwartete Samenablage-Verschiebung 0,6±0,2 mm. Gesamtabweichung geplante zu freigesetzte Positionen: 2,6±0,9 mm, mit 0,7±0,4 mm Versatz entlang der Trajektorie. MRT-only-Seed-Registrierung: Unterschied zu CT-verifizierten Positionen 2,8±1,4 mm. Nach zwei freigesetzten Nadeln: V100%-Dosisabdeckung fiel von 100% auf 92,9% (MRT-only) bzw. 85,7% (CT-verifiziert). Sub-Millimeter-Robotergenauigkeit demonstriert; Samenfreisetzung und MRT-Bildgebungs-Limitationen bleiben Fehlerquellen.",
-    transfer:"Deutschland – deutsche Universitätskliniken, vergleichbare Radiotherapie-Standards"
+    title:"LLM-gestützte Sprachanalyse in der Depressionsdiagnose: multilinguale Vier-Kohorten-Studie",
+    sum:"Unsupervised Clustering von Spontansprach-Transkripten mit multilingualem Language Model und Dichte-Clusterung zur Assoziation mit klinischen Depressions-Skalen über vier unabhängige Kohorten (Frankreich n=1338, Italien n=116, China n=52, Spanien n=90).",
+    result:"In französischer Allgemeinbevölkerung unterschieden sich PHQ-9-Scores zwischen Clustern (η²=0,19, p&lt;0,001), ebenso Angst (GAD-7), Insomnie (AIS) und Müdigkeit (MFI) (η²=0,14-0,16, p&lt;0,001). In italienischer Stichprobe war Cluster-Zugehörigkeit mit klinisch diagnostizierter Depression assoziiert (Cramér V=0,74, p&lt;0,001), in chinesischer mit MDD-Diagnose (V=0,55, p=0,001). LLM-generierte Cluster-Beschreibungen waren klinisch interpretierbar.",
+    transfer:"Multinationale Validierung, romanische und asiatische Sprachen, Methodik auf deutschsprachige Kohorten übertragbar."
   },
   {
-    journal:"J Nurs Manag", year:"2026", pmid:"42666072",
-    author:"Li X et al.", pubdate:"2026",
+    journal:"Front Public Health", year:"2026", pmid:"42666356",
+    author:"Fan B et al.", pubdate:"14.08.2026",
     added:"29.08.2026",
-    title:"Large Language Models in der klinischen Pflege: Nutzungsabsichten und Grenzen",
-    sum:"Qualitative Studie mit 17 klinischen Pflegekräften aus verschiedenen Krankenhausebenen zur Untersuchung der Absicht, LLMs (ChatGPT, Claude) zu nutzen; thematische Analyse der Facilitators, Constraints, Risiken und professionellen Grenzen nach UTAUT-Modell.",
-    result:"Sechste Themen identifiziert: Performance Expectancy, Effort Expectancy, Social Influence, Facilitating Conditions, Perceived Risk, Professional Boundaries. Teilnehmer äußerten positive, aber konditionale Nutzungsabsicht. Potenzielle Unterstützung für standardisierte, niedrig-risiko Aufgaben (Dokumentation, Wissensvermittlung). Vorsicht: LLMs sollten ärztliche Urteilskraft, klinische Verantwortung und humanistische Kommunikation nicht ersetzen. Datenicherheit und Rechenschaftspflicht betont.",
-    transfer:"China – vergleichbare Pflegekontexte, länderneutrales Fachverhalten"
+    title:"Interpretable Machine Learning für finanzielle Risikostratifizierung in der kolorektalen Chirurgie unter DRG-Entgelt",
+    sum:"Maschinelles Lernen zur Vorhersage von DRG-bedingtem finanziellem Risiko bei kolorektalen Krebsoperationen mit Integration in Point-of-Care-Entscheidungsunterstützung.",
+    result:"Random-Forest-Modell erreichte AUROC 0,852 im Derivationscohort (n=2081) und 38,4% Patienten überschritten DRG-Benchmark. SHAP-Analyse identifizierte chirurgischer Zugang, postoperative Komplikationen, Liegedauer und Komorbiditätslast als Haupttreiber. Web-basiertes Tool zur individualisierten Risikovorhersage wurde prospektiv evaluiert (n=12 Patienten), Kalibrierungsplot und Entscheidungskurve zeigten klinischen Nutzen.",
+    transfer:"China, aber DRG-Finanzierung vergleichbar mit deutschen Pauschalsystemen, einsatzbar zur Ressourcenplanung."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
 
 // Offene Foerderausschreibungen zum Thema — taeglich von scripts/radar_hinweis.py
 // === RADAR-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const RADAR_STAND = "28.08.2026";
+const RADAR_STAND = "31.08.2026";
 const RADAR_URL = "https://wissen.m-vf.de/ausschreibungen.html#ki-gesundheit";
 const RADAR_EIGENES = 2;
 const RADAR_ZUHAUSE = false;
-const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-09-22", "2026-09-02", "2026-09-02", "2026-09-14", "2026-09-23"], [], ["2026-09-14", "2026-09-23", "2026-10-28", "2026-10-06", "2026-10-02", "2026-10-09", "2026-10-19", "2026-10-19"], [], ["2026-09-29", "2026-10-15"], [], [], ["2026-10-06", "2026-09-30", "2026-09-30", "2026-09-02", "2026-10-05", "2026-10-14", "2026-09-18", "2026-09-18"], [], ["2026-10-09", "2026-10-09", "2026-10-20"], [], ["2026-09-07", "2026-09-07", "2026-09-07", "2026-09-07", "2026-08-31", "2026-10-15"]];
+const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-09-22", "2026-09-02", "2026-09-02", "2026-09-07", "2026-09-07"], [], ["2026-09-14", "2026-10-28", "2026-09-23", "2026-10-06", "2026-10-02", "2026-10-09", "2026-10-19", "2026-10-19"], [], ["2026-09-29", "2026-10-15", "2026-09-25", "2026-09-07", "2026-09-07", "2026-09-04"], [], [], ["2026-09-18", "2026-09-18", "2026-09-18", "2026-10-05", "2026-09-02", "2026-09-30", "2026-10-06"], [], ["2026-10-09", "2026-10-09", "2026-10-20"], [], ["2026-09-07", "2026-09-07", "2026-09-07", "2026-09-07", "2026-10-15"]];
 // === RADAR-BLOCK-ENDE ===
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "30.08.2026";
+const NEWS_STAND = "31.08.2026";
 const NEWS = [
   {titel:"Telemonitoring-Potenziale besser nutzen", datum:"2026-07-14", url:"https://www.monitor-versorgungsforschung.de/news/telemonitoring-potenziale-besser-nutzen/"},
   {titel:"Debeka und Medgate weiten Kooperation aus und öffnen Telemedizin für alle PKV-Vollversicherten", datum:"2026-07-09", url:"https://www.monitor-versorgungsforschung.de/news/debeka-und-medgate-weiten-kooperation-aus-und-oeffnen-telemedizin-fuer-alle-pkv-vollversicherten/"},
