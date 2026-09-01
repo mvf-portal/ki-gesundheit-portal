@@ -1,6 +1,7 @@
 {
   "SLUG": "ki-gesundheit",
   "DOMAIN": "ki.m-vf.de",
+  "HUB": "ki",
   "REPO": "mvf-portal/ki-gesundheit-portal",
   "TITEL": "Knowledge-Hub Digitalisierung, KI & Gesundheit",
   "TITEL_HTML": "Knowledge-Hub Digitalisierung, KI &amp; Gesundheit",
