@@ -1418,62 +1418,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "3. Sept. 2026, 06:20 Uhr";
+const SNAP_DATE = "4. Sept. 2026, 05:22 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Med Phys", year:"2026", pmid:"42682183",
-    author:"Guo H et al.", pubdate:"Sept. 2026",
+    journal:"JMIR Form Res", year:"2026", pmid:"42691425",
+    author:"Koot J et al.", pubdate:"03.09.2026",
+    added:"03.09.2026",
+    title:"KI-Entscheidungsunterstützung beim Gebärmutterhalskrebs-Screening in Ressourcen-armen Ländern",
+    sum:"Implementierungsstudie einer KI-DSS (Visual Inspection with Acetic Acid) in Bangladesch und Uganda; Analyse von Barrieren und Förderfaktoren unter Feldbedingungen mittels strukturiertes Framework.",
+    result:"KI-Gerät bestand Labortests, zeigte aber schwächere Performance unter Feldbedingungen. Hardware (adaptiertes Mobiltelefon) angemessen, Benutzeroberfläche intuitiv. Bedienung während Untersuchung herausfordernd. Ohne medizinische Registrierung nur zu Forschungszwecken verwendet. Akzeptanz durch Frauen hoch (mit Datenschutz-Garantie), aber größeres Vertrauen in Gesundheitspersonal. Kompetentes Training in Bildqualität essentiell; Fernunterstützung half, Performance zu verbessern.",
+    transfer:"Südasia/Ostafrika, aber qualitative Barriere-Analyse auf strukturelle Hemmnisse übertragbar"
+  },
+  {
+    journal:"JMIR Mhealth Uhealth", year:"2026", pmid:"42691400",
+    author:"Byun SH et al.", pubdate:"03.09.2026",
+    added:"03.09.2026",
+    title:"Digitale Therapie für Temporomandibular-Störungen: Verhaltensänderung als Wirkmedium",
+    sum:"Post-hoc-Sekundäranalyse einer multizentrisch randomisierten Studie (n=93) zum Wirkmedium digitaler Therapeutika; Mediation über Verhaltensänderung untersucht mittels strukturierter klinischer Daten und Kausalmodellierung.",
+    result:"DTx-Gruppe erzielte konsistent höhere Schmerzreduktion über alle Respondern-Schwellen (OR 5,39 bei ≥30% Reduktion, 3,21 bei ≥50%, 3,45 bei ≥70%; alle p&lt;0,05). Mediation über Verhaltensänderung (OBC-definiert) erklärte ~29,1% der Gesamtwirkung (NDE –6,91 mm, 95%KI –13,23––0,58; p=0,03). OBC-Modifier zeigten deutlich stärkere Reduktion (–45,71 vs –22,61 mm; p&lt;0,01) unabhängig von Engagement-Metriken. Woche 4 zeigte höhere ORs als Endpunkt.",
+    transfer:"Südkorea-Studie, aber Mechanismus-Befunde (Verhaltensänderung vor Engagement-Volumen) prinzipiell übertragbar"
+  },
+  {
+    journal:"JCO Clin Cancer Inform", year:"2026", pmid:"42691437",
+    author:"Moo TA et al.", pubdate:"03.09.2026",
+    added:"03.09.2026",
+    title:"LLM-generierte Zusammenfassungen für Brustchirurgie-Konsultationen: Validierungsstudie",
+    sum:"Retroaktive Validierung von mittels Retrieval-augmented LLM erstellten strukturierten Vorkonsult-Zusammenfassungen gegen klinische Routine-Dokumentation; Feld- und Patient-level Genauigkeit sowie Fabrikation gemessen.",
+    result:"AI-Summaries zeigten hohe Feld-Genauigkeit mit Fabrikationsraten ≤2%. Höher als Personal-Summaries bei Lymphknoten-Status (95% vs 72%, p&lt;0,001) und invasivem Tumor-Component (94% vs 30%, p&lt;0,001); niedriger bei Rezeptor-Status (86% vs 96%, p=0,002). Patient-level Fabrikation in 16 AI-Summaries (8%), davon 6 klinisch signifikant (3%); Staff 6 (3%, 1 klinisch signifikant). Mit Safeguards als Effizienz-Instrument vielversprechend.",
+    transfer:"USA-Einzelinstitution, aber Aufwandseinsparung und Fehler-Profile zu Verifikation auf deutsche Dokumentation übertragbar"
+  },
+  {
+    journal:"J Med Internet Res", year:"2026", pmid:"42691271",
+    author:"Lee L et al.", pubdate:"03.09.2026",
+    added:"03.09.2026",
+    title:"Digitale Gesundheits-Engagement von US-Pflegepersonen: Trend 2019–2022",
+    sum:"Trend-Analyse von Daten aus nationaler Befragung (HINTS) zu digitalem Engagement (Online-Patientenakten, Social Media Gesundheitsnutzung) in 1676 Familien-Pflegepersonen über 3 Erhebungswellen.",
+    result:"Zugang zu eigenen Online-Akten stieg von 48,7% (2019) auf 72,6% (2022; p&lt;0,001); zu Akten von Pflegebedürftigen von 30,8% auf 44,5% (p&lt;0,001). Sharing von Gesundheitsinformation: 22,5% auf 39,1% (p&lt;0,001); Interaktion mit anderen: 16,6% auf 27,0% (p&lt;0,001); Health-Videos: 49,5% auf 60,9% (p=0,005). Höhere Bildung (OR 2,75, p&lt;0,001) und Krankenversicherung (OR 2,40, p=0,010) assoziiert mit Zugang zu eigenen Akten. Hochgeschwindigkeits-Internet stark assoziiert mit allen Engagement-Outcomes.",
+    transfer:"USA-Population, Digitalisierungs-Trends aber auf deutsche Caregiver-Disparitäten (Bildung, Internet-Zugang) übertragbar"
+  },
+  {
+    journal:"JMIR Form Res", year:"2026", pmid:"42684811",
+    author:"Dapkutė A et al.", pubdate:"02.09.2026",
     added:"02.09.2026",
-    title:"Agentic KI-System für autonome Bestrahlungsplanung in der Lungenstrahlentherapie",
-    sum:"Evaluierung von PlanningCopilot, einem Multi-Agent-LLM-System mit ESAPI-Integration für vollautomatische Bestrahlungsplanung bei lokalem fortgeschrittenem Lungenkrebs ohne manueller Optimierung.",
-    result:"Alle 62 autonomen Pläne erfüllten klinische Dosimetrie-Anforderungen. Keine signifikanten Unterschiede zu klinischen Plänen für Lunge Dmean (p=0,371), Lunge V20Gy (p=0,449); bessere Ösophagus-Dosis-Sparing (D0,03cc p=0,027). Alle 21 getesteten IMRT-Pläne bestanden Qualitätskontrolle. Lerner-Agent reduzierte Iterationen um 11,8%.",
-    transfer:"USA-Studie, aber Algorithmus-Generalisierung und klinische Prozessintegration ist übertragbar"
+    title:"Litauens zentralisiertes E-Health-System: Struktur, Evolution und Umsetzungslektionen",
+    sum:"Deskriptive Analyse der historischen Entwicklung, Governance und technischen Architektur des litauischen Digital Health Platform seit 2000.",
+    result:"System vollständig operational seit 2015. Elektronische Dokumente im DHP stiegen von ~7 Mio. (2017) auf &gt;100 Mio. (2024). Zugang zu Online-Patientenakten durch Patienten stieg kontinuierlich. Telemedicine und Bildaustausch noch weniger reif; Modernisierung für KI-Dienste läuft. Die zentrale, rechtsgestützte Integration zeigt Potenzial und Grenzen national-scale-Integration.",
+    transfer:"EU-Mitgliedstaat, vergleichbare regulatorische Anforderungen, übertragbare Governance-Lektionen"
   },
   {
-    journal:"J Am Heart Assoc", year:"2026", pmid:"42622146",
-    author:"Gioia G et al.", pubdate:"20.08.2026",
-    added:"20.08.2026",
-    title:"KI-Algorithmus zur ECG-Screening auf Amyloidose bei Herzinsuffizienz",
-    sum:"Externe Validierung eines visually interpretierbaren, KI-abgeleiteten ECG-Algorithmus zur Erkennung von Transthyretin-Amyloidose bei Patienten mit Herzinsuffizienz und erhaltener Ejektionsfraktion in zwei europäischen Zentren.",
-    result:"AUC 0,84 (95% CI 0,76–0,92) in externe Kohorte; Sensitivität 89%, Spezifität 79%. Das ECG-Muster war bei 82,6% der ATTR-Patienten gegenüber 10,2% mit HFpEF vorhanden. Die Odds Ratio für ATTR-Assoziation betrug 46 (95% CI 27–80, p&lt;0,001); Dreijahres-Überlebensnachteil signifikant (p=0,007).",
-    transfer:"Österreich und Deutschland, vergleichbare Sozialversicherungssysteme und klinische Strukturen"
-  },
-  {
-    journal:"Front Public Health", year:"2026", pmid:"42683171",
-    author:"Zhao W et al.", pubdate:"18.08.2026",
-    added:"02.09.2026",
-    title:"Mobile Apps für Beckenbodentraining bei Inkontinenz: Metaanalyse",
-    sum:"Systematische Übersicht und Metaanalyse von 12 randomisierten kontrollierten Studien zu mobilen Anwendungen für strukturiertes Beckenbodenmuskeltraining bei weiblicher Harninkontinenz.",
-    result:"Intervention reduzierte Inkontinenzschwere um 1,93 Punkte (95% CI −2,87 bis −0,98, p&lt;0,0001), Episodenhäufigkeit um 2,28 Episoden (95% CI −3,62 bis −0,94, p=0,0008). Adhärenz verbessert sich um RR 1,42 (95% CI 1,26–1,59, p&lt;0,00001); Lebensqualität um 2,78 Punkte (95% CI −4,43 bis −1,14, p=0,0009).",
-    transfer:"Gemischte internationale RCTs, praktisch übertragbar auf deutsche Versorgung mit Vorbehalten zu Effektgröße"
-  },
-  {
-    journal:"Arch Gerontol Geriatr", year:"2026", pmid:"42603460",
-    author:"Bubeck M et al.", pubdate:"28.07.2026",
-    added:"15.08.2026",
-    title:"Implementierung sozial-assistiver Roboter in Pflegeheimen: Erfahrungen des Personals",
-    sum:"Qualitative Studie mit 14 Pflegefachpersonen in Deutschland zur Implementierung sozial-assistiver Roboter in Altenheimen; konstruktivistische Grounded-Theory-Analyse.",
-    result:"Vier Implementierungsphasen identifiziert (Orientierung, Einführung, Routinisierung, Reassessment). Praktische und moralische Anforderungen verschoben sich systematisch über Zeit. Personal betonte Bedeutung von Professionalität, Kontextsensitivität und kontinuierlicher Reflexion für nachhaltige und ethisch vertretbare Nutzung.",
-    transfer:"Deutschland, direkt von Pflegepersonal gewonnene Erkenntnisse zu lokalen Implementierungsfaktoren"
-  },
-  {
-    journal:"Rehabilitation (Stuttg)", year:"2026", pmid:"42624118",
-    author:"Velthuysen PG et al.", pubdate:"20.04.2026",
-    added:"20.08.2026",
-    title:"Machine Learning zur Vorhersage des Rehabilitationserfolgs in psychosomatischer Rehabilitation",
-    sum:"Sekundärdatenanalyse an 555 Patienten: Random-Forest-Modelle zur Prognose individueller psychosomatischer Rehabilitationserfolge anhand von 16 Fragebögen und 11 Personenmerkmalen.",
-    result:"30,02–38,94% der Varianz erklärbar (je nach Dimension). In Kreuzvalidierung 29,33–37,83% Varianzaufklärung bestätigt. 45 relevante Prädiktoren identifiziert (17 Skalenwerte, 28 Einzelitems). Autoren: praktische Umsetzung personalisierter Behandlung aktuell nicht realistisch.",
-    transfer:"Deutschland, Deutsche Rentenversicherung-Kohorte, direkt auf deutsches Reha-System übertragbar"
-  },
-  {
-    journal:"Magn Reson Med Sci", year:"2026", pmid:"42633943",
-    author:"Fujita S et al.", pubdate:"2026",
-    added:"23.08.2026",
-    title:"Deep Learning für non-invasive Amyloid-β-Bildgebung per MRT",
-    sum:"Prospektive Multizenterstudie zur Validierung einer Deep-Learning-gestützten MR-Fingerprinting-Methode zur Abbildung von Gehirn-Amyloid-Deposition ohne PET.",
-    result:"Wiederholbarkeit: Variationskoeffizient 1,8±1,3%, ICC 0,84. MRF-Messwerte korrelierten mit PET-Centiloid-Werten (Spearmans ρ=0,589, p=0,015) und Montreal Cognitive Assessment (ρ=−0,543, p=0,020). Visuelle Ähnlichkeit mit PET-Bildern erreicht.",
-    transfer:"Japan, aber methodologisch relevant; externe Validierung gegen etablierte PET-Standards"
+    journal:"Int J Public Health", year:"2026", pmid:"42688159",
+    author:"Feer S et al.", pubdate:"19.08.2026",
+    added:"03.09.2026",
+    title:"Automated Text-Extraction von Verletzungsdaten für Public-Health-Surveillance: Pilotprojekt Schweiz",
+    sum:"Machbarkeitsstudie zur automatisierten Analyse von Narrativtexten aus pädiatrischen Notaufnahmeberichten mittels Fine-tuning eines Transformer-Modells für Mehrklassen-Klassifikation von Verletzungsmerkmalen.",
+    result:"Interrater-Reliabilität steigerte sich von κ=0,45 (moderat) auf κ=0,73 (substanziell) nach Codierungssystem-Anpassung. Multi-Label-F1-Scores auf oberster Ebene: ALL 0,57, IND 0,64, VAR 0,63; auf tieferen Ebenen deutlich niedriger (Niveau 3: F1=0,08–0,23). Automated Prävalenzschätzungen korrelierten stark mit manuellen Annotationen (ρ=0,948). Erste Ergebnisse vielversprechend, aber robuste Validierung erforderlich.",
+    transfer:"Schweiz, deutschsprachiger Raum, ähnliche Dokumentationssysteme"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1484,12 +1484,12 @@ const RADAR_STAND = "03.09.2026";
 const RADAR_URL = "https://wissen.m-vf.de/ausschreibungen.html#ki-gesundheit";
 const RADAR_EIGENES = 2;
 const RADAR_ZUHAUSE = false;
-const RADAR_FRISTEN = [["2026-09-22", "2026-10-20", "2026-10-20"], [], ["2026-09-14", "2026-10-28", "2026-10-06", "2026-10-02", "2026-10-09", "2026-10-19", "2026-10-19", "2026-09-23"], [], ["2026-09-29", "2026-10-15", "2026-09-25", "2026-09-07", "2026-09-07"], [], [], ["2026-09-18", "2026-09-18", "2026-09-18", "2026-10-01", "2026-10-05", "2026-10-06", "2026-09-30", "2026-09-30"], [], ["2026-10-20", "2026-10-09", "2026-10-09"], [], ["2026-09-07", "2026-09-07", "2026-09-07", "2026-09-07", "2026-10-15"]];
+const RADAR_FRISTEN = [["2026-09-22", "2026-10-20", "2026-10-20", "2026-09-07", "2026-09-07", "2026-09-14"], [], ["2026-09-14", "2026-10-28", "2026-10-06", "2026-09-23", "2026-10-02", "2026-10-09", "2026-10-19", "2026-10-19"], [], ["2026-09-29", "2026-09-25", "2026-10-15", "2026-09-07", "2026-09-07"], [], [], ["2026-10-06", "2026-09-18", "2026-09-18", "2026-09-18", "2026-10-05", "2026-10-14", "2026-10-01"], [], ["2026-10-20", "2026-10-09", "2026-10-09"], [], ["2026-09-07", "2026-09-07", "2026-09-07", "2026-09-07", "2026-10-15"]];
 // === RADAR-BLOCK-ENDE ===
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "03.09.2026";
+const NEWS_STAND = "04.09.2026";
 const NEWS = [
   {titel:"Zugangshürden bei 1,2 Prozent: Zi vergleicht EU-Gesundheitsdaten", datum:"2026-08-31", url:"https://www.monitor-versorgungsforschung.de/news/zugangshuerden-bei-12-prozent-zi-vergleicht-eu-gesundheitsdaten/"},
   {titel:"Telemonitoring-Potenziale besser nutzen", datum:"2026-07-14", url:"https://www.monitor-versorgungsforschung.de/news/telemonitoring-potenziale-besser-nutzen/"},
