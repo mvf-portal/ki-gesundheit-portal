@@ -1418,78 +1418,87 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "9. Sept. 2026, 05:24 Uhr";
+const SNAP_DATE = "10. Sept. 2026, 05:25 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"JMIR Form Res", year:"2026", pmid:"42710060",
-    author:"Berkhout M et al.", pubdate:"08.09.2026",
-    added:"08.09.2026",
-    title:"Decision Mining für Qualitätsverbesserung in der Pflege: Akzeptanzprognose",
-    sum:"Qualitative Studie mit fünf niederländischen Pflegekräften zur Akzeptanz eines Decision-Mining-Tools, das aus elektronischen Patientenakten retrospektiv Entscheidungsmuster rekonstruiert und für Qualitätszirkel nutzt.",
-    result:"Hohe Performance Expectancy (Nutzenwahrnehmung), moderate Effort Expectancy (Aufwand). Entscheidend für Akzeptanz: lernorientierte Rahmung statt Kontrollnarrativ und investition in Datenliteralität – nicht technische Hürden allein. Adoption eher in strukturierten Meetings als im Routinebetrieb.",
-    transfer:"Niederlande, vergleichbar strukturiertes Gesundheitssystem; qualitative Befunde zu Implementierungsbarrieren gelten grundsätzlich auch in Deutschland."
+    journal:"Am J Public Health", year:"2026", pmid:"42715542",
+    author:"Hochstatter KR et al.", pubdate:"Okt. 2026",
+    added:"09.09.2026",
+    title:"KI-gestützte Surveillance: Large Language Models identifizieren Überdosis-Todesfälle aus Obduktionsberichten",
+    sum:"Zwei LLM-Pipelines (LLaMA-8B-Instruct und ClinicalModernBERT) analysieren unstrukturierte Narrative von Todesfallermittlungen, um Überdosistodesfälle automatisch zu erkennen, mit Safeguards für Datenschutz und Bias-Kontrolle.",
+    result:"LLaMA-8B: 88 % PPV, 92 % Sensitivität, 84 % NPV, 76 % Spezifität, 85 % Macro-F1. ClinicalModernBERT: 83 % PPV, 92 % Sensitivität, 82 % NPV, 67 % Spezifität, 81 % Macro-F1. Beide Modelle übertrafen bisherige Surveillance-Tools und logistische Regression. Human-in-the-loop-Design mit Fehleranalyse und kontinuierlicher Bias-Bewertung.",
+    transfer:"USA; NLP-Ansatz auch auf deutsche EHR-Daten anwendbar."
   },
   {
-    journal:"J Med Internet Res", year:"2026", pmid:"42709968",
-    author:"Yang L et al.", pubdate:"08.09.2026",
-    added:"08.09.2026",
-    title:"Digitale Multidisziplinäre Rehabilitation bei Bauchkrebs unter Chemoradiotherapie",
-    sum:"Randomisierte Phase-II-Studie (111 Patienten) zur mHealth-gestützten Multidisziplinären Rehabilitationspflege (AiNST-Plattform mit Wearables) während Chemoradiotherapie von Bauchkrebsen, primärer Endpunkt: Handgriffstärke.",
-    result:"Angepasste mittlere Differenz Handgriffstärke +4,87 kg (95%-KI 3,36–6,38; p&lt;0,001) in der Interventionsgruppe. Sekundär: bessere Erhaltung von Körpergewicht, Skelettmuskelmasse, Serumalbumin, Prealbumin, niedrigere Hämatotoxizität, bessere psychologische und Ernährungswerte. Adhärenz 83,9%. Open-Label-Design, heterogene Tumoren, kurzes Follow-up.",
-    transfer:"China (multi-center) mit mobiler Telemedizin-Plattform; Konzept übertragbar, aber Phase III nötig; deutsche Umsetzung machbar."
+    journal:"Am J Public Health", year:"2026", pmid:"42715541",
+    author:"Mitra A et al.", pubdate:"Okt. 2026",
+    added:"09.09.2026",
+    title:"NLP-gestützte soziale Determinanten der Gesundheit vorhersagen Opioidentod bei Veteranen",
+    sum:"Natural Language Processing extrahiert acht soziale Determinanten (Wohnsituation, Rechtsstreitigkeiten, finanzielle Probleme u. a.) aus unstrukturierten VA-Notizen; Assoziationen mit tödlichem Opioidkonsum über 21 Mio. Personenjahre.",
+    result:"NLP erfasste 90,08 % der strukturellen und 97,28 % aller SDOH. Alle gemessenen SDOH signifikant mit tödlichem Opioidkonsum assoziiert. Stärkste Assoziation: Wohnsituation (AOR 3,36; 95%-KI 2,96–3,81), gefolgt von Rechtsproblemen (AOR 3,07; 95%-KI 2,55–3,70) und Finanzproblemen (AOR 2,63; 95%-KI 2,32–2,98).",
+    transfer:"USA-Veteranen; ähnliche NLP-Techniken auf deutsche VA-ähnliche Dokumentation anwendbar."
   },
   {
-    journal:"J Med Internet Res", year:"2026", pmid:"42709964",
-    author:"Wu Y et al.", pubdate:"08.09.2026",
-    added:"08.09.2026",
-    title:"Klinische Datenanalyse durch Large Language Model Agenten: Leistung und Fehler",
-    sum:"Evaluation eines LLM-Agenten (Claude) über fünf Workflows klinischer Datenanalyse – Forschungsfragen generieren, Analyseplan entwerfen, Code ausführen – anhand standardisierter ophthalmologischer Daten (7802 Patienten, 12 Jahre).",
-    result:"Agent generiert 18 klinisch fundierte Fragen, alle 9 Analysepläne strukturell korrekt. Kaplan-Meier-Schätzer zuverlässig. Systematische Fehler in Code-Ausführung: SAP-Qualität nicht prädiktiv für Korrektheit, identische Fehler wiederholbar. 8 von 17 Narrativen vollständig zufriedenstellend; 2 klinisch relevante Fehler. Textuelle Zusammenfassung deckt sich mit Logs.",
-    transfer:"UK/USA (Moorfields), Forschungssetting; zeigt, welche Pipeline-Schritte (Ideengeneration, Planungsentwurf) ohne Expertise funktionieren, welche (Formellogik, Kohortengrenzen) Verifizierung brauchen."
+    journal:"JMIR Cancer", year:"2026", pmid:"42715554",
+    author:"Cunningham-Erves J et al.", pubdate:"09.09.2026",
+    added:"09.09.2026",
+    title:"Mobile App für HPV-Impfaufklärung erhöht Impfquote bei Eltern ungeimpfter Kinder",
+    sum:"Randomisierte Pilotstudie evaluiert eine auf Elternbedenken zugeschnittene Mobile-Health-App zur präklinischen HPV-Impf-Aufklärung; Outcomes: Impfbereitschaft und Impfrate.",
+    result:"HPV-Impfinitiierung in der App-Gruppe 48 % vs. 17 % in der Kontrollgruppe (Differenz 0,24; 95%-KI 0,03–0,46; p = 0,01). Wissensgewinn und Bedenkenreduktion tendenziell größer in der App-Gruppe. 81 % der Eltern öffneten die App; 90 % hielten sie für hilfreich. Hauptbarrieren: nur Englisch verfügbar, digitales Format.",
+    transfer:"USA; begrenzte Transferierbarkeit auf deutsches Gesundheitssystem, aber Modell zeigt Potenzial digitaler Aufklärung."
   },
   {
-    journal:"JMIR Med Inform", year:"2026", pmid:"42709940",
-    author:"Jo W et al.", pubdate:"08.09.2026",
-    added:"08.09.2026",
-    title:"Automatisierte Erfassung von Tumorrezidiv und Metastasen aus CT-Berichten mittels Deep Learning",
-    sum:"Semisupervised Deep-Learning-Klassifikation (mit Rule-based und Medical BERT) zur Extraktion von Rezidiv- und Metastasenangaben aus 288.076 postoperativen CT-Berichten (86.083 Krebspatienten), mit expliziter Modellierung diagnostischer Unsicherheit.",
-    result:"Multiclass-Genauigkeit Rezidiv 97,33 %, Metastasen 95,00 %. Binäre Klassifikation: 99,33 % und 96,67 %. Ärztliche Interrater-Konsistenz Multiclass: 96,88 % (Rezidiv) und 93,80 % (Metastasen). &lt;1 % der Berichte manuell annotiert; diagnostische Unsicherheit in 1,4 % Rezidiv-, 6,9 % Metastasenfälle erfasst. Rule-Algorithm outperformte teilweise Deep-Learning-Modelle.",
-    transfer:"Südkorea (Asan Medical Center); große reale Datenbank, aber interne Validierung; Multicenter-Prospektivstudie zur Generalisierbarkeit nötig."
+    journal:"J Med Internet Res", year:"2026", pmid:"42715525",
+    author:"Huang JL et al.", pubdate:"09.09.2026",
+    added:"09.09.2026",
+    title:"LLM-generierte Arztbriefe: Assistiv ja, aber mit Fehlern – systematische Übersicht",
+    sum:"Systematische Übersicht von 101 Studien zu LLM-basierten Befundberichten in der Radiologie und klinischen Bildgebung; fokus auf klinische Sicherheit, Fehlertypen und Workflow-Effekte.",
+    result:"Experten-Akzeptanz von KI-Berichten ähnlich wie Radiologieberichte (70,5 % vs. 73,3 %, aber false-negative höher: 18,5 % vs. 17,8 %). Klinisch bedeutsame Fehler, Auslassungen und Fehlerzeugungen heterogen berichtet. Workflow-Effekte gemischt: manche Studien berichten kürzere Lesezeiten, andere längere Bearbeitungszeiten. Hohe Risiken von Bias; externe Validierung fehlt.",
+    transfer:"Internationale Erkenntnisse; auf deutsche Klinik-Workflows transferierbar mit lokaler Validierung."
   },
   {
-    journal:"BMC Med Inform Decis Mak", year:"2026", pmid:"42706535",
-    author:"van Nieuwenhoven MA et al.", pubdate:"03.09.2026",
-    added:"08.09.2026",
-    title:"Machine-Learning-Modell zur Triage in Schwedens Darmkrebs-Screening",
-    sum:"Externe Validierung von zwei Modellen (logistische Regression und CatBoost) zur Priorisierung von Schnellbahn-Koloskopien anhand von FIT-Ergebnis, Laborwerten und Symptomen an schwedischen Patienten.",
-    result:"Entwicklungs-AUC 0,77–0,81; externe Validierungs-AUC nur 0,66–0,67. Kalibrierungsverlust beobachtet. Diskriminationsgüte bescheiden; Überlegenheit gegenüber Eingangskriterium nicht nachgewiesen, da alle Patienten koloskopiert wurden. FIT, verdächtige Bildgebung und Alter wichtigste Prädiktoren.",
-    transfer:"Schweden, vergleichbar dezentrales Gesundheitssystem; External Validation zeigt Generalisierungsprobleme – zentrale Lehre für regionale Implementierung auch in Deutschland."
+    journal:"JMIR Form Res", year:"2026", pmid:"42714956",
+    author:"Teng H et al.", pubdate:"09.09.2026",
+    added:"09.09.2026",
+    title:"AI-augmentierte Fluoroskopie: Echtzeit-Navigation lokalisiert Lungenknötchen intraoperativ erfolgreich",
+    sum:"Prospektive Pilotstudie der LungVision-Plattform: KI-gestützte Navigation auf fluoroskopischen Bildern zur intraoperativen Lokalisierung von Lungenknötchen vor thorakoskopischer Resektion.",
+    result:"Erfolgreiche Lokalisierung aller 14 Zielläsionen; mittlere Navigationszeit 38,6 ± 19,5 Minuten. Komplette Resektion in 100 % (14/14); 71,4 % (10/14) pathologisch maligne. Keine intraoperativen Komplikationen. System ließ sich in bestehende OR-Infrastruktur integrieren ohne Zusatzausstattung.",
+    transfer:"Taiwan; direkt anwendbar in deutschen Thoraxchirurgie-Zentren, aber größere Validierung notwendig."
   },
   {
-    journal:"JAMA Netw Open", year:"2026", pmid:"42709434",
-    author:"Connolly SL et al.", pubdate:"01.09.2026",
+    journal:"Eur Radiol Exp", year:"2026", pmid:"42709362",
+    author:"Beste NC et al.", pubdate:"08.09.2026",
     added:"08.09.2026",
-    title:"Telemedizinische vs. telefonische vs. präsenzielle psychische Gesundheitsversorgung: Ergebnisvergleich",
-    sum:"Retrospektive Vergleichseffektivitätsstudie an 813.699 Veteranen der USA (mittl. Follow-up 1 Jahr, 2022–2023) zur psychischen Versorgung per Videocall, Telefon oder präsenzielle Termine anhand administrativer Daten.",
-    result:"Videocall-Kohorte (42,2 %): 0,9 % stationär-psychiatrisch, 1,5 % ED-Besuche, 1,0 % Suizidverhalten; Präsenz (37,5 %): 2,1 %, 2,6 %, 1,2 %; Telefon (20,3 %): 1,6 %, 2,3 %, 1,3 %. Inverse-Probability-Gewichtung: Video vs. Telefon um 0,5 Prozentpunkte niedrigere Hospitalisierungsrate, ebenso vs. Präsenz. Termine-Abschlussquote Video 71,1 %, Präsenz 68,0 %, Telefon 68,4 %. Effektgrößen klein; Residualconfounding trotz Kontrolle möglich.",
-    transfer:"USA (VA), aber Versorgungsstruktur partiell übertragbar; Videotelezmedizin zeigt klinische Vorteile auch in Deutschland-ähnlichen Systemen."
+    title:"Deep Learning für quantitative MRT-Analyse von Nervenschädigungen: Reproduzierbarkeit statt Subjektivität",
+    sum:"Ein trainiertes Deep-Learning-Modell (nnU-Net) segmentiert Nervenschäden in MR-Neurographie automatisch und liefert reproduzierbare, quantitative Maße statt observer-abhängiger Messungen.",
+    result:"Automatische Nervensegmentierung: Dice-Koeffizient 0,97. Läsionsegmentierung: Surface-Dice 0,64–0,77. Automatisch gemessene Läsionslast korrelierte signifikant mit elektrophysiologischen Parametern (Tibialis-Nervenleitgeschwindigkeit r = −0,62, p &lt; 0,001). Modell-zu-Rater-Übereinstimmung (F1: 0,681–0,736) erreichte oder übertraf menschliche Übereinstimmung.",
+    transfer:"Deutsche Uniklinik; deutschsprachige Standards; direkt transferierbar."
+  },
+  {
+    journal:"J Refract Surg", year:"2026", pmid:"42715024",
+    author:"Levy I et al.", pubdate:"01.09.2026",
+    added:"09.09.2026",
+    title:"OCR-gestützte Biometrie automatisiert Intralinsenberechnungen ohne Transkriptionsfehler",
+    sum:"Entwicklung und Validierung einer KI-App, die optische Zeichenerkennung nutzt, um Biometriedaten automatisch in einen IOL-Kalkulator zu übertragen und damit manuelle Dateneingaben bei der Kataraktchirurgie zu eliminieren.",
+    result:"App-basierte Dateneingabe um 48,9 % schneller als manuelle Eingabe (91,72 ± 5,59 vs. 179,42 ± 22,12 Sekunden; p &lt; 0,001). Mittlere Likert-Scores für OCR-Genauigkeit, Benutzerfreundlichkeit und Empfehlung an Kollegen: 4,5, 4,5 und 4,67 von 5. Alle fünf gemessenen Biometrieberechnungen zeigten Zeitersparnisse von 43,1–52,7 %.",
+    transfer:"Direkt in Kliniken anwendbar; Workflow-Entlastung durch Automatisierung."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
 
 // Offene Foerderausschreibungen zum Thema — taeglich von scripts/radar_hinweis.py
 // === RADAR-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const RADAR_STAND = "07.09.2026";
+const RADAR_STAND = "10.09.2026";
 const RADAR_URL = "https://wissen.m-vf.de/ausschreibungen.html#ki-gesundheit";
 const RADAR_EIGENES = 2;
 const RADAR_ZUHAUSE = false;
-const RADAR_FRISTEN = [["2026-09-22", "2026-10-20", "2026-10-20", "2026-09-07", "2026-09-07", "2026-09-07", "2026-09-07"], [], ["2026-09-14", "2026-10-28", "2026-10-06", "2026-10-02", "2026-10-19", "2026-10-19", "2026-10-09", "2026-09-23"], [], ["2026-09-29", "2026-10-15", "2026-09-25", "2026-09-07", "2026-09-07"], [], [], ["2026-09-18", "2026-09-18", "2026-09-18", "2026-10-05", "2026-10-14", "2026-10-01", "2026-10-06", "2026-09-30"], [], ["2026-10-09", "2026-10-09", "2026-10-20"], [], ["2026-09-07", "2026-09-07", "2026-09-07", "2026-09-07", "2026-10-15", "2026-09-07", "2026-09-07"]];
+const RADAR_FRISTEN = [["2026-09-22", "2026-10-20", "2026-10-20"], [], ["2026-09-14", "2026-09-23", "2026-10-28", "2026-10-06", "2026-10-02", "2026-10-09", "2026-10-19", "2026-10-19"], [], ["2026-09-29", "2026-09-25", "2026-11-19", "2026-10-15"], [], [], ["2026-09-18", "2026-10-01", "2026-10-05", "2026-10-06", "2026-10-14", "2026-11-18", "2026-11-18", "2026-09-30"], [], ["2026-10-09", "2026-10-09", "2026-10-20"], [], ["2026-10-15"]];
 // === RADAR-BLOCK-ENDE ===
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "09.09.2026";
+const NEWS_STAND = "10.09.2026";
 const NEWS = [
   {titel:"Zugangshürden bei 1,2 Prozent: Zi vergleicht EU-Gesundheitsdaten", datum:"2026-08-31", url:"https://www.monitor-versorgungsforschung.de/news/zugangshuerden-bei-12-prozent-zi-vergleicht-eu-gesundheitsdaten/"},
   {titel:"Telemonitoring-Potenziale besser nutzen", datum:"2026-07-14", url:"https://www.monitor-versorgungsforschung.de/news/telemonitoring-potenziale-besser-nutzen/"},
@@ -1499,8 +1508,8 @@ const NEWS = [
 // Fremde Pressemeldungen zum Thema — taeglich von scripts/newsfeed.py
 // === PRESSE-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
 const PRESSE = [
-  {titel:"Welt-Sepsis-Tag: Chirurgie plädiert für den Einsatz von KI zur Früherkennung einer Blutvergiftung", datum:"2026-09-07", url:"http://idw-online.de/de/news876950", quelle:"idw"},
-  {titel:"Künstliche Intelligenz unterstützt Medizin der Zukunft", datum:"2026-09-02", url:"http://idw-online.de/de/news876729", quelle:"idw"},
+  {titel:"Was bedeutet Altern in Zeiten der Dauerkrise?", datum:"2026-09-09", url:"http://idw-online.de/de/news877078", quelle:"idw"},
+  {titel:"Zukunftscluster curATime startet in die zweite Umsetzungsphase", datum:"2026-09-09", url:"http://idw-online.de/de/news877068", quelle:"idw"},
 ];
 // === PRESSE-BLOCK-ENDE ===
 
