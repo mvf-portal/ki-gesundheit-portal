@@ -1418,71 +1418,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "10. Sept. 2026, 05:25 Uhr";
+const SNAP_DATE = "11. Sept. 2026, 06:20 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Am J Public Health", year:"2026", pmid:"42715542",
-    author:"Hochstatter KR et al.", pubdate:"Okt. 2026",
-    added:"09.09.2026",
-    title:"KI-gestützte Surveillance: Large Language Models identifizieren Überdosis-Todesfälle aus Obduktionsberichten",
-    sum:"Zwei LLM-Pipelines (LLaMA-8B-Instruct und ClinicalModernBERT) analysieren unstrukturierte Narrative von Todesfallermittlungen, um Überdosistodesfälle automatisch zu erkennen, mit Safeguards für Datenschutz und Bias-Kontrolle.",
-    result:"LLaMA-8B: 88 % PPV, 92 % Sensitivität, 84 % NPV, 76 % Spezifität, 85 % Macro-F1. ClinicalModernBERT: 83 % PPV, 92 % Sensitivität, 82 % NPV, 67 % Spezifität, 81 % Macro-F1. Beide Modelle übertrafen bisherige Surveillance-Tools und logistische Regression. Human-in-the-loop-Design mit Fehleranalyse und kontinuierlicher Bias-Bewertung.",
-    transfer:"USA; NLP-Ansatz auch auf deutsche EHR-Daten anwendbar."
+    journal:"Rheumatol Int", year:"2026", pmid:"42720754",
+    author:"Vossen D et al.", pubdate:"10.09.2026",
+    added:"10.09.2026",
+    title:"Large Language Models für Schwangerschaftsberatung bei rheumatischen Erkrankungen",
+    sum:"Vier LLMs (ChatGPT, DeepSeek, Gemini, Grok) wurden von zehn europäischen Rheumatologen bezüglich ihrer Eignung zur Beantwortung von 54 Fragen zu Schwangerschaft, Stillzeit und rheumatischen Erkrankungen bewertet.",
+    result:"Alle Modelle zeigten hohe klinische Sicherheit (Mittelwert &gt; 4,10 auf 5er-Skala). DeepSeek und ChatGPT erreichten beste Klinische Genauigkeit (Median 4,40); DeepSeek dominierte bei Vollständigkeit (Mittelwert 4,24). Die niedrige Inter-Rater-Übereinstimmung (Kappa: −0,043 bis 0,059) zeigte, dass LLMs zwar sichere, aber noch parameterierbare Werkzeuge sind, die keine fachärztliche Beratung ersetzen können.",
+    transfer:"Europa, Daten deutschsprachiger und internationaler Experten"
   },
   {
-    journal:"Am J Public Health", year:"2026", pmid:"42715541",
-    author:"Mitra A et al.", pubdate:"Okt. 2026",
-    added:"09.09.2026",
-    title:"NLP-gestützte soziale Determinanten der Gesundheit vorhersagen Opioidentod bei Veteranen",
-    sum:"Natural Language Processing extrahiert acht soziale Determinanten (Wohnsituation, Rechtsstreitigkeiten, finanzielle Probleme u. a.) aus unstrukturierten VA-Notizen; Assoziationen mit tödlichem Opioidkonsum über 21 Mio. Personenjahre.",
-    result:"NLP erfasste 90,08 % der strukturellen und 97,28 % aller SDOH. Alle gemessenen SDOH signifikant mit tödlichem Opioidkonsum assoziiert. Stärkste Assoziation: Wohnsituation (AOR 3,36; 95%-KI 2,96–3,81), gefolgt von Rechtsproblemen (AOR 3,07; 95%-KI 2,55–3,70) und Finanzproblemen (AOR 2,63; 95%-KI 2,32–2,98).",
-    transfer:"USA-Veteranen; ähnliche NLP-Techniken auf deutsche VA-ähnliche Dokumentation anwendbar."
+    journal:"JMIR Form Res", year:"2026", pmid:"42721450",
+    author:"Bryant EF et al.", pubdate:"10.09.2026",
+    added:"10.09.2026",
+    title:"Chatbot für junge Patienten mit ADHS: Co-Design und Prototyp-Entwicklung",
+    sum:"Neun Personen mit ADHS-Erfahrung und drei Gesundheitsfachpersonen partizipativ einen Evidence-basierten Chatbot (GPT-4o) mit sieben Recommendations zur Weiterentwicklung.",
+    result:"6 Expert-Nutzer führten Think-Aloud-Interviews durch und bewerteten Gesprächsfluss, Avatar, Sprachkonvertierung und Nachrichteninhalte. Sieben konkrete Empfehlungen für zukünftige Entwicklung formuliert (z. B. bessere Anpassung an ADHS-spezifische Anforderungen wie Aufmerksamkeitsregulation).",
+    transfer:"Großbritannien, NHS-Ressourcen, qualitative Partizipation"
   },
   {
-    journal:"JMIR Cancer", year:"2026", pmid:"42715554",
-    author:"Cunningham-Erves J et al.", pubdate:"09.09.2026",
-    added:"09.09.2026",
-    title:"Mobile App für HPV-Impfaufklärung erhöht Impfquote bei Eltern ungeimpfter Kinder",
-    sum:"Randomisierte Pilotstudie evaluiert eine auf Elternbedenken zugeschnittene Mobile-Health-App zur präklinischen HPV-Impf-Aufklärung; Outcomes: Impfbereitschaft und Impfrate.",
-    result:"HPV-Impfinitiierung in der App-Gruppe 48 % vs. 17 % in der Kontrollgruppe (Differenz 0,24; 95%-KI 0,03–0,46; p = 0,01). Wissensgewinn und Bedenkenreduktion tendenziell größer in der App-Gruppe. 81 % der Eltern öffneten die App; 90 % hielten sie für hilfreich. Hauptbarrieren: nur Englisch verfügbar, digitales Format.",
-    transfer:"USA; begrenzte Transferierbarkeit auf deutsches Gesundheitssystem, aber Modell zeigt Potenzial digitaler Aufklärung."
+    journal:"Ther Adv Respir Dis", year:"2026", pmid:"42721259",
+    author:"Zhang L et al.", pubdate:"10.09.2026",
+    added:"10.09.2026",
+    title:"Machine Learning zur Vorhersage von Neuromodulator-Wirksamkeit bei hartnäckigem Husten",
+    sum:"Retrospektive Kohorte von 730 Patienten mit refraktärem chronischem Husten, behandelt mit Gabapentin, Baclofen oder Flupentixol, zur Vorhersage individueller Therapieerfolge.",
+    result:"Random-Forest-Modell mit 14 Variablen erreichte AUC 0,825 (Training) und 0,718 (10-fach Kreuzvalidierung, 95 % KI 0,655–0,765). Wichtigste Prädiktoren: Husten-Ausgangsschwere, Ösophagitis-Anamnese, Reflux-Symptome. Online-Entscheidungsunterstützungs-App deployed; externe Validierung erforderlich.",
+    transfer:"China, interne Validierung, externe Validierung ausstehend"
   },
   {
-    journal:"J Med Internet Res", year:"2026", pmid:"42715525",
-    author:"Huang JL et al.", pubdate:"09.09.2026",
-    added:"09.09.2026",
-    title:"LLM-generierte Arztbriefe: Assistiv ja, aber mit Fehlern – systematische Übersicht",
-    sum:"Systematische Übersicht von 101 Studien zu LLM-basierten Befundberichten in der Radiologie und klinischen Bildgebung; fokus auf klinische Sicherheit, Fehlertypen und Workflow-Effekte.",
-    result:"Experten-Akzeptanz von KI-Berichten ähnlich wie Radiologieberichte (70,5 % vs. 73,3 %, aber false-negative höher: 18,5 % vs. 17,8 %). Klinisch bedeutsame Fehler, Auslassungen und Fehlerzeugungen heterogen berichtet. Workflow-Effekte gemischt: manche Studien berichten kürzere Lesezeiten, andere längere Bearbeitungszeiten. Hohe Risiken von Bias; externe Validierung fehlt.",
-    transfer:"Internationale Erkenntnisse; auf deutsche Klinik-Workflows transferierbar mit lokaler Validierung."
+    journal:"Sci Rep", year:"2026", pmid:"42716991",
+    author:"Zehnder P et al.", pubdate:"09.09.2026",
+    added:"10.09.2026",
+    title:"Generative KI in Orthopädie und Traumatologie: Nutzung und Akzeptanz bei deutschen Chirurgen",
+    sum:"Online-Befragung von Mitgliedern der Deutschen Gesellschaft für Orthopädie und Unfallchirurgie (n = 375, Rücklaufquote 74%) zu Awareness, Nutzung und Haltung zu ChatGPT.",
+    result:"Awareness war in beiden Altersgruppen hoch. Selbstberichtete Nutzung war häufiger bei ≤ 45-Jährigen (73 % vs. 62 %, p = 0,03). Jüngere stellten sich ChatGPT für Manuskripttätigkeiten vor (59 % vs. 44 %, p = 0,001). Ältere forderten häufiger Offenlegung (86 % vs. 77 %, p = 0,001). Kein echter Workflow-Einbezug demonstriert.",
+    transfer:"Deutschland, Befragung deutscher Fachgesellschaft"
   },
   {
-    journal:"JMIR Form Res", year:"2026", pmid:"42714956",
-    author:"Teng H et al.", pubdate:"09.09.2026",
-    added:"09.09.2026",
-    title:"AI-augmentierte Fluoroskopie: Echtzeit-Navigation lokalisiert Lungenknötchen intraoperativ erfolgreich",
-    sum:"Prospektive Pilotstudie der LungVision-Plattform: KI-gestützte Navigation auf fluoroskopischen Bildern zur intraoperativen Lokalisierung von Lungenknötchen vor thorakoskopischer Resektion.",
-    result:"Erfolgreiche Lokalisierung aller 14 Zielläsionen; mittlere Navigationszeit 38,6 ± 19,5 Minuten. Komplette Resektion in 100 % (14/14); 71,4 % (10/14) pathologisch maligne. Keine intraoperativen Komplikationen. System ließ sich in bestehende OR-Infrastruktur integrieren ohne Zusatzausstattung.",
-    transfer:"Taiwan; direkt anwendbar in deutschen Thoraxchirurgie-Zentren, aber größere Validierung notwendig."
+    journal:"J Eval Clin Pract", year:"2026", pmid:"42720525",
+    author:"Etminan M et al.", pubdate:"Sept. 2026",
+    added:"10.09.2026",
+    title:"KI-gestützte Erkennung epidemiologischer Verzerrungen in Beobachtungsstudien",
+    sum:"Framework EpiVise zur automatisierten Identifikation von Bias in pharmacoepidemiologischen Studien wurde gegen Bewertungen von zwei Expert-Epidemiologen validiert.",
+    result:"Bei 10 publizierten Studien (60 Bewertungen) zeigte EpiVise substantielle Übereinstimmung mit Experten (gewichtetes κ = 0,75, 95 % KI 0,63–0,87). Bei 10 synthetischen Szenarien (50 Bewertungen) κ = 0,72 (95 % KI 0,61–0,83). 80% der Bewertungen waren konkordant.",
+    transfer:"Kanada und USA, methodik-orientiert, Verzerrungserkennung nicht systemabhängig"
   },
   {
-    journal:"Eur Radiol Exp", year:"2026", pmid:"42709362",
-    author:"Beste NC et al.", pubdate:"08.09.2026",
-    added:"08.09.2026",
-    title:"Deep Learning für quantitative MRT-Analyse von Nervenschädigungen: Reproduzierbarkeit statt Subjektivität",
-    sum:"Ein trainiertes Deep-Learning-Modell (nnU-Net) segmentiert Nervenschäden in MR-Neurographie automatisch und liefert reproduzierbare, quantitative Maße statt observer-abhängiger Messungen.",
-    result:"Automatische Nervensegmentierung: Dice-Koeffizient 0,97. Läsionsegmentierung: Surface-Dice 0,64–0,77. Automatisch gemessene Läsionslast korrelierte signifikant mit elektrophysiologischen Parametern (Tibialis-Nervenleitgeschwindigkeit r = −0,62, p &lt; 0,001). Modell-zu-Rater-Übereinstimmung (F1: 0,681–0,736) erreichte oder übertraf menschliche Übereinstimmung.",
-    transfer:"Deutsche Uniklinik; deutschsprachige Standards; direkt transferierbar."
-  },
-  {
-    journal:"J Refract Surg", year:"2026", pmid:"42715024",
-    author:"Levy I et al.", pubdate:"01.09.2026",
-    added:"09.09.2026",
-    title:"OCR-gestützte Biometrie automatisiert Intralinsenberechnungen ohne Transkriptionsfehler",
-    sum:"Entwicklung und Validierung einer KI-App, die optische Zeichenerkennung nutzt, um Biometriedaten automatisch in einen IOL-Kalkulator zu übertragen und damit manuelle Dateneingaben bei der Kataraktchirurgie zu eliminieren.",
-    result:"App-basierte Dateneingabe um 48,9 % schneller als manuelle Eingabe (91,72 ± 5,59 vs. 179,42 ± 22,12 Sekunden; p &lt; 0,001). Mittlere Likert-Scores für OCR-Genauigkeit, Benutzerfreundlichkeit und Empfehlung an Kollegen: 4,5, 4,5 und 4,67 von 5. Alle fünf gemessenen Biometrieberechnungen zeigten Zeitersparnisse von 43,1–52,7 %.",
-    transfer:"Direkt in Kliniken anwendbar; Workflow-Entlastung durch Automatisierung."
+    journal:"Health Inf Manag", year:"2025", pmid:"42717858",
+    author:"Scaioli G et al.", pubdate:"26.07.2025",
+    added:"10.09.2026",
+    title:"Elektronische Patientenakte in der Praxis: Nutzung und Barrieren in Piemont",
+    sum:"Querschnittsstudie mit 710 Italienern, die ihre elektronische Patientenakte (EPHR) aktiviert hatten, zur Analyse von Nutzungshäufigkeit und Barrieren.",
+    result:"Nutzer mit höherer Schulbildung griffen häufiger zu (p &lt; 0,05), berichteten aber paradox von schlechterer Benutzerfreundlichkeit. Arbeitslose und Nutzer, die die EPHR als umfassend informativ wahrnahmen, nutzten sie häufiger. Datenschutzbedenken waren minimal. Hauptbarrieren bestanden für Ältere und gering Gebildete.",
+    transfer:"Italien, südeuropäisches Sozialversicherungssystem, ähnliche digitale Infrastruktur"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1498,7 +1489,7 @@ const RADAR_FRISTEN = [["2026-09-22", "2026-10-20", "2026-10-20", "2026-09-14", 
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "10.09.2026";
+const NEWS_STAND = "11.09.2026";
 const NEWS = [
   {titel:"Zugangshürden bei 1,2 Prozent: Zi vergleicht EU-Gesundheitsdaten", datum:"2026-08-31", url:"https://www.monitor-versorgungsforschung.de/news/zugangshuerden-bei-12-prozent-zi-vergleicht-eu-gesundheitsdaten/"},
   {titel:"Telemonitoring-Potenziale besser nutzen", datum:"2026-07-14", url:"https://www.monitor-versorgungsforschung.de/news/telemonitoring-potenziale-besser-nutzen/"},

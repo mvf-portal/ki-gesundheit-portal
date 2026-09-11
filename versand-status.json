@@ -1,32 +1,33 @@
 {
  "hub": "Knowledge-Hub Digitalisierung, KI & Gesundheit",
  "domain": "ki.m-vf.de",
- "datum": "2026-09-10",
- "stand": "terminiert",
- "titel": "MVF KI-Newsletter 10.09.2026",
- "betreff": "Neueste Studien - Digitalisierung, KI und Gesundheit – 10. September 2026",
- "anzahl": 7,
+ "datum": "2026-09-11",
+ "stand": "gestoppt",
+ "titel": "MVF KI-Newsletter 11.09.2026",
+ "betreff": "Neueste Studien - Digitalisierung, KI und Gesundheit – 11. September 2026",
+ "anzahl": 6,
  "pmids": [
-  "42715554",
-  "42715542",
-  "42715541",
-  "42715525",
-  "42715024",
-  "42714956",
-  "42709362"
+  "42721450",
+  "42721259",
+  "42720754",
+  "42720525",
+  "42717858",
+  "42716991"
  ],
- "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9098783",
- "termin_utc": "2026-09-10T08:00:00+00:00",
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9098802",
+ "termin_utc": null,
  "empfaenger": 7,
  "listengroesse": 5905,
- "beanstandungen": [],
+ "beanstandungen": [
+  "PMID 42717858: Jahr 2025 statt 2026"
+ ],
  "aussortiert": [],
  "pool": {
   "geholt": 220,
-  "bekannt": 93,
-  "pool": 54,
-  "gewaehlt": 7,
-  "neu": 7
+  "bekannt": 87,
+  "pool": 52,
+  "gewaehlt": 6,
+  "neu": 6
  },
  "rubriken": {
   "radar": "a228904e2aa863d2",
