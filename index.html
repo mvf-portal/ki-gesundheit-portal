@@ -1418,62 +1418,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "14. Sept. 2026, 06:21 Uhr";
+const SNAP_DATE = "15. Sept. 2026, 06:20 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:" BMJ Open", year:" 2026", pmid:" 42731841",
-    author:"", pubdate:"",
-    added:"",
-    title:" SMS-Erinnerungen zur Steigerung von Gebärmutterhals-Screenings bei schwerer psychischer Erkrankung",
-    sum:" Pilot-RCT mit verhaltensgestützten SMS-Erinnerungen an Personen mit schwerer psychischer Erkrankung, bei denen eine Gebärmutterhalsuntersuchung ausstand.",
-    result:" Von 150 randomisierten Teilnehmern wurden 88% SMS zugestellt (85% Intervention, 91% Kontrolle); nur 5 Teilnehmer (3,3%) nahmen an der Screening-Untersuchung teil. Primäre Machbarkeitsmessungen zeigten Viabilität (Rekrutierung 27%, Retention 77-100%, Datenvollständigkeit 64%), jedoch war die Umfrageantwortquote niedrig (7%).",
-    transfer:" Großbritannien, vergleichbares NHS-System, aber geringe Effektivität in dieser Population."
+    journal:"J Med Internet Res", year:"2026", pmid:"42735382",
+    author:"Rahmeh S et al.", pubdate:"14.09.2026",
+    added:"14.09.2026",
+    title:"LLM-basierte Anonymisierung klinischer Textdaten: Quantenoptimierung zeigt bessere Genauigkeit",
+    sum:"Vergleichende Evaluierung von Large Language Models und quantenverbesserten hybriden Architekturen zur De-Identifikation von 1000 portugiesischen klinischen Notizen mit manueller Annotation von 500 Testfällen.",
+    result:"Dynex-QML-70B erreichte F1-Score von 0,855 (95%-KI 0,823-0,880), übertraf Llama-3.3-70B mit 0,726 (KI 0,704-0,747) signifikant (p&lt;0,001) und war schneller (7,97 vs. 8,52 Sekunden pro Note, p&lt;0,001).",
+    transfer:"Portugal, vergleichbare Datenschutzanforderungen wie DSGVO in Deutschland."
   },
   {
-    journal:" Eur Radiol Exp", year:" 2026", pmid:" 42726426",
-    author:"", pubdate:"",
-    added:"",
-    title:" Radiomics und Machine Learning zur Erkennung von Myokardinfarkten in Leichenaufnahmen",
-    sum:" Retrospektive Studie zur Erkennung von autopsiebefundierten Myokardinfarkten mittels radiomic-Features aus postmortem-CT und Machine Learning.",
-    result:" Logistische Regression mit bester Performance: AUC 0,817 ± 0,12; Genauigkeit 0,746 ± 0,05; Sensitivität 0,764 ± 0,14; Spezifität 0,724 ± 0,13. Support Vector Machines und Random Forest zeigten vergleichbare AUC (0,814 ± 0,10 und 0,814 ± 0,08).",
-    transfer:" Deutsche Studie (Bonn), Machbarkeitsbefund, aber forensisches Setting, klinische Anwendbarkeit begrenzt."
+    journal:"JMIR Med Inform", year:"2026", pmid:"42735002",
+    author:"Badran E et al.", pubdate:"14.09.2026",
+    added:"14.09.2026",
+    title:"Machine Learning zur Vorhersage von kultur-bestätigter neonataler Sepsis im Intensivbereich",
+    sum:"Retrospektive Kohortenstudie mit 3274 Neugeborenen (80% Training, 20% Test) aus Jordanien zur Evaluierung von XGBoost, Decision Trees und Neural Networks mit SMOTE-Übersampling zur Sepsis-Vorhersage.",
+    result:"XGBoost: Accuracy 94% (616/655 Vorhersagen, 95%-KI 92-96%), Sensitivität 98% (95/97 Fälle, KI 96-99%), AUC 0,98 (KI 0,97-0,99); wichtigste Prädiktoren: C-reaktives Protein, Thrombozytenzahl, Gestationsalter.",
+    transfer:"Jordanien (Tertiary NICU), vergleichbarer Ressourcenmangel wie LMIC-Kliniken, aber extern zu validieren."
   },
   {
-    journal:" J Appl Clin Med Phys", year:" 2026", pmid:" 42717666",
-    author:"", pubdate:"",
-    added:"",
-    title:" Blutgefäßschonung in der Protonenstrahlentherapie: Dosisreduktion mit computergestützter Optimierung",
-    sum:" Vergleichende Dosimetrie-Studie mit Patient-spezifischen cerebrovaskulären Modellen zur Optimierung der Strahlenbelastung auf Blutgefäße bei Glioblastoma-Radiotherapie.",
-    result:" Mit computergestützter Gefäßschonung reduzierte sich die mittlere Gefäßdosis signifikant: von 6,5 ± 2,9 Gy(RBE) (konventionell) auf 3,8 ± 1,6 Gy(RBE) (mit Schonung); D10% fiel von 29,5 ± 13,4 auf 13,4 ± 8,7 Gy(RBE). Zielabdeckung blieb erhalten.",
-    transfer:" USA-Studie, aber dosimetrischer Befund physikalisch/biologisch universal anwendbar."
+    journal:"BMJ Open", year:"2026", pmid:"42731841",
+    author:"Nichol B et al.", pubdate:"11.09.2026",
+    added:"12.09.2026",
+    title:"Verhaltensgesteuerte SMS-Erinnerungen zur Cervixkrebsvorsorge bei schweren psychischen Erkrankungen: Pilot-RCT",
+    sum:"Machbarkeitsstudie mit randomisierter Zuweisung von 150 Patienten (75 pro Arm) zu verstärkter oder Standard-SMS-Erinnerung in 13 englischen Hausarztpraxen, Follow-up nach 18 Wochen.",
+    result:"SMS-Lieferrate 88% (Intervention 85%, Kontrollgruppe 91%), 5 Patienten besuchten Screening in Studienperiode, Machbarkeitskriterien erfüllt (Praxis-Rekrutierung 27%, Retention 77-100%, Datenvollständigkeit 64%), aber Fragebogenrücklaufquote niedrig (7%).",
+    transfer:"England, psychische Gesundheit und Prävention im Nationalgesundheitssystem."
   },
   {
-    journal:" Transl Vis Sci Technol", year:" 2026", pmid:" 42708554",
-    author:"", pubdate:"",
-    added:"",
-    title:" Smartphone-App zur Quantifizierung von Bindehautrötung mittels Gefäßdichteanaly se",
-    sum:" Entwicklung einer Smartphone-Anwendung (Conjunctiva VD) zur objektiven Quantifizierung von Bindehautrötung durch automatisierte Gefäßsegmentierung in Echtzeit.",
-    result:" Hochgradige Übereinstimmung zwischen Experten (quadratic-weighted κ = 0,854-0,885 für Efron-Benotung; ICC = 0,910 für subjektive Gefäßdichte). App-abgeleitete Gefäßdichte korrelierte stark mit Expert-Beurteilung (Spearman ρ = 0,780-0,807, p &lt; 0,001) und subjektiver VD-Schätzung (ρ = 0,814-0,843, p &lt; 0,001).",
-    transfer:" Italienisch-deutsche Studie, tragbares Screening-Werkzeug, übertragbar auf deutsche Teleophthalmologie-Netzwerke."
+    journal:"Neuroinformatics", year:"2026", pmid:"42709277",
+    author:"Schönenberger L et al.", pubdate:"08.09.2026",
+    added:"08.09.2026",
+    title:"Deep Learning für automatische Axon-Segmentierung in Bielschowsky-Silberfärbung",
+    sum:"Attention U-Net mit Focal-Tversky-Loss für automatisierte Axon-Quantifizierung in histologischen MS-Gehirnproben, trainiert auf 33 manuell annotierte Bildkacheln (25 Mio. Pixel) aus 26 Präparaten.",
+    result:"Auf Test-Set (8 nicht gesehene Kacheln): F1/Dice 0,717, IoU 0,584; Mensch-zu-Mensch F1 0,637-0,671, Modell-zu-Mensch F1 0,681-0,736 (Modell erreichte oder übertraf menschliche Decke); reduzierte manuelle Aufwand erheblich.",
+    transfer:"Schweiz (Basel), Multiple-Sklerose-Neuropathologie, Histopathologie-Anwendung."
   },
   {
-    journal:" Sci Prog", year:" 2026", pmid:" 42704781",
-    author:"", pubdate:"",
-    added:"",
-    title:" Deep Learning zur automatisierten Segmentierung der langen Bizepssehne in Arthroskopie-Bildern",
-    sum:" Evaluierung eines MASKRCNN_RESNET50_FPN-Modells zur automatisierten Erkennung und Segmentierung der langen Bizepssehne in arthrosk opischen Bildern mit dem Ziel, subjektive operative Entscheidungen zu objektivieren.",
-    result:" Expert-Evaluierung auf 400 Validierungsbildern: Precision 0,88; automatische Pixelauswertung auf derselben Menge: Precision 0,83, Recall 0,86, F1-Score 0,83, IoU 0,76 (Median-IoU 0,90). U-Net-Vergleich zeigte höhere IoU (0,91, Wilcoxon p &lt; 0,001), aber MASKRCNN war robust über Sehnenorientierungen hinweg.",
-    transfer:" Deutsche (Bochum) Studie an Krankenhausdaten, operativer Workf low-Kontext, aber externe Validierung ausstehend."
+    journal:"Sci Prog", year:"2026", pmid:"42704781",
+    author:"Schumann N et al.", pubdate:"07.09.2026",
+    added:"07.09.2026",
+    title:"Deep Learning für automatische Segment-Erkennung des Bizeps-Sehne in Arthroskopie-Bildern",
+    sum:"Retrospektive Kohortenstudie mit 200 manuell annotiert Arthroskopie-Bildern von 124 Patienten zur Evaluierung von MASKRCNN_RESNET50_FPN für objektive Segmentierung des langen Bizepskopfs.",
+    result:"Expert-Evaluation: Precision 0,88; automatische Pixel-Ebene: mittlere Precision 0,83, Recall 0,86, F1-Score 0,83, IoU 0,76; Modell zeigte konsistente Performance über Sehnenarenierungen; U-Net erzielte höheres IoU 0,91 (p&lt;0,001).",
+    transfer:"Deutschland (Bochum), operativer Arbeitsplatz, intraoperative Entscheidungsunterstützung."
   },
   {
-    journal:" J Immunother Cancer", year:" 2026", pmid:" 42731878",
-    author:"", pubdate:"",
-    added:"",
-    title:" Deep Learning für nicht-invasive Vorhersage tertiärer lymphoider Strukturen beim Pankreaskrebs mit prospektiver Validierung",
-    sum:" Multicenter-Studie zur Entwicklung eines ResNet50-basierten Deep-Learning-Modells zur nicht-invasiven Vorhersage von tertiären lymphoiden Strukturen (TLS) aus CT mit prospektiver Validierung in einer Immunochemotherapie-Kohorte.",
-    result:" Im Trainingssatz AUC 0,987, internaler Validierungssatz AUC 0,937, externer Validierungssatz AUC 0,853. In der prospektiven Immunochemotherapie-Kohorte (n=44): pathologieverifizierte AUC 0,929 (Spezifität 1,000). DLN-hohe Patienten zeigten signifikant bessere Ansprechrate (90,0% vs. 26,5%, p=0,001), progressionsfreies Überleben (median 13,1 vs. 5,3 Monate, p&lt;0,001) und Gesamtüberleben (median 17,6 vs. 8,7 Monate, p&lt;0,001).",
-    transfer:" Chinesische Studie an Onkologie-Kohorte, aber international vergleichbare Datenqualität und prospektive Validierung zeigen Versorgungsrelevanz."
+    journal:"Transl Vis Sci Technol", year:"2026", pmid:"42708554",
+    author:"Rubegni G et al.", pubdate:"01.09.2026",
+    added:"08.09.2026",
+    title:"Smartphone-App zur objektiven Quantifizierung von Bindehaut-Hyperämie mittels Gefäßdichte",
+    sum:"Entwicklung einer mobilen Anwendung (Conjunctiva VD) für automatische Gefäßdichte-Messung auf 100 Bilder aus öffentlichen Datensätzen, validiert gegen drei Experten-Bewertungen.",
+    result:"Inter-Rater-Reliabilität Efron-Grading κ 0,854-0,885, App-VD korrelierte stark mit Efron-Graden (Spearman ρ 0,780-0,807, alle p&lt;0,001) und Experten-VD-Schätzung (ρ 0,814-0,843, alle p&lt;0,001).",
+    transfer:"Italien, Teleophthalmologie, Mobil-Healthcare im ambulanten Screening."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1489,7 +1489,7 @@ const RADAR_FRISTEN = [["2026-09-22", "2026-10-20", "2026-10-20"], [], ["2026-09
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "14.09.2026";
+const NEWS_STAND = "15.09.2026";
 const NEWS = [
   {titel:"Zugangshürden bei 1,2 Prozent: Zi vergleicht EU-Gesundheitsdaten", datum:"2026-08-31", url:"https://www.monitor-versorgungsforschung.de/news/zugangshuerden-bei-12-prozent-zi-vergleicht-eu-gesundheitsdaten/"},
   {titel:"Telemonitoring-Potenziale besser nutzen", datum:"2026-07-14", url:"https://www.monitor-versorgungsforschung.de/news/telemonitoring-potenziale-besser-nutzen/"},

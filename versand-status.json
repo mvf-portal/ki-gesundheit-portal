@@ -1,47 +1,34 @@
 {
  "hub": "Knowledge-Hub Digitalisierung, KI & Gesundheit",
  "domain": "ki.m-vf.de",
- "datum": "2026-09-14",
+ "datum": "2026-09-15",
  "stand": "terminiert",
- "titel": "MVF KI-Newsletter 14.09.2026",
- "betreff": "Neueste Studien - Digitalisierung, KI und Gesundheit – 12. September 2026 bis 13. September 2026",
- "anzahl": 12,
+ "titel": "MVF KI-Newsletter 15.09.2026",
+ "betreff": "Neueste Studien - Digitalisierung, KI und Gesundheit – 15. September 2026",
+ "anzahl": 6,
  "pmids": [
-  "42729012",
-  "42728872",
-  "42728340",
-  "42727109",
-  "42727074",
-  "42727043",
-  "42727093",
-  "42727083",
-  "42726783",
-  "42723102",
-  "42721312",
-  "42716689"
+  "42735382",
+  "42735002",
+  "42731841",
+  "42709277",
+  "42708554",
+  "42704781"
  ],
- "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9098834",
- "termin_utc": "2026-09-14T08:00:00+00:00",
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9098878",
+ "termin_utc": "2026-09-15T08:00:00+00:00",
  "empfaenger": 7,
  "listengroesse": 5906,
  "beanstandungen": [],
- "aussortiert": [
-  "Studie 1 (PMID  42731878): PMID ist keine Zahl",
-  "Studie 2 (PMID  42731841): PMID ist keine Zahl",
-  "Studie 3 (PMID  42726426): PMID ist keine Zahl",
-  "Studie 4 (PMID  42717666): PMID ist keine Zahl",
-  "Studie 5 (PMID  42708554): PMID ist keine Zahl",
-  "Studie 6 (PMID  42704781): PMID ist keine Zahl"
- ],
+ "aussortiert": [],
  "pool": {
   "geholt": 220,
-  "bekannt": 103,
+  "bekannt": 100,
   "pool": 54,
   "gewaehlt": 6,
   "neu": 6
  },
  "rubriken": {
-  "radar": "a228904e2aa863d2",
+  "radar": "644cc5408ac6cdf0",
   "news": "ec147686b1c1ed06"
  }
 }
