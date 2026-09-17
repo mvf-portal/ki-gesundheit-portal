@@ -1531,62 +1531,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "16. Sept. 2026, 06:20 Uhr";
+const SNAP_DATE = "17. Sept. 2026, 06:21 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"J Med Internet Res", year:"2026", pmid:"42743441",
-    author:"Ihenetu G et al.", pubdate:"15.09.2026",
-    added:"15.09.2026",
-    title:"Machine-Learning-Modell zur Hypertonie-Früherkennung im NHS",
-    sum:"Retrospektive Kohortenanalyse eines ML-Modells zur Identifikation von undiagnostizierter Hypertonie in 1,8 Millionen Patienten der North West London Integrated Care.",
-    result:"Sensitivität 62,7 % (95%-KI 62,5–62,8), Spezifität 60,7 % (95%-KI 60,5–60,8), positiver Vorhersagewert 31,5–42,9 %. Performance variierte nach Alter, Geschlecht und sozioökonomischem Status. Modell vergleichbar mit interpretablerem Regressionsmodell.",
-    transfer:"Großbritannien (NHS), strukturelle Ähnlichkeit zu deutschen Systemen begrenzt"
+    journal:"J Med Internet Res", year:"2026", pmid:"42748424",
+    author:"Millarch AS et al.", pubdate:"16.09.2026",
+    added:"16.09.2026",
+    title:"Hybrid Neural Networks für dynamische Mortalitätsprognose bei Traumapatienten",
+    sum:"Entwicklung und Evaluation eines KI-Modells aus dänischen Klinikdaten zur kontinuierlichen Vorhersage der 30-Tage-Mortalität bei Traumapatienten über den gesamten Behandlungsverlauf.",
+    result:"Das Modell erreichte bei der Holdout-Evaluation eine AUROC von 0,962 (95% KI 0,930–0,994) und übertraf etablierte Trauma-Scores (Revised Trauma Score: mittlere ΔAUROC +0,297). In der aktiven Kohorte zeigte es bereits eine Stunde nach Patientenkontakt eine AUROC von 0,905 (95% KI 0,856–0,953).",
+    transfer:"Dänische Klinikdaten, europäisches Gesundheitssystem, direkt übertragbar"
   },
   {
-    journal:"J Med Syst", year:"2026", pmid:"42742759",
-    author:"Ez-Zizi A et al.", pubdate:"15.09.2026",
-    added:"15.09.2026",
-    title:"Clinical Decision Support für Demenz-Früherkennung mit flexiblem Zeitfenster",
-    sum:"ML-Modell zur Diagnose und Vorhersage der Demenzentwicklung bis 10 Jahre in UK-Sekundärversorgung, mit Explainability und Fairness-Analyse auf NACC-Daten trainiert.",
-    result:"Gleiche Visite: Sensitivität 0,951 (95%-KI 0,947–0,954), Spezifität 0,810 (0,805–0,814), AUC 0,959 (0,957–0,960). Über Zeitfenster (24–120 Monate): Sensitivität/Spezifität 0,808/0,856 bis 0,833/0,706. Fairness über Geschlecht, Rasse, Alter ähnlich, aber Sensitivität-Spezifität-Tradeoff variiert. Externe Validierung erforderlich vor Einsatz.",
-    transfer:"Großbritannien, UK NHS-Workflows, aber Validierung ausstehend"
+    journal:"JMIR Aging", year:"2026", pmid:"42748398",
+    author:"Tsai YC et al.", pubdate:"16.09.2026",
+    added:"16.09.2026",
+    title:"Machine Learning zur 6-Monats-Mortalitätsprognose in Langzeitpflegeeinrichtungen",
+    sum:"Entwicklung und temporale externe Validierung eines interpretierbaren Hybrid-XGBoost-Random-Forest-Modells aus Taiwanese Pflegedaten (n=23.901 Training, n=6.216 Validierung 2024).",
+    result:"Das HybridXGBRF-Modell erzielte in der Trainingskohorte eine interne AUROC von 0,89 (95% KI 0,88–0,89) und bewahrte diese in der temporalen 2024-Validierung (AUROC 0,90, 95% KI 0,89–0,91), Genauigkeit 0,85, F1-Score 0,68. Kalibrierung war akzeptabel, Shapley-Analyse identifizierte häufige Hospitalisierungen, ADL-Beeinträchtigung und Gewichtsverlust als Hauptprädiktoren.",
+    transfer:"Taiwanese Langzeitpflege-Daten, übertragbar auf europäische Systeme mit ähnlichen Assessmentstrukturen"
   },
   {
-    journal:"J Med Internet Res", year:"2026", pmid:"42743590",
-    author:"Liao Y et al.", pubdate:"15.09.2026",
-    added:"15.09.2026",
-    title:"Chatbot-Typ und normative Nachrichten beeinflussen Nutzungsintention",
-    sum:"RCT (N=1000 US-Erwachsene) mit 4×2-Design, das Nachrichtentyp (Norm-Framing) und Chatbot-Typ (KI vs. regelbasiert) auf Akzeptanz und Nutzungsintention prüft.",
-    result:"Peer- und familienorientierte Nachrichten führten zu höherer Nutzungsintention als Experten-Nachrichten. KI-Chatbots zeigten höhere Nutzungsintention (p=0,02) und höheres Vertrauen (p=0,008). Modell erklärt 50,8 % Varianz in Nutzungsintention. Vertrauen (β=0,33; p&lt;0,001) und Datenschutzbedenken (β=-0,11; p&lt;0,001) waren zentrale Prädiktoren.",
-    transfer:"USA; Befunde zu Vertrauen und Datenschutz übertragbar, Nutzer-Population begrenzt"
+    journal:"JMIR Form Res", year:"2026", pmid:"42748485",
+    author:"Batchelor F et al.", pubdate:"16.09.2026",
+    added:"16.09.2026",
+    title:"Implementierungsleitlinien für digitale Technologien in der häuslichen Altenpflege",
+    sum:"Mixed-Methods-Studie mit Literaturreview, Umfragen (Patienten, Fachpersonen), Interviews (n=49), Co-Design-Workshop und Fallstudie zur Entwicklung von Implementierungsrichtlinien für Australiens häusliche Altenpflege.",
+    result:"Identifiziert wurden 7 Schlüsseldomänen und 19 Subthemen: Technologiedesign, Datenschutz/Vertrauen, Schulung/Support, Organisationskultur, Patientenpflege, digitale Kompetenz und wahrgenommene Vorteile. Jedes Subthema erhielt Enabler, Barrieren und praktische Implementierungstipps. Fallstudie mit Smart Glasses validierte Anwendbarkeit der Richtlinien.",
+    transfer:"Australisches System, ähnliche Sozialversicherung wie Skandinavien, kulturelle Unterschiede zu Deutschland"
   },
   {
-    journal:"JMIR Mhealth Uhealth", year:"2026", pmid:"42735900",
-    author:"May S et al.", pubdate:"14.09.2026",
-    added:"14.09.2026",
-    title:"Zugang zur deutschen elektronischen Patientenakte – Qualitative Analyse der Implementierungsbarrieren",
-    sum:"Qualitative Interviewstudie (N=23) zu Erfahrungen beim Zugriff auf die ePA über Krankenkassen-Apps während des Umstiegs auf Opt-out-Modell.",
-    result:"Zugang funktioniert als fünfphasiger Prozess: Orientierung, technische Einstiegshürden, Verifikation, Unterbrechungen, Übergang zur Nutzung. 21 von 23 Teilnehmern erfolgreich; Barrieren akkumulieren über Phasen. Unklarer unmittelbarer Nutzen limitiert Übergang zur aktiven Nutzung.",
-    transfer:"Deutschland, direkt auf ePA4all-Projekt übertragbar"
+    journal:"Cancer Imaging", year:"2026", pmid:"42745323",
+    author:"Bayerl N et al.", pubdate:"15.09.2026",
+    added:"16.09.2026",
+    title:"KI-gestützte Prostatakrebserkennung in MRI: quasi-kontinuierliches Risikoscoring",
+    sum:"Validierung eines kommerziellen KI-Algorithmus gegen Biopsieresultate an deutschen Uniklinikdaten zur Detektion klinisch signifikanter Prostatakarzinome.",
+    result:"Für klinisch signifikante Tumoren (Gleason ≥7) erreichte der KI-Level-of-Suspicion-Score eine AUC von 0,882 (95% KI 0,820–0,943) versus 0,833 für PI-RADS ≥4. Bei Cutoff 81 Sensitivität 94,7%, Spezifität 70,8%. Unterschied zur PI-RADS-Schwelle nicht signifikant (exakter McNemar p=0,063).",
+    transfer:"Deutsche Universitätsklinik (Erlangen), europäische Standards übertragbar"
   },
   {
-    journal:"JMIR Mhealth Uhealth", year:"2026", pmid:"42735433",
-    author:"Ruscheweyh R et al.", pubdate:"14.09.2026",
-    added:"14.09.2026",
-    title:"Tägliche Erinnerungen erhöhen Adhärenz bei elektronischem Kopfschmerztagebuch",
-    sum:"Retrospektive Kohortenstudie (N=4236 Nutzer der DMKG-App) nutzte 14-tägigen Reminderfehler 2023 zur Bewertung der Erinnerungsfunktion auf die Eintragungen.",
-    result:"Fehlerphase: Rückgang der Einträge um 11,0 % (10,2 auf 9,1 pro Periode; p&lt;0,001), Verzögerung +46,3 % (1,90 auf 2,78 Tage; p&lt;0,001), Abbruchrate +32,2 % (4,0 % auf 5,2 %; p=0,002). Effekt größer bei Männern und bei geringerer Kopfschmerzfrequenz.",
-    transfer:"Deutschland, deutsches Forschungsteam, nationale klinische Datenstruktur"
+    journal:"Nat Med", year:"2026", pmid:"42733093",
+    author:"Prelaj A et al.", pubdate:"13.09.2026",
+    added:"13.09.2026",
+    title:"Explainable-AI-Tool für Immuntherapie-Auswahl bei Lungenkrebs",
+    sum:"Prospektive internationale Multimodal-Studie (I3LUNG) mit 2.396 Patienten, die klinische, Blut-, CT-, Pathologie- und Genomdaten mittels Machine Learning integriert zur Vorhersage des Therapieansprechens.",
+    result:"CB-only Modelle erreichten AUC bis 0,77 im internen Test, Performance sank in externer Validierung auf 0,55–0,72. Im klinischen Usability-Test verbesserten Fachpersonen ihre Vorhersagen signifikant mit dem explainbaren KI-Tool. Multimodale Modelle zeigten höhere Testperformance, aber kein inkrementeller Zusatznutzen in Test und Validierung.",
+    transfer:"Europäisch-internationale Kohorte, Italien/Spanien/Deutschland/Griechenland"
   },
   {
-    journal:"Front Public Health", year:"2026", pmid:"42740965",
-    author:"Sarcone A et al.", pubdate:"31.08.2026",
-    added:"15.09.2026",
-    title:"Digitale Gesundheitskompetenz vs. Wissenschaftsvertrauen bei Studierenden",
-    sum:"Querschnittsumfrage (N=407 Studierende Universität Catanzaro) zu Informationsquellen, digitalen Bewertungsfähigkeiten und Wissenschaftshaltung.",
-    result:"75,43 % nutzen Social Media als Quelle, nur 12,78 % halten sie für zuverlässig; 94,10 % vertrauen Ärzten. Nur 15,72 % berichten sichere kritische Bewertung online. Frauen zeigere höhere Sensibilität für ethische Dimension (OR 1,61). Positive Wissenschaftshaltung korreliert mit unterentwickelten Bewertungsfähigkeiten.",
-    transfer:"Italien, europäisches Setting; Befunde zur Medienkompetenz teilweise übertragbar"
+    journal:"Ticks Tick Borne Dis", year:"2026", pmid:"42679518",
+    author:"Dos AH et al.", pubdate:"01.09.2026",
+    added:"01.09.2026",
+    title:"Klinische Entscheidungsunterstützung zur Differenzierung von Lyme-Neuroborreliose und Bell-Parese",
+    sum:"Entwicklung und interne Validierung zweier Entscheidungsbäume aus dänischen Kohortendaten (n=683) zur Reduktion unnötiger Lumbalpunktionen bei Fazialisparese.",
+    result:"Modell mit Serologie erreichte Genauigkeit 0,93, Sensitivität 0,93, Spezifität 0,94 und könnte 40% der Lumbalpunktionen einsparen bei Reduktion der anfangs übersehenen LNB-Fälle auf 8%. Modell ohne Serologie (Radiculalgia, Symptondauer ≥10 Tage) zeigte ähnliche Performance (Genauigkeit 0,93, Sensitivität 0,92, Spezifität 0,93).",
+    transfer:"Dänische Hospitalsdaten, europäische Epidemiologie, externe Validierung geplant"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1602,7 +1602,7 @@ const RADAR_FRISTEN = [["2026-09-22", "2026-10-20", "2026-10-20"], [], ["2026-09
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "16.09.2026";
+const NEWS_STAND = "17.09.2026";
 const NEWS = [
   {titel:"Zugangshürden bei 1,2 Prozent: Zi vergleicht EU-Gesundheitsdaten", datum:"2026-08-31", url:"https://www.monitor-versorgungsforschung.de/news/zugangshuerden-bei-12-prozent-zi-vergleicht-eu-gesundheitsdaten/"},
   {titel:"Telemonitoring-Potenziale besser nutzen", datum:"2026-07-14", url:"https://www.monitor-versorgungsforschung.de/news/telemonitoring-potenziale-besser-nutzen/"},
@@ -1612,8 +1612,8 @@ const NEWS = [
 // Fremde Pressemeldungen zum Thema — taeglich von scripts/newsfeed.py
 // === PRESSE-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
 const PRESSE = [
-  {titel:"DGU Kongress 2026 startet am 16. September: Neue Therapien, Robotik und KI verändern die Urologie", datum:"2026-09-16", url:"http://idw-online.de/de/news877416", quelle:"idw"},
-  {titel:"Dresdner Forschende entwickeln lokalen KI-Agenten zur verlässlichen Unterstützung medizinischer Entscheidungen", datum:"2026-09-15", url:"http://idw-online.de/de/news877376", quelle:"idw"},
+  {titel:"Fraunhofer Blockchain Center schließt nach fünfeinhalb Jahren erfolgreich ab", datum:"2026-09-16", url:"http://idw-online.de/de/news877504", quelle:"idw"},
+  {titel:"Professor Dr. Jakob N. Kather wird Hopp-Stiftungsprofessor für „Künstliche Intelligenz in der Medizin“ in Heidelberg", datum:"2026-09-16", url:"http://idw-online.de/de/news877484", quelle:"idw"},
 ];
 // === PRESSE-BLOCK-ENDE ===
 
