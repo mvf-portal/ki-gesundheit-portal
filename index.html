@@ -1531,62 +1531,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "17. Sept. 2026, 06:21 Uhr";
+const SNAP_DATE = "18. Sept. 2026, 06:21 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"J Med Internet Res", year:"2026", pmid:"42748424",
-    author:"Millarch AS et al.", pubdate:"16.09.2026",
-    added:"16.09.2026",
-    title:"Hybrid Neural Networks für dynamische Mortalitätsprognose bei Traumapatienten",
-    sum:"Entwicklung und Evaluation eines KI-Modells aus dänischen Klinikdaten zur kontinuierlichen Vorhersage der 30-Tage-Mortalität bei Traumapatienten über den gesamten Behandlungsverlauf.",
-    result:"Das Modell erreichte bei der Holdout-Evaluation eine AUROC von 0,962 (95% KI 0,930–0,994) und übertraf etablierte Trauma-Scores (Revised Trauma Score: mittlere ΔAUROC +0,297). In der aktiven Kohorte zeigte es bereits eine Stunde nach Patientenkontakt eine AUROC von 0,905 (95% KI 0,856–0,953).",
-    transfer:"Dänische Klinikdaten, europäisches Gesundheitssystem, direkt übertragbar"
+    journal:"Stud Health Technol Inform", year:"2026", pmid:"42752490",
+    author:"Gundler C et al.", pubdate:"17.09.2026",
+    added:"17.09.2026",
+    title:"Semantische Suche für Förderprodukte: Verbesserung der Projektentdeckung am Innovationsausschuss",
+    sum:"Entwicklung und Evaluierung eines semantischen Suchtools mit vektorbasierten Natural-Language-Retrieval für die Recherche von über 800 vom Innovationsausschuss des G-BA geförderten Projekten, um Vokabularprobleme zu adressieren.",
+    result:"Die semantische Retrieval ermöglichte eine bedeutsam verbesserte Projektentdeckung bei einer kontrollierten Vergleichsstudie mit drei erfahrenen Nutzern, was auf praktischen Mehrwert für evidenzgestützte Forschungsabläufe hindeutet.",
+    transfer:"Deutschland (G-BA Förderprodukte), direkt relevant für deutsche Versorgungslandschaft."
   },
   {
-    journal:"JMIR Aging", year:"2026", pmid:"42748398",
-    author:"Tsai YC et al.", pubdate:"16.09.2026",
-    added:"16.09.2026",
-    title:"Machine Learning zur 6-Monats-Mortalitätsprognose in Langzeitpflegeeinrichtungen",
-    sum:"Entwicklung und temporale externe Validierung eines interpretierbaren Hybrid-XGBoost-Random-Forest-Modells aus Taiwanese Pflegedaten (n=23.901 Training, n=6.216 Validierung 2024).",
-    result:"Das HybridXGBRF-Modell erzielte in der Trainingskohorte eine interne AUROC von 0,89 (95% KI 0,88–0,89) und bewahrte diese in der temporalen 2024-Validierung (AUROC 0,90, 95% KI 0,89–0,91), Genauigkeit 0,85, F1-Score 0,68. Kalibrierung war akzeptabel, Shapley-Analyse identifizierte häufige Hospitalisierungen, ADL-Beeinträchtigung und Gewichtsverlust als Hauptprädiktoren.",
-    transfer:"Taiwanese Langzeitpflege-Daten, übertragbar auf europäische Systeme mit ähnlichen Assessmentstrukturen"
+    journal:"Stud Health Technol Inform", year:"2026", pmid:"42752488",
+    author:"Sam J et al.", pubdate:"17.09.2026",
+    added:"17.09.2026",
+    title:"Large Language Models für klinische Statistikauswertung: Validierung gegen Experten-Analysen",
+    sum:"Benchmarking von fünf aktuellen LLMs (GPT, Claude, Gemini, Perplexity, Grok) auf ihre Fähigkeit, expertvalidierte statistische Analysen aus klinischen Studienworkflows (deskriptive Tabellen, Kaplan-Meier, Cox-Modellierung) zu reproduzieren.",
+    result:"Alle fünf Modelle erzeugten korrekte deskriptive Statistiken bei expliziten Variablendefinitionen. Bei Kaplan-Meier-Analysen reproduzierten alle das korrekte p-value, bei Cox-Analysen vier von fünf die geforderten Hazard-Ratios. LLM-Outputs erfordern vor Nutzung in Kliniken sorgfältige Validierung.",
+    transfer:"Deutsche Kliniken und Studiennetzwerke, empirisches Benchmark relevanter Modelle."
   },
   {
-    journal:"JMIR Form Res", year:"2026", pmid:"42748485",
-    author:"Batchelor F et al.", pubdate:"16.09.2026",
-    added:"16.09.2026",
-    title:"Implementierungsleitlinien für digitale Technologien in der häuslichen Altenpflege",
-    sum:"Mixed-Methods-Studie mit Literaturreview, Umfragen (Patienten, Fachpersonen), Interviews (n=49), Co-Design-Workshop und Fallstudie zur Entwicklung von Implementierungsrichtlinien für Australiens häusliche Altenpflege.",
-    result:"Identifiziert wurden 7 Schlüsseldomänen und 19 Subthemen: Technologiedesign, Datenschutz/Vertrauen, Schulung/Support, Organisationskultur, Patientenpflege, digitale Kompetenz und wahrgenommene Vorteile. Jedes Subthema erhielt Enabler, Barrieren und praktische Implementierungstipps. Fallstudie mit Smart Glasses validierte Anwendbarkeit der Richtlinien.",
-    transfer:"Australisches System, ähnliche Sozialversicherung wie Skandinavien, kulturelle Unterschiede zu Deutschland"
+    journal:"Stud Health Technol Inform", year:"2026", pmid:"42752478",
+    author:"Richter-Pechanski P et al.", pubdate:"17.09.2026",
+    added:"17.09.2026",
+    title:"Lokale LLM-basierte Extraktion von Antikoagulanzien-Therapiewechsel aus deutschen Ärztebriefbrifen",
+    sum:"Anwendung eines lokal gehosteten, feinabgestimmten Llama-3.1-70b-Modells zur Extraktion von Medikationsinformationen aus German Clinical Routine Data und Detektion des Therapiewechsels von Vitamin-K-Antagonisten zu DOACs in Kardiologie-Briefen von 2012 bis 2020/21.",
+    result:"DOAC-Anteil stieg von 16,9% (2012) auf 59,9% (2020/21), VKA-Anteil sank von 37,7% auf 9,9%. Modelle verallgemeinerten auf unbekannte ältere Briefe (2012) erfolgreich. Fehler hauptsächlich bei generischen Medikamentennennungen und fehlenden Medikament-Indikations-Relationen.",
+    transfer:"Deutschland, lokale Verarbeitung auf Kliniks-Infrastruktur, direkt auf deutschsprachige Daten angewendet."
   },
   {
-    journal:"Cancer Imaging", year:"2026", pmid:"42745323",
-    author:"Bayerl N et al.", pubdate:"15.09.2026",
-    added:"16.09.2026",
-    title:"KI-gestützte Prostatakrebserkennung in MRI: quasi-kontinuierliches Risikoscoring",
-    sum:"Validierung eines kommerziellen KI-Algorithmus gegen Biopsieresultate an deutschen Uniklinikdaten zur Detektion klinisch signifikanter Prostatakarzinome.",
-    result:"Für klinisch signifikante Tumoren (Gleason ≥7) erreichte der KI-Level-of-Suspicion-Score eine AUC von 0,882 (95% KI 0,820–0,943) versus 0,833 für PI-RADS ≥4. Bei Cutoff 81 Sensitivität 94,7%, Spezifität 70,8%. Unterschied zur PI-RADS-Schwelle nicht signifikant (exakter McNemar p=0,063).",
-    transfer:"Deutsche Universitätsklinik (Erlangen), europäische Standards übertragbar"
+    journal:"Stud Health Technol Inform", year:"2026", pmid:"42752474",
+    author:"Hoffmann K et al.", pubdate:"17.09.2026",
+    added:"17.09.2026",
+    title:"Sichere Transfer von klinischen Decision-Support-Systemen zwischen Universitätskliniken",
+    sum:"Strukturierte Untersuchung der Realisierung von Modulen eines In-House-CDSS (Acute-Kidney-Injury-Vorhersage) von einer Universitätsklinik zu einer zweiten, basierend auf dem NASSS-Rahmen und differenziert zwischen standortunabhängigen und lokal angepassten Komponenten.",
+    result:"Identifizierte Erfolgsfaktoren: modulare, adaptierbare Komponenten; transparente Datenpipelines; tailored UIs; frühes Stakeholder-Engagement; robuste Compliance- und QM-Kapazitäten. System in Produktion, intendiert für Unterstützung der Kliniker bei Patienten mit akutem Nierenschadenrisiko.",
+    transfer:"Deutschland (zwei Universitätskliniken), vergleichbare Strukturen und Regulierung, höchste Übertragbarkeit."
   },
   {
-    journal:"Nat Med", year:"2026", pmid:"42733093",
-    author:"Prelaj A et al.", pubdate:"13.09.2026",
-    added:"13.09.2026",
-    title:"Explainable-AI-Tool für Immuntherapie-Auswahl bei Lungenkrebs",
-    sum:"Prospektive internationale Multimodal-Studie (I3LUNG) mit 2.396 Patienten, die klinische, Blut-, CT-, Pathologie- und Genomdaten mittels Machine Learning integriert zur Vorhersage des Therapieansprechens.",
-    result:"CB-only Modelle erreichten AUC bis 0,77 im internen Test, Performance sank in externer Validierung auf 0,55–0,72. Im klinischen Usability-Test verbesserten Fachpersonen ihre Vorhersagen signifikant mit dem explainbaren KI-Tool. Multimodale Modelle zeigten höhere Testperformance, aber kein inkrementeller Zusatznutzen in Test und Validierung.",
-    transfer:"Europäisch-internationale Kohorte, Italien/Spanien/Deutschland/Griechenland"
+    journal:"Stud Health Technol Inform", year:"2026", pmid:"42752472",
+    author:"Kücking F et al.", pubdate:"17.09.2026",
+    added:"17.09.2026",
+    title:"Digitale Transformation deutscher Krankenhäuser 2017–2025: Stagnation trotz KHZG-Förderung",
+    sum:"Panel-Studie mit 49 deutschen Krankenhäusern 2017–2025, evaluierend Fortschritte in fünf Domänen (Dokumentation, CPOE, CDSS, Medikamentenverwaltung, Entlassmanagement) im Kontext der Hospital-Future-Act-Förderung (KHZG).",
+    result:"Signifikante Verbesserungen nur in Medikamentenverwaltung (p=0,009 in 2023; p=0,044 in 2025) und Entlassmanagement (p&lt;0,001 in 2025). Die meisten KHZG-Projekte in Dokumentation und Entlassmanagement waren 2025 noch nicht abgeschlossen. Digitale Reife stieg teilweise nur durch administrative Verzögerungen und Implementierungsengpässe.",
+    transfer:"Deutschland (Stichprobe deutscher Krankenhäuser), direkt für deutsche Policy und Versorgungsplanung relevant."
   },
   {
-    journal:"Ticks Tick Borne Dis", year:"2026", pmid:"42679518",
-    author:"Dos AH et al.", pubdate:"01.09.2026",
-    added:"01.09.2026",
-    title:"Klinische Entscheidungsunterstützung zur Differenzierung von Lyme-Neuroborreliose und Bell-Parese",
-    sum:"Entwicklung und interne Validierung zweier Entscheidungsbäume aus dänischen Kohortendaten (n=683) zur Reduktion unnötiger Lumbalpunktionen bei Fazialisparese.",
-    result:"Modell mit Serologie erreichte Genauigkeit 0,93, Sensitivität 0,93, Spezifität 0,94 und könnte 40% der Lumbalpunktionen einsparen bei Reduktion der anfangs übersehenen LNB-Fälle auf 8%. Modell ohne Serologie (Radiculalgia, Symptondauer ≥10 Tage) zeigte ähnliche Performance (Genauigkeit 0,93, Sensitivität 0,92, Spezifität 0,93).",
-    transfer:"Dänische Hospitalsdaten, europäische Epidemiologie, externe Validierung geplant"
+    journal:"JMIR Form Res", year:"2026", pmid:"42753263",
+    author:"Wright A et al.", pubdate:"17.09.2026",
+    added:"17.09.2026",
+    title:"AI-Scribe-Implementierung in Kliniken mit Arbeitnehmer-Tarifverträgen: USA-Pilot",
+    sum:"Pilotprojekt zum Einsatz des Abridge-AI-Scribes bei 15 Ambulanz-Fachkräften (NP, PA) in gewerkschaftlich organisierten US-Klinik mit 11-wöchigem Feldtest und strukturiertem Labor-Engagement-Prozess.",
+    result:"AI-Scribe in 66,7% der 8100 Encounters genutzt (Spanne 30–89%), durchschnittlich 78% des AI-generierten Inhalts beibehalten. Dokumentationszeit Pilotgruppe 6 Min (vs. 14 Min Kontrollgruppe); same-day-closure 90% vs. 72%. Gewerkschaften stimmten Implementierung zu, nachdem Sicherheitsvorkehrungen und optionale Nutzung demonstriert wurden.",
+    transfer:"USA, gering übertragbar; zeigt aber internationales Modell für Gewerkschafts-kooperation und numerische Befunde zur Zeitersparnis."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1602,7 +1602,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-09-22"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "17.09.2026";
+const NEWS_STAND = "18.09.2026";
 const NEWS = [
   {titel:"Zugangshürden bei 1,2 Prozent: Zi vergleicht EU-Gesundheitsdaten", datum:"2026-08-31", url:"https://www.monitor-versorgungsforschung.de/news/zugangshuerden-bei-12-prozent-zi-vergleicht-eu-gesundheitsdaten/"},
   {titel:"Telemonitoring-Potenziale besser nutzen", datum:"2026-07-14", url:"https://www.monitor-versorgungsforschung.de/news/telemonitoring-potenziale-besser-nutzen/"},
