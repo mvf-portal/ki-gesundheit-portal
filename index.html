@@ -1531,62 +1531,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "18. Sept. 2026, 06:21 Uhr";
+const SNAP_DATE = "19. Sept. 2026, 06:20 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Stud Health Technol Inform", year:"2026", pmid:"42752490",
-    author:"Gundler C et al.", pubdate:"17.09.2026",
-    added:"17.09.2026",
-    title:"Semantische Suche für Förderprodukte: Verbesserung der Projektentdeckung am Innovationsausschuss",
-    sum:"Entwicklung und Evaluierung eines semantischen Suchtools mit vektorbasierten Natural-Language-Retrieval für die Recherche von über 800 vom Innovationsausschuss des G-BA geförderten Projekten, um Vokabularprobleme zu adressieren.",
-    result:"Die semantische Retrieval ermöglichte eine bedeutsam verbesserte Projektentdeckung bei einer kontrollierten Vergleichsstudie mit drei erfahrenen Nutzern, was auf praktischen Mehrwert für evidenzgestützte Forschungsabläufe hindeutet.",
-    transfer:"Deutschland (G-BA Förderprodukte), direkt relevant für deutsche Versorgungslandschaft."
+    journal:"BMJ Health Care Inform", year:"2026", pmid:"42759973",
+    author:"Soetaert J et al.", pubdate:"18.09.2026",
+    added:"18.09.2026",
+    title:"Automatisierte Qualitätskontrolle für Nierenkrankheiten in belgischen Hausarztpraxen",
+    sum:"Entwicklung und Implementierung eines automatisierten Audit- und Feedback-Tools in Elektronischen Patientenakten zur Messung und Verbesserung der Versorgungsqualität bei chronischer Nierenerkrankung in belgischen Hausarztpraxen.",
+    result:"Von 36 geplanten Qualitätsindikatoren konnten 14 mittels automatisierter Abfragen in EMR-Systeme implementiert werden und Feedback-Dashboards bereitgestellt werden; 22 Indikatoren mussten ausgeschlossen oder angepasst werden wegen technischer Limitationen und unzuverlässiger Datenqualität.",
+    transfer:"Belgische Hausarztdaten, vergleichbares Sozialversicherungssystem wie Deutschland."
   },
   {
-    journal:"Stud Health Technol Inform", year:"2026", pmid:"42752488",
-    author:"Sam J et al.", pubdate:"17.09.2026",
-    added:"17.09.2026",
-    title:"Large Language Models für klinische Statistikauswertung: Validierung gegen Experten-Analysen",
-    sum:"Benchmarking von fünf aktuellen LLMs (GPT, Claude, Gemini, Perplexity, Grok) auf ihre Fähigkeit, expertvalidierte statistische Analysen aus klinischen Studienworkflows (deskriptive Tabellen, Kaplan-Meier, Cox-Modellierung) zu reproduzieren.",
-    result:"Alle fünf Modelle erzeugten korrekte deskriptive Statistiken bei expliziten Variablendefinitionen. Bei Kaplan-Meier-Analysen reproduzierten alle das korrekte p-value, bei Cox-Analysen vier von fünf die geforderten Hazard-Ratios. LLM-Outputs erfordern vor Nutzung in Kliniken sorgfältige Validierung.",
-    transfer:"Deutsche Kliniken und Studiennetzwerke, empirisches Benchmark relevanter Modelle."
+    journal:"BMJ Health Care Inform", year:"2026", pmid:"42759972",
+    author:"Wu J et al.", pubdate:"18.09.2026",
+    added:"18.09.2026",
+    title:"Large Language Models für Chronische Nierenerkrankung in Hausarztpraxen",
+    sum:"Evaluierung eines Large Language Models (DeepSeek) zur Unterstützung der CKD-Diagnose in Hausarztpraxen mittels Zeit-Serien-Daten aus elektronischen Patientenakten.",
+    result:"Mit 1-Monats-Daten: Genauigkeit 87,0 %, AUC 0,921, Sensitivität 89,1 %, Spezifität 86,8 %, Erkennungsrate früher Nierenschädigung 42,2 %; mit 1-Jahres-Daten stieg Sensitivität auf 92,2 % und frühe Erkennung auf 52,6 %.",
+    transfer:"China, aber Algorithmus-Grundprinzipien und EHR-Nutzung übertragbar auf deutsche Hausarztdaten."
   },
   {
-    journal:"Stud Health Technol Inform", year:"2026", pmid:"42752478",
-    author:"Richter-Pechanski P et al.", pubdate:"17.09.2026",
-    added:"17.09.2026",
-    title:"Lokale LLM-basierte Extraktion von Antikoagulanzien-Therapiewechsel aus deutschen Ärztebriefbrifen",
-    sum:"Anwendung eines lokal gehosteten, feinabgestimmten Llama-3.1-70b-Modells zur Extraktion von Medikationsinformationen aus German Clinical Routine Data und Detektion des Therapiewechsels von Vitamin-K-Antagonisten zu DOACs in Kardiologie-Briefen von 2012 bis 2020/21.",
-    result:"DOAC-Anteil stieg von 16,9% (2012) auf 59,9% (2020/21), VKA-Anteil sank von 37,7% auf 9,9%. Modelle verallgemeinerten auf unbekannte ältere Briefe (2012) erfolgreich. Fehler hauptsächlich bei generischen Medikamentennennungen und fehlenden Medikament-Indikations-Relationen.",
-    transfer:"Deutschland, lokale Verarbeitung auf Kliniks-Infrastruktur, direkt auf deutschsprachige Daten angewendet."
+    journal:"Langenbecks Arch Surg", year:"2026", pmid:"42758212",
+    author:"Gehrisch F et al.", pubdate:"17.09.2026",
+    added:"18.09.2026",
+    title:"GPT-4 versus Tumorkonferenz bei Bauchspeicheldrüsenkrebs: Konkordanzanalyse",
+    sum:"Prospektive Vergleichsstudie, die Behandlungsempfehlungen eines Large Language Models mit Entscheidungen realer multidisziplinärer Tumorkonferenzen bei Pankreaskarzinom abgleicht.",
+    result:"Konkordanzrate zwischen GPT-4 und Tumorkonferenz 73,3 % (κ = 0,64, p &lt; 0,0001); höchste Konkordanz bei metastasierter Erkrankung (90,0 %) und neoadjuvanter Therapie (90,0 %), niedrigste bei komplexen Fällen mit erforderlicher Zusatzdiagnostik (50,0 %).",
+    transfer:"Deutsche Universitätsklinik, aber nur als ergänzend zu klinischer Expertise geeignet."
   },
   {
-    journal:"Stud Health Technol Inform", year:"2026", pmid:"42752474",
-    author:"Hoffmann K et al.", pubdate:"17.09.2026",
-    added:"17.09.2026",
-    title:"Sichere Transfer von klinischen Decision-Support-Systemen zwischen Universitätskliniken",
-    sum:"Strukturierte Untersuchung der Realisierung von Modulen eines In-House-CDSS (Acute-Kidney-Injury-Vorhersage) von einer Universitätsklinik zu einer zweiten, basierend auf dem NASSS-Rahmen und differenziert zwischen standortunabhängigen und lokal angepassten Komponenten.",
-    result:"Identifizierte Erfolgsfaktoren: modulare, adaptierbare Komponenten; transparente Datenpipelines; tailored UIs; frühes Stakeholder-Engagement; robuste Compliance- und QM-Kapazitäten. System in Produktion, intendiert für Unterstützung der Kliniker bei Patienten mit akutem Nierenschadenrisiko.",
-    transfer:"Deutschland (zwei Universitätskliniken), vergleichbare Strukturen und Regulierung, höchste Übertragbarkeit."
+    journal:"Clin Interv Aging", year:"2026", pmid:"42756555",
+    author:"Du J et al.", pubdate:"12.09.2026",
+    added:"18.09.2026",
+    title:"Machine Learning für Dysphagie-Screening bei Demenzpatienten",
+    sum:"Entwicklung und externe Validierung eines interpretierbaren Machine-Learning-Modells zur Früherkennung von Schluckstörungen bei Demenzkranken mittels routinemäßig verfügbarer klinischer Daten.",
+    result:"AdaBoost erzielte AUC 0,918 (interne Validierung), 0,900 (externe Validierung Klinik), 0,889 (zeitliche externe Validierung); Sensitivität 0,879–0,901; Hauptprädiktoren: BMI, Zahnzahl, Essfähigkeit, Ernährungstyp, Clinical Dementia Rating.",
+    transfer:"China, aber Modell auf europäische Demenzversorgung übertragbar, Online-Tool zur Fallidentifikation entwickelt."
   },
   {
-    journal:"Stud Health Technol Inform", year:"2026", pmid:"42752472",
-    author:"Kücking F et al.", pubdate:"17.09.2026",
-    added:"17.09.2026",
-    title:"Digitale Transformation deutscher Krankenhäuser 2017–2025: Stagnation trotz KHZG-Förderung",
-    sum:"Panel-Studie mit 49 deutschen Krankenhäusern 2017–2025, evaluierend Fortschritte in fünf Domänen (Dokumentation, CPOE, CDSS, Medikamentenverwaltung, Entlassmanagement) im Kontext der Hospital-Future-Act-Förderung (KHZG).",
-    result:"Signifikante Verbesserungen nur in Medikamentenverwaltung (p=0,009 in 2023; p=0,044 in 2025) und Entlassmanagement (p&lt;0,001 in 2025). Die meisten KHZG-Projekte in Dokumentation und Entlassmanagement waren 2025 noch nicht abgeschlossen. Digitale Reife stieg teilweise nur durch administrative Verzögerungen und Implementierungsengpässe.",
-    transfer:"Deutschland (Stichprobe deutscher Krankenhäuser), direkt für deutsche Policy und Versorgungsplanung relevant."
+    journal:"Eur Stroke J", year:"2026", pmid:"42758735",
+    author:"Garcia BL et al.", pubdate:"05.09.2026",
+    added:"18.09.2026",
+    title:"Machine Learning für Präklinische Erkennung von Schlaganfall durch Gefäßverschluss",
+    sum:"Vergleich von XGBoost, logistischer Regression und klinischen Scales zur Präklinischen Erkennung von Schlaganfällen mit großem Gefäßverschluss oder Hirnblutung anhand von Rettungsdienst-Daten.",
+    result:"XGBoost erreichte balanced accuracy von 82,1 % mit Routine-Variablen und 84,4 % mit erweiterten Variablen, übertrifft logistische Regression (79,0–80,7 %) und RACE-Scale (74,5 %); Sensitivität 76,7 %, Spezifität 92,1 %.",
+    transfer:"Niederlande, vergleichbares europäisches Gesundheitssystem, prospektive Validierung erforderlich."
   },
   {
-    journal:"JMIR Form Res", year:"2026", pmid:"42753263",
-    author:"Wright A et al.", pubdate:"17.09.2026",
-    added:"17.09.2026",
-    title:"AI-Scribe-Implementierung in Kliniken mit Arbeitnehmer-Tarifverträgen: USA-Pilot",
-    sum:"Pilotprojekt zum Einsatz des Abridge-AI-Scribes bei 15 Ambulanz-Fachkräften (NP, PA) in gewerkschaftlich organisierten US-Klinik mit 11-wöchigem Feldtest und strukturiertem Labor-Engagement-Prozess.",
-    result:"AI-Scribe in 66,7% der 8100 Encounters genutzt (Spanne 30–89%), durchschnittlich 78% des AI-generierten Inhalts beibehalten. Dokumentationszeit Pilotgruppe 6 Min (vs. 14 Min Kontrollgruppe); same-day-closure 90% vs. 72%. Gewerkschaften stimmten Implementierung zu, nachdem Sicherheitsvorkehrungen und optionale Nutzung demonstriert wurden.",
-    transfer:"USA, gering übertragbar; zeigt aber internationales Modell für Gewerkschafts-kooperation und numerische Befunde zur Zeitersparnis."
+    journal:"Front Public Health", year:"2026", pmid:"42757292",
+    author:"Gu L et al.", pubdate:"03.09.2026",
+    added:"18.09.2026",
+    title:"Generative AI-Chatbots für Patientenberatung zu diabetischer Neuropathie: Sicherheit und Genauigkeit",
+    sum:"Vergleichende Bewertung von fünf öffentlich verfügbaren KI-Chatbots (ChatGPT, Gemini, Copilot, DeepSeek, Doubao) zu Sicherheit, Richtlinienkonkordanz und Genauigkeit bei patientenorientierter Beratung zu schmerzhafter diabetischer Polyneuropathie.",
+    result:"9,3 % aller 300 Antworten waren unsicher oder potenziell unsicher (Spannweite 5,0–15,0 % je Modell); Genauigkeit, Richtlinienkonkordanz und Anwendbarkeit unterschieden sich signifikant (p &lt; 0,001); ChatGPT erzielte höchste Content-Scores, Doubao niedrigste, DeepSeek höchste Lesbarkeitsanforderungen.",
+    transfer:"Internationale Modelle, aber Sicherheitsbefunde unabhängig von Gesundheitssystem; jedes System erzeugte mindestens eine potenziell schädliche Antwort."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1602,10 +1602,10 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-09-22"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "18.09.2026";
+const NEWS_STAND = "19.09.2026";
 const NEWS = [
+  {titel:"Fernnachsorge bei Herzimplantaten: BVMed legt Infoblatt vor", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/fernnachsorge-bei-herzimplantaten-bvmed-legt-infoblatt-vor/"},
   {titel:"Zugangshürden bei 1,2 Prozent: Zi vergleicht EU-Gesundheitsdaten", datum:"2026-08-31", url:"https://www.monitor-versorgungsforschung.de/news/zugangshuerden-bei-12-prozent-zi-vergleicht-eu-gesundheitsdaten/"},
-  {titel:"Telemonitoring-Potenziale besser nutzen", datum:"2026-07-14", url:"https://www.monitor-versorgungsforschung.de/news/telemonitoring-potenziale-besser-nutzen/"},
 ];
 // === NEWS-BLOCK-ENDE ===
 
