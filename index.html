@@ -1531,62 +1531,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "20. Sept. 2026, 06:20 Uhr";
+const SNAP_DATE = "21. Sept. 2026, 06:00 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Scand J Prim Health Care", year:"2026", pmid:"42762495",
-    author:"Stummer FO et al.", pubdate:"19.09.2026",
-    added:"19.09.2026",
-    title:"Generative AI in der Primärversorgung: Anforderungen für klinische Vertrauenswürdigkeit",
-    sum:"Analyse der Implementierungsbedingungen für Large Language Models in der Primärversorgung anhand europäischer und nordischer Perspektiven, mit Fokus auf Misalignment zwischen Modellentwicklung und klinischer Realität.",
-    result:"GPT-4 schnitt beim schwedischen Facharzt-Examen schlechter ab als Hausärzte. Die Studie identifiziert sechs kritische Dimensionen (klinisch, relational, organisatorisch, kulturell, linguistisch, epistemisch), in denen aktuelle Entwicklung und Evaluationspraxis nicht mit Bedingungen der Primärversorgung (Multimorbidität, Kontinuität, Langzeitreasoning) übereinstimmen. Es wird kein Bereitschaftsstatus erreicht, Genauigkeit allein macht Systeme nicht vertrauenswürdig.",
-    transfer:"Nordische Primärversorgung; Befunde zu Implementierungsgaps übertragbar auf deutsches System."
+    journal:"BMJ Open", year:"2026", pmid:"42760086",
+    author:"Klimeck L et al.", pubdate:"18.09.2026",
+    added:"18.09.2026",
+    title:"Digitale Einladungen zur Darmkrebsfrüherkennung: Effekt auf Teilnahmequoten bei jungen Erwachsenen",
+    sum:"Randomisierte Studie an 90.000 Versicherten, die Effekt von postalischen versus digitalen Einladungen/Erinnerungen zur Inanspruchnahme von Darmkrebs-Screening untersucht.",
+    result:"Primärer Endpunkt und Effekte der Interventionsgruppe werden in diesem Protokoll nicht berichtet (laufende Studie); Planung zeigt jedoch große Datengrundlage und hohe Relevanz für Screening-Beteiligung.",
+    transfer:"Deutsche Versichertendaten (BARMER), direkt übertragbar auf hiesige Screening-Strukturen"
   },
   {
-    journal:"J Robot Surg", year:"2026", pmid:"42762281",
-    author:"Buck L et al.", pubdate:"19.09.2026",
-    added:"19.09.2026",
-    title:"KI-gestützte Rauchentfernung in der roboter-assistierten Uroonkologie",
-    sum:"Pilotbewertung einer 3D U-Net KI zur Echtzeitentfernung von Elektrocautery-Rauch in Operationsvideos durch 20 Urologen in retrospektiver, ungeblindeter Einzelzentrum-Studie.",
-    result:"Sichtbarkeit anatomischer Details und Tiefenwahrnehmung wurden von 75 % der Teilnehmer als gleich und von 25 % als leicht besser bewertet; 20 % beurteilten die Bildstabilität als schlechter. Insgesamt 40 % bewerteten den Nutzen positiv, 35 % neutral, 25 % negativ. KI-Verarbeitung war nicht mit Verschlechterung assoziiert, aber Breite der Konfidenzintervalle bleibt groß, Äquivalenz wurde nicht nachgewiesen.",
-    transfer:"Deutsche Urologieschule, Aussagekraft durch kleine Stichprobe und Bias begrenzt."
-  },
-  {
-    journal:"Medicine (Baltimore)", year:"2026", pmid:"42760670",
-    author:"Suzuki A et al.", pubdate:"18.09.2026",
-    added:"19.09.2026",
-    title:"KI-gestützte Messung der thorakalen Aortendurchmesser im CT: Genauigkeit und Zeiteinsparung",
-    sum:"Prospektive Einzelzentrum-Studie zur klinischen Leistung eines KI-Assistenzsystems für die Messung der Aortendurchmesser im Non-Contrast-CT versus manuelle Messung im Contrast-Enhanced-CT und manuelle Messung im Non-Contrast-CT.",
-    result:"Keine signifikanten Unterschiede zwischen KI-assistiert und manueller Methode auf NCCT versus CECT (Diff 1,10 mm vs. 1,03 mm, p = 0,058); obere Grenze 95%-KI &lt;1,5 mm bei allen Landmarks. Evaluationszeit KI-assistiert signifikant kürzer als manuell: Expertenradiologe 272 s (IQR 229–313) vs. 496 s (p &lt;0,001), Trainingsradiologe 304 s vs. 710 s (p &lt;0,001).",
-    transfer:"Japan, technisch ähnliche Bildverarbeitung; Zeiteinsparung und Genauigkeit übertragbar."
-  },
-  {
-    journal:"Stud Health Technol Inform", year:"2026", pmid:"42752483",
-    author:"Wattar A et al.", pubdate:"17.09.2026",
+    journal:"Stud Health Technol Inform", year:"2026", pmid:"42752480",
+    author:"Mathes G et al.", pubdate:"17.09.2026",
     added:"17.09.2026",
-    title:"Lokales LLM-Post-Processing von Whisper-Sprachtranskription in der Medizin: Referenzfreie Evaluierung für klinische Dokumentation",
-    sum:"Entwicklung und Evaluierung eines referenzfreien Evaluierungs-Frameworks für LLM-basierte Zusammenfassung von Klinik-Transkripten aus lokal eingesetztem Whisper-System (26 deutschsprachige Arzt-Patienten-Gespräche, 4 LLMs, 416 Summaries).",
-    result:"GPT-OSS-120B und MedGemma-27B erreichten höchste Transcript-Summary-Ähnlichkeit. Stabilität über wiederholte Generationen sehr hoch (Cosine Similarity &gt;0,90). Embedding-basierte Metriken zeigten partielle Übereinstimmung mit menschlicher Bewertung der Zusammenfassungsqualität. Framework ermöglicht skalierbare, referenzfreie Evaluierung ohne Referenzsummaries in Datenschutz-sensiblen Umgebungen.",
-    transfer:"Deutschland, deutsche klinische Texte, lokale Bereitstellung ohne Daten-Cloud."
+    title:"LLM-gestützte Extraktion genetischer Eligibilitätskriterien aus klinischen Trials",
+    sum:"System zur automatisierten Strukturierung von Mutationsanforderungen aus unstrukturierten Einschlusskriterien von Klinical Trials mittels Large Language Models und HUGO-Validierung.",
+    result:"Bei 4.918 Studien: 1.010 Studien mit strukturierten Mutationskriterien annotiert; 88,1 % korrekt annotiert, Precision 0,80 bei Einzelkriterien; typische Fehler: halluzinierte Gene, Abkürzungsmisinterpretationen.",
+    transfer:"Deutschland, deutschsprachiger Raum – direkt nutzbar für Patientenmatching in Präzisionsonkologie"
   },
   {
-    journal:"Stud Health Technol Inform", year:"2026", pmid:"42752481",
-    author:"Spreuer T et al.", pubdate:"17.09.2026",
+    journal:"Stud Health Technol Inform", year:"2026", pmid:"42752479",
+    author:"Teichmann M et al.", pubdate:"17.09.2026",
     added:"17.09.2026",
-    title:"Klinisches Coding mit LLM-Tool-Use: Automatisierte Extraktion von Medikation und Diagnosen aus unstrukturierten deutschen Arztbriefen",
-    sum:"Pilot zur Evaluierung offener LLM-Modelle für automatisierte Extraktion und Kodierung von Medikamenten und Diagnosen aus deutschen Arztbriefen (35 anonymisierte Briefe, 5 Patienten, 3 LLMs lokal).",
-    result:"Diagnosen F1-Score max. 0,12 (Breite-Kategorie 0,18); Medikationen F1 0,78 (Trivialname 0,95). Für triviale Medikamentennamen ist jeder Fehler erklärbar; für klinisches Setting nicht ausreichend genau. Medication-Extraktion für Forschungsdatenbanken geeignet, für Patientenbehandlung noch nicht.",
-    transfer:"Deutschland, deutsche Kliniktexte, lokale GPU, aber noch nicht produktionsreif für klinische Routine."
+    title:"Large Language Models zur Vereinfachung klinischer Notizen für Patientenverständlichkeit",
+    sum:"Zehn frei verfügbare LLMs bewertet zur Vereinfachung deutscher Kliniktexte; Auswertung mit etablierten Lesbarkeitsindizes und neuer Analyse von Fachbegriff-/Abkürzungsdichte.",
+    result:"Alle LLMs erhöhten Textlänge, reduzierten konsistent Fachbegriff- und Abkürzungsdichte; Mistral, ChatGPT, Copilot zeigten beste Balance; keine konsistente Verbesserung über alle Lesbarkeitsindizia; konventionelle Metriken für medizinische Texte unzureichend.",
+    transfer:"Deutsche Kliniktexte, bundesweit anwendbar – Patientenrechtegesetz verlangt Zugang zu Akten"
   },
   {
-    journal:"Front Public Health", year:"2026", pmid:"42761057",
-    author:"Sargsyan T et al.", pubdate:"04.09.2026",
-    added:"19.09.2026",
-    title:"E-Health-Transformation in Armeniens Gesundheitssystem: Implementierungsforschung mit Vergleichbarkeit zu anderen Ländern mit mittlerem Einkommen",
-    sum:"Erfahrungsbericht der national flächendeckenden E-Health-Einführung (ARMED-System) mit Implementierungsbarrieren und -lösungen für Länder mit mittlerem Einkommen.",
-    result:"ARMED-Rollout verbesserte Kontinuität der Versorgung, Zugang zu Services insbesondere in ländlichen Gebieten, umfasste e-Rezepte, Registries, Screening-Programme und Telemedizin. Hauptbarrieren: fragmentierte Informationen, begrenzte Infrastruktur, Lücken in digitaler Kompetenz und persistente Stadt-Land-Ungleichheit. Lösungen erforderten zentrale Governance, Regulierungsreformen, Schulung und kontextspezifische Implementierung.",
-    transfer:"Mittleres Einkommen, ähnliche Infrastrukturherausforderungen; Governance-Lehren für Länder mit geringer digitaler Reife relevant."
+    journal:"Stud Health Technol Inform", year:"2026", pmid:"42752467",
+    author:"Warnecke Y et al.", pubdate:"17.09.2026",
+    added:"17.09.2026",
+    title:"FHIR-Integration von Patient-Reported Outcomes in Klinikroutine: Interoperabilität und Semantik",
+    sum:"Technische Evaluierung eines FHIR-Systems für Mobile Patient Survey (MoPat) zur Integration von Patientenfragebogen in die MII PRO core-Datenstruktur.",
+    result:"Fragebogenimport gelang fehlerfrei, führte aber zu Verlust von Score-Berechnungslogik und Code-System-Definitionen; Kernproblem: Spannung zwischen Datenerfassungssoftware und Forschungsstruktur mit fehlender semantischer Annotation.",
+    transfer:"Deutsche MII-Infrastruktur – zentral für federierten Gesundheitsdatenraum"
+  },
+  {
+    journal:"Stud Health Technol Inform", year:"2026", pmid:"42752477",
+    author:"Adam H et al.", pubdate:"17.09.2026",
+    added:"17.09.2026",
+    title:"Medizinische Konzeptnormalisierung: Hybrid-Retrieval übertrifft reines LLM-Mapping zu SNOMED CT",
+    sum:"Vergleich von LLM-direkter Normalisierung versus Hybrid-Ansatz (Domain-Embeddings + RAG-Reranking) für Mapping deutscher Kliniktexte zu SNOMED CT.",
+    result:"LLM-Baseline: Recall@1 0,235; Hybrid-Embeddings: Recall@1 0,681; mit RAG-Reranking: Recall@1 0,771, Recall@3/5 je 0,809/0,812 – erheblicher Vorteil kombinierter Strategie.",
+    transfer:"Österreich, deutschsprachiger Raum – etabliert Grundlage für interoperable Dokumentation"
+  },
+  {
+    journal:"Stud Health Technol Inform", year:"2026", pmid:"42752464",
+    author:"Cenko E et al.", pubdate:"17.09.2026",
+    added:"17.09.2026",
+    title:"REDCap-zu-Klinik-Transfer für Patient-Reported Outcomes ohne MDR-Klassifikation",
+    sum:"Pragmatischer Ansatz zur Integration von Forschungs-PROMs (REDCap) in Klinikinformationssysteme mittels HL7v2-Interface und Dokumentformat-Transfer ohne automatisierte Scoring.",
+    result:"Psychosomatische Baseline-Assessments erfolgreich übertragen und als PDFs verfügbar; Verzicht auf Scoring-Automatisierung: MDR-Klassifikation vermieden; Logging und Bestätigungsmechanismen gewährleisteten Nachverfolgbarkeit.",
+    transfer:"Deutschland, deutsches Regelwerk (DSGVO, MDR) – Template für andere Zentren und zukünftige FHIR-Standardisierung"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1602,7 +1602,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-09-22"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "20.09.2026";
+const NEWS_STAND = "21.09.2026";
 const NEWS = [
   {titel:"Fernnachsorge bei Herzimplantaten: BVMed legt Infoblatt vor", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/fernnachsorge-bei-herzimplantaten-bvmed-legt-infoblatt-vor/"},
   {titel:"Zugangshürden bei 1,2 Prozent: Zi vergleicht EU-Gesundheitsdaten", datum:"2026-08-31", url:"https://www.monitor-versorgungsforschung.de/news/zugangshuerden-bei-12-prozent-zi-vergleicht-eu-gesundheitsdaten/"},
