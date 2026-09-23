@@ -1531,62 +1531,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "22. Sept. 2026, 06:20 Uhr";
+const SNAP_DATE = "23. Sept. 2026, 07:27 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"J Med Internet Res", year:"2026", pmid:"42766713",
-    author:"May S et al.", pubdate:"21.09.2026",
-    added:"21.09.2026",
-    title:"Elektronische Patientenakte in der Regelversorgung: Barrieren und Erfolgsfaktoren",
-    sum:"Qualitative Studie mit 49 Interviews zur Einführung der ePA als Opt-out-System in Arztpraxen ab Januar 2025; Analyse der Implementierungsfaktoren im Rahmen des CFIR-Ansatzes.",
-    result:"Zentrale Erfolgsfaktoren: Führungsengagement, interne Kommunikation und Lernklima. Wichtigste Barrieren: technische Instabilität (genannt als Hauptproblem), heterogene Funktionalität der Praxisverwaltungssysteme, mangelnde Interoperabilität zwischen Sektoren und unzureichende Patientenaufklärung. Trotz Wahrnehmung als intuitiv und potenziell vorteilhaft blieb die Routinenutzung stark abhängig von organisatorischer Kapazität und Infrastrukturstabilität.",
-    transfer:"Deutschland, unmittelbare Relevanz für laufende ePA-Einführung"
+    journal:"J Med Internet Res", year:"2026", pmid:"42772748",
+    author:"Eroğlu ÖO et al.", pubdate:"22.09.2026",
+    added:"22.09.2026",
+    title:"Safety-Benchmarking von LLMs in Zervixkrebs-Screening-Management: Fehlerrate bei komplexen Fällen 29%",
+    sum:"Sicherheitsprüfung von drei großen Sprachmodellen zur Einhaltung von ASCCP-Richtlinien beim Risiko-basierten Management abnormaler Abstriche, mit Fokus auf sichere Empfehlungen.",
+    result:"Unter Leitlinien-Promptpaket erzielte GPT-5.3 100% fehlerfreie Rate (95%-KI 94-100%), Gemini 3 Flash 98,9%, DeepSeek V3.2 nur 75%. Fehlerrate stieg mit Szenario-Komplexität von 3,1% (niedrig) auf 29% (hoch); Leitlinien-Prompts verbesserten Sicherheit um OR 3,76.",
+    transfer:"USA: Die Befunde zur Fehleranfälligkeit in komplexen, historienabhängigen Szenarien gelten modellunabhängig; Übertragung auf deutsches ärztliches Screening realistisch."
   },
   {
-    journal:"JMIR Mhealth Uhealth", year:"2026", pmid:"42766841",
-    author:"Rantala E et al.", pubdate:"21.09.2026",
-    added:"21.09.2026",
-    title:"App für Gewohnheitsbildung und Lebensstiländerung: Effektivität im Feldtest",
-    sum:"Quasi-experimentelle Feldintervention mit 382 Teilnehmern über 90 Tage; webbasierte App mit personalisierten Verhaltensvorschlägen zur Bildung gesundheitsfördernder Gewohnheiten, Messung von Effekten auf physische Aktivität, Ernährungsqualität und BMI.",
-    result:"Insgesamt 18,4% der Angesprochenen nahmen teil, 5,5% Dropout. Nutzungsmedian: 5,9% der Tage über 90 Tage. Stärkere Nutzung (10%-Punkte mehr) verbunden mit 3,09 Metabolischen Äquivalenten pro Woche mehr physischer Aktivität (95% KI 0,79–5,39) und 0,51 Punkten verbessertem Healthy Diet Index. Effekte waren klein, hingen von individuellen Charakteristiken ab (höhere physische Aktivität und positivere Einstellung zu E-Services verstärkten den Effekt). Akzeptabilität moderat (2,9 von 4 Punkten).",
-    transfer:"Finnland, nationale Population-Based-Studie, vergleichbar mit EU-Struktur"
+    journal:"JMIR Res Protoc", year:"2026", pmid:"42771875",
+    author:"Annancy B et al.", pubdate:"22.09.2026",
+    added:"22.09.2026",
+    title:"Digital-Reminder-Tool zur Verbesserung der Diabetes-Follow-up-Adhärenz: RCT in Belgien",
+    sum:"Randomisierte kontrollierte Studie zu einem Patientenportal-Extension (DIPAR-Tool) mit automatisierten Erinnerungen und Arzt-Patienten-Dashboard zur Steigerung der Adhärenz zu Monitoring-Untersuchungen bei Typ-2-Diabetes.",
+    result:"Studie nach Protokoll: 201 Patienten rekrutiert (100 Interventionsgruppe), Datenextrahierung ab März 2026 gestartet. Primäres Outcome: Anteil Patienten mit dokumentierter jährlicher Albuminurie-Messung; Sekundäroutcome: ≥2 HbA1c-Messungen/12 Monate. Datenanalyse noch nicht begonnen.",
+    transfer:"Belgien: Direkt vergleichbares Versicherungssystem und Dokumentationskontexte wie Deutschland; Interoperabilität mit EHR-Systemen relevant."
   },
   {
-    journal:"J Med Internet Res", year:"2026", pmid:"42766847",
-    author:"Su F et al.", pubdate:"21.09.2026",
-    added:"21.09.2026",
-    title:"Digitale Gesundheitsinterventionen bei chronischer Nierenerkrankung: Metaanalyse zu Hürden und Erfolgsfaktoren",
-    sum:"Systematisches Review von 13 Studien mit 3002 Patienten über Barrieren und Erfolgsfaktoren für digitale Selbstmanagement-Interventionen; Kodierung nach CFIR-2.0-Framework.",
-    result:"19 Erfolgsfaktoren und 15 Barrieren identifiziert. Häufigste positive Faktoren: einfache, benutzerfreundliche Oberfläche (9 Studien, hohe Evidenz), Unterstützung durch Familie/Peers (8 Studien), anytime-Zugang zu Gesundheitsinformationen, personalisierte Inhalte (je 5 Studien). Häufigste Barrieren: geringe Gesundheitskompetenz (6 Studien, hohe Evidenz), schlechte Wirtschaftslage (6 Studien, mittlere Evidenz), höheres Alter (5 Studien, hohe Evidenz). Mehrheit Mixed-Methods-Designs, Longitudinalstudien fehlend, Konzentration auf wohlhabende Länder.",
-    transfer:"Überwiegend nicht-Europa; nur Übersichtsarbeit, keine Originalergebnisse, aber relevant für Versorgungsimplementierung"
+    journal:"BMJ Open", year:"2026", pmid:"42772888",
+    author:"Zhang X et al.", pubdate:"22.09.2026",
+    added:"22.09.2026",
+    title:"Künstliche Intelligenz in der Atemnot-Versorgung bei fortgeschrittenem Lungenkrebs: Scoping Review (Protokoll)",
+    sum:"Protokoll für systematische Übersichtsarbeit zu KI-Anwendungen (Überwachung, Risikoprognose, Entscheidungsunterstützung) in der Symptomkontrolle bei palliativen Lungenkrebspatienten.",
+    result:"Noch nicht durchgeführt (Protokoll). Geplant: Suche in 13 Datenbanken ohne Datumbeschränkung, Mixed-Methods-Studien sowie Graubestandsliteratur, narrative Synthese. Bearbeitung laufend (Registration CRD420251112279).",
+    transfer:"Übertragbarkeit offen: Zielgruppe Palliativmedizin deckungsgleich mit Deutschland; Technikspektrum und Implementierungskontexte noch zu analysieren."
   },
   {
-    journal:"JMIR Med Inform", year:"2026", pmid:"42766803",
-    author:"Sun J et al.", pubdate:"21.09.2026",
-    added:"21.09.2026",
-    title:"Machine Learning zur Mortalitätsprognose bei septischer Koagulopathie: multicenter validiert",
-    sum:"Entwicklung und externe Validierung eines interpretierbaren Machine-Learning-Modells (XGBoost) mit 7980 Patienten aus MIMIC-IV, 3815 aus eICU-CRD und 235 vom eigenen Zentrum zur Vorhersage von 28-Tage-Mortalität bei Intensivpatienten mit septischer Koagulopathie (SIC).",
-    result:"XGBoost-Modell erreichte internes Validierungs-AUC von 0,899 (95% KI 0,889–0,909) und externe AUCs von 0,882 und 0,904, deutlich besser als traditionelle Scoring-Systeme (SOFA, APACHE II, SAPS II, Oxford). Top-5 Prädiktoren: Anionenlücke, RDW, Laktat, Gesamt-Bilirubin, Alter. Benutzerfreundliches Online-Tool (SIC Predict Streamlit) entwickelt. Modell generalisierte robust über Kohorten.",
-    transfer:"USA (MIMIC-IV, eICU), aber externe Validierung; klinischer Nutzenbefund ist übertragbar"
+    journal:"JMIR Med Inform", year:"2026", pmid:"42772752",
+    author:"Ding W et al.", pubdate:"22.09.2026",
+    added:"22.09.2026",
+    title:"Machine Learning zur Sterblichkeitsprognose bei Diabetes + Hypertonie: AUC 0,873",
+    sum:"Entwicklung und Validierung von fünf Machine-Learning-Modellen zur Vorhersage der Gesamtsterblichkeit (all-cause mortality) bei Patienten mit Typ-2-Diabetes und Hypertonie.",
+    result:"Random-Forest-Modell überlegen mit AUC 0,873 (95%-KI 0,856-0,891), gefolgt von Light-Gradient-Boosting (AUC 0,785) und anderen. Schlüsselprediktoren: Alter, Rasse, chronische Nierenkrankheit, BMI, Blutharnstoff. Kalibrierung hervorragend, klinische Utilität über mehrere Risikoschwellen nachgewiesen.",
+    transfer:"USA (National Health and Nutrition Examination Survey): Technisch übertragbar; Validierung auf deutschem Vergleichskollektiv erforderlich, da ethnische Zusammensetzung unterschiedlich."
   },
   {
-    journal:"JMIR Form Res", year:"2026", pmid:"42766842",
-    author:"Michels T et al.", pubdate:"21.09.2026",
-    added:"21.09.2026",
-    title:"Telerehabilitation in der Physiotherapie: Barrieren und Umsetzungslücken in Deutschland",
-    sum:"Online-Befragung von 458 deutschen Physiotherapeuten zur Nutzung, Akzeptanz und Implementierungsbarrieren von Telerehabilitation; Selbstbewertung von Kompetenz, Trainingsbedarfe und organisatorische Faktoren.",
-    result:"Nur 30 von 458 Teilnehmern hatten bereits Telerehabilitation durchgeführt (6,6%). Mehrheit hielt Telerehabilitation für sinnvoll zukünftig, aber nur Minderheit fühlte sich ausreichend informiert. Hauptbarrieren: Integration in tägliche Routinen, unzureichende Information über rechtliche/organisatorische Rahmenbedingungen, mangelhafte digitale Infrastruktur in Praxen. Besonders häufig gewünscht: Schulungen, kollegiales Austausch, Information von Berufsverbänden und Krankenkassen. Teilnehmer mit vorheriger Telerehabilitation-Erfahrung fühlten sich signifikant kompetenter und informierter.",
-    transfer:"Deutschland, repräsentative Befragung für deutschsprachigen Raum"
+    journal:"J Med Internet Res", year:"2026", pmid:"42771802",
+    author:"Martínez-Martínez H et al.", pubdate:"22.09.2026",
+    added:"22.09.2026",
+    title:"Stakeholder-Perspektiven auf KI in der Diabetestherapie: Systematische Qualitative Analyse",
+    sum:"Qualitative Synthese der Erwartungen, Bedenken und Erfahrungen von Patienten, Angehörigen, Fachkräften und Administratoren zur Integration von KI-Tools in der Diabetesversorgung.",
+    result:"14 Studien (2023–2025), ≥738 Teilnehmer, 9 Länder: Nutzen in präventiver, individualisierter Versorgung, Bildung und Selbstmanagement gesehen; kritische Punkte Genauigkeit, Bias, Datenschutz, Kontofähigkeit, Mehrbelastung, Autonomieverlust, mangelnde Menschenzentrierung. 11/13 Befunde mit hohem Vertrauen eingestuft. Keine Evidenz für klinische Effektivität oder Sicherheit.",
+    transfer:"Multland-Befunde: Die identifizierten Implementierungsbarrieren (Explainability, Workflow-Integration, Governance) gelten auch für deutsche Kontexte; starke Heterogenität der Studien begrenzt Generalisierbarkeit."
   },
   {
-    journal:"JMIR Public Health Surveill", year:"2026", pmid:"42766493",
-    author:"Kitowska W et al.", pubdate:"21.09.2026",
-    added:"21.09.2026",
-    title:"COVID-19-Exposurebenachrichtigungs-App Koronavilkku: Nutzung und Effektivität in Finnland",
-    sum:"Evaluationsstudie der finnischen Exposurebenachrichtigungs-App mit Systemdaten und Umfrage von 4061 Respondenten; Assessment von Nutzungsumfang, Barrieren, Verhaltenseffekt und Akzeptabilität mittels Sentimentanalyse.",
-    result:"App-Abdeckung erreichte ca. 53% aktiver Smartphone-Nutzer kurz nach Start, verringerte sich dann. Bei Nutzern, die ein Token erhielten, Quote der Token-Eingabe über 50% während gesamter Studie. Männer, Alter &gt;34 Jahre und Alleinlebende weniger wahrscheinlich Nutzer; höhere Bildung und Haushalte mit Kindern wahrscheinlicher. Fast 70% (94.280 Positiv-Nutzer) erhielten kein Token von Behörden. ENA-Nutzer berichteten höhere Adhärenz zu Pandemie-Maßnahmen als Nicht-Nutzer (Prävalenz-Quotienten 1,24–1,65). 68% nutzten App mindestens einmal, 49% dieser Nutzer beendeten Nutzung später. Sentimentanalyse: Nutzer positiver als Nicht-Nutzer, aber erheblicher Anteil neutral/negativ.",
-    transfer:"Finnland, hoher Digitalisierungsgrad; strukturell nicht direkt auf Deutschland übertragbar"
+    journal:"J Med Internet Res", year:"2026", pmid:"42770666",
+    author:"Vladika J et al.", pubdate:"21.09.2026",
+    added:"22.09.2026",
+    title:"Atomic Fact-Checking in LLMs für medizinische Frage-Antwort-Systeme: Halluzinationen um 80% reduziert",
+    sum:"Entwicklung eines Frameworks zur Verbesserung der Zuverlässigkeit von Large Language Models (LLMs) durch automatisierte Überprüfung atomarer Fakten gegen medizinische Guidelines, um Halluzinationen und Ungenauigkeiten zu reduzieren.",
+    result:"Das Framework erzielte 50% Gesamtverbesserung der Antwortqualität und 80% Halluzinationserkennung; besonders bei komplexen klinischen Fällen (Tumor-Board-Szenarien) war der Gewinn am stärksten. Die Explainability gelang durch Rückverfolgung jedes Fakts zu relevanten Wissensquellen.",
+    transfer:"Deutschland: Technik systemunabhängig, entwickelt mit offenen Modellen; Übertragung auf lokale Medizin-KI realistisch."
+  },
+  {
+    journal:"BMJ Open", year:"2026", pmid:"42749366",
+    author:"Zülke AE et al.", pubdate:"16.09.2026",
+    added:"16.09.2026",
+    title:"mHealth-Intervention zur Demenz-Risikoreduktion in Deutschland: Machbarkeitsstudie",
+    sum:"Pilotstudie zur Machbarkeit und Nutzerfreundlichkeit einer adaptierten Smartphone-App (MyBraincoach) zur Demenz-Risikoreduktion durch lebensstiländernde Maßnahmen bei älteren Erwachsenen.",
+    result:"Studienprotokoll: n=75 Teilnehmer (40–75 Jahre), 12-Wochen-Intervention mit Pre-Post-Design und Remote-Fokusgruppe. Primäre Outcomes: Machbarkeit, Rekrutierungserfolg, App-Nutzung und Usability. Sekundäre Outcomes: Veränderung in Demenz-Risikoprofil, Demenzkompetenz, Lebensqualität, Selbstwirksamkeit. Datenanalyse steht aus.",
+    transfer:"Deutschland: Nationale Rekrutierung, deutsches Gesundheitssystem, Translation aus Niederländischem Kontext (Maastricht) mit Kulturanpassung geplant."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1602,18 +1611,18 @@ const RADAR_FRISTEN = [[], [], ["2026-10-06", "2026-09-23", "2026-10-28", "2026-
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "22.09.2026";
+const NEWS_STAND = "23.09.2026";
 const NEWS = [
-  {titel:"Fernnachsorge bei Herzimplantaten: BVMed legt Infoblatt vor", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/fernnachsorge-bei-herzimplantaten-bvmed-legt-infoblatt-vor/"},
-  {titel:"Zugangshürden bei 1,2 Prozent: Zi vergleicht EU-Gesundheitsdaten", datum:"2026-08-31", url:"https://www.monitor-versorgungsforschung.de/news/zugangshuerden-bei-12-prozent-zi-vergleicht-eu-gesundheitsdaten/"},
+  {titel:"Geschlechtersensible Gesundheitsdaten: Runder Tisch fordert Standards", datum:"2026-09-22", url:"https://www.monitor-versorgungsforschung.de/news/geschlechtersensible-gesundheitsdaten-runder-tisch-fordert-standards/"},
+  {titel:"Telemedizin und Krisenresilienz: Zi-Congress 2026 in Berlin", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/telemedizin-und-krisenresilienz-zi-congress-2026-in-berlin/"},
 ];
 // === NEWS-BLOCK-ENDE ===
 
 // Fremde Pressemeldungen zum Thema — taeglich von scripts/newsfeed.py
 // === PRESSE-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
 const PRESSE = [
-  {titel:"Künstliche Intelligenz in der Schwangerschaftsvorsorge", datum:"2026-09-21", url:"http://idw-online.de/de/news877671", quelle:"idw"},
-  {titel:"78. DGU-Kongress 2026 setzt Impulse für die Urologie von morgen", datum:"2026-09-19", url:"http://idw-online.de/de/news877644", quelle:"idw"},
+  {titel:"UDE und DFKI bauen gemeinsame KI-Robotik-Forschung aus: „DFKI Projektbüro AURA Lab Duisburg-Essen“ startet", datum:"2026-09-22", url:"http://idw-online.de/de/news877779", quelle:"idw"},
+  {titel:"DIVI26: Was kann KI in der Notfall- und Intensivmedizin bewirken?", datum:"2026-09-22", url:"http://idw-online.de/de/news877775", quelle:"idw"},
 ];
 // === PRESSE-BLOCK-ENDE ===
 
