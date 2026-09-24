@@ -1531,71 +1531,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "23. Sept. 2026, 07:27 Uhr";
+const SNAP_DATE = "24. Sept. 2026, 06:00 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"J Med Internet Res", year:"2026", pmid:"42772748",
-    author:"Eroğlu ÖO et al.", pubdate:"22.09.2026",
-    added:"22.09.2026",
-    title:"Safety-Benchmarking von LLMs in Zervixkrebs-Screening-Management: Fehlerrate bei komplexen Fällen 29%",
-    sum:"Sicherheitsprüfung von drei großen Sprachmodellen zur Einhaltung von ASCCP-Richtlinien beim Risiko-basierten Management abnormaler Abstriche, mit Fokus auf sichere Empfehlungen.",
-    result:"Unter Leitlinien-Promptpaket erzielte GPT-5.3 100% fehlerfreie Rate (95%-KI 94-100%), Gemini 3 Flash 98,9%, DeepSeek V3.2 nur 75%. Fehlerrate stieg mit Szenario-Komplexität von 3,1% (niedrig) auf 29% (hoch); Leitlinien-Prompts verbesserten Sicherheit um OR 3,76.",
-    transfer:"USA: Die Befunde zur Fehleranfälligkeit in komplexen, historienabhängigen Szenarien gelten modellunabhängig; Übertragung auf deutsches ärztliches Screening realistisch."
+    journal:"Health Expect", year:"2026", pmid:"42765183",
+    author:"Rigoureau J et al.", pubdate:"Okt. 2026",
+    added:"21.09.2026",
+    title:"Patientenbeteiligung in Pharmakoepidemiologie-Studien mit administrativen Datenbanken: Machbarkeitsstudie Frankreich",
+    sum:"Durchführungsforschung zur Etablierung eines Patienten-Beirats begleitend zu wissenschaftlichem Komitee bei einer Pharmakoepidemiologie-Studie mit französischer nationaler Krankenversicherungsdatenbank (SNDS); qualitative und quantitative Machbarkeitsbewertung.",
+    result:"3 von 5 angestrebten Patienten rekrutiert; gute Kohäsion im Komitee, Konsens bei den meisten Themen; 13% kodierter Austausch in vordefinierten Kategorien auf Basis der Sitzungsziele, 87% themenfremde Diskussionen. Patientenbeteiligung führte zu Änderung eines Primär-Outcomes und zusätzlicher statistischer Analysen; Patienten zeigten Zufriedenheit, Projektteam teilweise mit logistischen Herausforderungen belastet.",
+    transfer:"Frankreich, SNDS-spezifisch, aber methodische Erkenntnisse zur Partizipation übertragbar"
   },
   {
-    journal:"JMIR Res Protoc", year:"2026", pmid:"42771875",
-    author:"Annancy B et al.", pubdate:"22.09.2026",
-    added:"22.09.2026",
-    title:"Digital-Reminder-Tool zur Verbesserung der Diabetes-Follow-up-Adhärenz: RCT in Belgien",
-    sum:"Randomisierte kontrollierte Studie zu einem Patientenportal-Extension (DIPAR-Tool) mit automatisierten Erinnerungen und Arzt-Patienten-Dashboard zur Steigerung der Adhärenz zu Monitoring-Untersuchungen bei Typ-2-Diabetes.",
-    result:"Studie nach Protokoll: 201 Patienten rekrutiert (100 Interventionsgruppe), Datenextrahierung ab März 2026 gestartet. Primäres Outcome: Anteil Patienten mit dokumentierter jährlicher Albuminurie-Messung; Sekundäroutcome: ≥2 HbA1c-Messungen/12 Monate. Datenanalyse noch nicht begonnen.",
-    transfer:"Belgien: Direkt vergleichbares Versicherungssystem und Dokumentationskontexte wie Deutschland; Interoperabilität mit EHR-Systemen relevant."
+    journal:"BMJ Open", year:"2026", pmid:"42778255",
+    author:"Theilen R et al.", pubdate:"23.09.2026",
+    added:"23.09.2026",
+    title:"KI-gestützte Beatmungsunterstützung in der Intensivmedizin: Vergleich von Empfehlungen mit Versorgungspraxis",
+    sum:"Prospektive multizentrische Studie zur Validierung des IntelliLung-Systems, das mittels KI kontinuierlich Beatmungsparameter analysiert und Optimierungsempfehlungen abgibt, anhand von Patientendaten aus Deutschland, Spanien, Polen und weiteren europäischen Zentren.",
+    result:"Primäre Endpunkte: Übereinstimmung zwischen KI-Empfehlungen und tatsächlich eingestellten Beatmungsparametern für PEEP, FiO₂, Atemfrequenz und Tidalvolumen; sekundäre Endpunkte einschließlich beatmungsfreier Tage und klinischer Entscheidungsfindung.",
+    transfer:"Deutsches Universitätsklinikum und europäische Partner, direkt vergleichbar"
   },
   {
-    journal:"BMJ Open", year:"2026", pmid:"42772888",
-    author:"Zhang X et al.", pubdate:"22.09.2026",
+    journal:"J Med Syst", year:"2026", pmid:"42773269",
+    author:"Azoyan L et al.", pubdate:"23.09.2026",
     added:"22.09.2026",
-    title:"Künstliche Intelligenz in der Atemnot-Versorgung bei fortgeschrittenem Lungenkrebs: Scoping Review (Protokoll)",
-    sum:"Protokoll für systematische Übersichtsarbeit zu KI-Anwendungen (Überwachung, Risikoprognose, Entscheidungsunterstützung) in der Symptomkontrolle bei palliativen Lungenkrebspatienten.",
-    result:"Noch nicht durchgeführt (Protokoll). Geplant: Suche in 13 Datenbanken ohne Datumbeschränkung, Mixed-Methods-Studien sowie Graubestandsliteratur, narrative Synthese. Bearbeitung laufend (Registration CRD420251112279).",
-    transfer:"Übertragbarkeit offen: Zielgruppe Palliativmedizin deckungsgleich mit Deutschland; Technikspektrum und Implementierungskontexte noch zu analysieren."
+    title:"Algorithmus zur automatischen Klassifikation von Sichelzellerkrankungen aus klinischen Berichten: Validierung in fünf französischen Kliniken",
+    sum:"Entwicklung eines NLP-Algorithmus zur Extraktion und Klassifikation von Sichelzellerkrankungs-Subtypen aus unstrukturierten klinischen Berichten; validiert an 10.868 Patienten mit 561.924 Dokumenten aus fünf Pariser Universitätskliniken.",
+    result:"Algorithmus verarbeitete alle Dokumente in fünf Minuten; positive Vorhersagekraft (PPV) 94,0% (95% CI 92,6–95,4) für Klassifikation in Subtypen SS, SC, Sβ⁺, Sβ⁰; ICD-10-basierte Strategien allein nur 58,1–88,3% PPV. Keine klinisch relevante Fehlklassifikation zwischen benigne und maligne Fällen.",
+    transfer:"Frankreich, vergleichbare EU-Dokumentationspflichten und elektronische Gesundheitssysteme"
   },
   {
-    journal:"JMIR Med Inform", year:"2026", pmid:"42772752",
-    author:"Ding W et al.", pubdate:"22.09.2026",
+    journal:"J Med Internet Res", year:"2026", pmid:"42771889",
+    author:"Biesiada A et al.", pubdate:"22.09.2026",
     added:"22.09.2026",
-    title:"Machine Learning zur Sterblichkeitsprognose bei Diabetes + Hypertonie: AUC 0,873",
-    sum:"Entwicklung und Validierung von fünf Machine-Learning-Modellen zur Vorhersage der Gesamtsterblichkeit (all-cause mortality) bei Patienten mit Typ-2-Diabetes und Hypertonie.",
-    result:"Random-Forest-Modell überlegen mit AUC 0,873 (95%-KI 0,856-0,891), gefolgt von Light-Gradient-Boosting (AUC 0,785) und anderen. Schlüsselprediktoren: Alter, Rasse, chronische Nierenkrankheit, BMI, Blutharnstoff. Kalibrierung hervorragend, klinische Utilität über mehrere Risikoschwellen nachgewiesen.",
-    transfer:"USA (National Health and Nutrition Examination Survey): Technisch übertragbar; Validierung auf deutschem Vergleichskollektiv erforderlich, da ethnische Zusammensetzung unterschiedlich."
+    title:"Telemedizinangebot und digitale Ungleichheit in Polen: Nationale Querschnittserhebung nach Pandemie",
+    sum:"Landesweite Online-Befragung zur Nutzung von Telemedizin und eHealth-Tools unter 820.000 erwachsenen Polen post-pandemisch; Analyse der Prädiktoren und Zugangsbarrieren nach Soziodemografie und Region.",
+    result:"49,7% (407.502/820.000) nutzten Telemedizin mindestens einmal; Telefon-Konsultationen häufigster (36,3%), Video selten (7,3%); E-Rezepte 72,6%, E-Überweisungen 53,4%, Mobile Apps nur 20,3%. Bildung und Urbanisierung stärkste Prädiktoren: Master-Absolventen 2,2-fach höhere Odds für Internet-Patientenportal als Sekundarschule; Großstädter &gt;500.000 Einwohner 1,5-fach höhere Odds für Telemedizin.",
+    transfer:"Polen, ähnliche Sozialversicherungsstruktur, vergleichbare Digitalisierungsstufe"
   },
   {
-    journal:"J Med Internet Res", year:"2026", pmid:"42771802",
-    author:"Martínez-Martínez H et al.", pubdate:"22.09.2026",
+    journal:"JMIR Form Res", year:"2026", pmid:"42772747",
+    author:"Shoshtarian Malak J et al.", pubdate:"22.09.2026",
     added:"22.09.2026",
-    title:"Stakeholder-Perspektiven auf KI in der Diabetestherapie: Systematische Qualitative Analyse",
-    sum:"Qualitative Synthese der Erwartungen, Bedenken und Erfahrungen von Patienten, Angehörigen, Fachkräften und Administratoren zur Integration von KI-Tools in der Diabetesversorgung.",
-    result:"14 Studien (2023–2025), ≥738 Teilnehmer, 9 Länder: Nutzen in präventiver, individualisierter Versorgung, Bildung und Selbstmanagement gesehen; kritische Punkte Genauigkeit, Bias, Datenschutz, Kontofähigkeit, Mehrbelastung, Autonomieverlust, mangelnde Menschenzentrierung. 11/13 Befunde mit hohem Vertrauen eingestuft. Keine Evidenz für klinische Effektivität oder Sicherheit.",
-    transfer:"Multland-Befunde: Die identifizierten Implementierungsbarrieren (Explainability, Workflow-Integration, Governance) gelten auch für deutsche Kontexte; starke Heterogenität der Studien begrenzt Generalisierbarkeit."
+    title:"Standards und Werkzeuge für sekundäre Nutzung von Gesundheitsdaten: Konsens-Assessment im IDERHA-Projekt",
+    sum:"Exploratives Bewertungs- und Machbarkeitsstudium zur Harmonisierung von Gesundheitsdatenstandards und -werkzeugen für Sekundärnutzung in Forschung und HTA; Fokus auf FAIR-Prinzipien und europäische Datenschutzanforderungen.",
+    result:"Empfohlenes Set von Standards basierend auf OMOP-CDM mit etablierten Erweiterungen; Machbarkeitstests mit synthetischen OMOP-Daten zeigten Eignung der Harmonisierungs-Workflows. Lungenkrebsfallstudie demonstrierte erfolgreiche Harmonisierung heterogener Datensätze für föderierte Analyse. Integration in IDERHA-Umgebung verbesserte FAIR-Adhärenz substanziell—besonders bei Metadaten-Vollständigkeit, Interoperabilität und Zugänglichkeit.",
+    transfer:"Deutschland und mehrere europäische Länder im IDERHA-Konsortium vertreten; unmittelbar auf EHDS-Implementierung anwendbar"
   },
   {
-    journal:"J Med Internet Res", year:"2026", pmid:"42770666",
-    author:"Vladika J et al.", pubdate:"21.09.2026",
-    added:"22.09.2026",
-    title:"Atomic Fact-Checking in LLMs für medizinische Frage-Antwort-Systeme: Halluzinationen um 80% reduziert",
-    sum:"Entwicklung eines Frameworks zur Verbesserung der Zuverlässigkeit von Large Language Models (LLMs) durch automatisierte Überprüfung atomarer Fakten gegen medizinische Guidelines, um Halluzinationen und Ungenauigkeiten zu reduzieren.",
-    result:"Das Framework erzielte 50% Gesamtverbesserung der Antwortqualität und 80% Halluzinationserkennung; besonders bei komplexen klinischen Fällen (Tumor-Board-Szenarien) war der Gewinn am stärksten. Die Explainability gelang durch Rückverfolgung jedes Fakts zu relevanten Wissensquellen.",
-    transfer:"Deutschland: Technik systemunabhängig, entwickelt mit offenen Modellen; Übertragung auf lokale Medizin-KI realistisch."
-  },
-  {
-    journal:"BMJ Open", year:"2026", pmid:"42749366",
-    author:"Zülke AE et al.", pubdate:"16.09.2026",
-    added:"16.09.2026",
-    title:"mHealth-Intervention zur Demenz-Risikoreduktion in Deutschland: Machbarkeitsstudie",
-    sum:"Pilotstudie zur Machbarkeit und Nutzerfreundlichkeit einer adaptierten Smartphone-App (MyBraincoach) zur Demenz-Risikoreduktion durch lebensstiländernde Maßnahmen bei älteren Erwachsenen.",
-    result:"Studienprotokoll: n=75 Teilnehmer (40–75 Jahre), 12-Wochen-Intervention mit Pre-Post-Design und Remote-Fokusgruppe. Primäre Outcomes: Machbarkeit, Rekrutierungserfolg, App-Nutzung und Usability. Sekundäre Outcomes: Veränderung in Demenz-Risikoprofil, Demenzkompetenz, Lebensqualität, Selbstwirksamkeit. Datenanalyse steht aus.",
-    transfer:"Deutschland: Nationale Rekrutierung, deutsches Gesundheitssystem, Translation aus Niederländischem Kontext (Maastricht) mit Kulturanpassung geplant."
+    journal:"Front Public Health", year:"2026", pmid:"42774093",
+    author:"Osypka K et al.", pubdate:"08.09.2026",
+    added:"23.09.2026",
+    title:"Akzeptanz humanoid-sozialer Roboter durch Pflegeleistende: Querschnittsstudie mit 475 polnischen Pflegestudierenden",
+    sum:"Befragung von Pflegestudierenden (Bachelor und Master) zur Wahrnehmung des TIAGo-Roboters nach standardisiertem Video; Vergleich zwischen erwerbstätigen (n=107) und nicht-erwerbstätigen (n=368) Studierenden mittels multipler logistischer Regression.",
+    result:"Gesamteinstellungen positiv; Assistenzfunktionen besser bewertet als Begleitfunktionen. Erwerbstätigkeit als unabhängiger Prädiktor: Berufstätige Studierende signifikant günstigere Haltung zu sozialen Funktionen (p&lt;0,05), höhere Einschätzung der Belebheit. Alter und subjektive Technologiekompetenz weitere unabhängige Prädiktoren.",
+    transfer:"Polen, europäische Ausbildungsstrukturen und Personalmangel-Kontext"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1611,7 +1602,7 @@ const RADAR_FRISTEN = [[], [], ["2026-10-06", "2026-09-23", "2026-10-28", "2026-
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "23.09.2026";
+const NEWS_STAND = "24.09.2026";
 const NEWS = [
   {titel:"Geschlechtersensible Gesundheitsdaten: Runder Tisch fordert Standards", datum:"2026-09-22", url:"https://www.monitor-versorgungsforschung.de/news/geschlechtersensible-gesundheitsdaten-runder-tisch-fordert-standards/"},
   {titel:"Telemedizin und Krisenresilienz: Zi-Congress 2026 in Berlin", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/telemedizin-und-krisenresilienz-zi-congress-2026-in-berlin/"},
