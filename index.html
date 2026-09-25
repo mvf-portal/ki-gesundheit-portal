@@ -1531,62 +1531,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "24. Sept. 2026, 06:00 Uhr";
+const SNAP_DATE = "25. Sept. 2026, 06:21 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Health Expect", year:"2026", pmid:"42765183",
-    author:"Rigoureau J et al.", pubdate:"Okt. 2026",
-    added:"21.09.2026",
-    title:"Patientenbeteiligung in Pharmakoepidemiologie-Studien mit administrativen Datenbanken: Machbarkeitsstudie Frankreich",
-    sum:"Durchführungsforschung zur Etablierung eines Patienten-Beirats begleitend zu wissenschaftlichem Komitee bei einer Pharmakoepidemiologie-Studie mit französischer nationaler Krankenversicherungsdatenbank (SNDS); qualitative und quantitative Machbarkeitsbewertung.",
-    result:"3 von 5 angestrebten Patienten rekrutiert; gute Kohäsion im Komitee, Konsens bei den meisten Themen; 13% kodierter Austausch in vordefinierten Kategorien auf Basis der Sitzungsziele, 87% themenfremde Diskussionen. Patientenbeteiligung führte zu Änderung eines Primär-Outcomes und zusätzlicher statistischer Analysen; Patienten zeigten Zufriedenheit, Projektteam teilweise mit logistischen Herausforderungen belastet.",
-    transfer:"Frankreich, SNDS-spezifisch, aber methodische Erkenntnisse zur Partizipation übertragbar"
+    journal:"Int J Psychol", year:"2026", pmid:"42785734",
+    author:"Oberthaler M et al.", pubdate:"Dez. 2026",
+    added:"24.09.2026",
+    title:"Akzeptanz digitaler Assistenzsysteme bei Psychotherapeuten: Video-Demonstration steigert Wahrnehmung",
+    sum:"Querschnittsstudie mit Pre-Post-Design zur Wirkung einer Videodemonstration auf die wahrgenommene Nützlichkeit von KI-basierten Assistenzsystemen in der Psychotherapie (N=317).",
+    result:"Wahrgenommene Nützlichkeit stieg signifikant nach dem Video (p&lt;0,001, Cohen's d=0,29). Effekt war größer bei Traineetherapeuten (d=0,59) als bei lizenzierten Therapeuten (d=0,06). Arbeitsbelastung korrelierte positiv mit Akzeptanz.",
+    transfer:"Deutschland, deutschsprachige Studienteilnehmer; zeigt Implementierungshürden bei etablierten Fachkräften."
   },
   {
-    journal:"BMJ Open", year:"2026", pmid:"42778255",
-    author:"Theilen R et al.", pubdate:"23.09.2026",
+    journal:"RMD Open", year:"2026", pmid:"42785958",
+    author:"D B et al.", pubdate:"24.09.2026",
+    added:"24.09.2026",
+    title:"Machine-Learning-Modelle zur Vorhersage von Schüben bei axialer Spondyloarthritis",
+    sum:"Entwicklung und externe Validierung von Machine-Learning-Modellen zur Vorhersage von Krankheitsschüben bei axSpA anhand von Routinedaten aus zwei europäischen Registern.",
+    result:"Ridge-Logistik-Regression erreichte intern AUC 0,72 (95% KI 0,70–0,75), extern 0,63 (0,59–0,68). Acht klinische Prädiktoren waren einflussreich. Bescheidener klinischer Nutzen für Risikostratifizierung erkannt, aber nicht zur individuellen Therapieanpassung geeignet.",
+    transfer:"Niederlande, Spanien, Frankreich; externe Validierung in GLAS-Kohorte demonstriert reale Anwendbarkeit."
+  },
+  {
+    journal:"JMIR Form Res", year:"2026", pmid:"42784772",
+    author:"Ausserhofer D et al.", pubdate:"24.09.2026",
+    added:"24.09.2026",
+    title:"Sprachabhängige Gesundheitskompetenz-Disparitäten in digitalen Quellen: Südtirol",
+    sum:"Querschnittsumfrage zur Vermittlung zwischen digitaler Gesundheitsinformation und Gesundheitskompetenz; Mediation durch Sprachgruppe (italienisch vs. deutsch) in südtiroler Population (N=1500).",
+    result:"Italienischsprachige Befragte zeigten höhere Gesundheitskompetenz (M=12,54 vs. 11,56 auf 0–16-Skala; p&lt;0,001) und häufigere Nutzung digitaler Gesundheitsinformation (p=0,003). Digitale Informationsnutzung mediierte jedoch nicht die Sprachdispariät (indirekter Effekt B=0,018, 95% BootCI −0,035–0,074).",
+    transfer:"Italien, vergleichbare europäische Mehrsprachigkeit; zeigt Grenzen digitaler Intervention bei strukturellen Disparitäten."
+  },
+  {
+    journal:"JMIR Nurs", year:"2026", pmid:"42784804",
+    author:"Lichtenegger KM et al.", pubdate:"24.09.2026",
+    added:"24.09.2026",
+    title:"Digital Decision Support System für Diabetes in der Häuslichen Krankenpflege: Feasibility-Studie",
+    sum:"Prospektive Quasi-Experimental-Studie zur Implementierung von GlucoTab (DDSS) für Insulintitration in der häuslichen Krankenpflege bei älteren Diabetikern (N=9, 6 Monate Beobachtung).",
+    result:"Diabetes-bedingte Notaufnahmen: 5 vor Implementierung → 0 während → 4 nach Implementierung. Morgenblutzucker sank von 212±72 auf 162±42 mg/dL. Anteil im Zielbereich (70–180 mg/dL) stieg von 39% auf 70,8%. Krankenpflegebesuche sanken von 1,81 auf 1,01 pro Tag. Adhärenz zur DDSS &gt;94%.",
+    transfer:"Österreich (Graz), deutschsprachig, ähnliches Versicherungssystem; praktische Versorgungsstudie mit klarem Sicherheits- und Effizienzbenefit."
+  },
+  {
+    journal:"J Med Internet Res", year:"2026", pmid:"42785740",
+    author:"Bedenik T et al.", pubdate:"24.09.2026",
+    added:"24.09.2026",
+    title:"Patientensicht auf KI in neurologischer Versorgung: irische Fokusgruppen",
+    sum:"Qualitative Studie mit Fokusgruppen (N=15 Patienten/Angehörige mit Parkinson, Epilepsie, MS) zu wahrgenommenen Nutzen und Bedenken bezüglich KI-Einsatz in Neurologie (Irland).",
+    result:"Kernnutzen: verbesserte Diagnostik/Behandlung, erhöhte Patientenbeteiligung, Ressourceneffizienz. Kernbedenken: Vorbereitung nationaler Datensysteme, Schadensrisiko durch KI, Übermäßige Abhängigkeit und Deskilling von Klinikern. Bedingtes Vertrauen unter strikter Regulierung und menschlicher Übersicht.",
+    transfer:"Irland, EU-System; zeigt notwendige Voraussetzungen für Akzeptanz (Datenvorbereitung, Governance)."
+  },
+  {
+    journal:"Scand J Trauma Resusc Emerg Med", year:"2026", pmid:"42778944",
+    author:"Möllenhoff C et al.", pubdate:"15.09.2026",
     added:"23.09.2026",
-    title:"KI-gestützte Beatmungsunterstützung in der Intensivmedizin: Vergleich von Empfehlungen mit Versorgungspraxis",
-    sum:"Prospektive multizentrische Studie zur Validierung des IntelliLung-Systems, das mittels KI kontinuierlich Beatmungsparameter analysiert und Optimierungsempfehlungen abgibt, anhand von Patientendaten aus Deutschland, Spanien, Polen und weiteren europäischen Zentren.",
-    result:"Primäre Endpunkte: Übereinstimmung zwischen KI-Empfehlungen und tatsächlich eingestellten Beatmungsparametern für PEEP, FiO₂, Atemfrequenz und Tidalvolumen; sekundäre Endpunkte einschließlich beatmungsfreier Tage und klinischer Entscheidungsfindung.",
-    transfer:"Deutsches Universitätsklinikum und europäische Partner, direkt vergleichbar"
+    title:"KI-basierte Sprachassistenten im Rettungsdienst: Multinational-Querschnitt",
+    sum:"Explorative Onlineumfrage bei Rettungsdiensten in Deutschland, Norwegen und Schweiz (N=401) zu Anforderungen, Erwartungen und Hürden beim Einsatz von KI-Voice-Assistenten.",
+    result:"57,4% zeigten positive Einstellung zu Voice-Assistenten im Einsatz; 0 waren sich eines EMS-spezifischen Systems bewusst. Gewünschte Funktionen: Sprachübersetzung, Patientenanamnese-Zusammenfassung, Krankenhauspränotifikation. Hauptanforderungen: Zuverlässigkeit, Usability, schnelle Antwortzeiten. Implementierungshürden: Personalakzeptanz, Finanzierung, Datenschutz.",
+    transfer:"Deutschsprachige DACH-Region; zeigt Implementierungslücke und Benutzeranforderungen für reale EMS-Systeme."
   },
   {
-    journal:"J Med Syst", year:"2026", pmid:"42773269",
-    author:"Azoyan L et al.", pubdate:"23.09.2026",
-    added:"22.09.2026",
-    title:"Algorithmus zur automatischen Klassifikation von Sichelzellerkrankungen aus klinischen Berichten: Validierung in fünf französischen Kliniken",
-    sum:"Entwicklung eines NLP-Algorithmus zur Extraktion und Klassifikation von Sichelzellerkrankungs-Subtypen aus unstrukturierten klinischen Berichten; validiert an 10.868 Patienten mit 561.924 Dokumenten aus fünf Pariser Universitätskliniken.",
-    result:"Algorithmus verarbeitete alle Dokumente in fünf Minuten; positive Vorhersagekraft (PPV) 94,0% (95% CI 92,6–95,4) für Klassifikation in Subtypen SS, SC, Sβ⁺, Sβ⁰; ICD-10-basierte Strategien allein nur 58,1–88,3% PPV. Keine klinisch relevante Fehlklassifikation zwischen benigne und maligne Fällen.",
-    transfer:"Frankreich, vergleichbare EU-Dokumentationspflichten und elektronische Gesundheitssysteme"
-  },
-  {
-    journal:"J Med Internet Res", year:"2026", pmid:"42771889",
-    author:"Biesiada A et al.", pubdate:"22.09.2026",
-    added:"22.09.2026",
-    title:"Telemedizinangebot und digitale Ungleichheit in Polen: Nationale Querschnittserhebung nach Pandemie",
-    sum:"Landesweite Online-Befragung zur Nutzung von Telemedizin und eHealth-Tools unter 820.000 erwachsenen Polen post-pandemisch; Analyse der Prädiktoren und Zugangsbarrieren nach Soziodemografie und Region.",
-    result:"49,7% (407.502/820.000) nutzten Telemedizin mindestens einmal; Telefon-Konsultationen häufigster (36,3%), Video selten (7,3%); E-Rezepte 72,6%, E-Überweisungen 53,4%, Mobile Apps nur 20,3%. Bildung und Urbanisierung stärkste Prädiktoren: Master-Absolventen 2,2-fach höhere Odds für Internet-Patientenportal als Sekundarschule; Großstädter &gt;500.000 Einwohner 1,5-fach höhere Odds für Telemedizin.",
-    transfer:"Polen, ähnliche Sozialversicherungsstruktur, vergleichbare Digitalisierungsstufe"
-  },
-  {
-    journal:"JMIR Form Res", year:"2026", pmid:"42772747",
-    author:"Shoshtarian Malak J et al.", pubdate:"22.09.2026",
-    added:"22.09.2026",
-    title:"Standards und Werkzeuge für sekundäre Nutzung von Gesundheitsdaten: Konsens-Assessment im IDERHA-Projekt",
-    sum:"Exploratives Bewertungs- und Machbarkeitsstudium zur Harmonisierung von Gesundheitsdatenstandards und -werkzeugen für Sekundärnutzung in Forschung und HTA; Fokus auf FAIR-Prinzipien und europäische Datenschutzanforderungen.",
-    result:"Empfohlenes Set von Standards basierend auf OMOP-CDM mit etablierten Erweiterungen; Machbarkeitstests mit synthetischen OMOP-Daten zeigten Eignung der Harmonisierungs-Workflows. Lungenkrebsfallstudie demonstrierte erfolgreiche Harmonisierung heterogener Datensätze für föderierte Analyse. Integration in IDERHA-Umgebung verbesserte FAIR-Adhärenz substanziell—besonders bei Metadaten-Vollständigkeit, Interoperabilität und Zugänglichkeit.",
-    transfer:"Deutschland und mehrere europäische Länder im IDERHA-Konsortium vertreten; unmittelbar auf EHDS-Implementierung anwendbar"
-  },
-  {
-    journal:"Front Public Health", year:"2026", pmid:"42774093",
-    author:"Osypka K et al.", pubdate:"08.09.2026",
-    added:"23.09.2026",
-    title:"Akzeptanz humanoid-sozialer Roboter durch Pflegeleistende: Querschnittsstudie mit 475 polnischen Pflegestudierenden",
-    sum:"Befragung von Pflegestudierenden (Bachelor und Master) zur Wahrnehmung des TIAGo-Roboters nach standardisiertem Video; Vergleich zwischen erwerbstätigen (n=107) und nicht-erwerbstätigen (n=368) Studierenden mittels multipler logistischer Regression.",
-    result:"Gesamteinstellungen positiv; Assistenzfunktionen besser bewertet als Begleitfunktionen. Erwerbstätigkeit als unabhängiger Prädiktor: Berufstätige Studierende signifikant günstigere Haltung zu sozialen Funktionen (p&lt;0,05), höhere Einschätzung der Belebheit. Alter und subjektive Technologiekompetenz weitere unabhängige Prädiktoren.",
-    transfer:"Polen, europäische Ausbildungsstrukturen und Personalmangel-Kontext"
+    journal:"Appl Nurs Res", year:"2026", pmid:"42785829",
+    author:"Cheng SM et al.", pubdate:"24.08.2026",
+    added:"24.09.2026",
+    title:"KI-Chatbot für Selbstmanagement bei Lebertransplantation: Validierungsstudie",
+    sum:"Mixed-Methods-Studie zur Entwicklung und Validierung eines KI-Chatbots (Hybrid aus Datenbankabfrage + ChatGPT) für Selbstmanagement nach Lebertransplantation (N=112 Fragen, 21 Kategorien).",
+    result:"Content-Validity-Index verbesserte sich von 0,79 auf 0,88; ICC von 0,957 auf 0,976; Cohen's kappa=0,88. Zufriedenheitsscor 4,71/5,0. Usability 6,04/7,0; Nutzungsintention 6,12/7,0. Hohe Validität und Usability demonstriert.",
+    transfer:"Taiwan, aber klinisches Muster (transplantathybride Systeme) international übertragbar auf deutsche Nachsorgekliniiken."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1602,7 +1611,7 @@ const RADAR_FRISTEN = [["2026-10-19", "2026-10-06", "2026-10-15"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "24.09.2026";
+const NEWS_STAND = "25.09.2026";
 const NEWS = [
   {titel:"Geschlechtersensible Gesundheitsdaten: Runder Tisch fordert Standards", datum:"2026-09-22", url:"https://www.monitor-versorgungsforschung.de/news/geschlechtersensible-gesundheitsdaten-runder-tisch-fordert-standards/"},
   {titel:"Telemedizin und Krisenresilienz: Zi-Congress 2026 in Berlin", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/telemedizin-und-krisenresilienz-zi-congress-2026-in-berlin/"},
@@ -1612,8 +1621,8 @@ const NEWS = [
 // Fremde Pressemeldungen zum Thema — taeglich von scripts/newsfeed.py
 // === PRESSE-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
 const PRESSE = [
+  {titel:"Gerontologie-Nachwuchspreis: Vera Gallistl für innovative Forschung zu Alter(n), KI und Hochaltrigkeit ausgezeichnet", datum:"2026-09-24", url:"http://idw-online.de/de/news877957", quelle:"idw"},
   {titel:"UDE und DFKI bauen gemeinsame KI-Robotik-Forschung aus: „DFKI Projektbüro AURA Lab Duisburg-Essen“ startet", datum:"2026-09-22", url:"http://idw-online.de/de/news877779", quelle:"idw"},
-  {titel:"DIVI26: Was kann KI in der Notfall- und Intensivmedizin bewirken?", datum:"2026-09-22", url:"http://idw-online.de/de/news877775", quelle:"idw"},
 ];
 // === PRESSE-BLOCK-ENDE ===
 
