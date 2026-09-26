@@ -1531,71 +1531,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "25. Sept. 2026, 06:21 Uhr";
+const SNAP_DATE = "26. Sept. 2026, 06:21 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Int J Psychol", year:"2026", pmid:"42785734",
-    author:"Oberthaler M et al.", pubdate:"Dez. 2026",
-    added:"24.09.2026",
-    title:"Akzeptanz digitaler Assistenzsysteme bei Psychotherapeuten: Video-Demonstration steigert Wahrnehmung",
-    sum:"Querschnittsstudie mit Pre-Post-Design zur Wirkung einer Videodemonstration auf die wahrgenommene Nützlichkeit von KI-basierten Assistenzsystemen in der Psychotherapie (N=317).",
-    result:"Wahrgenommene Nützlichkeit stieg signifikant nach dem Video (p&lt;0,001, Cohen's d=0,29). Effekt war größer bei Traineetherapeuten (d=0,59) als bei lizenzierten Therapeuten (d=0,06). Arbeitsbelastung korrelierte positiv mit Akzeptanz.",
-    transfer:"Deutschland, deutschsprachige Studienteilnehmer; zeigt Implementierungshürden bei etablierten Fachkräften."
+    journal:"BMJ Open", year:"2026", pmid:"42790911",
+    author:"Yu D et al.", pubdate:"25.09.2026",
+    added:"25.09.2026",
+    title:"Elektronische Gesundheitsakten zur Inanspruchnahme bei perinataler Angststörung",
+    sum:"Retrospektive Kohortenstudie mit elektronischen Krankenakten zu Unterschieden in der Gesundheitsnutzung zwischen Frauen mit perinataler Angststörung, Angststörung ohne Gravidität und Schwangerschaft ohne Angststörung.",
+    result:"Frauen mit perinataler Angststörung hatten signifikant höhere Inanspruchnahme über alle Zeiträume. Adjusted IRR für primärärztliche Kontakte während Schwangerschaft 1,74 (95%-KI 1,74–1,75) vs. Angststörung allein; im 72-Tage-Postpartum-Fenster 2,29 (95%-KI 2,28–2,29). Muster bei Verordnungen ähnlich, keine erhöhten Hospitalisierungsraten.",
+    transfer:"UK-EHR-Daten; strukturelle und regulatorische Ähnlichkeiten zu Deutschem Gesundheitswesen."
   },
   {
-    journal:"RMD Open", year:"2026", pmid:"42785958",
-    author:"D B et al.", pubdate:"24.09.2026",
-    added:"24.09.2026",
-    title:"Machine-Learning-Modelle zur Vorhersage von Schüben bei axialer Spondyloarthritis",
-    sum:"Entwicklung und externe Validierung von Machine-Learning-Modellen zur Vorhersage von Krankheitsschüben bei axSpA anhand von Routinedaten aus zwei europäischen Registern.",
-    result:"Ridge-Logistik-Regression erreichte intern AUC 0,72 (95% KI 0,70–0,75), extern 0,63 (0,59–0,68). Acht klinische Prädiktoren waren einflussreich. Bescheidener klinischer Nutzen für Risikostratifizierung erkannt, aber nicht zur individuellen Therapieanpassung geeignet.",
-    transfer:"Niederlande, Spanien, Frankreich; externe Validierung in GLAS-Kohorte demonstriert reale Anwendbarkeit."
+    journal:"JMIR Ment Health", year:"2026", pmid:"42789542",
+    author:"Liljedahl N et al.", pubdate:"25.09.2026",
+    added:"25.09.2026",
+    title:"KI-Gesprächsagenten in der Dialektisch-Behavioralen Therapie: Sicht von Fachleuten",
+    sum:"Qualitative Interviewstudie mit 17 schwedischen DBT-Psychologen zu Perspektiven auf Integration von KI-Konversationsagenten in die Borderline-Persönlichkeitsstörung-Behandlung.",
+    result:"Drei Kernthemen: (1) relationale Positionierung der KI-CA (Tool, Teamkollege, Supervisor, Konkurrenz); (2) KI als idealer Helfer (verfügbar, kompetent, ermüdungsresistent); (3) Besorgnis über Abhängigkeitsverstärkung und maladaptive Gewöhnung statt Autonomie. Zentrale Spannung: KI-funktionale Mehrdeutigkeit bei validierungsbedürftigen vs. autonomiefördernden Reaktionen.",
+    transfer:"Schweden; Digitalisierungsgrad höher als Deutschland, Befunde zeigen Implementierungspotenziale und Risiken."
   },
   {
-    journal:"JMIR Form Res", year:"2026", pmid:"42784772",
-    author:"Ausserhofer D et al.", pubdate:"24.09.2026",
-    added:"24.09.2026",
-    title:"Sprachabhängige Gesundheitskompetenz-Disparitäten in digitalen Quellen: Südtirol",
-    sum:"Querschnittsumfrage zur Vermittlung zwischen digitaler Gesundheitsinformation und Gesundheitskompetenz; Mediation durch Sprachgruppe (italienisch vs. deutsch) in südtiroler Population (N=1500).",
-    result:"Italienischsprachige Befragte zeigten höhere Gesundheitskompetenz (M=12,54 vs. 11,56 auf 0–16-Skala; p&lt;0,001) und häufigere Nutzung digitaler Gesundheitsinformation (p=0,003). Digitale Informationsnutzung mediierte jedoch nicht die Sprachdispariät (indirekter Effekt B=0,018, 95% BootCI −0,035–0,074).",
-    transfer:"Italien, vergleichbare europäische Mehrsprachigkeit; zeigt Grenzen digitaler Intervention bei strukturellen Disparitäten."
+    journal:"BMC Med Inform Decis Mak", year:"2026", pmid:"42786471",
+    author:"Koka Y et al.", pubdate:"24.09.2026",
+    added:"25.09.2026",
+    title:"CleanSurvival: automatisierte Datenaufbereitung für Überlebenszeitmodelle mittels Reinforcement Learning",
+    sum:"Software-Framework zur automatisierten Optimierung von Datenaufbereitungs-Pipelines für Überlebenszeitanalysen mit Q-Learning, validiert auf realen Datensätzen.",
+    result:"Benchmarks zeigen Verbesserung der prädiktiven Leistung gegenüber einfachen Baselines; Laufzeitverhalten ist kontextabhängig. Simulationsstudie demonstriert Effektivität bei verschiedenen Missingness-Typen und Rauschleveln. Python-Package öffentlich verfügbar. Integration von Preprocessing speziell für Überlebenszeitmodelle in AutoML-Pipelines ermöglicht robustere Ergebnisse.",
+    transfer:"Deutsche Entwicklung (DFKI); Infrastruktur vor Ort vorhanden."
   },
   {
-    journal:"JMIR Nurs", year:"2026", pmid:"42784804",
-    author:"Lichtenegger KM et al.", pubdate:"24.09.2026",
-    added:"24.09.2026",
-    title:"Digital Decision Support System für Diabetes in der Häuslichen Krankenpflege: Feasibility-Studie",
-    sum:"Prospektive Quasi-Experimental-Studie zur Implementierung von GlucoTab (DDSS) für Insulintitration in der häuslichen Krankenpflege bei älteren Diabetikern (N=9, 6 Monate Beobachtung).",
-    result:"Diabetes-bedingte Notaufnahmen: 5 vor Implementierung → 0 während → 4 nach Implementierung. Morgenblutzucker sank von 212±72 auf 162±42 mg/dL. Anteil im Zielbereich (70–180 mg/dL) stieg von 39% auf 70,8%. Krankenpflegebesuche sanken von 1,81 auf 1,01 pro Tag. Adhärenz zur DDSS &gt;94%.",
-    transfer:"Österreich (Graz), deutschsprachig, ähnliches Versicherungssystem; praktische Versorgungsstudie mit klarem Sicherheits- und Effizienzbenefit."
-  },
-  {
-    journal:"J Med Internet Res", year:"2026", pmid:"42785740",
-    author:"Bedenik T et al.", pubdate:"24.09.2026",
-    added:"24.09.2026",
-    title:"Patientensicht auf KI in neurologischer Versorgung: irische Fokusgruppen",
-    sum:"Qualitative Studie mit Fokusgruppen (N=15 Patienten/Angehörige mit Parkinson, Epilepsie, MS) zu wahrgenommenen Nutzen und Bedenken bezüglich KI-Einsatz in Neurologie (Irland).",
-    result:"Kernnutzen: verbesserte Diagnostik/Behandlung, erhöhte Patientenbeteiligung, Ressourceneffizienz. Kernbedenken: Vorbereitung nationaler Datensysteme, Schadensrisiko durch KI, Übermäßige Abhängigkeit und Deskilling von Klinikern. Bedingtes Vertrauen unter strikter Regulierung und menschlicher Übersicht.",
-    transfer:"Irland, EU-System; zeigt notwendige Voraussetzungen für Akzeptanz (Datenvorbereitung, Governance)."
-  },
-  {
-    journal:"Scand J Trauma Resusc Emerg Med", year:"2026", pmid:"42778944",
-    author:"Möllenhoff C et al.", pubdate:"15.09.2026",
+    journal:"Diagn Pathol", year:"2026", pmid:"42773449",
+    author:"Şahi̇n AF et al.", pubdate:"22.09.2026",
     added:"23.09.2026",
-    title:"KI-basierte Sprachassistenten im Rettungsdienst: Multinational-Querschnitt",
-    sum:"Explorative Onlineumfrage bei Rettungsdiensten in Deutschland, Norwegen und Schweiz (N=401) zu Anforderungen, Erwartungen und Hürden beim Einsatz von KI-Voice-Assistenten.",
-    result:"57,4% zeigten positive Einstellung zu Voice-Assistenten im Einsatz; 0 waren sich eines EMS-spezifischen Systems bewusst. Gewünschte Funktionen: Sprachübersetzung, Patientenanamnese-Zusammenfassung, Krankenhauspränotifikation. Hauptanforderungen: Zuverlässigkeit, Usability, schnelle Antwortzeiten. Implementierungshürden: Personalakzeptanz, Finanzierung, Datenschutz.",
-    transfer:"Deutschsprachige DACH-Region; zeigt Implementierungslücke und Benutzeranforderungen für reale EMS-Systeme."
+    title:"Whole-Slide-Imaging in der Schilddrüsen-Zytopathologie: Konkordanz mit konventioneller Diagnostik",
+    sum:"Retrospektive Pilotstudie zur diagnostischen Übereinstimmung zwischen WSI-basierter und konventioneller Schilddrüsen-Zytologie an 13 Fällen mit blinder Evaluation.",
+    result:"Gesamtkondordanz 69,2 %; Cohens Kappa 0,58–0,63 (moderate bis substanzielle Übereinstimmung). Volle Konkordanz in 7 Fällen (überwiegend maligne), Teilkonkordanz in 5 Fällen (Grenzfälle), völlige Diskordanz in 1 Fall (indeterminiert). Keine klinisch relevanten Fehlklassifikationen zwischen benigne und maligne. WSI zeigt praktische Machbarkeit auch in Ferndiagnostik.",
+    transfer:"Deutschland und Schweiz beteiligt; vergleichbare Pathologie-Infrastruktur."
   },
   {
-    journal:"Appl Nurs Res", year:"2026", pmid:"42785829",
-    author:"Cheng SM et al.", pubdate:"24.08.2026",
-    added:"24.09.2026",
-    title:"KI-Chatbot für Selbstmanagement bei Lebertransplantation: Validierungsstudie",
-    sum:"Mixed-Methods-Studie zur Entwicklung und Validierung eines KI-Chatbots (Hybrid aus Datenbankabfrage + ChatGPT) für Selbstmanagement nach Lebertransplantation (N=112 Fragen, 21 Kategorien).",
-    result:"Content-Validity-Index verbesserte sich von 0,79 auf 0,88; ICC von 0,957 auf 0,976; Cohen's kappa=0,88. Zufriedenheitsscor 4,71/5,0. Usability 6,04/7,0; Nutzungsintention 6,12/7,0. Hohe Validität und Usability demonstriert.",
-    transfer:"Taiwan, aber klinisches Muster (transplantathybride Systeme) international übertragbar auf deutsche Nachsorgekliniiken."
+    journal:"Stud Health Technol Inform", year:"2026", pmid:"42752486",
+    author:"Müller D et al.", pubdate:"17.09.2026",
+    added:"17.09.2026",
+    title:"Deep Learning für Überlebensprognose bei TAVI-Patienten direkt aus CT-Bildern",
+    sum:"End-to-End-Deep-Learning-Pipeline zur Vorhersage des Gesamtüberlebens von TAVI-Patienten aus präprozeduralen Whole-Body-CT-Scans ohne manuelle Feature-Engineering, trainiert an 317 Patienten mit 5-fach Kreuzvalidierung.",
+    result:"Modell erreichte AUC 0,787, Spezifität 72,1 % und Sensitivität 85,3 % zur Identifikation von Kurzzeit-Überlebenden (&lt; 12 Monate). Leistung vergleichbar mit multimodalen ML-Modellen, die extensive klinische Daten erfordern. Risikoidentifikation ohne manuelle Feature-Extraktion als potenzielles klinisches Entscheidungshilfewerkzeug für präoperative Risikoschätzung.",
+    transfer:"Deutschland; klinisches Anwendungssetting in Versorgungskontinuität übertragbar."
+  },
+  {
+    journal:"JAMA Netw Open", year:"2026", pmid:"42789268",
+    author:"Pratap A et al.", pubdate:"01.09.2026",
+    added:"25.09.2026",
+    title:"Digitale Therapie für negative Schizophrenie-Symptome: Wirksamkeit und Sicherheit",
+    sum:"Randomisierte klinische Studie zur Wirksamkeit des Smartphone-basierten Programms CT-155 als Ergänzung zur Standardbehandlung bei negativen Schizophrenie-Symptomen.",
+    result:"CT-155 reduzierte die CAINS-MAP-Scores signifikant stärker als digitale Kontrolle (−2,6 Punkte, 95%-KI −4,0 bis −1,2; p &lt; 0,001, Cohen d = −0,36). 70,4 % der Teilnehmer blieben aktiv, keine behandlungsbedingten schweren unerwünschten Ereignisse. Kleine bis mittlere Effektgröße, vergleichbar mit psychosozialen Interventionen und Pharmakotherapie.",
+    transfer:"USA-Studie, Nutzenbefund generalisierbar; Zulassungsfähigkeit hierzulande noch offen."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1611,7 +1602,7 @@ const RADAR_FRISTEN = [["2026-10-19", "2026-10-06", "2026-10-15"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "25.09.2026";
+const NEWS_STAND = "26.09.2026";
 const NEWS = [
   {titel:"Geschlechtersensible Gesundheitsdaten: Runder Tisch fordert Standards", datum:"2026-09-22", url:"https://www.monitor-versorgungsforschung.de/news/geschlechtersensible-gesundheitsdaten-runder-tisch-fordert-standards/"},
   {titel:"Telemedizin und Krisenresilienz: Zi-Congress 2026 in Berlin", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/telemedizin-und-krisenresilienz-zi-congress-2026-in-berlin/"},
