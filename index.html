@@ -1531,62 +1531,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "26. Sept. 2026, 06:21 Uhr";
+const SNAP_DATE = "27. Sept. 2026, 09:47 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"BMJ Open", year:"2026", pmid:"42790911",
-    author:"Yu D et al.", pubdate:"25.09.2026",
+    journal:"JMIR Mhealth Uhealth", year:"2026", pmid:"42790880",
+    author:"Heil CS et al.", pubdate:"25.09.2026",
     added:"25.09.2026",
-    title:"Elektronische Gesundheitsakten zur Inanspruchnahme bei perinataler Angststörung",
-    sum:"Retrospektive Kohortenstudie mit elektronischen Krankenakten zu Unterschieden in der Gesundheitsnutzung zwischen Frauen mit perinataler Angststörung, Angststörung ohne Gravidität und Schwangerschaft ohne Angststörung.",
-    result:"Frauen mit perinataler Angststörung hatten signifikant höhere Inanspruchnahme über alle Zeiträume. Adjusted IRR für primärärztliche Kontakte während Schwangerschaft 1,74 (95%-KI 1,74–1,75) vs. Angststörung allein; im 72-Tage-Postpartum-Fenster 2,29 (95%-KI 2,28–2,29). Muster bei Verordnungen ähnlich, keine erhöhten Hospitalisierungsraten.",
-    transfer:"UK-EHR-Daten; strukturelle und regulatorische Ähnlichkeiten zu Deutschem Gesundheitswesen."
+    title:"MotherHeat-Alert App: Wärmeschutz und Usability bei schwangeren Frauen in Südafrika",
+    sum:"Prospektive Beobachtungsstudie (201 schwangere/postpartale Frauen über 6 Monate) zur Usability und Effektivität einer mobilen Hitzewarnanwendung.",
+    result:"Usability-Scores hoch (PSSUQ-Mittelwert 1,76 bei Schwangeren, 1,37 bei Postpartalen). Selbstberichtete Verhaltensänderung durch Alarme: groß bis sehr groß bei 67 % Schwangerer und 83 % Postpartaler. Aber Abbruchquote 30 % / 19 % und Rückgang der Schutzverhalten von Baseline zu Endpoint (wahrscheinlich saisonal). Wissenszuwachs: 79–88 % berichteten Verbesserung.",
+    transfer:"Südafrika, andere Infrastruktur; Methodologie und Usability-Befunde teilweise übertragbar"
   },
   {
-    journal:"JMIR Ment Health", year:"2026", pmid:"42789542",
-    author:"Liljedahl N et al.", pubdate:"25.09.2026",
+    journal:"BMC Pediatr", year:"2026", pmid:"42791522",
+    author:"Grüter H et al.", pubdate:"22.09.2026",
     added:"25.09.2026",
-    title:"KI-Gesprächsagenten in der Dialektisch-Behavioralen Therapie: Sicht von Fachleuten",
-    sum:"Qualitative Interviewstudie mit 17 schwedischen DBT-Psychologen zu Perspektiven auf Integration von KI-Konversationsagenten in die Borderline-Persönlichkeitsstörung-Behandlung.",
-    result:"Drei Kernthemen: (1) relationale Positionierung der KI-CA (Tool, Teamkollege, Supervisor, Konkurrenz); (2) KI als idealer Helfer (verfügbar, kompetent, ermüdungsresistent); (3) Besorgnis über Abhängigkeitsverstärkung und maladaptive Gewöhnung statt Autonomie. Zentrale Spannung: KI-funktionale Mehrdeutigkeit bei validierungsbedürftigen vs. autonomiefördernden Reaktionen.",
-    transfer:"Schweden; Digitalisierungsgrad höher als Deutschland, Befunde zeigen Implementierungspotenziale und Risiken."
+    title:"Anforderungen von Eltern an digitale Anwendungen in der chronischen Kinderversorgung",
+    sum:"Scoping Review (39 Studien zu eHealth in der Pädiatrie, 2010–2025) zur Synthese elterlicher Bedarfe und Erfahrungen mit digitalen Anwendungen für Kinder mit chronischen Erkrankungen.",
+    result:"Eltern fordern nutzungsfreundliche Schnittstellen, verlässliche Informationen, Koordinationsfunktionen und soziale Unterstützung; sie berichteten positive Erfahrungen mit Apps und Videokonferenzen für Monitoring und Empowerment, beklagten aber technische Hürden und Angst vor weniger persönlichem Kontakt. Evidenzlücken zu Übergangsphasen.",
+    transfer:"Mehrsprachig, deutschsprachige Institutionen beteiligt, querschnittlich übertragbar"
   },
   {
-    journal:"BMC Med Inform Decis Mak", year:"2026", pmid:"42786471",
-    author:"Koka Y et al.", pubdate:"24.09.2026",
-    added:"25.09.2026",
-    title:"CleanSurvival: automatisierte Datenaufbereitung für Überlebenszeitmodelle mittels Reinforcement Learning",
-    sum:"Software-Framework zur automatisierten Optimierung von Datenaufbereitungs-Pipelines für Überlebenszeitanalysen mit Q-Learning, validiert auf realen Datensätzen.",
-    result:"Benchmarks zeigen Verbesserung der prädiktiven Leistung gegenüber einfachen Baselines; Laufzeitverhalten ist kontextabhängig. Simulationsstudie demonstriert Effektivität bei verschiedenen Missingness-Typen und Rauschleveln. Python-Package öffentlich verfügbar. Integration von Preprocessing speziell für Überlebenszeitmodelle in AutoML-Pipelines ermöglicht robustere Ergebnisse.",
-    transfer:"Deutsche Entwicklung (DFKI); Infrastruktur vor Ort vorhanden."
-  },
-  {
-    journal:"Diagn Pathol", year:"2026", pmid:"42773449",
-    author:"Şahi̇n AF et al.", pubdate:"22.09.2026",
-    added:"23.09.2026",
-    title:"Whole-Slide-Imaging in der Schilddrüsen-Zytopathologie: Konkordanz mit konventioneller Diagnostik",
-    sum:"Retrospektive Pilotstudie zur diagnostischen Übereinstimmung zwischen WSI-basierter und konventioneller Schilddrüsen-Zytologie an 13 Fällen mit blinder Evaluation.",
-    result:"Gesamtkondordanz 69,2 %; Cohens Kappa 0,58–0,63 (moderate bis substanzielle Übereinstimmung). Volle Konkordanz in 7 Fällen (überwiegend maligne), Teilkonkordanz in 5 Fällen (Grenzfälle), völlige Diskordanz in 1 Fall (indeterminiert). Keine klinisch relevanten Fehlklassifikationen zwischen benigne und maligne. WSI zeigt praktische Machbarkeit auch in Ferndiagnostik.",
-    transfer:"Deutschland und Schweiz beteiligt; vergleichbare Pathologie-Infrastruktur."
-  },
-  {
-    journal:"Stud Health Technol Inform", year:"2026", pmid:"42752486",
-    author:"Müller D et al.", pubdate:"17.09.2026",
+    journal:"Stud Health Technol Inform", year:"2026", pmid:"42752493",
+    author:"Flake J et al.", pubdate:"17.09.2026",
     added:"17.09.2026",
-    title:"Deep Learning für Überlebensprognose bei TAVI-Patienten direkt aus CT-Bildern",
-    sum:"End-to-End-Deep-Learning-Pipeline zur Vorhersage des Gesamtüberlebens von TAVI-Patienten aus präprozeduralen Whole-Body-CT-Scans ohne manuelle Feature-Engineering, trainiert an 317 Patienten mit 5-fach Kreuzvalidierung.",
-    result:"Modell erreichte AUC 0,787, Spezifität 72,1 % und Sensitivität 85,3 % zur Identifikation von Kurzzeit-Überlebenden (&lt; 12 Monate). Leistung vergleichbar mit multimodalen ML-Modellen, die extensive klinische Daten erfordern. Risikoidentifikation ohne manuelle Feature-Extraktion als potenzielles klinisches Entscheidungshilfewerkzeug für präoperative Risikoschätzung.",
-    transfer:"Deutschland; klinisches Anwendungssetting in Versorgungskontinuität übertragbar."
+    title:"Datenschutz-Vokabulare für Deutschlands Gesundheitsdatennutzungsgesetz",
+    sum:"Entwicklung und Integration einer DPV-Erweiterung (W3C Data Privacy Vocabulary) für deutsches Gesundheitsdatennutzungsgesetz (GDNG) und europäischen Gesundheitsdatenraum (EHDS) zur maschinenlesbaren Beschreibung von Datenrichtlinien.",
+    result:"DPV-Erweiterung für GDNG in DPV 2.3 (Februar 2026) veröffentlicht. Parallele Entwicklung mit EHDS-Erweiterung generierte überlagernde Konzepte; sektorale Gesundheitserweiterung als Grundlage für zukünftige EHDS-Mitgliedstaaten etabliert. Offene Frage: praktische Akzeptanz bei Datenhaltern und Forschungsinstitutionen.",
+    transfer:"Deutsches Recht, europäische Interoperabilität; direkt relevant für Implementierung"
   },
   {
-    journal:"JAMA Netw Open", year:"2026", pmid:"42789268",
-    author:"Pratap A et al.", pubdate:"01.09.2026",
+    journal:"Stud Health Technol Inform", year:"2026", pmid:"42752471",
+    author:"Saß J et al.", pubdate:"17.09.2026",
+    added:"17.09.2026",
+    title:"Lokal einsetzbarer FHIR-Validierungsdienst für föderierte Gesundheitsdateninfrastrukturen",
+    sum:"Technischer Fallbericht zur Entwicklung und Umsetzung eines lokal versetzbaren FHIR-Validierungsdienstes in der Medizinischen Informatik Initiative (MII) für verteilte Dateninfrastrukturen.",
+    result:"Containerisierter Validierungsdienst verbindet HL7-Validator mit konfigurierbarem Terminology-Service. Automatisierte Conformance-Tests gegen MII-Implementation-Guides möglich. Reproduzierbare FHIR-Validierung durch standardisierte Bereitstellung erreicht; Limitationen: unvollständiger oder fehlender Terminologie-Datenbestand. Prototyp einsatzfähig, Produktivbewertung ausstehend.",
+    transfer:"Deutsche MII-Infrastruktur, direkt auf Versorgungsinfrastruktur anwendbar"
+  },
+  {
+    journal:"BMC Health Serv Res", year:"2026", pmid:"42791572",
+    author:"Heath J et al.", pubdate:"14.09.2026",
     added:"25.09.2026",
-    title:"Digitale Therapie für negative Schizophrenie-Symptome: Wirksamkeit und Sicherheit",
-    sum:"Randomisierte klinische Studie zur Wirksamkeit des Smartphone-basierten Programms CT-155 als Ergänzung zur Standardbehandlung bei negativen Schizophrenie-Symptomen.",
-    result:"CT-155 reduzierte die CAINS-MAP-Scores signifikant stärker als digitale Kontrolle (−2,6 Punkte, 95%-KI −4,0 bis −1,2; p &lt; 0,001, Cohen d = −0,36). 70,4 % der Teilnehmer blieben aktiv, keine behandlungsbedingten schweren unerwünschten Ereignisse. Kleine bis mittlere Effektgröße, vergleichbar mit psychosozialen Interventionen und Pharmakotherapie.",
-    transfer:"USA-Studie, Nutzenbefund generalisierbar; Zulassungsfähigkeit hierzulande noch offen."
+    title:"Telemedizin bei TIA: Patientenerfahrungen mit virtuellen gegenüber face-to-face Kliniken",
+    sum:"Qualitative Studie (Interviews mit 15 Patienten und 12 Klinikern in England) zur Erfahrung mit virtuellen und persönlichen TIA-Kliniken während und nach COVID-19.",
+    result:"Patienten bewerteten persönliche Konsultationen stärker als virtuell (Themenschwerpunkt: \"Bedeutung, gesehen zu werden\"). Fachleute identifizierten Vorteile beider Modelle, erkennen aber auch klare Grenzen virtueller Versorgung für bildgebungsbedürftige Patienten und bei komplexer Diagnostik an.",
+    transfer:"Großbritannien, NHS-System; Befunde zur Patientenpräferenz übertragbar auf Deutschland"
+  },
+  {
+    journal:"Radiol Imaging Cancer", year:"2026", pmid:"42788883",
+    author:"Wang YK et al.", pubdate:"Sept. 2026",
+    added:"25.09.2026",
+    title:"KI-Mammographie-Modelle in geplanter und ungeplanter Anwendung: externe Validierung",
+    sum:"Retrospektive Studie (20.187 Mammographien aus Schweden, 2008–2016) zum Vergleich von vier KI-Detektions- und Risiko-Modellen in beabsichtigter und nicht-beabsichtigter Anwendung über einen Screening-Durchgang.",
+    result:"Transpara Detection und Risk zeigten beste AUC (0,92 bzw. 0,81), Transpara Detection mit höchster Spezifität (97,1 %). Modelle erreichten beste Leistung in ihrer angestrebten Einsatzsituation; Risiko-Modelle für Intervallkarzinome: 49,8 % Sensitivität bei 90 % Spezifität. Generalisierung außerhalb der Designeinsatzbedingung begrenzt.",
+    transfer:"Schweden, klinische Klinikdaten, europäische Struktur ähnlich Deutschland"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1602,7 +1602,7 @@ const RADAR_FRISTEN = [["2026-10-19", "2026-10-06", "2026-10-15"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "26.09.2026";
+const NEWS_STAND = "27.09.2026";
 const NEWS = [
   {titel:"Geschlechtersensible Gesundheitsdaten: Runder Tisch fordert Standards", datum:"2026-09-22", url:"https://www.monitor-versorgungsforschung.de/news/geschlechtersensible-gesundheitsdaten-runder-tisch-fordert-standards/"},
   {titel:"Telemedizin und Krisenresilienz: Zi-Congress 2026 in Berlin", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/telemedizin-und-krisenresilienz-zi-congress-2026-in-berlin/"},
