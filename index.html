@@ -1531,62 +1531,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "29. Sept. 2026, 06:21 Uhr";
+const SNAP_DATE = "30. Sept. 2026, 06:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"BMJ Open", year:"2026", pmid:"42805668",
-    author:"Luque-Hernández MJ et al.", pubdate:"28.09.2026",
-    added:"28.09.2026",
-    title:"KI-gestützte Echtzeit-Telefonleitstelle für Zeit-kritische Notfälle: trIAje-Protokoll",
-    sum:"Retrospektive Kohortenstudie zur Entwicklung und Validierung eines Machine-Learning-Modells zur Verbesserung der Notfallleitstellen-Triage mittels NLP auf Dispatcher-Anrufen und strukturierten Daten.",
-    result:"Studienprotokoll; geplant sind 2020–2024 Anrufe (Herzstillstand, Atemnot, Brustschmerz, Schlaganfall); Referenzstandard: Klinik-Schweregrad/ICU-Aufnahme; erwartet Sensitivität/Spezifität und ROC-AUC; Geschlechtsstratifizierung auf Disparitäten geplant.",
-    transfer:"Spaniens Notfallsystem (Málaga), europäische EMS-Struktur, NLP auf Dispatcher-Freitexte übertragbar."
+    journal:"J Med Internet Res", year:"2026", pmid:"42809839",
+    author:"Remus P et al.", pubdate:"29.09.2026",
+    added:"29.09.2026",
+    title:"Digitalisierungsreife und Krankenhausleistung in den Niederlanden: keine messbaren Verbesserungen ohne weitere Faktoren",
+    sum:"Längsstudienuntersuchung des Zusammenhangs zwischen elektronischer Patientenaktenfunktionalität (HIMSS EMRAM-Zertifizierung Stufe 6/7) und Finanz-, Betriebs- und Personalindikatoren in 66–74 niederländischen Krankenhäusern (2017–2023).",
+    result:"Fortgeschrittene digitale Reife war nicht signifikant mit verbesserter finanzieller Rentabilität, Patientendurchsatz, Verweildauer oder Personalabsentismus assoziiert (nach Holm-Bonferroni-Korrektur alle p&gt;0,05). Dies stützt empirisch das IT-Produktivitätsparadoxon: technische Reife allein ist notwendig, aber nicht ausreichend für Leistungsgewinne.",
+    transfer:"Vergleichbare Sozialversicherung, hohe Digitalisierungsquote wie Deutschland"
   },
   {
-    journal:"BMJ Open", year:"2026", pmid:"42805667",
-    author:"Hojeij B et al.", pubdate:"28.09.2026",
-    added:"28.09.2026",
-    title:"Digital Phenotyping für Vorhersage von Psoriasis-Arthritis-Schüben: PDPID-Studienprotokoll",
-    sum:"12-Monatiges prospektives Multiländer-Kohortenstudienprotokoll (Niederlande, UK, Portugal, Griechenland) zur Entwicklung digitaler Biomarker für PsA-Schübe aus Smartphone- und Smartwatch-Daten plus klinischen und biologischen Markern.",
-    result:"Studienprotokoll; Datenerfassung: klinisch (Messungen, Fragebögen), biologisch (Speichel-DNA, Mikrobiom, Haarcortisol, CRP), Umwelt (Wetter, Luftverschmutzung), App-basiert (Foto/Video-Tests, passive Sensorik); Machine Learning zur Flare-Vorhersage geplant.",
-    transfer:"Niederlande und Südeuropa – europäisches multizentrisches Design, Digitalisierungsgrad und Datenschutz vergleichbar."
+    journal:"JMIR Med Inform", year:"2026", pmid:"42809834",
+    author:"Chen H et al.", pubdate:"29.09.2026",
+    added:"29.09.2026",
+    title:"Machine Learning priorisiert hochgefährliche Patientensicherheitsereignisse zur Institutionellen Untersuchung",
+    sum:"Entwicklung und Validierung von Ranking-basierten Machine-Learning-Modellen (Feature- und Transformer-basiert) zur Triage von 101.239 Patientensicherheitsmeldungen aus kanadischem Universitätsklinikum 2017–2025; Vergleich mit klassifizierungsbasierten Ansätzen und manueller Triage.",
+    result:"LLAMA3.1-RA (Large Language Model + Ranking) erzielte mittlere durchschnittliche Präzision 0,94 (95%-KI 0,90–0,98), 22,1% relative Verbesserung gegenüber bester Klassifizierung (LLAMA3.1-CL: 0,77). Modell identifizierte 83,0% hochgefährlicher Fälle in Top 200 vs. 41,0% durch Reporter-Schweregrad-Baseline.",
+    transfer:"Kanada, ähnliches Versicherungssystem; Logik auf deutsche Meldesysteme übertragbar"
   },
   {
-    journal:"JMIR Ment Health", year:"2026", pmid:"42803493",
-    author:"Wiebel C et al.", pubdate:"25.09.2026",
-    added:"28.09.2026",
-    title:"NLP und Large Language Models zur Früherkennung von Psychotherapie-Bedarf bei Angststörungen",
-    sum:"Studie validierte ein Machine-Learning-Modell zur Einschätzung des Unterstützungsbedarfs für psychische Gesundheit auf Basis offener Textantworten (unter 5 Minuten), trainiert und validiert gegen Expertenbewertungen von erfahrenen Psychotherapeuten.",
-    result:"Das sprachbasierte Modell korrelierte stark mit Expertenbewertungen (r=0,82) und etablierten Skalen (r=0,62–0,77), klassifizierte Bedarf auf einer 5er-Skala mit hoher Übereinstimmung; Screening-Potential für klinische und Selbsthilfe-Kontexte demonstriert.",
-    transfer:"Schweden – transdiagnostischer Screening-Ansatz unabhängig vom Gesundheitssystem übertragbar."
+    journal:"JMIR Med Inform", year:"2026", pmid:"42809832",
+    author:"Desalegn M et al.", pubdate:"29.09.2026",
+    added:"29.09.2026",
+    title:"Implementierungsbereitschaft für KI-gestützte Sprach-Elektronische Patientenakten in afrikanischen Ressourcen-limitierten Gesundheitssystemen",
+    sum:"Qualitative Multisite-Studie mit 43 äthiopischen Gesundheitsfachpersonen (April 2026); Erfassung von Wahrnehmungen, erwarteten Vorteilen und Bedenken zu Voice-EMRs mittels Semistrukturierter Interviews; Analyse mit CFIR, TAM und NPT-Rahmen.",
+    result:"Vier übergeordnete Themen: (1) erwartete klinische Vorteile (weniger Dokumentationsaufwand), aber Bedenken zu Automatisierungsfehlern und Akzentfehlern; (2) Usability-Barrieren (Schnittstellen-Komplexität); (3) erwartete Workflowverschiebungen; (4) Governance-Bedenken (Datenschutz, Zustimmung, Überwachungsfurcht) als zentral für Vertrauen.",
+    transfer:"Äthiopien mit deutlich anderer Infrastruktur; Befunde zeigen Implementierungserschwernisse in Low-Resource-Settings"
   },
   {
-    journal:"JMIR Med Inform", year:"2026", pmid:"42803770",
-    author:"Sblendorio E et al.", pubdate:"25.09.2026",
-    added:"28.09.2026",
-    title:"Regulatorisch abgestimmte Evaluation von Large Language Models für klinische Pflege",
-    sum:"Studie testete 17 LLMs und Small Language Models gegen einen EU-KI-Verordnung-konformen Framework (7 Domänen) mit 32 klinischen Prompts und Delphi-Panel als Referenzstandard.",
-    result:"Nur 6 Modelle erfüllten Mindestanforderungen (Safety-Gatekeeper-Screening); Claude 3.7 Sonnet (extended thinking) erreichte beste Scores bei klinischer Sicherheit (6,73±0,23) und Datenschutz (6,83±0,41); DeepSeek-R1 und Mistral scheiterten bei jailbreak-Resistenz.",
-    transfer:"EU-Regulierung und italienische Universitätskliniken – Methodologie direkt auf EU-Vorgaben zugeschnitten, lokal betriebene Modelle getestet."
+    journal:"JMIR Med Inform", year:"2026", pmid:"42809845",
+    author:"Lu J et al.", pubdate:"29.09.2026",
+    added:"29.09.2026",
+    title:"Transformer-Sprachmodelle erkennen Medikamentennamen-Tippfehler besser als Wörterbücher und GPT-4",
+    sum:"Entwicklung und Validierung von BERT-basierten Modellen (BERTDrug, CharBERTDrug) für Erkennung von Schreibfehlern in Medikamentennamen; Training auf RxNorm-Corpus (69.824 Namen), externe Validierung auf Long-Term-Care-Datenbank (LTCDC, 3.586 Namen), Vergleich mit Dictionary-Baseline und GPT-4o.",
+    result:"BERTDrug F1-Score 0,859 (RxNorm-Test), CharBERTDrug F1 0,696 auf Out-of-Vocabulary-LTCDC-Daten (ROC-AUC 0,788). Beide übertroffen GPT-4o auf RxNorm-Test (GPT: F1 0,721); auf LTCDC-Minority-Terms (200) GPT besser. Superior für unbekannte Begriffe; Domain-Shift reduziert Vorteil von Domänen-Training.",
+    transfer:"USA-Studie mit RxNorm-Vokabular; Methode auf deutsche Arzneimittel-Nomenklaturen übertragbar"
   },
   {
-    journal:"Nat Commun", year:"2026", pmid:"42773123",
-    author:"Brockers VC et al.", pubdate:"22.09.2026",
-    added:"22.09.2026",
-    title:"Large Language Models und Meinungsdynamiken: Interaktion vs. Verzerrung in Dialogen",
-    sum:"Bayesianisches Framework zur Trennung von Interaktions- und Bias-Effekten in Mehrschrittdialogen von 5 LLMs über 12 Fragen (Klimawandel, Gerechtigkeit, Präferenzen).",
-    result:"Topic Bias, Agreement Bias und Anchoring Bias quantifiziert; Meinungen konvergieren zu gemeinsamen Attraktoren; Fine-Tuning mit polar-opinionierten Aussagen verschiebt Attraktor proportional; stark unterschiedliche Bias-Profile zwischen LLMs; Verzerrung nimmt über Zeit ab.",
-    transfer:"Deutschland – theoretische Analyse von LLM-Verzerrung in Diskursen, kein Versorgungsbezug, aber sicherheitsrelevant für KI-Regulierung."
+    journal:"JMIR Form Res", year:"2026", pmid:"42809836",
+    author:"Ozaki N et al.", pubdate:"29.09.2026",
+    added:"29.09.2026",
+    title:"KI-gestützte Kodierung digitaler täglicher Logs und Reflexionen in verteilten klinischen Clerkships",
+    sum:"Explorative Studie mit 112 japanischen Medizin-Studierenden (5. Jahr) in 3-Wochen-Clerkships an Standorten mit/ohne Fakultäts-Schulung; Erfassung alltäglicher klinischer Aktivitäten per Google-Spreadsheet-Daily-Log; AI-unterstützte Kodierung von Reflexionsblättern mit menschlicher Verifizierung.",
+    result:"Tägliche Log-Einträge in 99,6% (1.491/1.497) der Studierentage verfügbar. Studierende an Standorten mit trainierten Fachpersonen berichteten mehr Untersuchungs-/Risikoaktivitäten durchgeführt. Reflexionsheets lieferten komplementäre Informationen; KI-Komponente erforderte Menschenüberprüfung.",
+    transfer:"Japan, aber Workflow-Ansatz für deutsche medizinische Ausbildung relevant"
   },
   {
-    journal:"Int J Nurs Sci", year:"2026", pmid:"42805738",
-    author:"Chen M et al.", pubdate:"09.08.2026",
+    journal:"BMJ Open", year:"2026", pmid:"42805652",
+    author:"Bone JK et al.", pubdate:"28.09.2026",
     added:"28.09.2026",
-    title:"KI-gestützte Telemedizin für Tumorschmerz zuhause: Anforderungen von Pflegefachpersonen",
-    sum:"Qualitative Studie (semi-strukturierte Interviews, n=14 Fachpersonen) zu Erwartungen und Bedenken gegenüber einem Home-based AI Pain Management System für Palliativpatienten mit Krebs.",
-    result:"Drei Themen: (1) unterstützte, aber unzureichend Zuhause-Schmerzbehandlung; (2) vorsichtiger Optimismus für KI – erwartet: kontinuierliche Überwachung, Bedenken: Risiken, generationenbezogene Unterschiede; (3) praktische Anforderungen: benutzergerechtes Design, Sicherheit, ethische Vorkehrungen, Schulung.",
-    transfer:"Hongkong/China – Palliativ-Versorgungskontext unterschiedlich, aber Anforderungen an KI-Integration in Home Care verallgemeinerbar."
+    title:"Social Prescribing für Kinder und Jugendliche im UK: Zugang und Versorgungswege aus elektronischen Gesundheitsakten",
+    sum:"Datenanalyse von 52.585 Kindern und Jugendlichen (4–25 Jahre, Mittelwert 20,04 Jahre), die 2017–2025 zu Social-Prescribing-Diensten im UK überwiesen wurden; Nutzung der Access-Elemental-Plattform.",
+    result:"91% lebten in urbanen Gebieten, 58% in depriviertesten Dezilen; 44% Überweisungen wegen psychischer Gesundheit; durchschnittlich 4,64 Kontakte pro Person (SD 7,70) à 66 Min (SD 108), 34% Weitervermittlung in Community-Support. Anteil Kinder unter 18 Jahren niedrig und sinkend.",
+    transfer:"UK-Daten, aber Struktur vergleichbar zu deutschen kommunalen Hilfsangeboten"
+  },
+  {
+    journal:"GMS J Med Educ", year:"2026", pmid:"42807201",
+    author:"Ullrich S et al.", pubdate:"15.09.2026",
+    added:"29.09.2026",
+    title:"KI-gestützte virtuelle Patienteninteraktionen verbessern Fachsprachenprüfung bei internationalen Pflegefachpersonen",
+    sum:"Kontrollierte Studie mit 25 international ausgebildeten Pflegefachpersonen während Anerkennungsverfahren in Deutschland; Interventionsgruppe (n=13) mit zusätzlichem Zugang zu Simulationstool mit virtuellen Patienten und Kolleg:innen neben Standard-600-Stunden-Sprachtraining.",
+    result:"Durchfallquote B2-Pflege-Prüfung 66,7% (Kontrolle) vs. 25,0% (Intervention), relative Reduktion 62,5%. Klinische Vorgesetzte berichteten erhöhter Sicherheit und Kompetenz in Team- und Patienteninteraktionen. Abbruchquoten nicht erhöht (1/13 vs. 2/12).",
+    transfer:"Deutsche Daten, direkter Anwendungskontext Anerkennungsverfahren"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1602,7 +1611,7 @@ const RADAR_FRISTEN = [["2026-10-15", "2026-10-06", "2026-10-19", "2026-10-15", 
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "29.09.2026";
+const NEWS_STAND = "30.09.2026";
 const NEWS = [
   {titel:"Geschlechtersensible Gesundheitsdaten: Runder Tisch fordert Standards", datum:"2026-09-22", url:"https://www.monitor-versorgungsforschung.de/news/geschlechtersensible-gesundheitsdaten-runder-tisch-fordert-standards/"},
   {titel:"Telemedizin und Krisenresilienz: Zi-Congress 2026 in Berlin", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/telemedizin-und-krisenresilienz-zi-congress-2026-in-berlin/"},
