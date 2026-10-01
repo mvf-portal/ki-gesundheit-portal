@@ -1531,71 +1531,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "30. Sept. 2026, 06:01 Uhr";
+const SNAP_DATE = "1. Okt. 2026, 06:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"J Med Internet Res", year:"2026", pmid:"42809839",
-    author:"Remus P et al.", pubdate:"29.09.2026",
-    added:"29.09.2026",
-    title:"Digitalisierungsreife und Krankenhausleistung in den Niederlanden: keine messbaren Verbesserungen ohne weitere Faktoren",
-    sum:"Längsstudienuntersuchung des Zusammenhangs zwischen elektronischer Patientenaktenfunktionalität (HIMSS EMRAM-Zertifizierung Stufe 6/7) und Finanz-, Betriebs- und Personalindikatoren in 66–74 niederländischen Krankenhäusern (2017–2023).",
-    result:"Fortgeschrittene digitale Reife war nicht signifikant mit verbesserter finanzieller Rentabilität, Patientendurchsatz, Verweildauer oder Personalabsentismus assoziiert (nach Holm-Bonferroni-Korrektur alle p&gt;0,05). Dies stützt empirisch das IT-Produktivitätsparadoxon: technische Reife allein ist notwendig, aber nicht ausreichend für Leistungsgewinne.",
-    transfer:"Vergleichbare Sozialversicherung, hohe Digitalisierungsquote wie Deutschland"
+    journal:"JMIR Ment Health", year:"2026", pmid:"42815888",
+    author:"Blease C et al.", pubdate:"30.09.2026",
+    added:"30.09.2026",
+    title:"GenAI-Einsatz in der ambulanten Psychotherapie: Adoptionsmuster und Schulungsbedarf",
+    sum:"Bevölkerungsrepräsentative Befragung von 766 Psychotherapeuten in 30 Ländern zur Nutzung generativer KI-Tools wie ChatGPT im klinischen Alltag.",
+    result:"54,6 % der Therapeuten nutzen mindestens ein GenAI-Tool, primär zur Unterstützung der Behandlungsplanung (41,9 %), Verwaltung (41,4 %) und Psychoedukation (39,7 %); 82,8 % berichten Reduktion der Arbeitsbelastung, aber nur 18,1 % erhielten institutionelle Unterstützung und 81,1 % keine formale KI-Schulung.",
+    transfer:"Breites europäisches Sample (einschließlich Deutschland, Schweiz, Irland, UK); zeigt Alltagseinsatz ohne systematische Unterstützungsstrukturen."
   },
   {
-    journal:"JMIR Med Inform", year:"2026", pmid:"42809834",
-    author:"Chen H et al.", pubdate:"29.09.2026",
-    added:"29.09.2026",
-    title:"Machine Learning priorisiert hochgefährliche Patientensicherheitsereignisse zur Institutionellen Untersuchung",
-    sum:"Entwicklung und Validierung von Ranking-basierten Machine-Learning-Modellen (Feature- und Transformer-basiert) zur Triage von 101.239 Patientensicherheitsmeldungen aus kanadischem Universitätsklinikum 2017–2025; Vergleich mit klassifizierungsbasierten Ansätzen und manueller Triage.",
-    result:"LLAMA3.1-RA (Large Language Model + Ranking) erzielte mittlere durchschnittliche Präzision 0,94 (95%-KI 0,90–0,98), 22,1% relative Verbesserung gegenüber bester Klassifizierung (LLAMA3.1-CL: 0,77). Modell identifizierte 83,0% hochgefährlicher Fälle in Top 200 vs. 41,0% durch Reporter-Schweregrad-Baseline.",
-    transfer:"Kanada, ähnliches Versicherungssystem; Logik auf deutsche Meldesysteme übertragbar"
+    journal:"J Med Internet Res", year:"2026", pmid:"42815034",
+    author:"Schedler T et al.", pubdate:"30.09.2026",
+    added:"30.09.2026",
+    title:"Telemedizin für Neugeborenenversorgung: Implementierungs-Toolkit für europäische Netzwerke",
+    sum:"Qualitative Implementierungsstudie mit Experts aus Österreich, Niederlande, Deutschland zur systematischen Einführung von TeleNeonatology-Angeboten.",
+    result:"Strukturiertes Toolkit mit Checklisten und Planungsrichtlinien zur Gestaltung von Telemedizin-Workflows mit Fokus auf Stakeholder-Engagement, Prozessdesign und Evaluation; zeigt zentrale Implementierungshindernisse sind organisatorische und infrastrukturelle Faktoren, nicht primär Technologie.",
+    transfer:"Deutsch-sprachige und benachbarte Systeme; vergleichbare Netzwerk-Strukturen in Neugeborenenmedizin."
   },
   {
-    journal:"JMIR Med Inform", year:"2026", pmid:"42809832",
-    author:"Desalegn M et al.", pubdate:"29.09.2026",
-    added:"29.09.2026",
-    title:"Implementierungsbereitschaft für KI-gestützte Sprach-Elektronische Patientenakten in afrikanischen Ressourcen-limitierten Gesundheitssystemen",
-    sum:"Qualitative Multisite-Studie mit 43 äthiopischen Gesundheitsfachpersonen (April 2026); Erfassung von Wahrnehmungen, erwarteten Vorteilen und Bedenken zu Voice-EMRs mittels Semistrukturierter Interviews; Analyse mit CFIR, TAM und NPT-Rahmen.",
-    result:"Vier übergeordnete Themen: (1) erwartete klinische Vorteile (weniger Dokumentationsaufwand), aber Bedenken zu Automatisierungsfehlern und Akzentfehlern; (2) Usability-Barrieren (Schnittstellen-Komplexität); (3) erwartete Workflowverschiebungen; (4) Governance-Bedenken (Datenschutz, Zustimmung, Überwachungsfurcht) als zentral für Vertrauen.",
-    transfer:"Äthiopien mit deutlich anderer Infrastruktur; Befunde zeigen Implementierungserschwernisse in Low-Resource-Settings"
+    journal:"JMIR Form Res", year:"2026", pmid:"42815018",
+    author:"Taveira É et al.", pubdate:"30.09.2026",
+    added:"30.09.2026",
+    title:"mHealth-Apps in portugiesischer Allgemeinmedizin: Nutzung, Lücken und Regulierungsbedarf",
+    sum:"Querschnittsstudie mit 141 Hausärzten in Portugal zu Adoption, Auswahl und Hürden bei der Nutzung von Mobil-Health-Anwendungen im klinischen Alltag.",
+    result:"97,9 % sind Apps bekannt, 85,1 % nutzen sie (v. a. während Konsultationen: 92,5 %); Haupttreiber sind Usability (95,0 %) und evidenzbasierte Wirksamkeit (65,8 %); Barrieren: fehlende Transparenz (84,2 %), keine nationalen Evaluationsstandards (47,5 %), mangelhafte Interoperabilität (71,4 % der Nicht-Nutzer); 56,0 % sehen KI-Integration positiv, v. a. für Entscheidungsunterstützung (80,9 %), aber Bedenken zu Sicherheit/Datenschutz (74,5 %).",
+    transfer:"Südeuropa, Sozialversicherungssystem, regulatorische Situation vergleichbar Deutschland/Schweiz."
   },
   {
-    journal:"JMIR Med Inform", year:"2026", pmid:"42809845",
-    author:"Lu J et al.", pubdate:"29.09.2026",
-    added:"29.09.2026",
-    title:"Transformer-Sprachmodelle erkennen Medikamentennamen-Tippfehler besser als Wörterbücher und GPT-4",
-    sum:"Entwicklung und Validierung von BERT-basierten Modellen (BERTDrug, CharBERTDrug) für Erkennung von Schreibfehlern in Medikamentennamen; Training auf RxNorm-Corpus (69.824 Namen), externe Validierung auf Long-Term-Care-Datenbank (LTCDC, 3.586 Namen), Vergleich mit Dictionary-Baseline und GPT-4o.",
-    result:"BERTDrug F1-Score 0,859 (RxNorm-Test), CharBERTDrug F1 0,696 auf Out-of-Vocabulary-LTCDC-Daten (ROC-AUC 0,788). Beide übertroffen GPT-4o auf RxNorm-Test (GPT: F1 0,721); auf LTCDC-Minority-Terms (200) GPT besser. Superior für unbekannte Begriffe; Domain-Shift reduziert Vorteil von Domänen-Training.",
-    transfer:"USA-Studie mit RxNorm-Vokabular; Methode auf deutsche Arzneimittel-Nomenklaturen übertragbar"
+    journal:"JMIR Med Educ", year:"2026", pmid:"42814991",
+    author:"Moldt JA et al.", pubdate:"30.09.2026",
+    added:"30.09.2026",
+    title:"KI-Akzeptanz und professionelle Identität im klinischen Alltag: Deutsche Querschnittsstudie",
+    sum:"Befragung von 93 Medizinstudierenden und 65 Kliniker:innen sowie quasi-randomisierte Szenarien-Tests zur Wahrnehmung von KI-Einsatz, professioneller Bedrohung und Bewertung von Erklärbarkeit.",
+    result:"Positive Erwartungen an KI koexistieren mit Sorgen um professionelle Identität; Medizinstudierende berichten stärkere Identity Threat als praktizierende Ärzt:innen trotz ähnlicher Erwartungen (p &lt; 0,05); bei Bewertung von KI-gestützten Entscheidungen unterschieden sich Explainability-Ratings signifikant zwischen Szenarien (p = 0,007), bei Triage-Aufgaben deutlich niedriger; Trustworthiness und Responsibility blieben stabil.",
+    transfer:"Universitätsmedizin Tübingen, Deutschland; Studienpopulation mit deutschem Ausbildungskontext."
   },
   {
-    journal:"JMIR Form Res", year:"2026", pmid:"42809836",
-    author:"Ozaki N et al.", pubdate:"29.09.2026",
-    added:"29.09.2026",
-    title:"KI-gestützte Kodierung digitaler täglicher Logs und Reflexionen in verteilten klinischen Clerkships",
-    sum:"Explorative Studie mit 112 japanischen Medizin-Studierenden (5. Jahr) in 3-Wochen-Clerkships an Standorten mit/ohne Fakultäts-Schulung; Erfassung alltäglicher klinischer Aktivitäten per Google-Spreadsheet-Daily-Log; AI-unterstützte Kodierung von Reflexionsblättern mit menschlicher Verifizierung.",
-    result:"Tägliche Log-Einträge in 99,6% (1.491/1.497) der Studierentage verfügbar. Studierende an Standorten mit trainierten Fachpersonen berichteten mehr Untersuchungs-/Risikoaktivitäten durchgeführt. Reflexionsheets lieferten komplementäre Informationen; KI-Komponente erforderte Menschenüberprüfung.",
-    transfer:"Japan, aber Workflow-Ansatz für deutsche medizinische Ausbildung relevant"
+    journal:"JMIR Hum Factors", year:"2026", pmid:"42814961",
+    author:"Lammert D et al.", pubdate:"30.09.2026",
+    added:"30.09.2026",
+    title:"Conversational AI in hereditärem Krebsscreening: Design und Governance für klinische Integration",
+    sum:"Qualitative Anforderungsanalyse mit 18 Stakeholdern (Fachpersonen, Patienten, Regulatoren) zu Bedingungen für verantwortungsvolle Integration eines sprachgesteuerten KI-Systems in die BRCA-Beratung.",
+    result:"Verantwortliches Design wird nicht primär durch Generic-Prinzipien definiert, sondern durch rekurrente Spannungen: (1) Barrierefreiheit vs. klinische Rollengrenzen, (2) Vereinfachung vs. Genauigkeit/Transparenz, (3) Skalierbarkeit vs. Governance; daraus ergeben sich Anforderungen für Systemfähigkeiten: begrenzte Autorität, Menschliches Monitoring, Kontext-sensitive Kommunikation, Integration in klinische und regulatorische Strukturen, EU/deutschrechtliche Compliance (MDR, Datenschutz, Genetik-Transparenz).",
+    transfer:"Deutschland, Diskurs zu EU-KI-VO und Medizinprodukte-Regulierung, exemplarisch für erbliche Erkrankungen."
   },
   {
-    journal:"BMJ Open", year:"2026", pmid:"42805652",
-    author:"Bone JK et al.", pubdate:"28.09.2026",
-    added:"28.09.2026",
-    title:"Social Prescribing für Kinder und Jugendliche im UK: Zugang und Versorgungswege aus elektronischen Gesundheitsakten",
-    sum:"Datenanalyse von 52.585 Kindern und Jugendlichen (4–25 Jahre, Mittelwert 20,04 Jahre), die 2017–2025 zu Social-Prescribing-Diensten im UK überwiesen wurden; Nutzung der Access-Elemental-Plattform.",
-    result:"91% lebten in urbanen Gebieten, 58% in depriviertesten Dezilen; 44% Überweisungen wegen psychischer Gesundheit; durchschnittlich 4,64 Kontakte pro Person (SD 7,70) à 66 Min (SD 108), 34% Weitervermittlung in Community-Support. Anteil Kinder unter 18 Jahren niedrig und sinkend.",
-    transfer:"UK-Daten, aber Struktur vergleichbar zu deutschen kommunalen Hilfsangeboten"
-  },
-  {
-    journal:"GMS J Med Educ", year:"2026", pmid:"42807201",
-    author:"Ullrich S et al.", pubdate:"15.09.2026",
-    added:"29.09.2026",
-    title:"KI-gestützte virtuelle Patienteninteraktionen verbessern Fachsprachenprüfung bei internationalen Pflegefachpersonen",
-    sum:"Kontrollierte Studie mit 25 international ausgebildeten Pflegefachpersonen während Anerkennungsverfahren in Deutschland; Interventionsgruppe (n=13) mit zusätzlichem Zugang zu Simulationstool mit virtuellen Patienten und Kolleg:innen neben Standard-600-Stunden-Sprachtraining.",
-    result:"Durchfallquote B2-Pflege-Prüfung 66,7% (Kontrolle) vs. 25,0% (Intervention), relative Reduktion 62,5%. Klinische Vorgesetzte berichteten erhöhter Sicherheit und Kompetenz in Team- und Patienteninteraktionen. Abbruchquoten nicht erhöht (1/13 vs. 2/12).",
-    transfer:"Deutsche Daten, direkter Anwendungskontext Anerkennungsverfahren"
+    journal:"J Med Internet Res", year:"2026", pmid:"42814951",
+    author:"Walzer S et al.", pubdate:"30.09.2026",
+    added:"30.09.2026",
+    title:"Implementierungs-Komplexität digitaler Pflegeinnovationen: Evaluation eines strukturierten Reflexionsinstruments",
+    sum:"Design-Science-Studie in Deutschland zur Entwicklung und Evaluation des Nursing Implementation Complexity Tool (NICT) zur Operationalisierung des NASSS-Frameworks für Implementierungsentscheidungen in der Pflege.",
+    result:"NICT entwickelt als Guideline, Canvas und Pocket-Card mit 4 Reflexionsdomänen; in summativer Evaluation (28 Teilnehmende Online-Befragung, 8 Think-Aloud-Interviews): 92,3 % (24/26) stimmten zu, dass NICT logisch strukturiert ist und strukturierte Reflexion ermöglicht; NICT fördert Diskussionen über Implementierungsdeterminanten, Stakeholder-Perspektiven und kontextuelle Einflussfaktoren; zeigt, wie konzeptuelle Frameworks in praxis-orientierte Reflexionswerkzeuge übersetzt werden können.",
+    transfer:"Deutsches Projekt (Furtwangen, Freiburg), universelles Werkzeug für alle Digitalisierungs-Implementierungen in der Pflege."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1611,7 +1602,7 @@ const RADAR_FRISTEN = [["2026-10-15", "2026-10-06", "2026-10-19", "2026-10-15", 
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "30.09.2026";
+const NEWS_STAND = "01.10.2026";
 const NEWS = [
   {titel:"Geschlechtersensible Gesundheitsdaten: Runder Tisch fordert Standards", datum:"2026-09-22", url:"https://www.monitor-versorgungsforschung.de/news/geschlechtersensible-gesundheitsdaten-runder-tisch-fordert-standards/"},
   {titel:"Telemedizin und Krisenresilienz: Zi-Congress 2026 in Berlin", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/telemedizin-und-krisenresilienz-zi-congress-2026-in-berlin/"},
@@ -1621,8 +1612,7 @@ const NEWS = [
 // Fremde Pressemeldungen zum Thema — taeglich von scripts/newsfeed.py
 // === PRESSE-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
 const PRESSE = [
-  {titel:"Bioimplantate für Knochendefekte herstellen: THWS ist Teil des EU-Projekts „BioFACTORy“", datum:"2026-09-25", url:"http://idw-online.de/de/news878002", quelle:"idw"},
-  {titel:"Gerontologie-Nachwuchspreis: Vera Gallistl für innovative Forschung zu Alter(n), KI und Hochaltrigkeit ausgezeichnet", datum:"2026-09-24", url:"http://idw-online.de/de/news877957", quelle:"idw"},
+  {titel:"Freie Ärzteschaft: Ein Jahr elektronische Patientenakte ePA: Keine Erfolgsgeschichte!", datum:"2026-09-30", url:"https://www.presseportal.de/pm/57691/6361773", quelle:"presseportal.de"},
 ];
 // === PRESSE-BLOCK-ENDE ===
 
