@@ -1575,62 +1575,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "1. Okt. 2026, 06:01 Uhr";
+const SNAP_DATE = "2. Okt. 2026, 06:00 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"JMIR Ment Health", year:"2026", pmid:"42815888",
-    author:"Blease C et al.", pubdate:"30.09.2026",
+    journal:"JMIR Mhealth Uhealth", year:"2026", pmid:"42814917",
+    author:"Schmelter F et al.", pubdate:"30.09.2026",
     added:"30.09.2026",
-    title:"GenAI-Einsatz in der ambulanten Psychotherapie: Adoptionsmuster und Schulungsbedarf",
-    sum:"Bevölkerungsrepräsentative Befragung von 766 Psychotherapeuten in 30 Ländern zur Nutzung generativer KI-Tools wie ChatGPT im klinischen Alltag.",
-    result:"54,6 % der Therapeuten nutzen mindestens ein GenAI-Tool, primär zur Unterstützung der Behandlungsplanung (41,9 %), Verwaltung (41,4 %) und Psychoedukation (39,7 %); 82,8 % berichten Reduktion der Arbeitsbelastung, aber nur 18,1 % erhielten institutionelle Unterstützung und 81,1 % keine formale KI-Schulung.",
-    transfer:"Breites europäisches Sample (einschließlich Deutschland, Schweiz, Irland, UK); zeigt Alltagseinsatz ohne systematische Unterstützungsstrukturen."
+    title:"Noninvasive Glukosemonitoring per Wearable: Machine Learning zeigt hohe Genauigkeit",
+    sum:"Machine-Learning-Modell zur Vorhersage von Gewebeglukose aus tragbaren Sensoren (Empatica EmbracePlus, Fitbit Sense 2) bei gesunden Personen und solchen mit Übergewicht; prospektive Validierung über zwei Wochen mit invasivem Referenzmonitor.",
+    result:"Long-Short-Term-Memory-Netzwerk erreichte Root-Mean-Square-Error von 21,04 mg/dL; 98,3% der Vorhersagen in den klinisch akzeptablen Zonen A und B der Clarke-Fehleranalyse. Mit Smartwatch allein: RMSE 23,49 mg/dL. Ansatz zeigt praktisches Potenzial für mobile Prävention metabolischer Erkrankungen.",
+    transfer:"Deutsche Studienteilnehmer, vergleichbare Dokumentationspflichten in Wearable-gestützter mHealth."
   },
   {
-    journal:"J Med Internet Res", year:"2026", pmid:"42815034",
-    author:"Schedler T et al.", pubdate:"30.09.2026",
+    journal:"J Med Internet Res", year:"2026", pmid:"42814849",
+    author:"Bannour N et al.", pubdate:"30.09.2026",
     added:"30.09.2026",
-    title:"Telemedizin für Neugeborenenversorgung: Implementierungs-Toolkit für europäische Netzwerke",
-    sum:"Qualitative Implementierungsstudie mit Experts aus Österreich, Niederlande, Deutschland zur systematischen Einführung von TeleNeonatology-Angeboten.",
-    result:"Strukturiertes Toolkit mit Checklisten und Planungsrichtlinien zur Gestaltung von Telemedizin-Workflows mit Fokus auf Stakeholder-Engagement, Prozessdesign und Evaluation; zeigt zentrale Implementierungshindernisse sind organisatorische und infrastrukturelle Faktoren, nicht primär Technologie.",
-    transfer:"Deutsch-sprachige und benachbarte Systeme; vergleichbare Netzwerk-Strukturen in Neugeborenenmedizin."
+    title:"Large Language Models zur Extraktion zeitlicher Relationen aus französischen Klinikberichten",
+    sum:"Bewertung offener LLMs (vier Modelle) mittels Few-Shot-Prompting für die Extraktion und Normalisierung von zeitlichen Angaben zu Symptomen und Diagnosen in klinischen Narrativen; Validierung an realen französischen Patientendaten zu Seltenen Erkrankungen.",
+    result:"F1-Score von 0,72 für seltene Diagnosen und 0,61 für Phänotyp-Events; Normalisierung ohne relevante Fehlerfortpflanzung. Ansatz bewährt sich auch auf englischem i2b2-Corpus. LLM-as-a-Judge und menschliche Validierung bestätigen klinische Plausibilität.",
+    transfer:"Französische Kliniksystem, FHIR-kompatibel, deutsches Gesundheitsdatenraumkonzept übertragbar."
   },
   {
-    journal:"JMIR Form Res", year:"2026", pmid:"42815018",
-    author:"Taveira É et al.", pubdate:"30.09.2026",
+    journal:"JMIR Hum Factors", year:"2026", pmid:"42814879",
+    author:"Stolberg L et al.", pubdate:"30.09.2026",
     added:"30.09.2026",
-    title:"mHealth-Apps in portugiesischer Allgemeinmedizin: Nutzung, Lücken und Regulierungsbedarf",
-    sum:"Querschnittsstudie mit 141 Hausärzten in Portugal zu Adoption, Auswahl und Hürden bei der Nutzung von Mobil-Health-Anwendungen im klinischen Alltag.",
-    result:"97,9 % sind Apps bekannt, 85,1 % nutzen sie (v. a. während Konsultationen: 92,5 %); Haupttreiber sind Usability (95,0 %) und evidenzbasierte Wirksamkeit (65,8 %); Barrieren: fehlende Transparenz (84,2 %), keine nationalen Evaluationsstandards (47,5 %), mangelhafte Interoperabilität (71,4 % der Nicht-Nutzer); 56,0 % sehen KI-Integration positiv, v. a. für Entscheidungsunterstützung (80,9 %), aber Bedenken zu Sicherheit/Datenschutz (74,5 %).",
-    transfer:"Südeuropa, Sozialversicherungssystem, regulatorische Situation vergleichbar Deutschland/Schweiz."
+    title:"Prototyp-Usability für Mental-Health-App in Esports: Requirements und Test",
+    sum:"Dreistufige Entwicklung einer mHealth-App (MindAthlete) zur psychischen Gesundheit von Esports-Athleten: Experteninterviews (n=7), Prototype-Entwicklung, Usability-Test mit 25 semi-/professionellen Athleten.",
+    result:"System Usability Scale Median 77,5 (IQR 67,5–87,5), klassifiziert als 'gut' und über Benchmark vergleichbarer mHealth-Apps (68,3). Keine Unterschiede nach Geschlecht, Alter oder Erfahrung. Qualitatives Feedback zeigt intuitive Navigation und Ästhetik als Stärken; kürzere Animationen und besseres Onboarding als Verbesserungen.",
+    transfer:"Deutsche Institution, Nutzerforschung transferierbar, Populationsspezifität beachten."
   },
   {
-    journal:"JMIR Med Educ", year:"2026", pmid:"42814991",
-    author:"Moldt JA et al.", pubdate:"30.09.2026",
-    added:"30.09.2026",
-    title:"KI-Akzeptanz und professionelle Identität im klinischen Alltag: Deutsche Querschnittsstudie",
-    sum:"Befragung von 93 Medizinstudierenden und 65 Kliniker:innen sowie quasi-randomisierte Szenarien-Tests zur Wahrnehmung von KI-Einsatz, professioneller Bedrohung und Bewertung von Erklärbarkeit.",
-    result:"Positive Erwartungen an KI koexistieren mit Sorgen um professionelle Identität; Medizinstudierende berichten stärkere Identity Threat als praktizierende Ärzt:innen trotz ähnlicher Erwartungen (p &lt; 0,05); bei Bewertung von KI-gestützten Entscheidungen unterschieden sich Explainability-Ratings signifikant zwischen Szenarien (p = 0,007), bei Triage-Aufgaben deutlich niedriger; Trustworthiness und Responsibility blieben stabil.",
-    transfer:"Universitätsmedizin Tübingen, Deutschland; Studienpopulation mit deutschem Ausbildungskontext."
+    journal:"BMJ Open", year:"2026", pmid:"42805638",
+    author:"Broadbent A et al.", pubdate:"28.09.2026",
+    added:"28.09.2026",
+    title:"Diversity-Merkmale in Mental-Health-Datenplattform: Verfügbarkeit vs. Berichterstattung",
+    sum:"Querschnittsanalyse von 362 CRIS-Publikationen (South London and Maudsley NHS) zu Verfügbarkeit und Berichterstattung von Diversity-Charakteristiken; Vergleich zwischen vorhandenen Daten und tatsächlicher Nutzung.",
+    result:"Durchschnittlich 4,0 Merkmale pro Publikation berichtet. Alter (89,3%), Geschlecht (87,3%), Ethnizität (80,4%) häufig; Socioeconomic-Status (42,5%), Partnerschaft (35,0%), Behinderung (27,0%) selten. Geografischer Ort und Obdachlosigkeit zu 97,5% verfügbar, aber nur zu 6,6% bzw. 5,8% genutzt—Berichtslücke.",
+    transfer:"Britisches NHS, europäisch übertragbar; zeigt Repräsentanzdefizit in EHR-gestützter Forschung."
   },
   {
-    journal:"JMIR Hum Factors", year:"2026", pmid:"42814961",
-    author:"Lammert D et al.", pubdate:"30.09.2026",
-    added:"30.09.2026",
-    title:"Conversational AI in hereditärem Krebsscreening: Design und Governance für klinische Integration",
-    sum:"Qualitative Anforderungsanalyse mit 18 Stakeholdern (Fachpersonen, Patienten, Regulatoren) zu Bedingungen für verantwortungsvolle Integration eines sprachgesteuerten KI-Systems in die BRCA-Beratung.",
-    result:"Verantwortliches Design wird nicht primär durch Generic-Prinzipien definiert, sondern durch rekurrente Spannungen: (1) Barrierefreiheit vs. klinische Rollengrenzen, (2) Vereinfachung vs. Genauigkeit/Transparenz, (3) Skalierbarkeit vs. Governance; daraus ergeben sich Anforderungen für Systemfähigkeiten: begrenzte Autorität, Menschliches Monitoring, Kontext-sensitive Kommunikation, Integration in klinische und regulatorische Strukturen, EU/deutschrechtliche Compliance (MDR, Datenschutz, Genetik-Transparenz).",
-    transfer:"Deutschland, Diskurs zu EU-KI-VO und Medizinprodukte-Regulierung, exemplarisch für erbliche Erkrankungen."
+    journal:"Front Public Health", year:"2026", pmid:"42807325",
+    author:"Dobrowolski H", pubdate:"14.09.2026",
+    added:"29.09.2026",
+    title:"LLM-generierte Essensplan: Moderate Konformität mit polnischen Ernährungsrichtlinien",
+    sum:"Evaluation von drei kommerziellen LLMs (ChatGPT, Gemini, Copilot) zur Generierung von 35-Tages-Speiseplänen auf drei Energieniveaus (2.000, 2.500, 3.000 kcal) gegen polnische Ernährungsempfehlungen.",
+    result:"Copilot höchste Konformität (Median 7/9 Richtlinien/Tag), signifikant besser als ChatGPT (6/9; p=0,002) und Gemini (5/9; p&lt;0,001). Alle Modelle begrenzen Fleisch-/Wurstkonsum und erfüllen meist Obst-, Gemüse-, Süßigkeits- und Milchziele; Vollkornprodukte konsistent unterrepräsentiert. Keine vollständige Konformität erreicht.",
+    transfer:"Polen (EU-Vergleichssystem), Risiken von LLM-Fehlern in Patientenedukation evident."
   },
   {
-    journal:"J Med Internet Res", year:"2026", pmid:"42814951",
-    author:"Walzer S et al.", pubdate:"30.09.2026",
+    journal:"Eur J Public Health", year:"2026", pmid:"42811403",
+    author:"Correia T et al.", pubdate:"04.08.2026",
     added:"30.09.2026",
-    title:"Implementierungs-Komplexität digitaler Pflegeinnovationen: Evaluation eines strukturierten Reflexionsinstruments",
-    sum:"Design-Science-Studie in Deutschland zur Entwicklung und Evaluation des Nursing Implementation Complexity Tool (NICT) zur Operationalisierung des NASSS-Frameworks für Implementierungsentscheidungen in der Pflege.",
-    result:"NICT entwickelt als Guideline, Canvas und Pocket-Card mit 4 Reflexionsdomänen; in summativer Evaluation (28 Teilnehmende Online-Befragung, 8 Think-Aloud-Interviews): 92,3 % (24/26) stimmten zu, dass NICT logisch strukturiert ist und strukturierte Reflexion ermöglicht; NICT fördert Diskussionen über Implementierungsdeterminanten, Stakeholder-Perspektiven und kontextuelle Einflussfaktoren; zeigt, wie konzeptuelle Frameworks in praxis-orientierte Reflexionswerkzeuge übersetzt werden können.",
-    transfer:"Deutsches Projekt (Furtwangen, Freiburg), universelles Werkzeug für alle Digitalisierungs-Implementierungen in der Pflege."
+    title:"Digitale Gesundheit und Bindung von Fachkräften im ländlichen Raum: Systematische Übersicht",
+    sum:"Scoping Review von 55 Quellen (2015–2025) zu Auswirkungen von Telehealth, Tele-Education und Hybrid-Interventionen auf Verbleib, Entwicklung und Nachhaltigkeit von Fachkräften im ländlichen Gesundheitswesen.",
+    result:"Digitale Interventionen beeinflussen Fachaustausch, Supervision, Weiterbildung, klinisches Selbstvertrauen und Workflow-Unterstützung. Vier Redistributionspfade identifiziert (Arbeit, Autorität, Abhängigkeit, Infrastruktur-Risiko). Direkte Retentionsergebnisse selten; Fokus eher auf Determinanten als auf Effekte.",
+    transfer:"WHO-europäisches System, direkt auf deutsche Flächenländer mit Fachkräftemangel übertragbar."
+  },
+  {
+    journal:"BMC Cardiovasc Disord", year:"2026", pmid:"42800872",
+    author:"Hooshanginezhad Z et al.", pubdate:"24.07.2026",
+    added:"26.09.2026",
+    title:"Machine Learning prognostiziert Mortalität bei hochfrequenter Polypharmzie in Herzinsuffizienz",
+    sum:"Sekundäranalyse von 1.375 Patienten mit ambulanter Herzinsuffizienz (Spanien 2006–2016); Random-Forest-Cox-Regression zur Prognose von Überlebensdauer; Stratifizierung nach Polypharmzie-Schwellenwert (≥5 kardiovaskuläre Medikamente).",
+    result:"Signifikanter Überlebensnachteil bei hoher Polypharmzie (log-rank p=0,017, multivariat p&lt;0,001). C-Index 0,804. Top-Prädiktoren: Alter, NT-proBNP, NYHA-Klasse, Krankheitsdauer, Sacubitril-Valsartan, β-Blocker, ACE-Hemmer/ARB. Befund unterstützt personalisierte Verschreibungsstrategien.",
+    transfer:"Spanisch-europäisches Versicherungssystem, deutsche Versorgungsrealität strukturell vergleichbar."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1646,7 +1655,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20"], [], ["2026-10-28", "2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "01.10.2026";
+const NEWS_STAND = "02.10.2026";
 const NEWS = [
   {titel:"Geschlechtersensible Gesundheitsdaten: Runder Tisch fordert Standards", datum:"2026-09-22", url:"https://www.monitor-versorgungsforschung.de/news/geschlechtersensible-gesundheitsdaten-runder-tisch-fordert-standards/"},
   {titel:"Telemedizin und Krisenresilienz: Zi-Congress 2026 in Berlin", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/telemedizin-und-krisenresilienz-zi-congress-2026-in-berlin/"},
@@ -1656,8 +1665,8 @@ const NEWS = [
 // Fremde Pressemeldungen zum Thema — taeglich von scripts/newsfeed.py
 // === PRESSE-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
 const PRESSE = [
+  {titel:"Prof. Dr. Rawa Arif neuer Herzchirurg an der Universitätsmedizin Augsburg", datum:"2026-10-01", url:"http://idw-online.de/de/news878420", quelle:"idw"},
   {titel:"Bioimplantate für Knochendefekte herstellen: THWS ist Teil des EU-Projekts „BioFACTORy“", datum:"2026-09-25", url:"http://idw-online.de/de/news878002", quelle:"idw"},
-  {titel:"Gerontologie-Nachwuchspreis: Vera Gallistl für innovative Forschung zu Alter(n), KI und Hochaltrigkeit ausgezeichnet", datum:"2026-09-24", url:"http://idw-online.de/de/news877957", quelle:"idw"},
 ];
 // === PRESSE-BLOCK-ENDE ===
 
