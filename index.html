@@ -1575,62 +1575,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "3. Okt. 2026, 06:22 Uhr";
+const SNAP_DATE = "4. Okt. 2026, 06:00 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"J Med Internet Res", year:"2026", pmid:"42826249",
-    author:"Swinckels L et al.", pubdate:"02.10.2026",
+    journal:"JMIR Med Inform", year:"2026", pmid:"42826230",
+    author:"Faisal HP et al.", pubdate:"02.10.2026",
     added:"02.10.2026",
-    title:"Multimodale Large Language Models in der Parodontitis-Risikobewertung: Vergleich mit zahnärztlicher Expertise",
-    sum:"Studie vergleicht die Leistung von multimodalen LLMs (GPT-4o, Gemini 1.5 Pro, Claude 3.5 Sonnet) bei der Bewertung von Parodontitis-Risiko anhand von EHR-Daten und Panoramaaufnahmen gegen eine Referenzperiodontistin.",
-    result:"GPT o1 Pro und Claude Sonnet 4 erreichten 86,7 % bzw. 85,6 % akzeptable Ratings (vergleichbar mit Periodontistin 87,8 %), Gemini 2.5 Pro nur 59,4 % (p&lt;0,002). Alle Modelle zeigten Schwächen bei radiografischer Interpretation. Bearbeitungszeiten: Claude 10 Sekunden bis Periodontistin 5 Min 57 Sek. EHR-Daten allein lieferten substantielle Basis auch ohne korrekte Radiografie.",
-    transfer:"Niederlande, vergleichbare Versicherungssysteme und Dokumentationspflichten"
+    title:"FHIR-basiertes Disaster-Health-Dashboard: Echtzeit-Datenvisualisierung für Notfallmanagement",
+    sum:"Entwicklung eines Web-Dashboards zur Visualisierung von FHIR-standardisierten Gesundheitsdaten nach Katastrophen, mit Anwendung auf WHO-Notfall-Mindestdatensatz in Indonesien.",
+    result:"Dashboard integriert 13.300 synthetische Patientendatensätze, zeigt Echtzeitübersicht über Patientenzahl, Gesundheitszustände, Outcomes und geografische Verteilung; unterstützt datengestützte Entscheidungsfindung in Notfalllagen ohne numerische Leistungsmetriken angegeben.",
+    transfer:"FHIR-Interoperabilität; konzeptionell auf deutsche DiGA-Infrastruktur übertragbar."
   },
   {
-    journal:"JMIR Hum Factors", year:"2026", pmid:"42826248",
-    author:"Olsen LN et al.", pubdate:"02.10.2026",
+    journal:"J Med Syst", year:"2026", pmid:"42825967",
+    author:"Lee H et al.", pubdate:"02.10.2026",
     added:"02.10.2026",
-    title:"KI-gestützte Dokumentation in dänischen Hausarztpraxen: Zeit- und Qualitätseffekte",
-    sum:"Pragmatische Pre-Post-Studie in 20 Hausarztpraxen zur Akzeptanz und Effektivität eines KI-Dokumentationssystems auf Dokumentationszeit und klinische Notizqualität.",
-    result:"Selbstbewertete Dokumentationsstruktur stieg von 3,99 auf 4,45, Dokumentationszeit sank von 2,85 auf 2,29 Kategorien. Technologieakzeptanz hoch (TAM 3,76–4,19; SUS 77,5). Externe blinde Bewertung zeigte höhere Scores post-Implementierung bei Qualität und Struktur, aber niedrige Übereinstimmung zwischen Bewertern. Assoziation zwischen Dokumentationszeit und wahrgenommener Qualität vernachlässigbar.",
-    transfer:"Skandinavien, höherer Digitalisierungsgrad; Befunde zeigen Möglichkeiten"
+    title:"KI-gestützte SNOMED-CT-Kodierung: Human-AI-Workflow für zweisprachige klinische Texte",
+    sum:"Evaluierung eines Large-Language-Model-Agent-Systems zur automatisierten Kodierung von klinischen Freitexten auf SNOMED-CT-Konzepte in Deutsch und Koreanisch, mit Messung von Genauigkeit und Zeitaufwand.",
+    result:"Human-AI-Workflow erhöhte Hit-Rate@1 von 83,7% auf 86,8% (p&lt;0,001), R-Precision von 63,2% auf 67,4% (p&lt;0,001) und reduzierte Kodierungszeit um 53,9% (von 1,57 auf 0,72 min pro Segment).",
+    transfer:"Tertärmedizinische Klinik Südkorea; Dokumentationsaufwand-Entlastung direkt auf deutsche EHR-Systeme übertragbar."
   },
   {
-    journal:"JMIR Hum Factors", year:"2026", pmid:"42826374",
-    author:"Taylor KM et al.", pubdate:"02.10.2026",
+    journal:"J Glob Health", year:"2026", pmid:"42825367",
+    author:"Xu J et al.", pubdate:"02.10.2026",
     added:"02.10.2026",
-    title:"Wearable-Integration in digitale Therapie für Psychose: Co-Design und Machbarkeit",
-    sum:"Qualitative Co-Design und Machbarkeitsstudie mit 10 Experten mit Erfahrung (psychosekranke Personen) entwickelt und testet Wearable-augmentierte SloMo-App über 8 Wochen mit Fokus auf Usability, Akzeptanz und klinische Outcomes.",
-    result:"Spire Stone (Atemfrequenz und Stress-Physiologie) integriert. 8/10 (80 %) Nutzer berichteten, dass Wearable häufigere Nutzung der SloMo-Features und anderer Bewältigungsstrategien förderte. Höhere Gerätenutzung (n=3) assoziiert mit 25 % Paranoia-Reduktion (SD 6 %) und 84 % Zufriedenheit (SD 13 %); geringere Nutzung (n=7) mit 11 % Paranoia-Anstieg (SD 17 %) und 63 % Zufriedenheit (SD 20 %). Weitere Entwicklung notwendig für breiter akzeptable Lösung.",
-    transfer:"UK-NHS-Setting, Übertragbarkeit auf europäische Systeme gegeben"
+    title:"KI-Screening für Frühgeborenen-Retinopathie: Kosteneffektivität in gemeindebasierten Strukturen",
+    sum:"Entscheidungsbaumanalyse zur Kosteneffektivität von KI-assistiertem und Telemedizin-basiertem Screening gegenüber Bettseitenscreening durch Spezialisten bei 100.000 Früh­ge­borenen in China.",
+    result:"KI-assistiertes Screening war dominierend: Lebenszeitkosten USD 1.507/Person (urban) vs. USD 2.581/Person (ländlich), 29,71 QALYs (urban) vs. 29,58 QALYs (ländlich); Inkrementelle Kosteneffektivität –USD 7.307/QALY (urban) und –USD 3.688/QALY (ländlich) – robust in Sensitivitätsanalysen.",
+    transfer:"China; Neonataler Zugang; Modell auch auf deutsche Ressourcen-limitierte Settings übertragbar."
   },
   {
-    journal:"JMIR Hum Factors", year:"2026", pmid:"42826375",
-    author:"Darla M et al.", pubdate:"02.10.2026",
+    journal:"JAMA Netw Open", year:"2026", pmid:"42826022",
+    author:"SteelFisher GK et al.", pubdate:"01.10.2026",
     added:"02.10.2026",
-    title:"Vertrauen und menschliche Faktoren in KI-Entscheidungsunterstützung auf Intensivstationen",
-    sum:"Gemischte SEIPS-2.0-informierte Studie an Emory Healthcare evaluiert Wahrnehmungen von Klinikern (ICU/ED) zu KI-CDSS über Survey (n=57) und semi-strukturierte Interviews (n=11) mit A/B-Testing von KI-Szenarien.",
-    result:"Vertrauen variiert signifikant nach Patientenakuität (Cochran Q=30,40, p&lt;0,001): stabile Patienten 75 %, verschlechterte Patienten 47 %, kritisch Kranke/undifferenzierte ED-Patienten 44 %. Interne Konsistenz gut (Cronbach α: KI-Wahrnehmung 0,891, Vertrauen 0,743, Implementierung 0,740). Kliniker bevorzugten Opt-in-Alerts (10/11, 91 %), evidenzverlinkte Empfehlungen (7/11, 64 %), keine explizite KI-Erwähnung (8/11, 73 %). Barrieren: Überabhängigkeit, unzureichendes Training, Datenqualitätsbedenken. Thematische Analyse ergab 36 Themen in 6 Domänen. Gradueller Implementierungsansatz erforderlich.",
-    transfer:"USA, aber Sicherheits- und Vertrauensbefunde sind universell übertragbar"
+    title:"Telemedizin in der Langzeitpflege: Barrieren und Nutzen für spezialistischen Zugang",
+    sum:"Befragung von 379 Pflegeheimleiterinnen zu Wahrnehmung und Nutzung von Telemedizin für spezialistischen Zugang bei immobilen älteren Patienten.",
+    result:"77% der Nutzer sahen Vorteil bei Mobilitätsbarrieren, 73% berichteten bessere Versorgungsqualität; 73% der Nichtnutzer nannten zu seltenes Angebot durch Spezialistinnen, 62% sahen keinen Qualitätsvorteil, 60% der Nutzer berichteten zusätzliche Zeitbelastung für Pflegepersonal.",
+    transfer:"USA-Studie; Befunde zu organisatorischen Barrieren und Pflegeworkload relevant für deutsche Langzeitpflegeeinrichtungen."
   },
   {
-    journal:"BMC Palliat Care", year:"2026", pmid:"42823679",
-    author:"Krauss SH et al.", pubdate:"01.10.2026",
+    journal:"Front Public Health", year:"2026", pmid:"42824150",
+    author:"Rabbani SA et al.", pubdate:"17.09.2026",
     added:"02.10.2026",
-    title:"Clinical Decision Support Tool für potenziell sedierende Medikamente in der Palliativmedizin",
-    sum:"Gemischte Pilotstudie an vier Zentren (zwei stationär, zwei Palliativteams) testet Machbarkeit, Angemessenheit und Akzeptabilität einer Evidence- und Expertenkonsens-basierten Warnliste für sedierende Substanzen.",
-    result:"Retrospektive Kohortenstudie (n=1.189): Warnliste wurde bei Patienten mit unerwünschter Sedation am häufigsten genutzt. Online-Survey (13/33 Befragte nutzten Liste, 8 wollen Nutzung fortsetzen). Fokusgruppen (n=22 Fachleute): Ziel gut verstanden, Nutzen primär in Bildung und Information; 21 % der Berichte enthielten Influential Outlier. Risikonachricht: Warnliste könnte als Sedierungsdosis-Empfehlung fehlinterpretiert werden.",
-    transfer:"Deutschland und Österreich, Pilotstandorte in deutschsprachigem Raum"
+    title:"Machine Learning für Antimikrobienresistenz-Surveillance: Systematische Übersicht über One-Health-Anwendungen",
+    sum:"Scoping Review zu Machine-Learning-Methoden zur Antimikrobienresistenz-Überwachung über Klinik, Genomik, Umwelt und One-Health-Systeme, mit Bewertung von Validierung und klinischer Implementierungsreife.",
+    result:"Von 66 eingeschlossenen Studien berichteten 76% Diskriminanzfähigkeit und 63% Explainability, aber nur 37% externe/temporale Validierung, 12% Kalibrierung und 2% prospektive Evaluation mit gemessenem klinischem Impact – technische Machbarkeit weit überwiegend, operative Einsatzreife begrenzt.",
+    transfer:"Europäische Gesundheitssysteme; Fokus auf Validierungsdefizite auch hierzulande relevant."
   },
   {
-    journal:"BMC Musculoskelet Disord", year:"2026", pmid:"42823687",
-    author:"Jönsson H et al.", pubdate:"11.09.2026",
+    journal:"Front Public Health", year:"2026", pmid:"42824199",
+    author:"Xie D et al.", pubdate:"17.09.2026",
     added:"02.10.2026",
-    title:"Telerehabilitation für postpartale Beckenbodendysfunktion: Patientenperspektive",
-    sum:"Qualitative Studie mit 14 schwedischen Frauen nach Telerehabilitation des Beckenbodens untersucht Erfahrungen, Akzeptanz und Wahrnehmungen von digitaler Physiotherapie.",
-    result:"Telerehabilitation als \"komplementäres Puzzleteil\" wahrgenommen mit drei Kategorien: (1) Digitales Format ermöglicht Chancengleichheit (verbesserte Zugänglichkeit, Flexibilität, aktive Partizipation); (2) Digitale Teilnahme erfordert fortgeschrittene Kommunikation (Vermittlung von Fähigkeiten, Körperbewusstsein, zuverlässige Technologie); (3) Zweifel am digitalen Format (fehlende körperliche Untersuchung, Hands-on-Anleitung, zwischenmenschliche Interaktion). Hybrid-Modell könnte Person-zentrierte Versorgung verbessern.",
-    transfer:"Skandinavien, öffentliches Versicherungssystem, aber höherer Digitalisierungsgrad"
+    title:"Digitale Hypertonie-Lernplattform (iHEC) in der ärztlichen Weiterbildung: Effekt auf Lernleistung",
+    sum:"Retrospektive Kohortenstudie mit 245 Assistenzärztinnen zu Effekten einer KI-gestützten hypertensiven Lehr-Plattform auf klinische Prüfungsleistung, Wissenserwerb, selbstgesteuertes Lernen und Kritisches Denken.",
+    result:"iHEC-Kohorte zeigte höhere OSCE-Scores (AMD 6,85, 95% CI 5,12–8,58, p&lt;0,001), Wissenswerte (AMD 5,42, p&lt;0,001), Selbstlern-Readiness (AMD 9,86, p&lt;0,001) und kritisches Denken (AMD 12,45, p&lt;0,001); strukturelle Pfadanalyse zeigte, dass selbstgesteuertes Lernen 51,4% des Effekts erklärte.",
+    transfer:"Chinesische tertiäre Klinik; Konzept zur Kompetenzentwicklung auf deutsche Weiterbildung übertragbar."
+  },
+  {
+    journal:"Front Public Health", year:"2026", pmid:"42824331",
+    author:"Cao L et al.", pubdate:"17.09.2026",
+    added:"02.10.2026",
+    title:"Machine Learning zur Stoffwechselsyndrom-Vorhersage bei Jugendlichen anhand von Bewegungsverhalten",
+    sum:"Entwicklung und interne Validierung eines Machine-Learning-Modells zur Identifikation von Stoffwechselsyndrom bei 822 chinesischen 12–15-Jährigen anhand von Beschleunigungsmesser-Daten und Körperzusammensetzung.",
+    result:"Extra-Trees-Modell erreichte AUC 0,864 im internen Test-Set, Genauigkeit 92,02%, Spezifität 93,33%, Sensitivität 76,92%; SHAP identifizierte Körperfettanteil (0,08) und moderate körperliche Aktivität (0,04) als Hauptprädiktor – externe Validierung noch erforderlich.",
+    transfer:"Chinesische Schulsample; konzeptionell auf deutsche SchulScreenings übertragbar, aber noch keine Multicentrierung."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1646,7 +1655,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20"], [], ["2026-10-28", "2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "03.10.2026";
+const NEWS_STAND = "04.10.2026";
 const NEWS = [
   {titel:"Geschlechtersensible Gesundheitsdaten: Runder Tisch fordert Standards", datum:"2026-09-22", url:"https://www.monitor-versorgungsforschung.de/news/geschlechtersensible-gesundheitsdaten-runder-tisch-fordert-standards/"},
   {titel:"Telemedizin und Krisenresilienz: Zi-Congress 2026 in Berlin", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/telemedizin-und-krisenresilienz-zi-congress-2026-in-berlin/"},
