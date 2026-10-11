@@ -2288,12 +2288,12 @@
   "aufgenommen": "2026-09-13"
  },
  {
-  "pmid": "42727043",
-  "journal": "ACS Appl Mater Interfaces",
+  "pmid": "42731844",
+  "journal": "BMJ Open",
   "year": "2026",
-  "author": "Liang M et al.",
+  "author": "Swarray Deen A et al.",
   "pubdate": "11.09.2026",
-  "added": "11.09.2026",
+  "added": "12.09.2026",
   "transfer": "Subsahara-Afrika mit deutlich niedrigerem Ultraschall-Zugang; Ansatz für LMIC-Versorgung relevant",
   "title": "Digitale Gesundheitsanwendungen in Schwangerenbetreuung: KI-gestützte Gestationsalter-Schätzung in Afrika",
   "sum": "Prospektive Multizenter-Kohortenstudie zur Validierung eines KI-Algorithmus für Gestationsalter-Schätzung mittels Handheld-Ultraschall mit KI-Unterstützung bei 969 Schwangeren in Ghana, Kenia und Südafrika (PEARLS-Studie).",
@@ -3647,7 +3647,7 @@
   "pubdate": "26.08.2026",
   "added": "26.08.2026",
   "transfer": "Nachweise aus skandinavischen und asiatischen Daten, teilweise erhöhter Digitalisierungsgrad als Deutschland",
-  "title": "KI-gestützte Vorhersage von Schwangerschaftskomplikationen in drei Bevölkerungen: Schweiz, Chile, Singapur",
+  "title": "KI-gestützte Vorhersage von Schwangerschaftskomplikationen in drei Bevölkerungen: Schweden, Chile, Singapur",
   "sum": "Retrospektive Studie mit über 700.000 Schwangerschaften aus Schweden, Chile und Singapur zur Entwicklung von Machine-Learning-Modellen für die Frühdiagnostik ungünstiger mütterlicher und neonataler Ergebnisse mittels Daten bis 14. Schwangerschaftswoche.",
   "result": "Das LightGBM-Modell erreichte AUROC-Werte von 0,65 in allen drei Populationen, gegenüber 0,53–0,56 für routinemäßige klinische Risikobewertungen (p<0,05). Bei 50 % Falsch-Positive-Rate erreichte das Modell 69,17 % Sensitivität für Schweden, 69,62 % für Chile und 64,93 % für Singapur. Soziodemografische Variablen zählten zu den wichtigsten Prädiktoren.",
   "aufgenommen": "2026-08-27"
