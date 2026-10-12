@@ -1,5 +1,18 @@
 [
  {
+  "pmid": "42859266",
+  "journal": "Health Care Manag Sci",
+  "year": "2026",
+  "author": "Pilz M et al.",
+  "pubdate": "10.10.2026",
+  "added": "10.10.2026",
+  "transfer": "Deutschland, direkt in deutschen Einrichtungen entwickelt und getestet",
+  "title": "Hybrid-KI für Pflegeplanung: Regeln und LLM kombiniert in deutschen Heimen",
+  "sum": "Prototypische Evaluierung eines hybriden Clinical Decision Support System in zwei deutschen Pflegeheimen, das strukturierte Daten und Freitexte kombiniert, um Pflegeinterventionen in Mobilität und Schmerzmanagement zu generieren.",
+  "result": "72 % der Empfehlungen wurden von Pflegefachpersonen als angemessen bewertet; LLM erzielte 76 % Übereinstimmung beim Extrahieren pflegerelevanter Informationen aus narrativen Texten. Die Hybrid-Architektur zeigte Potenzial zur Verbesserung der Pflegeplanung in Langzeiteinrichtungen.",
+  "aufgenommen": "2026-10-12"
+ },
+ {
   "pmid": "42854113",
   "journal": "JCO Clin Cancer Inform",
   "year": "2026",
@@ -2223,6 +2236,19 @@
   "aufgenommen": "2026-09-14"
  },
  {
+  "pmid": "42731844",
+  "journal": "BMJ Open",
+  "year": "2026",
+  "author": "Swarray Deen A et al.",
+  "pubdate": "11.09.2026",
+  "added": "12.09.2026",
+  "transfer": "Subsahara-Afrika mit deutlich niedrigerem Ultraschall-Zugang; Ansatz für LMIC-Versorgung relevant",
+  "title": "Digitale Gesundheitsanwendungen in Schwangerenbetreuung: KI-gestützte Gestationsalter-Schätzung in Afrika",
+  "sum": "Prospektive Multizenter-Kohortenstudie zur Validierung eines KI-Algorithmus für Gestationsalter-Schätzung mittels Handheld-Ultraschall mit KI-Unterstützung bei 969 Schwangeren in Ghana, Kenia und Südafrika (PEARLS-Studie).",
+  "result": "Studienprotokoll beschreibt geplante Validierung eines KI-Systems (Intelligent Ultrasound ScanNav FetalCheck) gegen Standard-Biometrie in erstem und zweitem Trimenon. Sekundärziel ist Eignung für groß angelegte Einsätze in Ländern mit limitiertem Ultraschall-Zugang zur Präeklampsie-Risikobestimmung.",
+  "aufgenommen": "2026-09-13"
+ },
+ {
   "pmid": "42729012",
   "journal": "F1000Res",
   "year": "2026",
@@ -2285,19 +2311,6 @@
   "title": "Therapeuten-Skeptizismus und Anpassung an Telemedizin: qualitative Studie mit KI-Perspektive",
   "sum": "Qualitative Studie mit sechs britischen Psychotherapeuten zu ihrer Anpassung an erzwungene Videoteletherapie während COVID-19, mit Implikationen für KI-gestützte Versorgung.",
   "result": "Therapeuten überarbeiteten initial kritische Annahmen: Sie unterschieden Implementierungsprobleme von Medieneigenschaften, erkannten Affordanzen und Grenzen von Videotherapie und entwickelten differenzierte Sichtweisen zum Einsatz. Befund: Teletherapie wurde akzeptabel, aber nicht äquivalent zu persönlicher Behandlung befunden. Therapiebeziehung erfordert bewusste Anpassung, nicht nur Tool-Adoption.",
-  "aufgenommen": "2026-09-13"
- },
- {
-  "pmid": "42731844",
-  "journal": "BMJ Open",
-  "year": "2026",
-  "author": "Swarray Deen A et al.",
-  "pubdate": "11.09.2026",
-  "added": "12.09.2026",
-  "transfer": "Subsahara-Afrika mit deutlich niedrigerem Ultraschall-Zugang; Ansatz für LMIC-Versorgung relevant",
-  "title": "Digitale Gesundheitsanwendungen in Schwangerenbetreuung: KI-gestützte Gestationsalter-Schätzung in Afrika",
-  "sum": "Prospektive Multizenter-Kohortenstudie zur Validierung eines KI-Algorithmus für Gestationsalter-Schätzung mittels Handheld-Ultraschall mit KI-Unterstützung bei 969 Schwangeren in Ghana, Kenia und Südafrika (PEARLS-Studie).",
-  "result": "Studienprotokoll beschreibt geplante Validierung eines KI-Systems (Intelligent Ultrasound ScanNav FetalCheck) gegen Standard-Biometrie in erstem und zweitem Trimenon. Sekundärziel ist Eignung für groß angelegte Einsätze in Ländern mit limitiertem Ultraschall-Zugang zur Präeklampsie-Risikobestimmung.",
   "aufgenommen": "2026-09-13"
  },
  {
