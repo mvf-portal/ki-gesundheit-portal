@@ -1922,71 +1922,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "13. Okt. 2026, 06:00 Uhr";
+const SNAP_DATE = "14. Okt. 2026, 06:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Dialogues Clin Neurosci", year:"2026", pmid:"42862709",
-    author:"Nobile B et al.", pubdate:"12.10.2026",
-    added:"12.10.2026",
-    title:"Künstliche Intelligenz in der Suizidprävention: Klinische Chancen und Risiken",
-    sum:"Narrative Übersicht zu AI-Anwendungen in der Suizidprävention: Früherkennung von Suizidgedanken durch NLP, virtuelle Patienten für Kliniker-Training und ChatBot-basierte Therapie.",
-    result:"AI-Modelle können Suizidgedanken sensitiver als Kliniker durch linguistische Muster erkennen; virtuelle Patienten verbessern Kliniker-Sicherheit bei Risikoeinschätzung. Allerdings: CBT-inspirierte AI-Tools bleiben unkontrolliert und oft klinisch unvalidiert; viele Patienten nutzen sie ohne Fachleitung. Automation Bias und Überakzeptanz algorithmischer Empfehlungen dokumentiert.",
-    transfer:"Frankreich – ethische und klinische Risiken sind länderunabhängig, Regulierungslücke überall"
+    journal:"JMIR Med Inform", year:"2026", pmid:"42868526",
+    author:"Lin YJ et al.", pubdate:"13.10.2026",
+    added:"13.10.2026",
+    title:"LLM mit Trauma-Wissen reduziert manuelle Codierung von Verletzungsschweregrad",
+    sum:"Studie testete, ob Large Language Models mit domänenspezifischem Wissen (Abbreviated Injury Scale) automatisch den Injury Severity Score aus Arztbriefen berechnen können – mit Ziel, die arbeitsintensive manuelle Traumakodierung zu ersetzen.",
+    result:"GPT-4.1 mit domänenspezifischem Retriever erreichte 75,3% genaue Vorhersage des ISS (95%-KI 66,1–82,7 %), verglichen mit 70,0% eines deterministischen Kodiertools. Besonders bei schweren Verletzungen verbessert sich die Genauigkeit substanziell; der Ansatz könnte Kodieraufwand reduzieren und Datenqualität verbessern.",
+    transfer:"Taiwan, vergleichbare Dokumentationspraxis in Traumaregistern"
   },
   {
-    journal:"Ann Med", year:"2026", pmid:"42860582",
-    author:"Wang J et al.", pubdate:"11.10.2026",
-    added:"12.10.2026",
-    title:"Machine-Learning-Modell zur Früherkennung von Gebrechlichkeit bei Dialysepatienten",
-    sum:"Entwicklung und externe Validierung eines XGBoost-Modells zur Identifikation von Gebrechlichkeit (FRAIL-Skala) bei 626 Hämodialysepatienten aus vier chinesischen Krankenhäusern mittels klinischer und Laborvariablen.",
-    result:"XGBoost zeigte beste externe Validierungsperformance (AUC 0,917, 95 % CI 0,867–0,967; Genauigkeit 0,847; Sensitivität 0,850; Spezifität 0,844). Sechs Prädiktoren: Alter, Griffstärke, Komorbiditäten, CCI, Albumin, Pro-BNP. SHAP-Analyse identifizierte Pro-BNP als einflussreichster Prädiktor mit klinisch relevanten Schwellwerten.",
-    transfer:"China – vergleichbare Dialysestrukturen, aber externe Validierung an chinesischen Patientendaten erforderlich"
+    journal:"Appl Clin Inform", year:"2026", pmid:"42869095",
+    author:"Hatab HA et al.", pubdate:"13.10.2026",
+    added:"13.10.2026",
+    title:"EHR-integrierte Entscheidungsunterstuetzung erhöht Antibiotika-Leitlinientreue um 202%",
+    sum:"Qualitätsverbesserungsstudie testete eine Multikomponenten-Intervention (EHR-integrierte klinische Entscheidungsunterstuetzung, Ärzteschulung, Prescribing Analytics, Audit-Feedback) zur Verbesserung der empirischen Antibiotikawahl bei pädiatrischen Harnwegsinfektionen.",
+    result:"Leitliniengerechte Verordnungen der Erstlinien-Therapie stiegen von 13,9% auf 41,9% in 12 Monaten (n=3.312 Fälle); gleichzeitig sank die Nutzung breiterer Cephalosporine. Der Anstieg folgte zeitlich der CDS-Implementierung und Verbreitungslisten-Publikation.",
+    transfer:"USA (akademisches Zentrum), Mechanismus übertragbar auf deutsches Versorgungssystem"
   },
   {
-    journal:"JMIR Form Res", year:"2026", pmid:"42855154",
-    author:"Lönnfjord V et al.", pubdate:"09.10.2026",
-    added:"09.10.2026",
-    title:"Mobile Apps für Kinder von Eltern mit psychischer Erkrankung: Qualitätsbewertung durch Experten",
-    sum:"Experten (Forscher, Kinderrechtsorganisationen, IT-Profis) beurteilten neun kostenlose Apps für Kinder von Eltern mit psychischer Erkrankung (COPMI) anhand der Mobile App Rating Scale (MARS) und Fokusgruppen-Diskussionen.",
-    result:"Nur 3 von 9 Apps erreichten hohe MARS-Scores über alle Dimensionen (Ästhetik, Funktionalität, Information, Engagement). Experten präferierten allgemeine Apps ohne COPMI-Spezifik (zur Stigmareduktion) und forderten Anonymitätsschutz, Web-Alternativen zu Apps und langfristige Finanzierungsmodelle durch etablierte Organisationen.",
-    transfer:"Schweden – Implementierungsbarrieren gelten über Länder hinweg, setzt aber auf Partnerschaft mit etablierten Organisationen"
+    journal:"JMIR Med Inform", year:"2026", pmid:"42869425",
+    author:"Stamatis CA et al.", pubdate:"13.10.2026",
+    added:"13.10.2026",
+    title:"KI-Wellness-App abgeschaltet: 26% der Nutzer finden keine Alternative, 27% weichen zu generalistischen LLMs aus",
+    sum:"Umfrage von 364 britischen Nutzern einer speziell für psychische Gesundheit entwickelten KI-App erfasste, wo sie nach Marktrückzug Support suchten – und was das für die Versorgung bedeutet.",
+    result:"Nach Wegfall der Purpose-Built-App wandten sich 27,1% hauptsächlich generalistischen KI-Tools zu, 26% suchten gar keine Unterstützung mehr. Nur 4,9% ersetzten die App durch NHS-Dienste, 8,1% durch private Therapeuten. 60,2% berichteten schlechtere Versorgungszugänge; bei denjenigen, die keine Alternative suchten, stieg dieser Anteil auf 80,7%.",
+    transfer:"Großbritannien; zeigt Versorgungslücken bei Rückzug von DiGA im deutschsprachigen Raum"
   },
   {
-    journal:"J Eval Clin Pract", year:"2026", pmid:"42862919",
-    author:"Papandreou P et al.", pubdate:"Okt. 2026",
-    added:"12.10.2026",
-    title:"Clinical Decision Support für enterale Ernährung: Zeitersparnis und Fehlerreduktion in der Praxis",
-    sum:"Pilottest eines internen CDSS zur Berechnung von Ernährungsanforderungen und Auswahl enteraler Ernährung in 27 hospitalisierten Patienten einer griechischen Privatklinik.",
-    result:"Die Planungszeit pro Patient sank von 9,01 ± 0,21 auf 4,01 ± 0,35 Minuten (55 % Reduktion); CDSS und manuelle Methode stimmten in 66,7 % der Fälle überein. Die Literaturübersicht zeigte, dass CDSS-Anwendung die Berechnungszeit reduziert, Dietitian-Überweisungen erhöht, schnellere Ernährungsinitiierung ermöglicht und medizinische Fehler senkt.",
-    transfer:"Griechisches Privathospital – Übertragbarkeit auf deutsche Kliniken mit ähnlichen Dokumentationspflichten erforderlich"
+    journal:"JMIR Med Inform", year:"2026", pmid:"42868240",
+    author:"Luo S et al.", pubdate:"13.10.2026",
+    added:"13.10.2026",
+    title:"Ambient-AI-Dokumentation in der Chirurgie: 77,5% berichten bessere Effizienz, 72,5% mehr Genauigkeit",
+    sum:"Befragung von 105 Chirurgen 3 Monate nach Implementierung von Dragon Ambient Experience (DAX) Copilot – einer KI-gestützten Echtzeit-Dokumentationslösung, die Arzt-Patient-Gespräche automatisch verschriftlicht.",
+    result:"77,5% (31/40 aktiver Nutzer) berichteten Verbesserung der wahrgenommenen Dokumentationseffizienz; 72,5% (29/40) berichteten bessere Genauigkeit, Detail und Konsistenz. 70,4% sahen Verbesserung der Dokumentationsaktualität. Nur 59,0% berichteten Besserung der Burnout-Symptome. Qualitative Rückmeldungen hoben Qualitätsgewinne hervor, zeigten aber auch Grenzen (EHR-Integration, Kompatibilität).",
+    transfer:"USA (Vanderbilt), aber Dokumentationslast ist international Problem"
   },
   {
-    journal:"Echocardiography", year:"2026", pmid:"42860807",
-    author:"Xie J et al.", pubdate:"Okt. 2026",
-    added:"12.10.2026",
-    title:"KI-gestützte Echokardiographie-Bildklassifikation: Kliniker-geführte Implementierung ohne Spezial-Hardware",
-    sum:"Machbarkeitsstudie eines praktizierten Echokardiographen, der mit AI-gestütztem Coding (KI 2.6) auf Standard-Workstation einen Five-Class-ResNet-18-Bildklassifizierer aus 1.387 Routineuntersuchungen entwickelte (9.796 Frames).",
-    result:"Gesamter Annotationsaufwand 32 Minuten. Interne Test-Genauigkeit 98,27 % (95 % CI 97,06–99,08 %), Makro-F1 0,9784. Externe Validierung (74 Patienten, 263 Frames) 71,48 % Genauigkeit; parasternale Kurz- und apikale Zwei-Kammer-View zeigten robuste Generalisierung (100 % und 94,23 %), andere Views geräteabhängiger.",
-    transfer:"China – Machbarkeitsnachweis mit klinischem Workflow, aber technische Umsetzung geräte- und lokationsabhängig"
+    journal:"PLoS One", year:"2026", pmid:"42868152",
+    author:"Shin HD et al.", pubdate:"13.10.2026",
+    added:"13.10.2026",
+    title:"App für Suizidprävention in der Notaufnahme: Clinicians wollen nutzen, System-Barrieren blockieren Einsatz",
+    sum:"Qualitative Studie mit 29 Notaufnahme-Mitarbeitern in Toronto zur Identifikation von Barrieren und Facilitatoren für die Nutzung einer App zur strukturierten Sicherheitsplanung bei Suizidrisiko – Analyse mit Theoretical Domains Framework und COM-B-Modell.",
+    result:"Starke intrinsische Motivation aller Disziplinen (Pflege, Psychiater, Sozialarbeiter) für die App-Nutzung und Einstufung von Sicherheitsplanung als hochpriorisierte Intervention. Zentrale Barrieren: fehlende Interoperabilität mit EHR, Dokumentationsinfrastruktur unvorbereitet, Bedenken bezüglich Patientenzugang zu Smartphones, Workflows nicht adaptiert. Facilitatoren: lokale Champions, externe Validierung der Tool-Effektivität.",
+    transfer:"Kanada (Ontario); Interoperabilitätsanforderungen gelten auch für Deutschland"
   },
   {
-    journal:"Front Public Health", year:"2026", pmid:"42857009",
-    author:"Olearczyk A et al.", pubdate:"25.09.2026",
-    added:"10.10.2026",
-    title:"Telemedizin in Polen: Zeitersparnis und Nutzung von Telefonkonsultationen in der Primärversorgung",
-    sum:"Landesweite Befragung von 798 Erwachsenen in Polen (Nov. 2025–Jan. 2026) zur Assoziation zwischen wahrgenommener Zeiteinsparung und Nutzung von Telefonkonsultationen in der Hausarztpraxis.",
-    result:"In vollständig adjustierten Modellen waren wahrgenommene Zeiteinsparungen mit höheren Odds für Telefonkonsultation assoziiert: &lt; 1 h OR 3,03, 1–2 h OR 3,91, ≥ 3 h OR 4,41 (alle p &lt; 0,01). Vorhersagewahrscheinlichkeit 26,3 % (keine Einsparung) bis 53,6 % (≥ 3 h). Finanzielle Belastung war mit niedrigerer Nutzung assoziiert.",
-    transfer:"Polen, vergleichbare Zentraleuropa-Strukturen – zeigt regionale Unterschiede in digitalen Barrieren"
-  },
-  {
-    journal:"Radiology", year:"2026", pmid:"42808896",
-    author:"Bodlien ML et al.", pubdate:"Sept. 2026",
-    added:"29.09.2026",
-    title:"Virtuelle versus echte Nativbilder in der Photonen-Zähl-CT: Vereinbarung bei Lungendensitometrie",
-    sum:"Retrospektive Studie an 83 Patienten (Hannover Medical School und niederländische Zentren) zum Vergleich virtueller und echter Nativ-CT-Bilder für Lungendichte-Messungen mittels bildgebendem Machine Learning.",
-    result:"Mittleres Lungenvolumen ähnlich (4.143 vs. 4.111 mL, p = 0,41), mittlere Schwächung −799 vs. −798 HU (p = 0,91). Nach Adjustierung für Atemtiefe: keine systematische Verzerrung, Attenuationsdifferenzen ±12,6 bis 10,5 HU (95 % LoA). Emphysematöse Areale leicht unterschätzt (−0,4 %, p &lt; 0,001), Normalbereiche überestimiert (+0,8 %, p &lt; 0,001).",
-    transfer:"Deutschland und Niederlande – vergleichbare Versorgungsstrukturen, bildgebender Befund ist strukturunabhängig"
+    journal:"Front Neurol", year:"2026", pmid:"42865351",
+    author:"Giorgi S et al.", pubdate:"28.09.2026",
+    added:"13.10.2026",
+    title:"Telemedizin in schwerer Epilepsie: Eltern schätzen Logistik, aber nicht klinische Äquivalenz",
+    sum:"Befragung von 95 Eltern spanischer Patienten mit Entwicklungs- und epileptischen Enzephalopathien zu Erfahrungen und Akzeptanz von Telemedizin (überwiegend Telefon/Email, kaum Videosprechstunde).",
+    result:"Zufriedenheit mit Telemedizin (Mittelwert 3,2/5) war deutlich niedriger als mit persönlichen Besuchen (4,6/5; t=-7,96, p&lt;0,001). Logistische Vorteile (Zeitersparnis, weniger Reisen) wurden hochwertig bewertet (77% zufrieden), aber der wahrgenommene klinische Nutzen war niedrig. Über 50% bevorzugten Rehabilitationstherapien persönlich; 24% beklagten Fehlen physikalischer Untersuchung.",
+    transfer:"Spanien; Evidenz limitiert durch Fehlen echter Videosprechstunde im Sample"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2002,7 +1993,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-12-31"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "13.10.2026";
+const NEWS_STAND = "14.10.2026";
 const NEWS = [
   {titel:"Geschlechtersensible Gesundheitsdaten: Runder Tisch fordert Standards", datum:"2026-09-22", url:"https://www.monitor-versorgungsforschung.de/news/geschlechtersensible-gesundheitsdaten-runder-tisch-fordert-standards/"},
   {titel:"Telemedizin und Krisenresilienz: Zi-Congress 2026 in Berlin", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/telemedizin-und-krisenresilienz-zi-congress-2026-in-berlin/"},
