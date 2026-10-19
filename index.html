@@ -1922,17 +1922,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "18. Okt. 2026, 06:21 Uhr";
+const SNAP_DATE = "19. Okt. 2026, 06:21 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"BMC Palliat Care", year:"2026", pmid:"42888399",
-    author:"Weisser A et al.", pubdate:"16.10.2026",
-    added:"16.10.2026",
-    title:"Digitale Information in der Palliativversorgung: Chancen und Umsetzungsvoraussetzungen",
-    sum:"Qualitative Studie mit acht Fachpersonen und drei informellen Pflegepersonen zu Barrieren und Chancen digitaler Technologien in der spezialisierten Palliativversorgung zu Hause in Deutschland.",
-    result:"Befragte beschrieben die Versorgung als holistische und funktionstüchtig, aber mit fragmentierten Kommunikationswegen und Datenverwaltung. Informelle Pflegepersonen agieren häufig als Informationsvermittler und tragen erhebliche organisatorische Last. Beide Gruppen sahen in zentralisierter digitaler Informationsaustausch Hauptchance zur Entlastung.",
-    transfer:"Deutschland, spezialisierte Palliativversorgung, direkt übertragbar auf deutsches System"
+    journal:"Ulster Med J", year:"2026", pmid:"42893089",
+    author:"West G et al.", pubdate:"19.10.2026",
+    added:"18.10.2026",
+    title:"Ärztliche Wahrnehmung von digitaler Entscheidungsunterstützung: Ressourcenschonung",
+    sum:"In einer britischen Online-Befragung wurden 105 Assistenzärzte (Rücklaufquote 62%) befragt, wie digitale Clinical-Decision-Support-Systeme (CDSS) ihre Entscheidungen zu unnötigen Tests, Überweisungen und stationären Aufnahmen beeinflussen.",
+    result:"72% der Ärzte stimmten zu, dass CDSS ihnen beim Vermeiden unnötiger Untersuchungen oder Behandlungen hilft; 42% berichten Vermeidung unnötiger Überweisungen, 31% Reduktion der Krankenhausverweildauer. Assistenzärzte bewerten CDSS als unterstützendes Werkzeug für Ressourceneffizienz.",
+    transfer:"Großbritannien, aber Eigenwahrnehmung ohne objektive Messung von Ressourceneffekten – Generalisierbarkeit begrenzt."
+  },
+  {
+    journal:"Clin Oral Investig", year:"2026", pmid:"42875660",
+    author:"Saravi B et al.", pubdate:"15.10.2026",
+    added:"14.10.2026",
+    title:"Automatische Zahnstatus-Analyse: Deep Learning für Panorama-Röntgen",
+    sum:"An zwei deutschen Universitätskliniken (Düsseldorf, Würzburg) wurde eine Deep-Learning-Pipeline zur automatisierten Klassifikation von Zahnstatus (DMFT-Score) auf Panorama-Röntgenbildern entwickelt und an 100 externen Bildern validiert.",
+    result:"Die Pipeline erreichte eine Intraklassen-Korrelation von 0,84 (Referenz: 0,88 zwischen zwei Zahnärzten) und einen mittleren absoluten Fehler von 2,38, war aber bei kariösen Zähnen unzuverlässig (r=0,34 vs. r=0,16 zwischen Zahnärzten). Autoren klassifizieren das System als Forschungswerkzeug, nicht als klinisches Entscheidungshilfesystem.",
+    transfer:"Deutsche Daten, externe Validierung, aber ohne klinische Anwendungsreife – noch nicht entscheidungsunterstützend."
+  },
+  {
+    journal:"BMC Cancer", year:"2026", pmid:"42875758",
+    author:"Reisig E et al.", pubdate:"08.10.2026",
+    added:"15.10.2026",
+    title:"Machine Learning zur Vorhersage von Therapieansprechen: Brustkrebs nach Chemotherapie",
+    sum:"An der Universitätsklinik Heidelberg wurden klinische und bildgebende Daten (Ultraschall, Mammographie, MRT) von 388 Patientinnen mit neoadjuvanter Chemotherapie kombiniert, um mittels elastischer Netzregression die pathologische Komplettremission vorherzusagen.",
+    result:"Das Modell erreichte in der internen Validierung eine AUC von 0,76, eine Falsch-positiv-Rate von 8,7% und einen positiven Vorhersagewert von 75%. Die Kombination von Bildgebung und klinisch-pathologischen Merkmalen zeigt vielversprechende Diskriminationsfähigkeit.",
+    transfer:"Deutsche Einzelklinik, Routinedaten, direkt auf hiesige Strukturen übertragbar."
+  },
+  {
+    journal:"BMC Public Health", year:"2026", pmid:"42870238",
+    author:"Löf M et al.", pubdate:"03.10.2026",
+    added:"14.10.2026",
+    title:"Digitale Resilienzförderung in der Perinatalmedizin: Schwedische RCT-Studie",
+    sum:"In Schweden wird in einer RCT mit 440 schwangeren Frauen geprüft, ob eine auf positive Psychologie, Selbstmitgefühl und partizipativer Designentwicklung basierende App die psychische Resilienz vom 2. Trimester bis 8 Wochen postpartum verbessert.",
+    result:"Dies ist ein Studienprotokoll ohne Ergebnisse; geplante primäre Outcome ist psychische Resilienz, sekundäre Outcomes sind Wohlbefinden und depressive Symptome. Randomisierung ab gestational week 12–14, Nachverfolgung bis 8 Wochen postpartum.",
+    transfer:"Skandinavien (höherer Digitalisierungsgrad), aber Protokoll ohne Resultate – erst bei Datenveröffentlichung relevant."
+  },
+  {
+    journal:"Pediatr Allergy Immunol", year:"2026", pmid:"42851161",
+    author:"Skov FR et al.", pubdate:"Okt. 2026",
+    added:"09.10.2026",
+    title:"Machine Learning zur frühen Asthma-Vorhersage: Dänische Geburtskohorten-Studie",
+    sum:"In der dänischen COPSAC-Kohorte wurden 411 Kinder mit 113 frühen klinischen, genetischen, immunologischen und lungenfunktionalen Merkmalen analysiert; fünf ML-Modelle sollten persistentes Asthma oder allergische Rhinitis vorhersagen.",
+    result:"Alle Modelle zeigten schwache Vorhersagekraft (maximale AUC 0,63 für persistierende Rhinitis vs. Kontrollen, 0,59 für persistierendes Asthma). Biologisch plausible Features (Allergen-Sensibilisierung, genetische Veranlagung) identifiziert, aber keine diskriminativen Leistung – frühe Daten allein reichen nicht für individuelle Prognose.",
+    transfer:"Dänemark, hochwertige Kohorten, aber negatives Ergebnis – Prädiktoren mit frühen Daten allein unzureichend."
+  },
+  {
+    journal:"Front Public Health", year:"2026", pmid:"42877195",
+    author:"Goiana-da-Silva F et al.", pubdate:"30.09.2026",
+    added:"15.10.2026",
+    title:"Sprachmodelle für Darmkrebsscreening: KI-gestützte Ansprache gegen Teilnahmequoten-Lücke",
+    sum:"In Portugal wurde untersucht, ob conversational AI (LLM-basiert) mit Telefon- und Chatfunktionen die Adhärenz beim Darmkrebsscreening verbessern kann, wo aktuell nur 30,3% der Bevölkerung der Azoren teilnimmt.",
+    result:"Modellierung zeigt, dass gezielt eingesetzte Voice-KI bei einer Region mit extrem niedriger Teilnahme (30,3% vs. &gt;50% Ziel) ein vielversprechendes Werkzeug für dialogische Barrierenabbau darstellt; konkrete klinische Effekte liegen noch nicht vor (Perspektive-Artikel mit Modellierungsrahmen).",
+    transfer:"Portugiesische Kontext, EU-Gesundheitssystem, aber erst theoretisches Modell – reale Evaluierung ausstehend."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1948,7 +1993,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-12-31"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "18.10.2026";
+const NEWS_STAND = "19.10.2026";
 const NEWS = [
   {titel:"Geschlechtersensible Gesundheitsdaten: Runder Tisch fordert Standards", datum:"2026-09-22", url:"https://www.monitor-versorgungsforschung.de/news/geschlechtersensible-gesundheitsdaten-runder-tisch-fordert-standards/"},
   {titel:"Telemedizin und Krisenresilienz: Zi-Congress 2026 in Berlin", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/telemedizin-und-krisenresilienz-zi-congress-2026-in-berlin/"},
