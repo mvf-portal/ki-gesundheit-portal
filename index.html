@@ -1922,62 +1922,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "21. Okt. 2026, 06:21 Uhr";
+const SNAP_DATE = "22. Okt. 2026, 06:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"J Med Internet Res", year:"2026", pmid:"42901489",
-    author:"Hagström J et al.", pubdate:"20.10.2026",
-    added:"20.10.2026",
-    title:"Patientenbeteiligung an EHR-Dokumentation: Kommentarfunktion verbessert Genauigkeit",
-    sum:"Schwedische Studie zur Nutzung einer Kommentarfunktion in der Elektronischen Patientenakte durch Patienten – untersucht, wie Patienten klinische Notizen kommentieren und welche Potenziale dies für die Dokumentationsqualität hat.",
-    result:"Von 1.670 Kommentaren waren 99,1% inhaltlich relevant; 57,3% bezogen sich auf Inhalte jenseits der Notiz selbst; 55,6% hatten neutralen, 42,4% negativen Ton. Patienten mit psychiatrischen Einträgen hinterließen deutlich mehr Kommentare (Median 7 vs. 2; p&lt;0,001) mit höherer Negativrate (63,2% vs. 33,5%). Die Funktion birgt sowohl Chancen für Genauigkeit als auch Risiken, die durch absichtliches Design mitigiert werden müssen.",
-    transfer:"Schweden, nationale EHR mit längerer Nutzungshistorie; Designprinzipien übertragbar auf deutsche EPA"
+    journal:"Pharmacoepidemiol Drug Saf", year:"2026", pmid:"42893801",
+    author:"Birnie K et al.", pubdate:"Nov. 2026",
+    added:"18.10.2026",
+    title:"Real-World Evidence aus EHR-Daten: KI-gestützte Auswertung von Dialysepatienten-Registern zur Optimierung der Anämiebehandlung",
+    sum:"Retrospektive Real-World-Evidence-Studie mit EHR-Daten von UK-Nierenzentren (n=8.628, 2004–2016) zur Evaluation unterschiedlicher Hämoglobin-Ziele unter standardisiertem Darbepoetin-Protokoll mittels Machine Learning (clone-censor-weight).",
+    result:"Hazard Ratio für Mortalität bei Hämoglobin 105–125 g/L vs. 95–115 g/L: 0,92 (95% KI 0,75–1,12); bei &gt;125 g/L: 1,20 (95% KI 0,94–1,54). Moderate Hämoglobin-Ziele waren nicht mit erhöhter Mortalität assoziiert.",
+    transfer:"Britisches Nierenregister, vergleichbare Sozialversicherung und Dokumentationspflichten wie Deutschland"
   },
   {
-    journal:"JMIR Med Inform", year:"2026", pmid:"42901487",
-    author:"Sai V et al.", pubdate:"20.10.2026",
-    added:"20.10.2026",
-    title:"Workarounds bei der Einführung von integrierten Gesundheitsakten: Wie Nutzer Systeme anpassen",
-    sum:"Qualitative Studie über 13 Jahre Evolution eines Informationssystems (Key Information Summary) in Schottland – untersucht, wie formale und informelle Nutzer-Workarounds die Adoption und lokale Anpassung eines Systems zur Informationsfreigabe zwischen Gesundheits- und Sozialdiensten prägen.",
-    result:"Analyse von 54 Interviews, 59 Dokumenten und 20 Stunden Beobachtung zeigt: Adoption variierte je Setting und Zeit durch Misalignment zwischen Systemdesign, erwarteten integrierten Versorgungszielen und COVID-19-Initiativen. Formale Workarounds erweiterten die Infrastruktur in nonclinische Settings; informelle Nutzer-Reparaturpraktiken ermöglichten flexible Anpassung. Professionelle Rollen und Informationsbedarf erzeugten Spannungen zwischen Nutzern und Systemeigentümern.",
-    transfer:"Großbritannien/Schottland, vergleichbarer Versorgungsauftrag; Lessons zu Workarounds relevant für deutsche Digitalisierungsprojekte"
-  },
-  {
-    journal:"Support Care Cancer", year:"2026", pmid:"42900238",
-    author:"Villani Junior A et al.", pubdate:"20.10.2026",
-    added:"20.10.2026",
-    title:"Machine Learning zur Vorhersage von Blutstrominfektionen bei Chemotherapiepatienten",
-    sum:"Retrospektive Studie an 1.220 Krebspatienten mit 1.435 bestätigten Blutstrominfektionen (2017–2022) – nutzt Multi-Label-Klassifikation mit Machine Learning, um Risikofaktoren für verschiedene Resistenzphänotypen zu identifizieren und Entscheidungshilfen für empirische Therapie zu verbessern.",
-    result:"83,1% der Infektionen waren Non-MDRO oder pilzlich; 7,6% carbapenem-resistent. Beste Modellperformance für carbapenem-resistente Gram-negative Erreger (AUC-ROC 83,25%). Schlüsselprädiktor: Hospitalisierungstage, hämatologische Malignität, frühere MDRO-Infektion, Monozytopenie, palliative Chemotherapie. Chemotherapieklasse trug differenziell bei (z.B. Alkylanzien→Candidämie). Multi-Label-Ansatz half, komplexe Ätiologien zu differenzieren.",
-    transfer:"Brasilien, spezialisiertes Krebszentrum; Methodik auf europäische Zentren übertragbar, aber institutsspezifische Epidemiologie beachten"
-  },
-  {
-    journal:"JMIR Form Res", year:"2026", pmid:"42896135",
-    author:"Sezgin E et al.", pubdate:"19.10.2026",
+    journal:"Eur Psychiatry", year:"2026", pmid:"42894499",
+    author:"Healy J et al.", pubdate:"19.10.2026",
     added:"19.10.2026",
-    title:"KI-Nutzung durch Kliniker in USA und UK: Lücke zwischen Bewusstsein und klinischer Praxis",
-    sum:"Querschnittsstudie mit 524 Fachkräften aus USA und UK zur aktuellen KI-Anwendung, Zugänglichkeit, Hürden und Adoptionsfaktoren in der Versorgung – untersucht, wie national und beruflich unterschiedlich KI-Tools genutzt werden.",
-    result:"KI-Nutzung war weit verbreitet, variierte aber stark je Fachgruppe und Land. Zentral für Adoption: belastbare Evidenz, organisatorische Unterstützung, Schulung, Datenschutz und klinische Workflow-Integration. Studie identifiziert Schlüsselhürden für verantwortungsvolle Implementierung.",
-    transfer:"USA und Großbritannien; Erkenntnisse zu Adoptionsbarrieren strukturell und regulatorisch teilweise übertragbar, aber digitaler Reifegrad unterschiedlich"
+    title:"KI-gestützte Diagnostik und Entscheidungsunterstützung in der Psychiatrie: Europäische Perspektive",
+    sum:"Narrative Übersichtsarbeit zur Rolle von KI und Machine Learning bei der Bewältigung von Herausforderungen in der europäischen psychiatrischen Versorgung, einschließlich Diagnoseverzögerungen, Fachkräftemangel und Burnout-Belastung.",
+    result:"Die Arbeit identifiziert digitale Technologien und KI als potenziell geeignet zur Verbesserung der psychischen Gesundheitsversorgung in Europa, nennt aber keine konkreten Leistungskennzahlen oder Effektgrößen.",
+    transfer:"Europäischer Schwerpunkt, vergleichbare Gesundheitssysteme und Herausforderungen"
   },
   {
-    journal:"Curr Heart Fail Rep", year:"2026", pmid:"42895671",
-    author:"Angermann CE et al.", pubdate:"19.10.2026",
+    journal:"Int J Technol Assess Health Care", year:"2026", pmid:"42894980",
+    author:"Blonda A et al.", pubdate:"19.10.2026",
     added:"19.10.2026",
-    title:"KI-gestützte Remote-Überwachung bei Herzinsuffizienz: von Druckmessung zur adaptiven Versorgung",
-    sum:"Review zu Möglichkeiten, KI zur Personalisierung von Remote-Patient-Management bei Herzinsuffizienz einzusetzen – untersucht, wie implantierte Drucksensoren mit KI-gestützter Risikoschichtung und individualisierten Monitoring-Plänen Outcomes verbessern könnten.",
-    result:"Randomisierte Studien (CHAMPION, GUIDE-HF, MONITOR-HF) zeigen: Druckgesteuertes Management reduziert Hospitalisierungen signifikant, aber erhebliches Residualrisiko bleibt. KI könnte multidimensionale Phänotypisierung für Pre-Implant-Selektion, personalisierte klinische Entscheidungshilfe und dynamische Anpassung der Monitoring-Intensität ermöglichen – mit Potenzial für bessere Outcomes, weniger Aufwand, höhere Kosteneffektivität.",
-    transfer:"Deutschland und Niederlande (Autoren), kardiale Versorgungsstruktur vergleichbar; praktische Implementierbarkeit abhängig von Infrastruktur"
+    title:"Digitale Entscheidungsunterstützung für Arzneimittelbewertung: belgisches Multi-Kriterien-Modell",
+    sum:"Entwicklung und Pilotierung eines Machine-Learning-gestützten Multi-Criteria Decision Analysis (MCDA)-Rahmens in Belgien zur transparenteren Reimbursement-Entscheidung bei Orphan Drugs mit expliziter Gewichtung von Kriterien.",
+    result:"Sieben quantitative und drei qualitative Kriterien wurden durch Delphi-Prozess gewichtet; vier Orphan Drugs wurden bewertet und zeigten unterschiedliche MCDA-Scores (0,39–0,77), wobei unmet medical need das höchste Gewicht erhielt.",
+    transfer:"Belgisches System, vergleichbar mit deutschem HTA-Ansatz und Nutzenbewertung"
   },
   {
-    journal:"Front Public Health", year:"2026", pmid:"42898801",
-    author:"Chen J et al.", pubdate:"05.10.2026",
+    journal:"JMIR Res Protoc", year:"2026", pmid:"42832774",
+    author:"Falcone M et al.", pubdate:"05.10.2026",
+    added:"05.10.2026",
+    title:"Cybersicherheit von Remote-Patient-Monitoring-Systemen in Klinikum: europäisches Observational-Protokoll",
+    sum:"Deutsches Observational-Study-Protokoll zur systematischen Analyse der Cybersicherheit, Systemresilienz und Nutzerverhalten von IoMT-gestützten Remote-Patient-Monitoring-Systemen über deren gesamten Lebenszyklus in Klinik- und Homecare-Umgebung.",
+    result:"Studiendesign mit System-Log-Analytik, Phishing-Simulation, Patch-Management-Bewertung und Awareness-Messungen; Ethical Approval erhalten (Dezember 2025), Patientenrekrutierung ab April 2026, Ergebnisse erwartet Oktober 2027.",
+    transfer:"Deutsches Krankenhaus (Italien), EU-Regulierungskontext mit KI-Verordnung und MDR"
+  },
+  {
+    journal:"West J Emerg Med", year:"2026", pmid:"42900908",
+    author:"Baugh CW et al.", pubdate:"28.07.2026",
     added:"20.10.2026",
-    title:"KI-gestützte Diabetische-Retinopathie-Screening: Von Algorithmen zu Versorgungseffekt und Equity",
-    sum:"Review zur Implementierung von KI-Screening für diabetische Retinopathie in der Versorgung – reframed die Frage von Algorithmusgenauigkeit auf die gesamte Kette Screening→Behandlung, mit Fokus auf Gleichberechtigung und Population Health Impact.",
-    result:"Diagnostische Genauigkeit allein garantiert keinen Gesundheitsnutzen. Vier-Domänen-Rahmen identifiziert: technische Validität, Serviceintegration, Populationseffekt und Equity/Nachhaltigkeit. Wichtige Faktoren: Erreichung der Zielgruppe, Bildqualität, Überweisungsabschluss, Behandlungskapazität, finanzielle/geografische Barrieren. Zukünftige Forschung sollte Vergleichsstudien zu Implementation und Equity-Outcomes priorisieren.",
-    transfer:"China-basiert, aber Framework und Prinzipien universell; für Deutschland relevant zur Gesundheitspolitik der KI-Implementierung"
+    title:"KI-gestützte Entscheidungsunterstützung bei Brustschmerz reduziert Tests, Betten und Strahlenexposition",
+    sum:"Monte-Carlo-Simulation mit 1.000 Iterationen zur Schätzung des nationalen Potenzials eines AI-CDSS zur Vermeidung überflüssiger Herzdiagnostik bei ED-Patienten mit Brustschmerz basierend auf EKG, Troponin und klinischen Daten.",
+    result:"Bei universeller Adoption: geschätzte jährliche Kosteneinsparungen 675 Millionen US$ (SD 340 Mio.) durch Vermeidung von 688.000 (SD 147.000) Tests, 537.000 (SD 115.000) vermiedene Kurzaufenthalte, 8,3 Millionen Bettstunden eingespart, 490 Krebsfälle und 250 Todesfälle durch reduzierte Strahlung vermieden.",
+    transfer:"Simulationsergebnis basiert auf europäischer Validierungskohorte; Kosteneinsparungslogik systemübergreifend relevant"
+  },
+  {
+    journal:"BMC Oral Health", year:"2026", pmid:"42894220",
+    author:"Alevizakos V et al.", pubdate:"23.07.2026",
+    added:"19.10.2026",
+    title:"LLM-Vergleich für klinische Entscheidungsunterstützung in der Implantologie: Spezifität, Genauigkeit und klinischer Nutzen",
+    sum:"Vergleich von vier Large Language Models (ChatGPT, Gemini, LLaMA mit und ohne Retrieval-Augmented Generation) durch blinded Expert Assessment bezüglich Spezifität, Genauigkeit und klinischer Nutzbarkeit bei 16 zahnärztlichen Fragen.",
+    result:"LLaMA 3.2 mit RAG erzielte höchste Scores über alle Kriterien (Spezifität Median 9,0, Genauigkeit 9,5, klinischer Nutzen 10,0; alle p&lt;0,001 vs. andere Modelle). RAG-Modelle mit Zugriff auf strukturierte Leitlinien zeigten superior konsistente klinische Performance.",
+    transfer:"Zahnmedizin mit europäischen Studienteilnehmern, Methodologie auf deutsches Gesundheitssystem übertragbar"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1993,7 +1993,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-12-31", "2027-01-07"],
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "21.10.2026";
+const NEWS_STAND = "22.10.2026";
 const NEWS = [
   {titel:"Geschlechtersensible Gesundheitsdaten: Runder Tisch fordert Standards", datum:"2026-09-22", url:"https://www.monitor-versorgungsforschung.de/news/geschlechtersensible-gesundheitsdaten-runder-tisch-fordert-standards/"},
   {titel:"Telemedizin und Krisenresilienz: Zi-Congress 2026 in Berlin", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/telemedizin-und-krisenresilienz-zi-congress-2026-in-berlin/"},
