@@ -1949,62 +1949,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "22. Okt. 2026, 06:01 Uhr";
+const SNAP_DATE = "23. Okt. 2026, 06:02 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Pharmacoepidemiol Drug Saf", year:"2026", pmid:"42893801",
-    author:"Birnie K et al.", pubdate:"Nov. 2026",
-    added:"18.10.2026",
-    title:"Real-World Evidence aus EHR-Daten: KI-gestützte Auswertung von Dialysepatienten-Registern zur Optimierung der Anämiebehandlung",
-    sum:"Retrospektive Real-World-Evidence-Studie mit EHR-Daten von UK-Nierenzentren (n=8.628, 2004–2016) zur Evaluation unterschiedlicher Hämoglobin-Ziele unter standardisiertem Darbepoetin-Protokoll mittels Machine Learning (clone-censor-weight).",
-    result:"Hazard Ratio für Mortalität bei Hämoglobin 105–125 g/L vs. 95–115 g/L: 0,92 (95% KI 0,75–1,12); bei &gt;125 g/L: 1,20 (95% KI 0,94–1,54). Moderate Hämoglobin-Ziele waren nicht mit erhöhter Mortalität assoziiert.",
-    transfer:"Britisches Nierenregister, vergleichbare Sozialversicherung und Dokumentationspflichten wie Deutschland"
+    journal:"BMC Med Inform Decis Mak", year:"2026", pmid:"42907983",
+    author:"Shen Z et al.", pubdate:"22.10.2026",
+    added:"22.10.2026",
+    title:"Machine Learning zur Vorhersage von Krankenhaussterblichkeit bei diabetischer Sepsis",
+    sum:"Retrospektive Kohortenstudie mit 7716 Patienten aus MIMIC-IV-Datenbank zum Vergleich von sechs Machine-Learning-Algorithmen für Mortalitätsprognose bei septischen Diabetespatienten auf Intensivstationen.",
+    result:"Gradient Boosting Decision Tree erreichte beste Vorhersagegüte (AUC 0,792) und übertraf konventionellen SOFA-Score. SHAP-Analyse zeigte klinische Feature-Hierarchie. Modellinterpretierbarkeit ermöglichte potenzielle Adoption in der Klinik.",
+    transfer:"USA-Daten, aber Methodik und Sepsis-Management sind übertragbar"
   },
   {
-    journal:"Eur Psychiatry", year:"2026", pmid:"42894499",
-    author:"Healy J et al.", pubdate:"19.10.2026",
-    added:"19.10.2026",
-    title:"KI-gestützte Diagnostik und Entscheidungsunterstützung in der Psychiatrie: Europäische Perspektive",
-    sum:"Narrative Übersichtsarbeit zur Rolle von KI und Machine Learning bei der Bewältigung von Herausforderungen in der europäischen psychiatrischen Versorgung, einschließlich Diagnoseverzögerungen, Fachkräftemangel und Burnout-Belastung.",
-    result:"Die Arbeit identifiziert digitale Technologien und KI als potenziell geeignet zur Verbesserung der psychischen Gesundheitsversorgung in Europa, nennt aber keine konkreten Leistungskennzahlen oder Effektgrößen.",
-    transfer:"Europäischer Schwerpunkt, vergleichbare Gesundheitssysteme und Herausforderungen"
+    journal:"JMIR Form Res", year:"2026", pmid:"42906075",
+    author:"Franceschini K et al.", pubdate:"21.10.2026",
+    added:"22.10.2026",
+    title:"KI-gestützte Delir-Risikovorhersage versus 4AT-Score in der Traumatologie",
+    sum:"Prospektive Kohortenstudie an 2002 Patienten einer Traumastation, die KI-basierte Delir-Vorhersage mit dem etablierten 4AT-Screening-Tool verglichen hat.",
+    result:"Die KI-basierte Methode erkannte 87,3 % der Patienten mit späterem Delir korrekt als Risikopatienten (vs. 28,0 % für 4AT), bei allerdings niedrigerer Spezifität (73,9 % vs. 96,3 %). AUC 0,884. Das Tool ermöglicht proaktive Risikovorhersage bereits bei Aufnahme ohne administrativen Mehraufwand.",
+    transfer:"Österreich, klinische Daten elektronischer Krankenakten, direkter Versorgungsnutzen"
   },
   {
-    journal:"Int J Technol Assess Health Care", year:"2026", pmid:"42894980",
-    author:"Blonda A et al.", pubdate:"19.10.2026",
-    added:"19.10.2026",
-    title:"Digitale Entscheidungsunterstützung für Arzneimittelbewertung: belgisches Multi-Kriterien-Modell",
-    sum:"Entwicklung und Pilotierung eines Machine-Learning-gestützten Multi-Criteria Decision Analysis (MCDA)-Rahmens in Belgien zur transparenteren Reimbursement-Entscheidung bei Orphan Drugs mit expliziter Gewichtung von Kriterien.",
-    result:"Sieben quantitative und drei qualitative Kriterien wurden durch Delphi-Prozess gewichtet; vier Orphan Drugs wurden bewertet und zeigten unterschiedliche MCDA-Scores (0,39–0,77), wobei unmet medical need das höchste Gewicht erhielt.",
-    transfer:"Belgisches System, vergleichbar mit deutschem HTA-Ansatz und Nutzenbewertung"
+    journal:"JMIR Med Educ", year:"2026", pmid:"42906147",
+    author:"Stadler P et al.", pubdate:"21.10.2026",
+    added:"22.10.2026",
+    title:"LLM-Zuverlässigkeit beim Feedback zu ärztlichen Zusammenfassungen in Virtual-Patient-Systemen",
+    sum:"Experimentelle Studie mit 122 bewerteten Fallzusammenfassungen (Englisch/Deutsch) aus 6 Virtual-Patient-Fällen zum Test von vier LLMs (Claude, GPT-4o, Mistral Large/7B) bei rubrik-gestütztem Scoring mit verschiedenen Prompting-Strategien.",
+    result:"Große geschlossene Modelle (Claude, GPT-4o, Mistral Large) zeigten hohe Test-Retest-Zuverlässigkeit (ICC≥0,92). Claude war praktisch deterministisch (ICC/Fleiss κ≥0,99). Few-shot+CoT-Prompting erzielte beste Konkordanz mit Experten: Mistral Large 77 % Genauigkeit, Gwet AC1 0,85. LLMs können skalierbare formale Feedback geben, sollten aber Expertenurteil ergänzen, nicht ersetzen.",
+    transfer:"Deutsche Fallstudien, europäische Kliniken, Lehrkontext"
   },
   {
-    journal:"JMIR Res Protoc", year:"2026", pmid:"42832774",
-    author:"Falcone M et al.", pubdate:"05.10.2026",
-    added:"05.10.2026",
-    title:"Cybersicherheit von Remote-Patient-Monitoring-Systemen in Klinikum: europäisches Observational-Protokoll",
-    sum:"Deutsches Observational-Study-Protokoll zur systematischen Analyse der Cybersicherheit, Systemresilienz und Nutzerverhalten von IoMT-gestützten Remote-Patient-Monitoring-Systemen über deren gesamten Lebenszyklus in Klinik- und Homecare-Umgebung.",
-    result:"Studiendesign mit System-Log-Analytik, Phishing-Simulation, Patch-Management-Bewertung und Awareness-Messungen; Ethical Approval erhalten (Dezember 2025), Patientenrekrutierung ab April 2026, Ergebnisse erwartet Oktober 2027.",
-    transfer:"Deutsches Krankenhaus (Italien), EU-Regulierungskontext mit KI-Verordnung und MDR"
+    journal:"JMIR Form Res", year:"2026", pmid:"42902907",
+    author:"Golburean O et al.", pubdate:"20.10.2026",
+    added:"22.10.2026",
+    title:"Ärztebewertung von Datenqualität in neuem länderübergreifendem EHR-System",
+    sum:"Mixed-Methods-Studie mit Befragung und Interviews von Klinikärzten nach Einführung eines neuen institutionsübergreifenden EHR-Systems in Norwegen (2023–2024).",
+    result:"Mehrheit der Ärzte kritisierte Datenorganisation und Überfülle an Informationen; Verbesserungen in Datenzugriff anerkannt. Zeitverlauf-Funktion zur Patientenüberwachung und Chat-Funktion für Kollegenkommunikation als nutzbringend bewertet. Patientenportal verbesserte Kommunikation, aber Nutzbarkeit erfordert umfangreiche Schulung.",
+    transfer:"Norwegen, vergleichbare EHR-Infrastruktur und Datenschutzstandards"
   },
   {
-    journal:"West J Emerg Med", year:"2026", pmid:"42900908",
-    author:"Baugh CW et al.", pubdate:"28.07.2026",
-    added:"20.10.2026",
-    title:"KI-gestützte Entscheidungsunterstützung bei Brustschmerz reduziert Tests, Betten und Strahlenexposition",
-    sum:"Monte-Carlo-Simulation mit 1.000 Iterationen zur Schätzung des nationalen Potenzials eines AI-CDSS zur Vermeidung überflüssiger Herzdiagnostik bei ED-Patienten mit Brustschmerz basierend auf EKG, Troponin und klinischen Daten.",
-    result:"Bei universeller Adoption: geschätzte jährliche Kosteneinsparungen 675 Millionen US$ (SD 340 Mio.) durch Vermeidung von 688.000 (SD 147.000) Tests, 537.000 (SD 115.000) vermiedene Kurzaufenthalte, 8,3 Millionen Bettstunden eingespart, 490 Krebsfälle und 250 Todesfälle durch reduzierte Strahlung vermieden.",
-    transfer:"Simulationsergebnis basiert auf europäischer Validierungskohorte; Kosteneinsparungslogik systemübergreifend relevant"
+    journal:"J Med Internet Res", year:"2026", pmid:"42902842",
+    author:"Haas M et al.", pubdate:"20.10.2026",
+    added:"22.10.2026",
+    title:"LLM-gestützte Harmonisierung widersprüchlicher Leitlinien für Delphi-Konsensfindung",
+    sum:"Methodische Studie zur Entwicklung eines reproduzierbaren Workflows für LLM-gestützte Analyse konkurrierender klinischer Leitlinien und Identifikation von Evidenzlücken, am Beispiel Peniskarzinom durchgeführt.",
+    result:"Workflow extrahierte 157 Empfehlungen aus 5 Leitlinien und verdichtete diese zu 68 harmonisierten Kandidaten-Items; 15 Konsens-Items, 53 divergente/ambivalente Items, 9 echte Lücken identifiziert. Dreifach-Ensemble-Konsistenzprüfung mit Expertenvalidierung: 62 finale Delphi-ready Items.",
+    transfer:"Deutschland/Europa, Standard-Leitlinienmethodik und Konsensverfahren"
   },
   {
-    journal:"BMC Oral Health", year:"2026", pmid:"42894220",
-    author:"Alevizakos V et al.", pubdate:"23.07.2026",
-    added:"19.10.2026",
-    title:"LLM-Vergleich für klinische Entscheidungsunterstützung in der Implantologie: Spezifität, Genauigkeit und klinischer Nutzen",
-    sum:"Vergleich von vier Large Language Models (ChatGPT, Gemini, LLaMA mit und ohne Retrieval-Augmented Generation) durch blinded Expert Assessment bezüglich Spezifität, Genauigkeit und klinischer Nutzbarkeit bei 16 zahnärztlichen Fragen.",
-    result:"LLaMA 3.2 mit RAG erzielte höchste Scores über alle Kriterien (Spezifität Median 9,0, Genauigkeit 9,5, klinischer Nutzen 10,0; alle p&lt;0,001 vs. andere Modelle). RAG-Modelle mit Zugriff auf strukturierte Leitlinien zeigten superior konsistente klinische Performance.",
-    transfer:"Zahnmedizin mit europäischen Studienteilnehmern, Methodologie auf deutsches Gesundheitssystem übertragbar"
+    journal:"JMIR Aging", year:"2026", pmid:"42904387",
+    author:"Dolničar V et al.", pubdate:"20.10.2026",
+    added:"22.10.2026",
+    title:"Psychosoziale Faktoren in der Telecare-Akzeptanz durch Pflegepersonen im Alter",
+    sum:"Querschnittsstudie mit 526 Pflegepersonen in Slowenien zu Faktoren der Telecare-Nutzungsabsicht, unter Erweiterung des UTAUT-Modells um psychosoziale Outcomes (Sicherheitsgefühl, Beruhigung, Verbundenheit).",
+    result:"Psychosoziale Outcomes zeigten stärkste Assoziation mit Nutzungsabsicht (β=0,41, p&lt;0,001). Leistungserwartung (β=0,52), förderliche Bedingungen (β=0,11) und sozialer Einfluss (β=0,21) signifikant. Modell erklärte 54 % der Varianz. Psychosoziale Faktoren sind kritischer als bloße Funktionalität.",
+    transfer:"Slowenien, europäischer Kontext, aber Prätest-Absicht, nicht tatsächliche Nutzung"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2019,14 +2019,17 @@ const RADAR_FRISTEN = [["2026-12-31", "2027-01-07", "2027-01-07", "2027-01-07", 
 // === RADAR-BLOCK-ENDE ===
 
 // === ZULASSUNG-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const ZUL_STAND = "";
-const ZUL_EIGENE = 0;
+const ZUL_STAND = "22.10.2026";
+const ZUL_EIGENE = 5;
 const ZUL_GUTACHTEN = 0;
+const ZUL_ZULASSUNG = 0;
+const ZUL_FDA = 0;
+const ZUL_DIGA = 5;
 // === ZULASSUNG-BLOCK-ENDE ===
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "22.10.2026";
+const NEWS_STAND = "23.10.2026";
 const NEWS = [
   {titel:"Geschlechtersensible Gesundheitsdaten: Runder Tisch fordert Standards", datum:"2026-09-22", url:"https://www.monitor-versorgungsforschung.de/news/geschlechtersensible-gesundheitsdaten-runder-tisch-fordert-standards/"},
   {titel:"Telemedizin und Krisenresilienz: Zi-Congress 2026 in Berlin", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/telemedizin-und-krisenresilienz-zi-congress-2026-in-berlin/"},
@@ -2037,7 +2040,6 @@ const NEWS = [
 // === PRESSE-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
 const PRESSE = [
   {titel:"Künstliche Intelligenz hilft bei der Entwicklung neuer Wirkstoffe", datum:"2026-10-21", url:"http://idw-online.de/de/news879465", quelle:"idw"},
-  {titel:"Gesundheitsdaten sicher nutzen: Fraunhofer IDMT bringt technischen Datenschutz in die Anwendung", datum:"2026-10-15", url:"http://idw-online.de/de/news879232", quelle:"idw"},
 ];
 // === PRESSE-BLOCK-ENDE ===
 
