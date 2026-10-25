@@ -2095,62 +2095,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "24. Okt. 2026, 06:00 Uhr";
+const SNAP_DATE = "25. Okt. 2026, 05:00 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"J Med Internet Res", year:"2026", pmid:"42912965",
-    author:"Lorenz MC et al.", pubdate:"22.10.2026",
+    journal:"Arch Osteoporos", year:"2026", pmid:"42920040",
+    author:"Shi BX et al.", pubdate:"23.10.2026",
     added:"23.10.2026",
-    title:"Ethik der Telerehabilitation in der Krebsnachsorge: Versorgungsgerechtigkeit und Verantwortung",
-    sum:"Qualitative Analyse von Leitlinien und Fachliteratur zur Telerehabilitation nach Krebsbehandlung, mit Fokus auf Verantwortung in drei Bereichen: interpersonale Versorgungsqualität, rechtliche Rahmenbedingungen und Positionierung im Gesundheitssystem.",
-    result:"Die Autoren identifizierten, dass ethische Diskussionen zu Telerehabilitation sich überwiegend auf Sicherheit, Datenschutz und Compliance konzentrieren, während Zwecksetzung, Gerechtigkeit und Patientenperspektiven unterrepräsentiert sind. Nutzen und Lasten hängen von Alter, digitaler Kompetenz, Konnektivität, Betreuungsverfügbarkeit und Behinderungen ab – Gerechtigkeitsansprüche gelten daher nicht universell.",
-    transfer:"Europäische Studie, deutsche Beteiligung; direkt übertragbar auf deutsches Gesundheitssystem und seine Versorgungsverpflichtung."
+    title:"Deep Learning für Osteoporose-Screening auf Routine-Thoraxbildern: Kosteneffektivitätsanalyse",
+    sum:"Kosteneffektivitätsanalyse eines Deep Learning-Modells zur opportunistischen Osteoporose-Detektion auf vorhandenen Thorax-Röntgenbildern bei postmenopausalen Frauen in Taiwan, unter Berücksichtigung von Diagnostic Performance, Bestätigungstestung und Therapieeinleitung.",
+    result:"Im Basisszenario mit vollständigem Behandlungspfad war KI-Screening kosteneffektiv (ICER 21.827 USD pro QALY, unterhalb Taiwan-Schwellwert). Wirtschaftlicher Nutzen entstanden bei Osteoporose-Prävalenz &gt;14,3%, optimale Sensitivität 86,6%, Spezifität 76,3%. In realen Taiwanese Daten sank der Wert jedoch erheblich.",
+    transfer:"Auf Deutschland übertragbar: Erfolg hängt von Vollständigkeit der Post-Screening-Versorgungspfade ab, nicht von Modellperformance allein."
   },
   {
-    journal:"JMIR Res Protoc", year:"2026", pmid:"42905971",
-    author:"Olabintan O et al.", pubdate:"21.10.2026",
-    added:"22.10.2026",
-    title:"KI-gestützte Echtzeit-Klassifikation von Kolonialpolypen: europäisch-japanische Multicenterstudie",
-    sum:"Protokoll für prospektive Multicenterstudie mit über 17.000 Bildern aus 9 Zentren (8 europäisch, 1 japanisch) zur Entwicklung eines multiklassifizierten AI-Systems (Nichtneoplasie, niedrig-/hochgradige Adenome, sessile Polypen, invasives Karzinom) zur Verbesserung der optischen Diagnostik während Koloskopie.",
-    result:"Studienprotokoll; Zieldefinition: 85 % Genauigkeit der AI-Klassifikation. Einsatz von SimCLR-basiertem halbüberwachtem Lernen mit Grad-CAM für Interpretierbarkeit. Datenmanagement über REDCap mit Deidentifikation geplant. Ziel ist klinisch anwendbares, multimodales System jenseits binärer Klassifizierung.",
-    transfer:"Hauptsächlich europäische Zentren (UK, Spanien, Norwegen, Deutschland, Italien, Dänemark); deutsches Zentrum beteiligt; direkt relevant für deutsche Klinikpraxis."
+    journal:"Stat Med", year:"2026", pmid:"42894315",
+    author:"Carluccio ED et al.", pubdate:"Okt. 2026",
+    added:"19.10.2026",
+    title:"Kalibrierung von Machine Learning-Vorhersagemodellen ohne Validierungsdaten: vier Verfahren im Vergleich",
+    sum:"Methodische Studie an Deutschlands Daten (Schlaganfall-Funktionsvorhersage, koronare Herzerkrankung) zu Kalibrierungsmethoden für ML-Modelle, wenn keine Zieldatensätze zur Neukalibrierung verfügbar sind.",
+    result:"Fünf Verfahren getestet (SimCal, Similarity-Binning Averaging, Adaptive Calibration, Elkan, Expert Judgment Modeling). SimCal funktionierte gut bei korrekter Modellspezifikation. Keines der Verfahren überzeugte konsistent in allen Situationen. Expert Judgment Modeling scheiterte auf Schlaganfall-Daten.",
+    transfer:"Deutsche Versorgungsdaten (Hamburg, Essen): zentral für Kalibrierungsproblem bei Modellübertragung zwischen Zentren und Populationen."
   },
   {
-    journal:"Physiol Meas", year:"2026", pmid:"42838096",
-    author:"Diao Z et al.", pubdate:"20.10.2026",
-    added:"06.10.2026",
-    title:"Kontaktlose Radar-basierte Schlafstadien-Klassifikation: Validierungsstudie an 1.022 Probanden",
-    sum:"Prospektive Validierungsstudie eines 60-GHz-Radarsystems (Sleepal AI Lamp) zur berührungslosen Schlafklassifikation im Vergleich zu Polysomnographie bei 1.022 Probanden mit normalen und pathologischen Schlafprofilen (Schlafapnoe aller Schweregrade).",
-    result:"Binäre Schlaf-Wach-Klassifikation: 92,7 % Genauigkeit, Cohen's Kappa 0,792, Sensitivität 96,4 %, Spezifität 80,8 %, F1-Score 0,896. Vierstufige Klassifikation (Wach, Light, Deep, REM): 77,2 % Genauigkeit, Kappa 0,677, F1-Score 0,768, ausgeglichene Genauigkeit 77,4 %. Stadienspezifische F1-Scores: Wach 0,839, Light 0,740, Deep 0,691, REM 0,802.",
-    transfer:"Deutschsprachiger Raum möglich, Technologie nicht an proprietäre Systeme gebunden; geeignet für Home-Screening und Langzeit-Überwachung ohne Geräteanschaffung."
-  },
-  {
-    journal:"Front Public Health", year:"2026", pmid:"42903289",
-    author:"Raif K et al.", pubdate:"06.10.2026",
-    added:"22.10.2026",
-    title:"LLM-Zugang erhöht Gesundheitskompetenz, nicht rational begründete Arzneimittelnutzung: Querschnittsstudie",
-    sum:"Strukturgleichungsmodellierung bei 445 Erwachsenen zur Untersuchung, wie KI-Einstellung und individuelle Innovativität über Gesundheitskompetenz auf rationale Arzneimittelnutzung wirken – Fokus auf Unterscheidung zwischen Informationszugang und klinischer Disziplin.",
-    result:"Individuelle Innovativität zeigte signifikanten positiven Effekt auf Gesundheitskompetenz (direkt) und rationale Arzneimittelnutzung (vermittelt über Gesundheitskompetenz). Positive KI-Einstellung verbesserte Gesundheitskompetenz signifikant, führte aber nicht zu verbesserter Arzneimittelnutzung. Modellfit: χ²/df = 2,45, CFI = 0,935, RMSEA = 0,062. Kernbefund: algorithmische Anleitung kann ärztliche Überwachung nicht ersetzen.",
-    transfer:"Zypern, kleinere Stichprobe, aber methoden- und sicherheitsbefunde übertragbar; zeigt Risiken bei unkritischer LLM-Nutzung."
-  },
-  {
-    journal:"J Cachexia Sarcopenia Muscle", year:"2026", pmid:"42913715",
-    author:"Liu C et al.", pubdate:"Okt. 2026",
+    journal:"BMC Med Imaging", year:"2026", pmid:"42919249",
+    author:"Liu X et al.", pubdate:"28.07.2026",
     added:"23.10.2026",
-    title:"ML-Modell aus quantitativer MRT und klinischen Variablen sagt Gehfähigkeitsverlust bei DMD voraus",
-    sum:"Prospektive Studie (188 DMD-Jungen, 43,5 Monate Follow-up) zur Entwicklung eines Random-Survival-Forest-Modells mit Fettinfiltrations-MRT-Parametern und klinischen Variablen zur individualisierten Risikovorhersage für Gehfähigkeitsverlust.",
-    result:"66 Patienten (35,1 %) erlebten Gehfähigkeitsverlust. RSF-Modell mit 6 Prädiktoren (NSAA-Score, MRC%, Alter, 3 Fettinfiltrationswerte): C-Index 0,870 (95%-KI 0,764–0,957), überlegen gegenüber klinischem Cox (0,804) und Ridge-Cox (0,853). Zeit-abhängige AUCs 0,984/0,971/0,913/0,850 bei 12/24/36/48 Monaten. Risikogruppen-Stratifikation mit log-rank p = 0,0025. Web-Tool verfügbar.",
-    transfer:"China, aber Methodik mit quantitativer MRT und genetischen Markern auf europäische DMD-Zentren mit ähnlicher Ausstattung übertragbar."
+    title:"KI-gestützte Koloskopie und Adenomerkennung: Metaanalyse von 46 RCTs",
+    sum:"Metaanalyse von 46 randomisierten kontrollierten Studien (n=37.012) zu KI-gestützter versus konventioneller Koloskopie bezüglich Detektion kolorektaler Läsionen.",
+    result:"KI-gestützte Koloskopie erhöhte die Adenomadetektionsrate (ADR) um 22% (RR 1,22; 95%-CI 1,17–1,27), Polypdetektionsrate um 22% (RR 1,22; 95%-CI 1,16–1,29) und sessile Serratierte Läsionen um 20% (RR 1,20; 95%-CI 1,05–1,36) gegenüber konventioneller Koloskopie. Keine signifikanten Unterschiede bei fortgeschrittenen Adenomen.",
+    transfer:"Randomisierte Studiengebnisse direkt auf deutsche Screening-Koloskopien übertragbar."
   },
   {
-    journal:"BMC Med Inform Decis Mak", year:"2026", pmid:"42919237",
-    author:"Pinto-Ramírez J et al.", pubdate:"28.07.2026",
+    journal:"BMC Health Serv Res", year:"2026", pmid:"42919318",
+    author:"Thi TN et al.", pubdate:"28.07.2026",
     added:"23.10.2026",
-    title:"Machine-Learning-Modell zur Vorhersage von 30-Tage-Wiederaufnahmen nach Nierentransplantation",
-    sum:"Retrospektive Kohortenstudie (2.110 Erwachsene, 2008–2023) zur Entwicklung eines ML-Modells (Random Forest, XGBoost) für 30-Tage-Wiederaufnahmen mit Validierung und web-basiertem Risikokalkulator für Klinikteams.",
-    result:"Wiederaufnahmerate 14,5 %. XGBoost erzielte höchste Diskriminierung (AUC 0,750, 95%-KI 0,722–0,778). Random Forest (AUC 0,744) und logistische Regression (AUC 0,747) vergleichbar. Wichtigste Prädiktoren: Aufenthaltsdauer, Dialysedauer, GFR Tag 7, Empfängeralter, chirurgische Reintervention. Web-basierter Kalkulator verfügbar; externe Validierung ausstehend.",
-    transfer:"Kolumbien, aber Methodik und Prognoseansatz direkt auf deutsche Transplantationszentren übertragbar."
+    title:"KI im Gesundheitswesen: Bewusstsein, Nachfrage und Zahlungsbereitschaft in Vietnam",
+    sum:"Querschnittstudie (n=3.550) zu Awareness, Nachfrage und Zahlungsbereitschaft für KI-gestützte Gesundheitsdienste bei vietnamesischen Erwachsenen; Faktoren: Einkommen, Gesundheitskompetenz, eHealth-Kompetenz.",
+    result:"49,1% berichteten Awareness für KI im Gesundheitswesen, 58,6% bereit oder sehr bereit zur Nutzung. Bevorzugte Anwendungen: Notfallmedizinische Unterstützung (80,6%), Telemedizin (55,0%). Aber 65,6% unwilling to pay für KI-Mehrkosten; akzeptierte Zusatzkosten 10–19%. Höheres Einkommen, größerer Haushalt, bessere Gesundheitskompetenz korreliert mit höherer KI-Awareness.",
+    transfer:"Entwicklungsland-Kontext, andere Ressourcenlage – nur Awareness-Befund für Deutschland relevant."
+  },
+  {
+    journal:"BMC Health Serv Res", year:"2026", pmid:"42919333",
+    author:"Dahò M et al.", pubdate:"27.07.2026",
+    added:"23.10.2026",
+    title:"Beacon Decision Support System in der Onkologie: Usability und Nutzerzufriedenheit",
+    sum:"Mixed-Methods-Studie (10 Interviews, 45 Nutzer-Befragung) zur Bewertung eines EU-geförderten Decision Support Systems (Beacon DSS) für evidenzbasierte Onkologieinformation bei Patienten und Fachpersonen.",
+    result:"System Usability Scale (SUS) Durchschnittswert 60,3 (SD 9,6), akzeptable Usability. AttrakDiff-Skala: hohe pragmatische Qualität und Attraktivität, niedrigere hedonische Qualität. Patienten schätzten visuelle Klarheit, bemängelten aber App-Fehler. Fachpersonen lobten Glaubwürdigkeit, kritisierten Suchspezifizität und Datenabdeckung.",
+    transfer:"EU-Kontext, vergleichbare Versicherungssysteme, Italien/Malta – Umsetzungshinweise für deutsche Kliniken."
+  },
+  {
+    journal:"BMC Med Imaging", year:"2026", pmid:"42920145",
+    author:"Yazıcı MM et al.", pubdate:"23.07.2026",
+    added:"23.10.2026",
+    title:"KI-gestützte Ultraschalldiagnostik bei Traumapatienten: Überblick über Einsatzmöglichkeiten",
+    sum:"Scoping Review über 21 Studien zu AI-Anwendungen in der Notfall-Ultraschalldiagnostik (FAST, Thorax-, Extremitätenverletzungen), die bisher nur auf retrospektive Kohorten mit begrenzte externer Validierung beschränkt sind.",
+    result:"Hohe retrospektive diagnostische Genauigkeit in Entwicklungsphasen gezeigt, aber nur eine Studie mit externer Validierung. Kritische Lücken: Keine Patientenergebnisse (Mortalität, Interventionszeit) gemessen, fehlende Interpretierbarkeit, Regulierungshindernisse und mangelndes Vertrauen der Kliniker identifiziert.",
+    transfer:"Methodisches Problem auch für Deutschland: Prospektive RCTs mit Ergebnismessung erforderlich vor klinischer Einführung."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2175,7 +2175,7 @@ const ZUL_DIGA = 5;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "24.10.2026";
+const NEWS_STAND = "25.10.2026";
 const NEWS = [
   {titel:"Geschlechtersensible Gesundheitsdaten: Runder Tisch fordert Standards", datum:"2026-09-22", url:"https://www.monitor-versorgungsforschung.de/news/geschlechtersensible-gesundheitsdaten-runder-tisch-fordert-standards/"},
   {titel:"Telemedizin und Krisenresilienz: Zi-Congress 2026 in Berlin", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/telemedizin-und-krisenresilienz-zi-congress-2026-in-berlin/"},
