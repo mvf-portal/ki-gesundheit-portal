@@ -2095,62 +2095,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "25. Okt. 2026, 05:00 Uhr";
+const SNAP_DATE = "26. Okt. 2026, 05:00 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Arch Osteoporos", year:"2026", pmid:"42920040",
-    author:"Shi BX et al.", pubdate:"23.10.2026",
-    added:"23.10.2026",
-    title:"Deep Learning für Osteoporose-Screening auf Routine-Thoraxbildern: Kosteneffektivitätsanalyse",
-    sum:"Kosteneffektivitätsanalyse eines Deep Learning-Modells zur opportunistischen Osteoporose-Detektion auf vorhandenen Thorax-Röntgenbildern bei postmenopausalen Frauen in Taiwan, unter Berücksichtigung von Diagnostic Performance, Bestätigungstestung und Therapieeinleitung.",
-    result:"Im Basisszenario mit vollständigem Behandlungspfad war KI-Screening kosteneffektiv (ICER 21.827 USD pro QALY, unterhalb Taiwan-Schwellwert). Wirtschaftlicher Nutzen entstanden bei Osteoporose-Prävalenz &gt;14,3%, optimale Sensitivität 86,6%, Spezifität 76,3%. In realen Taiwanese Daten sank der Wert jedoch erheblich.",
-    transfer:"Auf Deutschland übertragbar: Erfolg hängt von Vollständigkeit der Post-Screening-Versorgungspfade ab, nicht von Modellperformance allein."
+    journal:"J Manag Care Spec Pharm", year:"2026", pmid:"42925248",
+    author:"Zamran M et al.", pubdate:"Nov. 2026",
+    added:"24.10.2026",
+    title:"Machine Learning zur Verbesserung von Medikamentenberatung in der Apotheke",
+    sum:"Studie vergleich ML-basierte Zielidentifikation von Patienten für Apotheken-Beratungen mit traditionellen Kriterien in realen US-Versorgungsdaten.",
+    result:"ML-Kohorte erreichte 21,2% Annahme-Quote vs. 12,6% historische Kohorte (8,6 Prozentpunkte Anstieg, RR 1,68; p&lt;0,001); Robustheit gegenüber Confounding (E-Wert 2,75) bestätigt.",
+    transfer:"USA-Daten, methodisch robust, aber proprietäres System"
   },
   {
-    journal:"Stat Med", year:"2026", pmid:"42894315",
-    author:"Carluccio ED et al.", pubdate:"Okt. 2026",
-    added:"19.10.2026",
-    title:"Kalibrierung von Machine Learning-Vorhersagemodellen ohne Validierungsdaten: vier Verfahren im Vergleich",
-    sum:"Methodische Studie an Deutschlands Daten (Schlaganfall-Funktionsvorhersage, koronare Herzerkrankung) zu Kalibrierungsmethoden für ML-Modelle, wenn keine Zieldatensätze zur Neukalibrierung verfügbar sind.",
-    result:"Fünf Verfahren getestet (SimCal, Similarity-Binning Averaging, Adaptive Calibration, Elkan, Expert Judgment Modeling). SimCal funktionierte gut bei korrekter Modellspezifikation. Keines der Verfahren überzeugte konsistent in allen Situationen. Expert Judgment Modeling scheiterte auf Schlaganfall-Daten.",
-    transfer:"Deutsche Versorgungsdaten (Hamburg, Essen): zentral für Kalibrierungsproblem bei Modellübertragung zwischen Zentren und Populationen."
+    journal:"Med Lav", year:"2026", pmid:"42925046",
+    author:"Doro B et al.", pubdate:"23.10.2026",
+    added:"24.10.2026",
+    title:"KI-gestützte Bewegungserkennung für Ergonomie-Risikobeurteilung am Arbeitsplatz",
+    sum:"Studie entwickelte und validierte ein Skeletal-Pose-Erkennungs-System mit Graph Convolutional Networks zur automatisierten Ergonomie-Risikobeurteilung (OCRA) in echten Produktionsumgebungen.",
+    result:"Modell erreichte ~60% Klassifizierungsgenauigkeit und übertraf deutlich Frequenz- (12%) und Dauer-basierte Baselines (24%); technische Machbarkeit in unkontrollierten Fertigungsumgebungen ohne spezielle Sensorik demonstriert.",
+    transfer:"Italien-Studie, markerlose Erfassung übertragbar, aber noch kleine Datensätze"
   },
   {
-    journal:"BMC Med Imaging", year:"2026", pmid:"42919249",
-    author:"Liu X et al.", pubdate:"28.07.2026",
-    added:"23.10.2026",
-    title:"KI-gestützte Koloskopie und Adenomerkennung: Metaanalyse von 46 RCTs",
-    sum:"Metaanalyse von 46 randomisierten kontrollierten Studien (n=37.012) zu KI-gestützter versus konventioneller Koloskopie bezüglich Detektion kolorektaler Läsionen.",
-    result:"KI-gestützte Koloskopie erhöhte die Adenomadetektionsrate (ADR) um 22% (RR 1,22; 95%-CI 1,17–1,27), Polypdetektionsrate um 22% (RR 1,22; 95%-CI 1,16–1,29) und sessile Serratierte Läsionen um 20% (RR 1,20; 95%-CI 1,05–1,36) gegenüber konventioneller Koloskopie. Keine signifikanten Unterschiede bei fortgeschrittenen Adenomen.",
-    transfer:"Randomisierte Studiengebnisse direkt auf deutsche Screening-Koloskopien übertragbar."
+    journal:"Front Neurol", year:"2026", pmid:"42923169",
+    author:"Li L et al.", pubdate:"08.10.2026",
+    added:"24.10.2026",
+    title:"ML-Modell für Pneumonie-Risiko nach Hirnblutung-OP mit Explainability",
+    sum:"Dual-Kohorten-Studie entwickelte und validierte Machine-Learning-Modelle zur Vorhersage postoperativer Lungeninfektionen nach Aneurysma-Clipping; zusätzlich explorativ EN-Timing analysiert.",
+    result:"Naive-Bayes-Modell zeigte beste Validierungs-Performance (AUC 0,811; 95%-KI 0,755–0,855); SHAP-Analyse identifizierte Hauptprädiktoren; EN-Timing zeigte nichtlineares Muster mit Inflektionspunkt 24,0 h (95% Bootstrap-KI 23,0–27,0 h).",
+    transfer:"China-Daten, Methodik (TRIPOD+AI) international anwendbar"
   },
   {
-    journal:"BMC Health Serv Res", year:"2026", pmid:"42919318",
-    author:"Thi TN et al.", pubdate:"28.07.2026",
-    added:"23.10.2026",
-    title:"KI im Gesundheitswesen: Bewusstsein, Nachfrage und Zahlungsbereitschaft in Vietnam",
-    sum:"Querschnittstudie (n=3.550) zu Awareness, Nachfrage und Zahlungsbereitschaft für KI-gestützte Gesundheitsdienste bei vietnamesischen Erwachsenen; Faktoren: Einkommen, Gesundheitskompetenz, eHealth-Kompetenz.",
-    result:"49,1% berichteten Awareness für KI im Gesundheitswesen, 58,6% bereit oder sehr bereit zur Nutzung. Bevorzugte Anwendungen: Notfallmedizinische Unterstützung (80,6%), Telemedizin (55,0%). Aber 65,6% unwilling to pay für KI-Mehrkosten; akzeptierte Zusatzkosten 10–19%. Höheres Einkommen, größerer Haushalt, bessere Gesundheitskompetenz korreliert mit höherer KI-Awareness.",
-    transfer:"Entwicklungsland-Kontext, andere Ressourcenlage – nur Awareness-Befund für Deutschland relevant."
+    journal:"Front Cell Infect Microbiol", year:"2026", pmid:"42923083",
+    author:"Liu M et al.", pubdate:"08.10.2026",
+    added:"24.10.2026",
+    title:"Deep Learning zur automatisierten Pilz-Detektion in Mikroskopie-Bildern",
+    sum:"Studie verglich 6 Deep-Learning-Modelle (YOLO, CNN, DETR) für automatisierte Erkennung von Pilzstrukturen in Oberflächenmykosen und optimierte das beste Modell zur klinischen Einsatz.",
+    result:"YOLOv11 übertraf alle anderen Modelle; nach Optimierung (IoU-Schwelle 0,25) F1-Score für Hyphen bei 200× 97,84%, positive Vorhersagequote 98,27%; Robustheit über Erkrankungen hinweg, tinea capitis F1 98,53%.",
+    transfer:"China-Daten, standardisierte Methoden, Einsatz als Entscheidungsunterstützung validiert"
   },
   {
-    journal:"BMC Health Serv Res", year:"2026", pmid:"42919333",
-    author:"Dahò M et al.", pubdate:"27.07.2026",
-    added:"23.10.2026",
-    title:"Beacon Decision Support System in der Onkologie: Usability und Nutzerzufriedenheit",
-    sum:"Mixed-Methods-Studie (10 Interviews, 45 Nutzer-Befragung) zur Bewertung eines EU-geförderten Decision Support Systems (Beacon DSS) für evidenzbasierte Onkologieinformation bei Patienten und Fachpersonen.",
-    result:"System Usability Scale (SUS) Durchschnittswert 60,3 (SD 9,6), akzeptable Usability. AttrakDiff-Skala: hohe pragmatische Qualität und Attraktivität, niedrigere hedonische Qualität. Patienten schätzten visuelle Klarheit, bemängelten aber App-Fehler. Fachpersonen lobten Glaubwürdigkeit, kritisierten Suchspezifizität und Datenabdeckung.",
-    transfer:"EU-Kontext, vergleichbare Versicherungssysteme, Italien/Malta – Umsetzungshinweise für deutsche Kliniken."
+    journal:"Front Public Health", year:"2026", pmid:"42924203",
+    author:"Geng B et al.", pubdate:"01.10.2026",
+    added:"24.10.2026",
+    title:"KI-gestützte Echtzeit-Übersetzung in TCM-Praxis: Praktiker berichten Defizite",
+    sum:"Qualitative Studie mit 21 TCM-Praktikern untersuchte Perspektiven auf KI-assistierte Ad-hoc-Übersetzung im klinischen Alltag mittels thematischer Analyse.",
+    result:"6 Themen identifiziert: Informationsverlust und diagnostische Unsicherheit, Machtungleichgewichte, Kommunikationsbarrieren und Erosion beruflicher Identität; Praktiker berichten erhebliche Nachteile des Ad-hoc+KI-Modus gegenüber professionellen Dolmetschern.",
+    transfer:"Qualitative Evidenz aus China zur Implementierungsproblematik, international relevant"
   },
   {
-    journal:"BMC Med Imaging", year:"2026", pmid:"42920145",
-    author:"Yazıcı MM et al.", pubdate:"23.07.2026",
-    added:"23.10.2026",
-    title:"KI-gestützte Ultraschalldiagnostik bei Traumapatienten: Überblick über Einsatzmöglichkeiten",
-    sum:"Scoping Review über 21 Studien zu AI-Anwendungen in der Notfall-Ultraschalldiagnostik (FAST, Thorax-, Extremitätenverletzungen), die bisher nur auf retrospektive Kohorten mit begrenzte externer Validierung beschränkt sind.",
-    result:"Hohe retrospektive diagnostische Genauigkeit in Entwicklungsphasen gezeigt, aber nur eine Studie mit externer Validierung. Kritische Lücken: Keine Patientenergebnisse (Mortalität, Interventionszeit) gemessen, fehlende Interpretierbarkeit, Regulierungshindernisse und mangelndes Vertrauen der Kliniker identifiziert.",
-    transfer:"Methodisches Problem auch für Deutschland: Prospektive RCTs mit Ergebnismessung erforderlich vor klinischer Einführung."
+    journal:"Int J Popul Data Sci", year:"2026", pmid:"42921042",
+    author:"Kelly B et al.", pubdate:"24.09.2026",
+    added:"24.10.2026",
+    title:"Elektronische Patientenakten: Variation in Diagnose-Codes behindert Forschung",
+    sum:"Studie untersuchte Unterschiede in Kodierungssystemen zur Definition von Erkrankungen in britischen elektronischen Gesundheitsakten an 8 häufigen Erkrankungen.",
+    result:"Kappa-Werte für Übereinstimmung zwischen Codelisten waren niedrig bis mittelmäßig; nur COPD und Depression erreichten konsistent faire bis moderate Übereinstimmung (Kappa 0,21–0,60), andere Erkrankungen nur faire Übereinstimmung maximal. Diagnostische Codes zeigten höhere Übereinstimmung als administrative Codes.",
+    transfer:"UK-System, vergleichbare Interoperabilitätsprobleme in deutschem Gesundheitswesen"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2175,7 +2175,7 @@ const ZUL_DIGA = 5;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "25.10.2026";
+const NEWS_STAND = "26.10.2026";
 const NEWS = [
   {titel:"Geschlechtersensible Gesundheitsdaten: Runder Tisch fordert Standards", datum:"2026-09-22", url:"https://www.monitor-versorgungsforschung.de/news/geschlechtersensible-gesundheitsdaten-runder-tisch-fordert-standards/"},
   {titel:"Telemedizin und Krisenresilienz: Zi-Congress 2026 in Berlin", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/telemedizin-und-krisenresilienz-zi-congress-2026-in-berlin/"},
