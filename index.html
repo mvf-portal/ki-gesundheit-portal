@@ -2095,62 +2095,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "26. Okt. 2026, 05:00 Uhr";
+const SNAP_DATE = "27. Okt. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"J Manag Care Spec Pharm", year:"2026", pmid:"42925248",
-    author:"Zamran M et al.", pubdate:"Nov. 2026",
-    added:"24.10.2026",
-    title:"Machine Learning zur Verbesserung von Medikamentenberatung in der Apotheke",
-    sum:"Studie vergleich ML-basierte Zielidentifikation von Patienten für Apotheken-Beratungen mit traditionellen Kriterien in realen US-Versorgungsdaten.",
-    result:"ML-Kohorte erreichte 21,2% Annahme-Quote vs. 12,6% historische Kohorte (8,6 Prozentpunkte Anstieg, RR 1,68; p&lt;0,001); Robustheit gegenüber Confounding (E-Wert 2,75) bestätigt.",
-    transfer:"USA-Daten, methodisch robust, aber proprietäres System"
+    journal:"Ann Hematol", year:"2026", pmid:"42928398",
+    author:"Leppla L et al.", pubdate:"24.10.2026",
+    added:"26.10.2026",
+    title:"eHealth-gestützte Nachsorge nach Stammzelltransplantation: 34 % weniger akute Graft-versus-Host-Disease",
+    sum:"Zwei europäische RCTs (Deutschland, Schweiz, n=152) zum Effekt eines Multikomponenten-Interventionsmodells (SMILe-ICM) mit eHealth und Advanced-Practice-Nurse-Selbstmanagement-Unterstützung auf Behandlungsbelastung, Lebensqualität und Graft-versus-Host-Disease (GvHD) nach allogener Stammzelltransplantation.",
+    result:"Behandlungsbelastung (PETS 2.0) in SMILe-Gruppe signifikant niedriger in 5 von 8 Dimensionen. Kumulative Inzidenz akute GvHD Grad II–IV: 34,2 % (SMILe-ICM) vs. 55,3 % (Usual Care); HR 0,54 (95%-KI 0,33–0,88), p=0,01. Chronische GvHD zeigte keine signifikanten Unterschiede (p=0,64). Lebensqualität (EQ-5D-5L) verbesserte sich über Zeit in beiden Gruppen ohne signifikanten Unterschied zwischen Gruppen.",
+    transfer:"Deutschland und Schweiz, deutschsprachig, direkt übertragbar auf Versorgungsstrukturen."
   },
   {
-    journal:"Med Lav", year:"2026", pmid:"42925046",
-    author:"Doro B et al.", pubdate:"23.10.2026",
-    added:"24.10.2026",
-    title:"KI-gestützte Bewegungserkennung für Ergonomie-Risikobeurteilung am Arbeitsplatz",
-    sum:"Studie entwickelte und validierte ein Skeletal-Pose-Erkennungs-System mit Graph Convolutional Networks zur automatisierten Ergonomie-Risikobeurteilung (OCRA) in echten Produktionsumgebungen.",
-    result:"Modell erreichte ~60% Klassifizierungsgenauigkeit und übertraf deutlich Frequenz- (12%) und Dauer-basierte Baselines (24%); technische Machbarkeit in unkontrollierten Fertigungsumgebungen ohne spezielle Sensorik demonstriert.",
-    transfer:"Italien-Studie, markerlose Erfassung übertragbar, aber noch kleine Datensätze"
+    journal:"NEJM AI", year:"2026", pmid:"42932468",
+    author:"Benker-Hasani E et al.", pubdate:"15.10.2026",
+    added:"26.10.2026",
+    title:"KI-Laiensummaries vor Konsultation: 21 % kürzere Sprechzeiten, bessere Partizipation",
+    sum:"Randomisierte Studie (1:1, n=300) an neurochirurgischer Ambulanz der Universitätsmedizin Dresden: Effekt von qualitätsgeprüften KI-generierten Laiensummaries medizinischer Befunde vor Konsultation auf Kommunikationsqualität und Gesprächsdauer.",
+    result:"FAPI-Gesamtscore (Arzt-Patient-Interaktion) in Interventionsgruppe höher: 4,42±0,51 vs. 4,25±0,54; Differenz 0,17 (95%-KI 0,05–0,29), p=0,005 (Hedges' g=0,33). Shared Decision Making stärker (Diff. 0,29, KI 0,15–0,42). Mittlere Konsultationsdauer 25 vs. 33 Minuten (≈21 % relative Reduktion, GMR 0,79, KI 0,70–0,88). Patientisch bewertete Autonomie-Unterstützung höher; kein klarer Unterschied in wahrgenommener Empathie; begrenzte Evidenz für leicht erhöhte Encounter-Schwierigkeit.",
+    transfer:"Deutschland, echte Versorgungsstudie, direkt auf deutsches System übertragbar."
   },
   {
-    journal:"Front Neurol", year:"2026", pmid:"42923169",
-    author:"Li L et al.", pubdate:"08.10.2026",
-    added:"24.10.2026",
-    title:"ML-Modell für Pneumonie-Risiko nach Hirnblutung-OP mit Explainability",
-    sum:"Dual-Kohorten-Studie entwickelte und validierte Machine-Learning-Modelle zur Vorhersage postoperativer Lungeninfektionen nach Aneurysma-Clipping; zusätzlich explorativ EN-Timing analysiert.",
-    result:"Naive-Bayes-Modell zeigte beste Validierungs-Performance (AUC 0,811; 95%-KI 0,755–0,855); SHAP-Analyse identifizierte Hauptprädiktoren; EN-Timing zeigte nichtlineares Muster mit Inflektionspunkt 24,0 h (95% Bootstrap-KI 23,0–27,0 h).",
-    transfer:"China-Daten, Methodik (TRIPOD+AI) international anwendbar"
+    journal:"NEJM AI", year:"2026", pmid:"42932696",
+    author:"Lahrmann B et al.", pubdate:"24.09.2026",
+    added:"26.10.2026",
+    title:"KI-gestützte Zytologie-Automatisierung beim HPV-Screening: externe Validierung an 5.000 Fällen",
+    sum:"Validierung eines transparenten KI-Systems zur automatisierten Doppelfärbung-Klassifikation in HPV-basierten Screening-Workflows an vier unabhängigen Kohorten mit insgesamt 9.006 Fällen, wovon 4.996 vollständig externe Validierungskohorte.",
+    result:"Im locked post-hoc-Validationsdatensatz (n=4.996): Sensitivität 88,3 % (90%-KI 85,3–91,3 %), Spezifität 54,4 % (90%-KI 52,9–55,9 %) zur Erkennung von CIN 3+. Stabilitätsprüfung über beide Präparationsmethoden ohne Umkalibrierung. Die Leistung übertraf Pap-Zytologie (ASC-US+) und entsprach oder übertraf manuelle Doppelfärbung-Interpretation.",
+    transfer:"Deutschland/Schweiz: Methodisch hochwertig, prospektive externe Validierung, europäische Beteiligung (Göttingen, Heidelberg); MDR-reguliert."
   },
   {
-    journal:"Front Cell Infect Microbiol", year:"2026", pmid:"42923083",
-    author:"Liu M et al.", pubdate:"08.10.2026",
-    added:"24.10.2026",
-    title:"Deep Learning zur automatisierten Pilz-Detektion in Mikroskopie-Bildern",
-    sum:"Studie verglich 6 Deep-Learning-Modelle (YOLO, CNN, DETR) für automatisierte Erkennung von Pilzstrukturen in Oberflächenmykosen und optimierte das beste Modell zur klinischen Einsatz.",
-    result:"YOLOv11 übertraf alle anderen Modelle; nach Optimierung (IoU-Schwelle 0,25) F1-Score für Hyphen bei 200× 97,84%, positive Vorhersagequote 98,27%; Robustheit über Erkrankungen hinweg, tinea capitis F1 98,53%.",
-    transfer:"China-Daten, standardisierte Methoden, Einsatz als Entscheidungsunterstützung validiert"
+    journal:"NEJM AI", year:"2026", pmid:"42932480",
+    author:"Cotte F et al.", pubdate:"05.03.2026",
+    added:"26.10.2026",
+    title:"KI-gestützte Symptom-Einschätzung in der Ambulanz: Umlenkung in passendere Versorgungsstufen",
+    sum:"Prospektive Evaluierung eines KI-Diagnose-Entscheidungsunterstützungs-Systems (Ada Health) in Portugals größtem privaten Gesundheitsnetz mit Nachverfolgung von 1.470 Patienten über elektronische Patientenakten und Befragungen.",
+    result:"33 % der Patienten änderten nach KI-Assessment ihre geplante Versorgungsstufe unmittelbar. Unsicherheit sank von 12,6 % auf 5,0 % (p&lt;0,001). Von 721 mit beobachtetem Verhalten: 59,1 % änderten Pathway (28,9 % de-eskaliert, 17,2 % eskaliert, 13,0 % Unsicherheit gelöst). Unter 96 Notfall-Planern: 38,5 % wählten niedrigere Akuität; 93 % (27/29) wurden nachträglich als angemessene Notfall-Vermeidung bewertet (95%-KI 78,0–98,1 %). Eigentliche Versorgungsqualität (n=382) stieg von 29,8 % auf 64,4 % angemessen (p&lt;0,001).",
+    transfer:"Portugal (ähnliches Versicherungssystem), aber Effekt ist versorgungssystem-unabhängig; klinischer Nutzen klar."
   },
   {
-    journal:"Front Public Health", year:"2026", pmid:"42924203",
-    author:"Geng B et al.", pubdate:"01.10.2026",
-    added:"24.10.2026",
-    title:"KI-gestützte Echtzeit-Übersetzung in TCM-Praxis: Praktiker berichten Defizite",
-    sum:"Qualitative Studie mit 21 TCM-Praktikern untersuchte Perspektiven auf KI-assistierte Ad-hoc-Übersetzung im klinischen Alltag mittels thematischer Analyse.",
-    result:"6 Themen identifiziert: Informationsverlust und diagnostische Unsicherheit, Machtungleichgewichte, Kommunikationsbarrieren und Erosion beruflicher Identität; Praktiker berichten erhebliche Nachteile des Ad-hoc+KI-Modus gegenüber professionellen Dolmetschern.",
-    transfer:"Qualitative Evidenz aus China zur Implementierungsproblematik, international relevant"
+    journal:"NEJM AI", year:"2025", pmid:"42932524",
+    author:"Chen E et al.", pubdate:"24.12.2025",
+    added:"26.10.2026",
+    title:"Kontinuierliches Lernens bei KI-Modellimplementierung: 23 Kliniken, 12 Länder, Fehlerreduktion durch lokales Anpassen",
+    sum:"Retrospektive Studie mit 2.313 Thorax-Aufnahmen aus 23 Krankenhäusern in 12 Ländern über 5 Kontinente: Vergleich von Deployment-Strategien (Original-Modell, Hospital-spezifisches Fine-Tuning, Continual Learning) für KI-basierte Endotrachealtubus-Lagebeurteilung.",
+    result:"Continual Learning erzielte signifikant niedrigeren durchschnittlichen ETT-Carina-Fehler von 10,58 mm (SD±12,98), verglichen mit 12,49 mm (SD±15,37) beim Hospital-spezifischen Fine-Tuning (nur 50 Trainings-Fälle) und 16,39 mm (SD±21,56) beim Original-Modell. Continual Learning übertraf Original-Modell an allen 23 Krankenhäusern und Hospital-spezifisches Fine-Tuning an 21 von 22 Krankenhäusern, ohne komplexe Infrastruktur oder Datentransfer zwischen Hospitälern erforderlich.",
+    transfer:"Multinational (inkl. Deutschland, Österreich, Belgien, Schweiz, Spanien), zeigt praktische Implementierungsstrategie; Datenschutz-konform."
   },
   {
-    journal:"Int J Popul Data Sci", year:"2026", pmid:"42921042",
-    author:"Kelly B et al.", pubdate:"24.09.2026",
-    added:"24.10.2026",
-    title:"Elektronische Patientenakten: Variation in Diagnose-Codes behindert Forschung",
-    sum:"Studie untersuchte Unterschiede in Kodierungssystemen zur Definition von Erkrankungen in britischen elektronischen Gesundheitsakten an 8 häufigen Erkrankungen.",
-    result:"Kappa-Werte für Übereinstimmung zwischen Codelisten waren niedrig bis mittelmäßig; nur COPD und Depression erreichten konsistent faire bis moderate Übereinstimmung (Kappa 0,21–0,60), andere Erkrankungen nur faire Übereinstimmung maximal. Diagnostische Codes zeigten höhere Übereinstimmung als administrative Codes.",
-    transfer:"UK-System, vergleichbare Interoperabilitätsprobleme in deutschem Gesundheitswesen"
+    journal:"NEJM AI", year:"2025", pmid:"42932526",
+    author:"Storey M et al.", pubdate:"18.12.2025",
+    added:"26.10.2026",
+    title:"KI-Triage von Thorax-Röntgen in der Klinik: Diagnoseverzögerung halbiert",
+    sum:"Prospektive Evaluierung eines KI-Triage-Systems für Lungenkrebsverdacht an 56.257 Thoraxaufnahmen über 3 Jahre in fünf Londoner NHS-Krankenhäusern mit Analyse von Zeitverzögerung und CT-Nutzung.",
+    result:"Zeitspanne von Röntgen-Aufnahme bis CT-Befund für Lungenkrebsverdacht von 6,0 auf 3,6 Tage verkürzt. 14-Merkmals-Modell: 82,5 % Sensitivität, 90,5 % Spezifität, 14,6 % positive Vorhersagekraft, 99,6 % negative Vorhersagekraft. Kein signifikanter Anstieg der CT-Volumina relativ zu Röntgen.",
+    transfer:"UK-NHS-Daten, übertragbar auf deutsche Versorgungsstrukturen mit Diagnostik-Pathways; praktischer Workflow-Effekt messbar."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2175,7 +2175,7 @@ const ZUL_DIGA = 5;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "26.10.2026";
+const NEWS_STAND = "27.10.2026";
 const NEWS = [
   {titel:"Geschlechtersensible Gesundheitsdaten: Runder Tisch fordert Standards", datum:"2026-09-22", url:"https://www.monitor-versorgungsforschung.de/news/geschlechtersensible-gesundheitsdaten-runder-tisch-fordert-standards/"},
   {titel:"Telemedizin und Krisenresilienz: Zi-Congress 2026 in Berlin", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/telemedizin-und-krisenresilienz-zi-congress-2026-in-berlin/"},
