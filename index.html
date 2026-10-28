@@ -2102,62 +2102,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "27. Okt. 2026, 05:01 Uhr";
+const SNAP_DATE = "28. Okt. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Ann Hematol", year:"2026", pmid:"42928398",
-    author:"Leppla L et al.", pubdate:"24.10.2026",
-    added:"26.10.2026",
-    title:"eHealth-gestützte Nachsorge nach Stammzelltransplantation: 34 % weniger akute Graft-versus-Host-Disease",
-    sum:"Zwei europäische RCTs (Deutschland, Schweiz, n=152) zum Effekt eines Multikomponenten-Interventionsmodells (SMILe-ICM) mit eHealth und Advanced-Practice-Nurse-Selbstmanagement-Unterstützung auf Behandlungsbelastung, Lebensqualität und Graft-versus-Host-Disease (GvHD) nach allogener Stammzelltransplantation.",
-    result:"Behandlungsbelastung (PETS 2.0) in SMILe-Gruppe signifikant niedriger in 5 von 8 Dimensionen. Kumulative Inzidenz akute GvHD Grad II–IV: 34,2 % (SMILe-ICM) vs. 55,3 % (Usual Care); HR 0,54 (95%-KI 0,33–0,88), p=0,01. Chronische GvHD zeigte keine signifikanten Unterschiede (p=0,64). Lebensqualität (EQ-5D-5L) verbesserte sich über Zeit in beiden Gruppen ohne signifikanten Unterschied zwischen Gruppen.",
-    transfer:"Deutschland und Schweiz, deutschsprachig, direkt übertragbar auf Versorgungsstrukturen."
+    journal:"JMIR Med Inform", year:"2026", pmid:"42945531",
+    author:"Zhu S et al.", pubdate:"27.10.2026",
+    added:"27.10.2026",
+    title:"KI-gestützte Echtzeit-Dokumentationsprüfung in Kliniken: siebenjährige Längsschnittevaluationen zeigen Verbesserungen",
+    sum:"Evaluierung eines KI-gestützten Zweilevel-Systems für Dokumentationsprüfung (Echtzeit-Prompting während Eingabe, Blockierung bei Abschluss) an 43.324 Klinikaufenthalten über 84 Monate (2019–2025) an einem chinesischen Universitätsklinikum.",
+    result:"Mängel in stabilen Regeln stiegen von 16,7% (2021) auf 50,9% (2023), was verbesserter Systemsensitivität entspricht. Hochrisiko-Fallrate sank nach Juli 2023 signifikant (Trendänderung −0,09, 95%-KI −0,15 bis −0,02, p=0,007). KI-gestützte Schreib-Rückwärts-Rate &gt;97% ab August 2023. Interreviewer-Konsistenz stark verbessert: Varianzkoeffizient von 115,7% auf 26,8%, ICC von 0,782 auf 0,317.",
+    transfer:"Chinesische Klinikdaten; Konzept aber strukturell auf europäische EHR-Systeme übertragbar."
   },
   {
-    journal:"NEJM AI", year:"2026", pmid:"42932468",
-    author:"Benker-Hasani E et al.", pubdate:"15.10.2026",
-    added:"26.10.2026",
-    title:"KI-Laiensummaries vor Konsultation: 21 % kürzere Sprechzeiten, bessere Partizipation",
-    sum:"Randomisierte Studie (1:1, n=300) an neurochirurgischer Ambulanz der Universitätsmedizin Dresden: Effekt von qualitätsgeprüften KI-generierten Laiensummaries medizinischer Befunde vor Konsultation auf Kommunikationsqualität und Gesprächsdauer.",
-    result:"FAPI-Gesamtscore (Arzt-Patient-Interaktion) in Interventionsgruppe höher: 4,42±0,51 vs. 4,25±0,54; Differenz 0,17 (95%-KI 0,05–0,29), p=0,005 (Hedges' g=0,33). Shared Decision Making stärker (Diff. 0,29, KI 0,15–0,42). Mittlere Konsultationsdauer 25 vs. 33 Minuten (≈21 % relative Reduktion, GMR 0,79, KI 0,70–0,88). Patientisch bewertete Autonomie-Unterstützung höher; kein klarer Unterschied in wahrgenommener Empathie; begrenzte Evidenz für leicht erhöhte Encounter-Schwierigkeit.",
-    transfer:"Deutschland, echte Versorgungsstudie, direkt auf deutsches System übertragbar."
+    journal:"JMIR Med Inform", year:"2026", pmid:"42945530",
+    author:"Nishiyama T et al.", pubdate:"27.10.2026",
+    added:"27.10.2026",
+    title:"LLM extrahiert Funktionsfähigkeits-Scores aus Rehabilitations-Noten: Retrospec-Validierung an 164.039 Einträgen",
+    sum:"Retrospektive Evaluierung eines lokal eingesetzten LLM zur Schätzung von Functional-Independence-Measure-(FIM-)Items aus freiem Text von Physio-, Ergo- und Logopädie-Noten (Oktober 2019–September 2024) an Patienten mit Schlaganfall, Hüftfraktur oder Wirbelbruch.",
+    result:"Von 2.952.702 geeigneten Note-Item-Paaren produzierten das Modell 980.000 gültige Schätzungen (Gesamtquote 33,2%). Bei 57.246 Note-Item-Paaren mit Referenzscore am selben Tag waren 77,7% (44.481) innerhalb von 1 Punkt des Referenzscore. Mittlerer absoluter Fehler 0,825 (besser als Modal-Score-Baseline, aber höher als Last-Observation-Carried-Forward 0,648).",
+    transfer:"Japanische Rehabilitations-Daten; sprachspezifisches Modell, aber Konzept auf deutschsprachige Noten übertragbar."
   },
   {
-    journal:"NEJM AI", year:"2026", pmid:"42932696",
-    author:"Lahrmann B et al.", pubdate:"24.09.2026",
-    added:"26.10.2026",
-    title:"KI-gestützte Zytologie-Automatisierung beim HPV-Screening: externe Validierung an 5.000 Fällen",
-    sum:"Validierung eines transparenten KI-Systems zur automatisierten Doppelfärbung-Klassifikation in HPV-basierten Screening-Workflows an vier unabhängigen Kohorten mit insgesamt 9.006 Fällen, wovon 4.996 vollständig externe Validierungskohorte.",
-    result:"Im locked post-hoc-Validationsdatensatz (n=4.996): Sensitivität 88,3 % (90%-KI 85,3–91,3 %), Spezifität 54,4 % (90%-KI 52,9–55,9 %) zur Erkennung von CIN 3+. Stabilitätsprüfung über beide Präparationsmethoden ohne Umkalibrierung. Die Leistung übertraf Pap-Zytologie (ASC-US+) und entsprach oder übertraf manuelle Doppelfärbung-Interpretation.",
-    transfer:"Deutschland/Schweiz: Methodisch hochwertig, prospektive externe Validierung, europäische Beteiligung (Göttingen, Heidelberg); MDR-reguliert."
+    journal:"JMIR Form Res", year:"2026", pmid:"42944729",
+    author:"Van Bostraeten P et al.", pubdate:"27.10.2026",
+    added:"27.10.2026",
+    title:"LLM-gesteuerte Avatar-Patienten für Trainings in Shared Decision-Making: Akzeptanz bei Medizinstudierenden",
+    sum:"Entwicklung und Akzeptanzprüfung eines web-basierten Systems mit photorealistischen 3D-Avataren und Echtzeit-Sprachdialog (LLM-basiert) zur Schulung von Shared-Decision-Making-Kompetenzen bei Medizinstudierenden an der KU Leuven (November–Dezember 2025).",
+    result:"24 von 25 Studierenden einbezogen. Wahrgenommene Nützlichkeit höchste Bewertung (Mittelwert 4,43, SD 0,50), gefolgt von Nutzungsabsicht (4,42, SD 0,59) und wahrgenommener Benutzerfreundlichkeit (3,81, SD 0,68) auf 5er-Likert-Skala. Qualitative Ergebnisse zeigen hohe Wertschätzung für sichere Lernumgebung; technische Probleme (Mikrofon, Einfrieren, Abstürze) als häufigste Verbesserungswünsche.",
+    transfer:"Belgische Mediziner-Ausbildung, europäisches Gesundheitssystem; direkt auf deutschsprachige Universitäten übertragbar."
   },
   {
-    journal:"NEJM AI", year:"2026", pmid:"42932480",
-    author:"Cotte F et al.", pubdate:"05.03.2026",
-    added:"26.10.2026",
-    title:"KI-gestützte Symptom-Einschätzung in der Ambulanz: Umlenkung in passendere Versorgungsstufen",
-    sum:"Prospektive Evaluierung eines KI-Diagnose-Entscheidungsunterstützungs-Systems (Ada Health) in Portugals größtem privaten Gesundheitsnetz mit Nachverfolgung von 1.470 Patienten über elektronische Patientenakten und Befragungen.",
-    result:"33 % der Patienten änderten nach KI-Assessment ihre geplante Versorgungsstufe unmittelbar. Unsicherheit sank von 12,6 % auf 5,0 % (p&lt;0,001). Von 721 mit beobachtetem Verhalten: 59,1 % änderten Pathway (28,9 % de-eskaliert, 17,2 % eskaliert, 13,0 % Unsicherheit gelöst). Unter 96 Notfall-Planern: 38,5 % wählten niedrigere Akuität; 93 % (27/29) wurden nachträglich als angemessene Notfall-Vermeidung bewertet (95%-KI 78,0–98,1 %). Eigentliche Versorgungsqualität (n=382) stieg von 29,8 % auf 64,4 % angemessen (p&lt;0,001).",
-    transfer:"Portugal (ähnliches Versicherungssystem), aber Effekt ist versorgungssystem-unabhängig; klinischer Nutzen klar."
+    journal:"JMIR Nurs", year:"2026", pmid:"42944649",
+    author:"Beasant L et al.", pubdate:"27.10.2026",
+    added:"27.10.2026",
+    title:"Smartphone-App für Blasentraining im Kindesalter: Prozessevaluierung zeigt Integrationshürden in NHS-Versorgung",
+    sum:"Prozessevaluierung einer partizipativ entwickelten App (URApp) zur Unterstützung der Blasentrainings-Adhärenz bei Kindern und Jugendlichen (10–18 Jahre) mit Tagesinkontinenz an 5 englischen NHS-Zentren mit 20 Pflegefachpersonen über 18 Wochen (Normalization Measure Development-Fragebogen plus Fokusgruppen).",
+    result:"App wurde positiv wahrgenommen und als altersgerecht und nützlich bewertet. 20 Pflegefachpersonen stuften URApp als leicht anwendbar und funktionell im Einklang mit bestehender Blasentherapie ein. Integration in bestehende Versorgungspfade erwies sich aber als schwierig; Teams bevorzugten Papierblockbücher, zeigten Vertrauensdefizite beim Wechsel zu elektronischen Tagebüchern und Bedenken wegen fehlender elterlicher Einsicht in App-Daten.",
+    transfer:"England, NHS-Struktur ähnlich deutscher Regelversorgung; Befunde zu Implementierungshürden übertragbar."
   },
   {
-    journal:"NEJM AI", year:"2025", pmid:"42932524",
-    author:"Chen E et al.", pubdate:"24.12.2025",
-    added:"26.10.2026",
-    title:"Kontinuierliches Lernens bei KI-Modellimplementierung: 23 Kliniken, 12 Länder, Fehlerreduktion durch lokales Anpassen",
-    sum:"Retrospektive Studie mit 2.313 Thorax-Aufnahmen aus 23 Krankenhäusern in 12 Ländern über 5 Kontinente: Vergleich von Deployment-Strategien (Original-Modell, Hospital-spezifisches Fine-Tuning, Continual Learning) für KI-basierte Endotrachealtubus-Lagebeurteilung.",
-    result:"Continual Learning erzielte signifikant niedrigeren durchschnittlichen ETT-Carina-Fehler von 10,58 mm (SD±12,98), verglichen mit 12,49 mm (SD±15,37) beim Hospital-spezifischen Fine-Tuning (nur 50 Trainings-Fälle) und 16,39 mm (SD±21,56) beim Original-Modell. Continual Learning übertraf Original-Modell an allen 23 Krankenhäusern und Hospital-spezifisches Fine-Tuning an 21 von 22 Krankenhäusern, ohne komplexe Infrastruktur oder Datentransfer zwischen Hospitälern erforderlich.",
-    transfer:"Multinational (inkl. Deutschland, Österreich, Belgien, Schweiz, Spanien), zeigt praktische Implementierungsstrategie; Datenschutz-konform."
+    journal:"Support Care Cancer", year:"2026", pmid:"42911430",
+    author:"Guerdoux E et al.", pubdate:"22.10.2026",
+    added:"23.10.2026",
+    title:"Fernmonitoring mit Patient-Reported Outcomes nach Brustbiopsie: Angst reduziert, Schmerz nicht signifikant vermindert",
+    sum:"Französische Mehrarm-RCT (n=193) zur Wirkung von Fernmonitoring mittels Patient-Reported Outcomes (PRO) auf Schmerz und Angst nach Brustbiopsie; Vergleich: tägliche Telefonanrufe mit Psychoonkologie-Unterstützung vs. elektronische PRO-Schnittstelle (3 Tage) vs. Standardbetreuung.",
+    result:"Schmerz am Tag 4 vernachlässigbar (Median=0) und zwischen den Gruppen nicht signifikant unterschiedlich (p&gt;0,05). Anteil Patienten mit klinisch bedeutsamer Angst niedriger in Interventionsarmen am Tag 4 (p&lt;0,001); am Tag 10 nur in Telefon-PRO-Arm signifikant (adjustierter p=0,008). Fernüberwachung mit PRO, insbesondere mit menschlicher Intervention, könnte Angst reduzieren.",
+    transfer:"Frankreich, ähnliches Versicherungssystem; Prozessmodell auf deutsche Brustzentren übertragbar."
   },
   {
-    journal:"NEJM AI", year:"2025", pmid:"42932526",
-    author:"Storey M et al.", pubdate:"18.12.2025",
+    journal:"NEJM AI", year:"2026", pmid:"42932497",
+    author:"Bartsch AM et al.", pubdate:"26.02.2026",
     added:"26.10.2026",
-    title:"KI-Triage von Thorax-Röntgen in der Klinik: Diagnoseverzögerung halbiert",
-    sum:"Prospektive Evaluierung eines KI-Triage-Systems für Lungenkrebsverdacht an 56.257 Thoraxaufnahmen über 3 Jahre in fünf Londoner NHS-Krankenhäusern mit Analyse von Zeitverzögerung und CT-Nutzung.",
-    result:"Zeitspanne von Röntgen-Aufnahme bis CT-Befund für Lungenkrebsverdacht von 6,0 auf 3,6 Tage verkürzt. 14-Merkmals-Modell: 82,5 % Sensitivität, 90,5 % Spezifität, 14,6 % positive Vorhersagekraft, 99,6 % negative Vorhersagekraft. Kein signifikanter Anstieg der CT-Volumina relativ zu Röntgen.",
-    transfer:"UK-NHS-Daten, übertragbar auf deutsche Versorgungsstrukturen mit Diagnostik-Pathways; praktischer Workflow-Effekt messbar."
+    title:"KI-Entscheidungsunterstuetzung zur Magensondenlage in britischen Kliniken: externe Validierung zeigt Sicherheitsbedenken",
+    sum:"Prospektive Validierungsstudie an 1605 Thorax-Röntgenaufnahmen in NHS-Trusts zur Überprüfung eines MDR-zertifizierten KI-Tools (Annalise Enterprise CXR) zur Erkennung unsicher platzierter Nasogastral-Sonden.",
+    result:"Sensitivität 0,87 (95%-KI 0,79–0,91) für unsicher sitzende Sonden, aber Spezifität nur 0,63 (95%-KI 0,61–0,66); 1% falsch-negative Fälle (17/1605), die \"Never Events\" verursachen könnten. Hohes Auftreten falsch-positiver Ergebnisse (34%) deutet auf Uneignung als primäres Entscheidungsunterstützungssystem hin.",
+    transfer:"NHS-Daten, vergleichbares Versorgungssystem; Sicherheitsbefund unmittelbar relevant für europäische Kliniken."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2182,7 +2182,7 @@ const ZUL_DIGA = 5;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "27.10.2026";
+const NEWS_STAND = "28.10.2026";
 const NEWS = [
   {titel:"Geschlechtersensible Gesundheitsdaten: Runder Tisch fordert Standards", datum:"2026-09-22", url:"https://www.monitor-versorgungsforschung.de/news/geschlechtersensible-gesundheitsdaten-runder-tisch-fordert-standards/"},
   {titel:"Telemedizin und Krisenresilienz: Zi-Congress 2026 in Berlin", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/telemedizin-und-krisenresilienz-zi-congress-2026-in-berlin/"},
