@@ -2217,62 +2217,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "31. Okt. 2026, 05:01 Uhr";
+const SNAP_DATE = "1. Nov. 2026, 05:00 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Health Expect", year:"2026", pmid:"42958746",
-    author:"Abi Saab P et al.", pubdate:"Dez. 2026",
-    added:"30.10.2026",
-    title:"KI-gestützte Schlaganfall-Neurorehabilitation: Usability und Akzeptanz bei Patienten, Angehörigen und Fachkräften",
-    sum:"Qualitative Studie mit 71 Teilnehmern (27 Schlaganfallpatienten, 17 Angehörige, 27 Fachkräfte) in vier europäischen Ländern zur Nutzbarkeit einer KI-basierten Rehabilitationsplattform (RGS und MIMS-Dashboard) vor Implementierung in der Versorgung.",
-    result:"System Usability Scale (SUS) Gesamtscore 68,1 ± 16,0 (Note C). Patienten bewerteten die Patientenschnittstelle niedriger (58,9 ± 16,5) als Angehörige (75,6 ± 13,3; p = 0,002). Fachkräfte: 72,7 ± 12,8. Alle Gruppen bevorzugten ein Hybrid-Modell mit KI-gestützter Übungsabgabe und klinischer Überwachung statt autonomer Nutzung. Hauptbarrieren: Zuverlässigkeitsbedenken, digitale Kluft, notwendigkeit menschlicher Vermittlung und Ressourcenfragen.",
-    transfer:"Europäische Studie über mehrere Länder in vergleichbarem Versorgungskontext."
-  },
-  {
-    journal:"JMIR Med Inform", year:"2026", pmid:"42963056",
-    author:"Yi SE et al.", pubdate:"30.10.2026",
-    added:"30.10.2026",
-    title:"Deep Learning zur Mittelohrentzündungs-Diagnose: Leistungslücke zwischen Anfängern und Experten schließbar",
-    sum:"Retrospektive Leserstudie mit 13 Klinikern (3 Professoren, 5 Oberärzte, 5 Assistenzärzte) und 7.335 Trainingsbildern zum Effekt einer Deep-Learning-gestützten Diagnostik (EfficientNet-B4) auf die Genauigkeit bei der Diagnose von Mittelohrerkrankungen auf 100 klinischen Testbildern.",
-    result:"Stand-alone-KI erreichte 94,0–99,0 % Genauigkeit. KI-Unterstützung verbesserte Genauigkeit signifikant: Professoren +11,0 % (78,7 → 89,7 %), Oberärzte +28,8 % (65,0 → 93,8 %), Assistenten +32,2 % (54,4 → 86,6 %; alle p&lt;0,001). Leistungslücke Assistenten-Professoren sank von 24,3 % auf 3,1 %. Für Nebenbefunde (Retraktionstasche, Myringitis) signifikante Verbesserungen bei Assistenten.",
-    transfer:"Südkorea, strukturell vergleichbar; befund relevant für deutsche Ausbildungssettings."
-  },
-  {
-    journal:"J Med Internet Res", year:"2026", pmid:"42962207",
-    author:"Zheng Y et al.", pubdate:"30.10.2026",
-    added:"30.10.2026",
-    title:"Eltern-beteitigte digitale Interventionen bei Kindern mit Übergewicht: Metaanalyse",
-    sum:"Systematische Übersichtsarbeit und Metaanalyse von 29 RCTs (4.156 Teilnehmer) zur Wirksamkeit eltern-integrierter digitaler Gesundheitsinterventionen auf BMI und Gesundheitsverhalten bei Kindern/Jugendlichen mit Übergewicht oder Adipositas.",
-    result:"Kleine aber statistisch signifikante BMI-Reduktion (SMD = −0,11, 95%-KI −0,19 bis −0,04; p = 0,004) vs. Kontrolle. Bei inaktiven Kontrollen stärker (SMD = −0,15), bei aktiven Kontrollen nicht signifikant (SMD = −0,07). Verbesserungen in Ernährungsverhalten (5/16 Studien), Bewegung (2/17) und Bildschirmzeit (2/12) inkonsistent. Moderate Evidenzsicherheit für BMI, optimale digitale Liefermodalität oder Eltern-Strategie nicht identifiziert.",
-    transfer:"Mehrere europäische Studien eingeschlossen; Befund auf deutsches Versorgungssystem übertragbar."
-  },
-  {
-    journal:"JMIR Res Protoc", year:"2026", pmid:"42956043",
-    author:"Kulosman M et al.", pubdate:"29.10.2026",
+    journal:"Nurs Crit Care", year:"2026", pmid:"42952284",
+    author:"Nydahl P et al.", pubdate:"Nov. 2026",
     added:"29.10.2026",
-    title:"CaReScreen: Digitales Screening für Spätfolgen und Rehabilitationsbedarf von Krebsüberlebenden",
-    sum:"Norwegisches Entwicklungs- und Validierungsprojekt eines Screeningtools (digitaler Bericht mit Ampel-System) zur systematischen Erfassung von Symptombelastung und Rehabilitationsbedarf bei Krebsüberlebenden mittels Patient Reported Outcomes (EORTC QLQ-SURV100 + 5 Items).",
-    result:"Entwicklungsphase abgeschlossen mit initialisiertem Prototyp. Grün = geringe Symptombelastung, Gelb = moderat, Rot = hoch. Validierung der Scoring-Anleitung läuft mit 800 Teilnehmern (Ergebnisse Frühjahr 2027 erwartet). Machbarkeitsstudie geplant 2027. Projekt bis 2028 gefördert.",
-    transfer:"Norwegen; vergleichbares Versicherungssystem, gutes Digitalisierungsniveau."
+    title:"Generative KI für klinische Lernmaterialien: Ergebnisse aus deutschsprachigen Intensivpflege-Netzwerken",
+    sum:"Online-Umfrage unter 136 Fachpersonen (94 % Pflegekräfte) aus Deutschland, Österreich, Schweiz zum Einsatz von KI (v.a. ChatGPT) bei Erstellung von Microlearning-Ressourcen.",
+    result:"46,3 % (n=63) nutzen KI für Erstellung von Lernmaterialien (Kurzmaterialien, OMWs). KI wird primär für Grafiken (65,1 %), Abbildungen (55,6 %) und Design (52,4 %) verwendet. 79,4 % der Nutzer*innen überprüfen KI-Output kritisch; alle berichten Fehler (Ungenauigkeiten 50,8 %, falsche Inhalte 46 %). Risiken: Vertrauensverlust durch Fehler; Chancen: Effizienzgewinne. Fazit: Kritische Qualitätskontrolle essenziell.",
+    transfer:"Deutschsprachige Studienpopulation, direkt auf Intensivmedizin hierzulande übertragbar"
   },
   {
-    journal:"BMC Med", year:"2026", pmid:"42958525",
-    author:"Glasbrenner C et al.", pubdate:"27.10.2026",
-    added:"30.10.2026",
-    title:"Gewichtsveränderung in digitaler Adipositas-App: Prognose per Machine Learning",
-    sum:"Analyse von 17.953 Nutzern der deutschen DiGA Oviva Direkt für Adipositas über 12 Wochen zur Vorhersage klinisch bedeutsamer Gewichtsverluste und App-Adhärenz mittels Machine Learning.",
-    result:"Baseline-Merkmale allein zeigten geringe Diskriminanzfähigkeit (ROC-AUC 0,54–0,58 für klinisch bedeutsamen Gewichtsverlust). Mit 4-Wochen-Gewicht verbesserte sich die Performance deutlich (AUC 0,86–0,92). App-Engagement allein zeigte modeste Verbesserung (AUC 0,63–0,67). Für Adhärenzvorhersage: AUC stieg von 0,81 (Baseline) auf 0,90 (mit Engagement). Frühzeitige Gewichtsverluste waren die stärksten Prädiktoren für Gesamterfolg.",
-    transfer:"Deutsche medizinische App mit echten Versorgungsdaten; Modelle erfordern externe Validierung vor Klinikumsatz."
+    journal:"Eat Weight Disord", year:"2026", pmid:"42955159",
+    author:"Gambino O et al.", pubdate:"28.10.2026",
+    added:"29.10.2026",
+    title:"OBESI-NET: Nationales Ökosystem für KI-gestützte Adipositas-Surveillance in Italien",
+    sum:"Konzeptvorschlag eines föderalen digitalen Ökosystems zur integrierten Erfassung klinischer, Sensor-, Imaging- und Multi-Omics-Daten in Adipositaszentren mit Federated Learning und KI für Risikostratifizierung.",
+    result:"Geplantes System: Echtzeitdatenintegration ohne zentralisierte Patientendatensammlung (Federated Learning), Vernetzung italienischer Adipositaszentren über Gesellschaft für Adipositasmedizin (SIO). Erwartete Beiträge: epidemiologisches Monitoring, stratifizierte Behandlung, Public-Health-Planung. Status: Konzeptvorschlag, noch nicht implementiert.",
+    transfer:"Italien, deutschsprachiger Nachbarraum, vergleichbare Gesundheitssystemstruktur"
   },
   {
-    journal:"BMC Public Health", year:"2026", pmid:"42958181",
-    author:"Alexandrou C et al.", pubdate:"03.08.2026",
-    added:"30.10.2026",
-    title:"Health4Life: Digitale Eltern-App für Kleinkinder – Hybrid-Design zur Prävention von Übergewicht",
-    sum:"Protokoll einer randomisierten Studie in Schweden mit 504 Familien, um die Wirksamkeit und Implementierbarkeit einer 16-monatigen App (Health4Life) zur Förderung gesunder Ernährung und Bewegung ab dem 6. Schwangerschaftsmonat zu testen.",
-    result:"Studie laufend (Anmeldung ab Januar 2025). Ziele: Primär Kindergewicht, Bewegung, Bildschirmzeit (akzelerometrie, Fragebogen); sekundär: Eltern-Selbstwirksamkeit. Implementierungs-Outcomes (Akzeptanz, Zweckmäßigkeit, Machbarkeit) durch Interviews mit Fachkräften und Fragebogen zu App-Nutzung erfasst. Förderung bis 2028 zugesichert.",
-    transfer:"Skandinavisches Land mit hohem Digitalisierungsgrad; zeigt, was möglich ist, nicht unmittelbar umsetzbar in Deutschland."
+    journal:"Front Public Health", year:"2026", pmid:"42964085",
+    author:"Wang Y et al.", pubdate:"16.10.2026",
+    added:"31.10.2026",
+    title:"Digitale Gesundheitskluft auf dem Land: Chinas ältere Erwachsene zwischen Willen und Unfähigkeit",
+    sum:"Qualitative Studie mit 105 älteren Menschen und 20 Fachpersonen in 12 Dörfern Hubeis zur Analyse der Barrieren beim Zugang zu digitalen Gesundheitsdiensten.",
+    result:"Kernparadoxon: Starke Willingness und praktisches Bedürfnis für digitale Gesundheitsdienste, aber faktische Unfähigkeit zum Zugang. Drei Faktoren: physische/kognitive Limitationen, unzureichende Infrastruktur, intergenerationelle Disconnection. Lösungsrahmen: Infrastruktur + Gemeinschaftskapazität + kulturelle Adaptation.",
+    transfer:"China – strukturelle Digitalisierungsprobleme auf dem Land, übertragbar auf vergleichbare ländliche Settings in Europa"
+  },
+  {
+    journal:"Front Public Health", year:"2026", pmid:"42953192",
+    author:"Dietrich A et al.", pubdate:"14.10.2026",
+    added:"29.10.2026",
+    title:"Genderverzerrung in KI-Systemen: Rahmen für Public-Health-Lehre und Kompetenzentwicklung",
+    sum:"Konzeptionelle Synthese eines Kompetenzrahmens (SBL-PHE) zur Vermittlung von Verständnis für algorithmische Geschlechterverzerrung in Gesundheitswesen und Public Health, entwickelt über Literaturanalyse und Fallstudie zu Herz-Kreislauf-Risikomodellen.",
+    result:"Fünf Kompetenz-Dimensionen identifiziert: Erkennung, Erklärung, Bewertung, Adressierung und Reflexion algorithmischer Verzerrung. Fallbeispiel zeigt Geschlechterverzerrung in kardiovaskulärer Risikoberechnung von Wissensproduktion über Implementierung bis Monitoring. Rahmen noch nicht empirisch validiert, aber liefert Struktur für Master-Level-Lehre.",
+    transfer:"Deutschland und Bielefeld beteiligt, deutsches Public-Health-Curriculum applicabel"
+  },
+  {
+    journal:"Front Public Health", year:"2026", pmid:"42903297",
+    author:"Coecke S et al.", pubdate:"06.10.2026",
+    added:"22.10.2026",
+    title:"One Exposome: KI-Integration in Umweltgesundheit und präventive Toxikologie",
+    sum:"Konzeptionelle Synthese zur Rolle von KI und digitalen Technologien bei der Umsetzung des One-Exposome-Paradigmas in Umweltgesundheit, Toxikologie und präventiver Medizin.",
+    result:"Rahmwerk verbindet Exposom-Ansätze, New Approach Methodologies, KI und Multi-Omics zur Früherkennung von Umweltrisiken und populationsweiter Prävention. Zentral: Governance-Reform, um Landwirtschaft, Umweltschutz und klinische Praxis in präventiver Perspektive zu alignieren.",
+    transfer:"Europäische Forschungsrahmen (JRC), konzeptionelle Grundlage für EU-Regulierung"
+  },
+  {
+    journal:"BMC Health Serv Res", year:"2026", pmid:"42928217",
+    author:"Haghshenas M et al.", pubdate:"29.07.2026",
+    added:"26.10.2026",
+    title:"Digitale Querschnittskoordination: Norwegen analysiert Policy-Lücken bei Vernetzung von Sozial- und Gesundheitsdiensten",
+    sum:"Qualitative Analyse von 11 norwegischen Regierungsberichten zur digitalen Koordination zwischen Sozialversicherung und Gesundheitswesen.",
+    result:"Die Dokumente betonten generell Kollaborationsziele, legten aber wenig Gewicht auf digitale Lösungen; es fehlten konkrete digitale Strategien für Querschnittskoordination. Schlussfolgerung: Digitale Innovation muss gezielt an Kooperationsziele angepasst werden, bevor Werkzeuge eingeführt werden.",
+    transfer:"Norwegen, vergleichbares öffentliches Gesundheitssystem, digitale Umsetzungspolitik"
+  },
+  {
+    journal:"NEJM AI", year:"2026", pmid:"42932574",
+    author:"Goldberg C et al.", pubdate:"22.01.2026",
+    added:"26.10.2026",
+    title:"Verborgene Wertsysteme in klinischen KI-Modellen: Transparenzmechanismus erforderlich",
+    sum:"Konsensus-Statement von Kliniker*innen und KI-Expert*innen zur Forderung nach Transparenzmachung der in KI-Entscheidungssystemen eingelagerten klinischen Wertkonflikte (z.B. Kosten vs. Sicherheit, Autonomie vs. Harm Prevention).",
+    result:"Kernfund: Klinische KI-Systeme enthalten verborgene Wertkonflikte, die weder Ärzt*innen noch Patient*innen antizipieren können. Proposal: ‚Values In the Model'-Rahmen zur expliziten Dokumentation von Wertabwägungen. Ohne Transparenz besteht Risiko, dass KI Prioritäten von Entwickler*innen oder Kostenträgern in der Fläche verfestigt.",
+    transfer:"USA-basiert, aber Forderung und Rahmen regulierungsunabhängig für alle Jurisdiktionen"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2297,7 +2306,7 @@ const ZUL_DIGA = 5;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "31.10.2026";
+const NEWS_STAND = "01.11.2026";
 const NEWS = [
   {titel:"Gesundheitsdaten für Prävention nutzen: BIG direkt gesund zum GeDIG", datum:"2026-10-28", url:"https://www.monitor-versorgungsforschung.de/news/gesundheitsdaten-fuer-praevention-nutzen-big-direkt-gesund-zum-gedig/"},
   {titel:"Telemedizin und Krisenresilienz: Zi-Congress 2026 in Berlin", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/telemedizin-und-krisenresilienz-zi-congress-2026-in-berlin/"},
