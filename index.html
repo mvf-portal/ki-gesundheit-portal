@@ -2217,62 +2217,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "3. Nov. 2026, 05:21 Uhr";
+const SNAP_DATE = "4. Nov. 2026, 05:00 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"JMIR Med Inform", year:"2026", pmid:"42970567",
-    author:"Vasileva V et al.", pubdate:"02.11.2026",
-    added:"02.11.2026",
-    title:"Elektronische Patientenakte: Akzeptanzmodell für deutsche Nutzer",
-    sum:"Entwicklung und Validierung eines Akzeptanzmodells (HDS-TAM) für die deutsche elektronische Patientenakte (ePA) bei 149 Patienten zwischen März und April 2025.",
-    result:"Das Modell erklärte 75,9 % der Varianz in der Nutzungsabsicht. Wahrgenommener Nutzen zeigte die stärkste positive Assoziation (β=0,67, p&lt;0,001), wahrgenommenes Risiko geringe negative Assoziation (β=-0,15, p=0,04). Transparenz war positiv mit wahrgenommenem Nutzen (β=0,22) und negativer mit Risikoperzeption assoziiert (β=-0,59). Jedoch nur 23,5 % der Teilnehmer nutzen die ePA tatsächlich; die Assoziation zwischen Nutzungsabsicht und tatsächlicher Nutzung war nicht signifikant (OR 1,37, 95%-KI 0,89–2,11, p=0,15).",
-    transfer:"Deutsche Studie mit ePA-Daten; zeigt Umsetzungsgap zwischen Akzeptanz und tatsächlicher Nutzung."
+    journal:"J Eval Clin Pract", year:"2026", pmid:"42976144",
+    author:"Duru A et al.", pubdate:"Dez. 2026",
+    added:"03.11.2026",
+    title:"KI-basierte Textklassifikation: automatische Zuordnung von Patientenbeschwerden zu Kliniken und ICD-Codes",
+    sum:"Studie trainierte und evaluierte BERT-basierte Sprachmodelle zur automatischen Routing-Empfehlung von Patientenbeschwerden zu 15 Kliniken und 12 ICD-Kapiteln anhand von 1,8 Millionen Patientenangaben.",
+    result:"Turkish BERT erreichte für Klinik-Empfehlung 92,02% Genauigkeit, 92,91% Präzision und F1-Score 92,08%. Für ICD-Kapitel waren Top-1-Genauigkeit 66,7%, Top-3 82,9% und Top-5 85,4%. McNemar-Test zeigte statistisch signifikante Überlegenheit gegenüber multilingualen BERT-Alternativen (p&lt;0,05).",
+    transfer:"Türkei, aber Modellarchitektur und klinische Routing-Problematik universal"
   },
   {
-    journal:"JMIR Med Inform", year:"2026", pmid:"42970757",
-    author:"Kaya SE et al.", pubdate:"02.11.2026",
-    added:"02.11.2026",
-    title:"Standardisierung hochfrequenter Monitoringdaten im FHIR-Standard",
-    sum:"Entwicklung des FHIR-Pakets TIDE (Time Series Integration and Data in Endpoints) zur standardisierten Austauschbarkeit von Echtzeit-Monitoringdaten (EEG, Blutdruck, etc.) in klinischen Systemen.",
-    result:"Framework definiert 7 primäre FHIR-Artefakte mit 16 Komponenten-Slices für Metadaten und Signalanalyse. Trennung von Metadaten-Layer und Speicher-Layer über standardisierte Endpoint-Extension ermöglicht effiziente Abfrage ohne Abruf großer Rohdatenmengen. Ermöglicht longitudinales Patientenmonitoring und automatische qualitätsgesteuerte Triage.",
-    transfer:"Deutsche Klinikpartner (Essen, Göttingen, Heidelberg, Bonn); vergleichbare Interoperabilitätsanforderungen wie Deutschland."
+    journal:"Eur Radiol Exp", year:"2026", pmid:"42975749",
+    author:"Audigier C et al.", pubdate:"03.11.2026",
+    added:"03.11.2026",
+    title:"KI-gestützte Vorhersage von Ablationsvolumina bei Leberkrebs präziser als Herstellerangaben",
+    sum:"Studie verglich ein Deep-Learning-Modell zur Vorhersage von Radiofrequenz-Ablationsvolumina bei Hepatozellulärem Karzinom mit Herstellerangaben anhand von 96 Patienten.",
+    result:"Das KI-Modell erreichte einen medianen relativen Volumenunterschied von 0,39, während Herstellerangaben 1,04 betrugen (p&lt;0,001). Das Modell integrierte patientenspezifische Anatomie, Gefäße und Ablationsparameter und benötigte ~0,45 Sekunden pro Rechnung auf GPU.",
+    transfer:"Schweiz, prospektive Klinikdaten mit europäischem Versorgungsstandard"
   },
   {
-    journal:"JMIR Med Inform", year:"2026", pmid:"42970760",
-    author:"Jiang W et al.", pubdate:"02.11.2026",
-    added:"02.11.2026",
-    title:"Machine Learning zur Extraktion prophylaktischer Indikationen aus Klinische Notizen",
-    sum:"Entwicklung eines Machine-Learning-Klassifikators (CatBoost, LightGBM, BERT) zur automatisierten Identifikation prophylaktischer vs. nicht-prophylaktischer Indikationen von Protonenpumpenhemmern in 3695 unstrukturierten Patientendokumenten.",
-    result:"CatBoost-Modell mit balancierten Klassengewichten erzielte auf Test-Set F1-Score 0,727 (Genauigkeit=0,693; Recall=0,765) auf Notiz-Ebene und F1-Score 0,889 (Genauigkeit=0,800; Recall=1,000) auf Patienten-Ebene. Interpretability via SHAP gewährleistet. Identifiziert potenzielle Arzneimittelsicherheitsrisiken aus unstrukturierten Notizen.",
-    transfer:"Chinesisches Krankenhaus; NLP-Methoden übertragbar, aber kulturspezifisch validieren nötig."
+    journal:"Acta Neuropathol", year:"2026", pmid:"42961673",
+    author:"Nay S et al.", pubdate:"30.10.2026",
+    added:"30.10.2026",
+    title:"Liquordiagnostik: Grenzen automatisierter Zellzählung und KI, Empfehlungen für klinischen Einsatz",
+    sum:"Deutsche und österreichische Expertengruppe bewertete automatisierte Zellzähler und KI-Verfahren in der Liquorzytologie und empfahl Implementierungsstandards.",
+    result:"Automatische Zellzähler zeigen begrenzte Präzision bei niedrigen und grenzwertig erhöhten Zellzahlen. Manuelle Kammerzählung bleibt Goldstandard im Normal- und niedrigen Bereich. Die Autoren empfehlen schnelle Probenverarbeitung, Experten-Mikroskopie und Validierung digitaler Methoden vor klinischer Einführung.",
+    transfer:"Deutschsprachiger Raum (Deutschland, Österreich, Schweiz)"
   },
   {
-    journal:"J Med Internet Res", year:"2026", pmid:"42970578",
-    author:"Rossi S et al.", pubdate:"02.11.2026",
+    journal:"Int J Chron Obstruct Pulmon Dis", year:"2026", pmid:"42968986",
+    author:"Xiao X et al.", pubdate:"25.10.2026",
     added:"02.11.2026",
-    title:"Patientenvertrauen in KI-gestützte klinische Entscheidungen: Survey mit 1185 US-Patienten",
-    sum:"Querschnittsumfrage bei 1185 Amerikanern zu Verhaltenintentionen, Vertrauen und Präferenzen bei klinischen Empfehlungen von Arzneimittel allein, Arzt plus Risikorechner, oder Arzt plus KI-Prognose über 6 klinische Szenarien.",
-    result:"Verhaltenintentionen unterschieden sich nach Quelle: Arzt+Rechner-Gruppe höhere Chancen als Arzt+KI. Patienten vertrauten Arzt allein mehr als Arzt+Rechner (beide mehr als Arzt+KI). Pluralität bevorzugte aber Arzt mit Rechner. Höhere subjektive Numeracy/Literarität assoziiert mit höheren Chancen für Handlung. Patienten zeigten Skepsis gegenüber allen Quellen und Missverständnis von KIs Personalisierungsfähigkeit.",
-    transfer:"USA, aber Erkenntnisse zu Patientenpräferenzen und Vertrauensbildung kulturübergreifend relevant."
+    title:"Machine-Learning-Modell zur Vorhersage von Vorhofflimmern bei COPD-Patienten",
+    sum:"Studie entwickelte und validierte krankheitsspezifische ML-Modelle zur Vorhersage von Vorhofflimmern bei COPD-Patienten anhand von 8.385 Teilnehmern aus der UK Biobank.",
+    result:"Das Elastic-Net-Modell erzielte im zeitlichen Validierungssatz einen C-Index von 0,706 und zeigte höhere Diskriminierung als etablierte Risikomodelle (CHARGE-AF: C-Index-Differenz 0,047; p&lt;0,05). Ein interaktives Web-Tool wurde implementiert.",
+    transfer:"UK Biobank-Daten, aber Modellstruktur auf deutsches System übertragbar"
   },
   {
-    journal:"Age Ageing", year:"2026", pmid:"42969554",
-    author:"Linder B et al.", pubdate:"31.10.2026",
-    added:"02.11.2026",
-    title:"Akzeptanz von KI-gestützten Strukturierten Medikamentenüberprüfungen durch Demenzkranke und Angehörige",
-    sum:"Qualitative Studie mit 12 Demenzkranken und 14 Angehörigen via Interviews und Fokusgruppen zu Erfahrungen mit Polypharmazie und Einstellungen zu KI-Einsatz in Medikamentenreviews.",
-    result:"Zwei Themen: (1) Perspektiven auf bedeutungsvolle Reviews – Herausforderungen bei Polypharmazie, Angehörige spielen zentrale Rolle; Reviews am wertvollsten mit empathischen Klinikern und personalisierten Ratschlägen. (2) KI unterstützen unter Bedingung: gut validiert, assistiert statt ersetzt. KI könnte administrative Belastung senken und personalisierte Versorgung fördern. Bedenken: Patientensicherheit, Datenschutz, fehlende Transparenz über KI-Nutzung; Betonung wichtig: Patienten-Kliniker-Interaktion, Beteiligung von Nutzern bei Entwicklung.",
-    transfer:"Großbritannien; qualitative Erkenntnisse zu Vertrauen und Co-Design bei KI-regulierten Interventionen übertragbar."
+    journal:"Front Public Health", year:"2026", pmid:"42973839",
+    author:"Ma X et al.", pubdate:"19.10.2026",
+    added:"03.11.2026",
+    title:"Mobile Health in gestufter Versorgung: Blutdrucksenkung und Lebensqualität bei älteren Hypertonie-Patienten",
+    sum:"Prospektive Studie evaluierte ein mHealth-Programm in hierarchischer Versorgungsstruktur (Shenzhen, China) bei 210 älteren Hypertonikern über 12 Monate.",
+    result:"Systolischer Blutdruck sank um 14,71 mmHg (145,35 auf 130,64 mmHg, p&lt;0,001, Cohen's d=2,043), diastolischer um 8,20 mmHg (p&lt;0,001, d=1,262). EQ-5D-5L-Nutzwert stieg von 0,82 auf 0,94 (p&lt;0,001, d=0,850). Die Verbesserungen korrelierten signifikant miteinander (r=0,22–0,32, p&lt;0,001).",
+    transfer:"Hierarchisches Versorgungsmodell mit Parallelen zu deutschem Hausarzt-Facharzt-System"
   },
   {
-    journal:"BMC Health Serv Res", year:"2026", pmid:"42968131",
-    author:"Vandelli A et al.", pubdate:"30.07.2026",
-    added:"01.11.2026",
-    title:"Vertrauen älterer Menschen in Digitale Gesundheit in dünn besiedelten Regionen",
-    sum:"Latent-Class-Analyse bei 2073 über 65-Jährigen in vier italienischen Regionen 2022 zur Vertrauensbereitschaft in Telemedizin und digitale Gesundheitstechnologien.",
-    result:"Zwei Latent-Klassen identifiziert: Mehrheit der Befragten in der höheren Vertrauensgruppe mit grundsätzlich positiver Einstellung gegenüber digitalen Gesundheitstechnologien, trotz relativ niedriger tatsächlicher Nutzung. Befunde können Gesundheitspolitik für ältere Menschen in ländlichen Gebieten informieren.",
-    transfer:"Italien, vergleichbare ländliche Versorgungsstrukturen wie Teile Deutschlands; Akzeptanzfor schung ohne Interventionsergebnisse."
+    journal:"J Neurosurg Sci", year:"2026", pmid:"42974822",
+    author:"Moretti M et al.", pubdate:"Okt. 2026",
+    added:"03.11.2026",
+    title:"Machine-Learning-Prognose für funktionelle Ergebnisse nach Meningiom-Operation in 14 Zentren",
+    sum:"Italienische Multizenterstudie nutzte ML-Klassifikatoren zur Vorhersage postoperativer Karnofsky-Performance-Skala-Veränderungen bei 397 Meningiom-Resektionen.",
+    result:"Logistische Regression erzielte AUC 0,697 für Vorhersage eines KPS-Abfalls ≥10 Punkte, 0,765 für ≥20 Punkte und 0,811 für jede Verbesserung. Anatomische Komplexität (eloquente Lokalisation, Gefäßmanipulation, Tumorgröße) waren dominante Prädiktoren. Höhere Outcome-Schwellenwerte (≥20 Punkte) verbesserten Diskriminierung.",
+    transfer:"Italien, europäisches Versorgungssystem, vergleichbare Klinikstrukturen"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2297,7 +2297,7 @@ const ZUL_DIGA = 5;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "03.11.2026";
+const NEWS_STAND = "04.11.2026";
 const NEWS = [
   {titel:"Gesundheitsdaten für Prävention nutzen: BIG direkt gesund zum GeDIG", datum:"2026-10-28", url:"https://www.monitor-versorgungsforschung.de/news/gesundheitsdaten-fuer-praevention-nutzen-big-direkt-gesund-zum-gedig/"},
   {titel:"Telemedizin und Krisenresilienz: Zi-Congress 2026 in Berlin", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/telemedizin-und-krisenresilienz-zi-congress-2026-in-berlin/"},
