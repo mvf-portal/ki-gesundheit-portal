@@ -2217,77 +2217,77 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "5. Nov. 2026, 14:25 Uhr";
+const SNAP_DATE = "6. Nov. 2026, 05:00 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Health Promot J Austr", year:"2027", pmid:"42982052",
-    author:"Groundwater J et al.", pubdate:"Jan. 2027",
-    added:"04.11.2026",
-    title:"Akzeptanz von Telemedizin in Zahngesundheits-Apps für Kinder: qualitative Analyse",
-    sum:"Qualitative Studie mit 59 Teilnehmern (Eltern, Fachleute, Softwareentwickler, Zahnärzte) zu Akzeptanz und Implementierungsbarrieren einer Teledentistry-Funktion in einer Zahngesundheits-App für australische Kinder; Braun-Clarke-Themenanalyse.",
-    result:"Vier Themenkomplexe: (1) Teledentistry in der App als akzeptabel für Screening, Triage, Follow-up angesehen; (2) Potenzial zur Verbesserung von Zugang und Gerechtigkeit, besonders für ländliche/isolierte Gruppen; (3) Persistierende Bedenken zu Diagnosegenauigkeit, Kommunikation, Vertrauensbeziehung; (4) Logistische/Governance-Barrieren (Kosten, Finanzierung, Personalkapazität, Safeguarding). Konsens: Teledentistry sollte als Ergänzung, nicht Ersatz für persönliche Versorgung positioniert werden.",
-    transfer:"Australien; übertragbar auf ländliche deutsche Regionen, aber andere Zahnversorgungsstrukturen."
+    journal:"J Med Internet Res", year:"2026", pmid:"42987189",
+    author:"Moosa Munnee M et al.", pubdate:"05.11.2026",
+    added:"05.11.2026",
+    title:"ChatGPT-Unterstützung für Gesundheitshelfer in Nigeria: Qualität der Patientenberatung",
+    sum:"Beobachtungsstudie mit 36 Gesundheitshelfern (Ärzte, Pfleger, Gesundheitshelfer) in Lagos, Nigeria zu Auswirkungen von ChatGPT-3.5-Unterstützung auf Qualität von Antworten zu 15 Patientengesundheitsfragen (Mutter-Kind-Gesundheit, Familienplanung, STI).",
+    result:"1080 Gesamtantworten. GPT-gestützte Antworten übertroffen händische Antworten auf allen klinischen Bewertungs-Metriken signifikant (p&lt;0,001): größte Gewinne bei Vollständigkeit (+), Empathie (+), Gesamtpräferenz (+), besonders bei Community Health Extension Workers (CHEWs). Laien-Evaluatoren bevorzugten GPT-Antworten durchweg, v.a. bei Vertrauensfaktor. Effekt am stärksten bei weniger formal ausgebildeten Helfern.",
+    transfer:"Nigeria, LMIC-Setting zeigt Potenzial, aber Transfer auf Deutschland begrenzt – strukturelle Unterschiede zu Rettungsdienst und Klinikumfeld"
   },
   {
-    journal:"JMIR Mhealth Uhealth", year:"2026", pmid:"42981698",
-    author:"Estebas-Armas C et al.", pubdate:"04.11.2026",
-    added:"04.11.2026",
-    title:"Gamifizierte mHealth-App zur Früherkennung leichter kognitiver Beeinträchtigung",
-    sum:"Prospektive Validierungsstudie einer mobilen Screening-App (CogniPaz) an 84 Patienten mit kognitiven Beschwerden und gesunden Kontrollen in Spanien zur Diskriminierung von leichter kognitiver Beeinträchtigung von subjektivem kognitivem Abbau.",
-    result:"CogniPaz zeigte gute diagnostische Genauigkeit (AUC 0,88–0,94 je nach Vergleichsgruppe, Sensitivität 85–91 %, Spezifität 74–82 %) bei 9,4 Minuten Bearbeitungszeit. Nutzerakzeptanz sehr hoch (Median 8,4/9 Punkte). Korrelation mit Montreal Cognitive Assessment ρ=0,81 (95% KI 0,75–0,89).",
-    transfer:"Spanische Akademieklinik, externe Validierung ausstehend; Design realistisch für Primärversorgung übertragbar."
+    journal:"JMIR Med Inform", year:"2026", pmid:"42987253",
+    author:"Sriviboon Y et al.", pubdate:"05.11.2026",
+    added:"05.11.2026",
+    title:"Transparenz und Vertrauen in KI-gestützter Bilddiagnostik: Expertenansichten",
+    sum:"Qualitative Studie mit 21 Experten (11 Radiologen, 10 KI-Experten) zu Faktoren für Transparenz und Vertrauen in KI-gestützte Entscheidungsunterstützung zur Thorax-Bildauswertung; fokussiert auf Benutzeroberflächen-Design und mentale Modelle.",
+    result:"Drei zentrale Erkenntnisse: (1) Vertrauen entsteht durch wiederholte Nutzung, Feedback-Schleifen und Alignment mit Arzt-Mental-Modellen – nicht nur durch Algorithmus-Genauigkeit; (2) erhebliche Diskrepanzen zwischen Designer-Intent und klinischer Interpretation von KI-Outputs; (3) Transparenz gelingt durch interpretierbare Ausgaben, klare Grenzen-Kommunikation und Workflow-Alignment. Unterschiedliche Anforderungen zwischen Radiologen und KI-Entwicklern identifiziert.",
+    transfer:"Globale Expertise, stark auf deutschem CDSS-Einsatz übertragbar"
   },
   {
-    journal:"J Med Internet Res", year:"2026", pmid:"42982421",
-    author:"Wei Q et al.", pubdate:"04.11.2026",
-    added:"04.11.2026",
-    title:"LLM-gestützte Kindergesundheits-App: Echtzeiteinsatz mit optimiertem Response-Training",
-    sum:"Retrospektive Analyse von 16.074 Live-Konsultationssessionen mit einem pädiatrischen LLM-Assistenten (Xiaoyi) an 8.266 Kindern in China; Bewertung durch 40 Pädiater vor und nach fachlicherOptimierung.",
-    result:"Nach Expert-Guided-Optimierung (Prompt-Überarbeitung, Wissensdatenbank-Expansion, Validierungsregeln): Anteil Responses mit guter Gesamtqualität stieg von 65,2 % auf 74,3 %; klinische Angemessenheit von 61,4 % auf 87,4 % (beide p&lt;0,001). Defizitquote pro Turn sank von 19,4 % auf 6,9 % (OR 0,30, 95% KI 0,24–0,37). Symptombezogene Konsultationen (48,8 % aller Sessions), häufigste Symptome Fieber (34,7 %) und Husten (29,9 %).",
-    transfer:"China-Studie; methodisch robust, aber Übertragbarkeit auf deutsche Verhältnisse abhängig von Dokumentation und Haftungsrahmen."
+    journal:"PLoS One", year:"2026", pmid:"42986886",
+    author:"Geskus V et al.", pubdate:"05.11.2026",
+    added:"05.11.2026",
+    title:"Geografische Informationssysteme zur Lepra-Bekämpfung: Implementierungs-Perspektiven",
+    sum:"Qualitative Studie mit 12 Stakeholdern (Feldpersonal, Programmmanager, internationale Experten) in Pakistan zu Hürden und Erfolgsfaktoren für GIS-Einführung zur Verbesserung der Lepra-Falldetektierung durch räumliche Risikoidentifikation.",
+    result:"Schlüssel-Erfolgsfaktoren: integrierter Mehrwertansatz, lokale Kapazitäts-Schulung, Offline-fähige Tools, verbesserte Sichtbarkeit für Motivation. Größte Barrieren: begrenzte lokale Kapazität in komplexer GIS-Datenanalyse, Hybrid-Workflows (digital+manuell), historische Daten ohne GPS, fehlende Feedback-Schleifen und Ownership für Mitarbeiter. Systemische Implementierung notwendig, interne Capacity-Building zentral.",
+    transfer:"Pakistan-Kontext ähnelt Herausforderungen in dezentralen europäischen Systemen, Datenschutz-Modell partiell relevant"
   },
   {
-    journal:"JMIR Hum Factors", year:"2026", pmid:"42981138",
-    author:"Höfer K et al.", pubdate:"04.11.2026",
+    journal:"J Med Internet Res", year:"2026", pmid:"42982770",
+    author:"Kremers F et al.", pubdate:"03.11.2026",
     added:"04.11.2026",
-    title:"Informationsdefizite bei digitalen Gesundheitsanwendungen in der deutschen psychiatrischen Versorgung",
-    sum:"Qualitative Studie mit 14 Stakeholdern (5 Leistungserbringer, 4 Krankenkassen, 4 DiGA-Entwickler, 1 Patient) zu Informationsbedarf, Wissenslücken und Barrieren bei DiGA-Integration in deutschen Praxen und Kliniken (Sept.–Nov. 2023).",
-    result:"Zentrale Befunde: Leistungserbringer berichten allgemeines DiGA-Bewusstsein, fehlendes detailliertes Wissen zur Bewertung einzelner Apps. Informationslücken auch bei Patienten. Unterscheidung notwendig zwischen generischen Informationen (regulatorisch, organisatorisch) und Produkt-spezifischen Details. Verschiedene Informationsquellen (Kassen, Hersteller, Organisationen) haben unterschiedliche Stärken/Schwächen zu Kompetenz, Objektivität und Ressourcen.",
-    transfer:"Deutschland, psychiatrische Versorgung, DiGA-System seit 2020; direkt übertragbar und handlungsrelevant."
+    title:"Stroke-Triage-App im Rettungsdienst: Implementierung und klinische Akzeptanz",
+    sum:"Niederländische Studie zur Implementierung einer digitalen Entscheidungsunterstützungs-App (Stroke Triage App) bei Notfallsanitätern in zwei Notfallregionen; untersucht Workflow-Integration, Nutzererfahrungen und praktische Barrieren.",
+    result:"Von 246 Sanitätern mit App-Zugang nutzten 76 (31%) die App regelmäßig (Median 7 Einsätze, Range 1–47); 120–150 monatliche Einsätze dokumentiert. App wird generell akzeptiert, unterstützt strukturierte neurologische Bewertung. Aber: begrenzte Wert-Wahrnehmung und Workflow-Nicht-Integration verhinderten routinemäßigen Einsatz – erfolgreich implementiert, aber nicht täglich genutzt.",
+    transfer:"Niederlande, direkter Bezug zu europäischem Rettungsdienst-Setting"
   },
   {
-    journal:"Ther Adv Respir Dis", year:"2026", pmid:"42982086",
-    author:"Yu L et al.", pubdate:"04.11.2026",
+    journal:"Recenti Prog Med", year:"2026", pmid:"42979883",
+    author:"Pompili M et al.", pubdate:"Nov. 2026",
     added:"04.11.2026",
-    title:"KI zur Prognoseabschätzung bei akuten Exazerbationen interstitieller Lungenerkrankungen",
-    sum:"Narrative Übersichtsarbeit zu prognostischen Faktoren, klinischen Scores und Anwendung von KI bei akuten Exazerbationen interstitieller Lungenerkrankungen (AE-ILD); Diskussion von Entwicklungsstufen, Lücken und Validierungsbedarf.",
-    result:"Konventionelle Score ermöglichen schnelle Risikostratifizierung, integrieren aber heterogene Daten schlecht. KI-Ansätze zeigen preliminäres Potenzial für klinische und Bilddaten, direkte AE-ILD-spezifische Evidenz jedoch begrenzt. Offene Fragen: Multimodale Integration, externe Validierung, Modell-Interpretierbarkeit. Autoren betonen: Inkrementeller Nutzen existierender KI-Modelle gegenüber konventionellen Methoden bleibt unsicher.",
-    transfer:"Shanghai-Institution, inhaltlich relevant für europäische Lungenmedizin, aber Übersicht ohne prospektive Originaldaten."
+    title:"KI-gestützte Analyse von Verschreibungs-Appropriateness in italienischer Region",
+    sum:"Italienische Studie zur Überprüfung der Verordnungs-Appropriateness in der Region Marche unter Nutzung von KI (NotebookLM) zur Analyse von 36.465 elektronischen Rezepten gegen RAO-Leitlinien-Kriterien in drei Bereichen (Augenheilkunde, Mammo-Diagnostik, Elektrophysiologie).",
+    result:"30% der Verordnungen inkonsistent mit RAO-Leitlinien; 55% aller Anomalien konzentriert bei 15% der Verordner. Digitale Audit identifiziert spezifische Verschreibungs-Muster und ermöglicht klinische Accountability. Pilot erfolgreich, regionale Plattform etabliert (DGR 885/2026), stimmt mit nationale Planung (PNGLA 2025–27) überein. Fokus auf Equity und Nachhaltigkeit.",
+    transfer:"Italienisches Sozialversicherungssystem, europäisches Versorgungsmodell, direkt auf Deutschland übertragbar"
   },
   {
-    journal:"JAMA Netw Open", year:"2026", pmid:"42981091",
-    author:"Friedman JI et al.", pubdate:"02.11.2026",
+    journal:"BMC Musculoskelet Disord", year:"2026", pmid:"42983354",
+    author:"Burgert S et al.", pubdate:"28.10.2026",
     added:"04.11.2026",
-    title:"Externe Validierung eines ML-Modells zur Delir-Risikovorhersage im Echtbetrieb",
-    sum:"Qualitätssicherungsstudie zur Live-Validierung eines ML-Delir-Risikomodells (NLP + multimodale Daten) an 33.095 Aufnahmen in nicht-intensiven Stationen von zwei US-Krankenhäusern (Dez. 2024–Dez. 2025); Vergleich vor/nach Modelleinsatz.",
-    result:"AUROC 0,91 (95% KI 0,90–0,92) am Validierungssstandort (MSM) und 0,94 (95% KI 0,93–0,94) am Entwicklungsstandort (MSH). Positive Vorhersagewert 25,9 % (MSM) und 19,4 % (MSH). Monatliche Delir-Erkennungsrate an MSM nach Einsatz signifikant von 9,23 % auf 19,59 % gestiegen (p&lt;0,001). Modell erhielt stabilitätsunabhängig vom Retraining.",
-    transfer:"USA-Studie; klinischer Validierungsprozess aber übertragbar auf europäische Akutkliniken."
+    title:"DiGA-Nutzung bei Knieerkrankungen: Patienten-Perspektive in deutscher Orthopadie",
+    sum:"Qualitative Studie zu Patientenerfahrungen mit verschriebener DiGA (Orthopy) bei Knie-Verletzungen (Kreuzbandruptur, Meniskusläsion) an deutschem Universitätsklinikum; 10 Patienten, 6 mit Follow-up-Interviews.",
+    result:"Patienten bewerteten DiGA überwiegend positiv als Ergänzung zur Physio (nicht Ersatz), schätzten Flexibilität und Strukturiertheit. Hauptstärken: Trainingsanleitung, Bildungsinhalte, Alltagsintegration für Prävention. Barrieren: begrenzte Personalisierung, fehlende Anpassung ohne Therapeuten-Begleitung, administrative Verzögerungen, mangelhafte Usability für weniger digital-affine Nutzer. Keine ernsthaften Sicherheitsbedenken in Kurzzeitbeobachtung.",
+    transfer:"Deutsche Klinik, real-world Versorgungssetting, vergleichbare Dokumentationspflichten"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
 
 // Offene Foerderausschreibungen zum Thema — taeglich von scripts/radar_hinweis.py
 // === RADAR-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const RADAR_STAND = "02.11.2026";
+const RADAR_STAND = "05.11.2026";
 const RADAR_URL = "https://wissen.m-vf.de/ausschreibungen.html#ki-gesundheit";
 const RADAR_EIGENES = 2;
 const RADAR_ZUHAUSE = false;
-const RADAR_FRISTEN = [["2026-12-31", "2027-01-07", "2027-01-07", "2027-01-07"], [], ["2027-01-07"], [], [], [], [], ["2026-11-18"], [], [], [], ["2027-01-07", "2027-01-26", "2027-01-26"], ["2027-01-07", "2027-01-07", "2027-01-07", "2027-01-11", "2027-01-25", "2026-11-18", "2026-11-18", "2026-11-06"], ["2026-11-19", "2027-02-03", "2027-02-03"], ["2027-01-27", "2026-11-09"]];
+const RADAR_FRISTEN = [["2026-12-31", "2027-01-07"], [], ["2027-01-07"], [], ["2026-11-19"], [], [], ["2026-11-18"], [], [], [], ["2027-01-07", "2027-01-26", "2027-01-26"], ["2027-01-07", "2027-01-07", "2027-01-07", "2027-01-11", "2027-01-25", "2027-02-11", "2026-11-18", "2026-11-18"], ["2026-11-19"], ["2027-01-27", "2026-11-09"]];
 // === RADAR-BLOCK-ENDE ===
 
 // === ZULASSUNG-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const ZUL_STAND = "04.11.2026";
+const ZUL_STAND = "05.11.2026";
 const ZUL_EIGENE = 5;
 const ZUL_GUTACHTEN = 0;
 const ZUL_ZULASSUNG = 0;
@@ -2297,7 +2297,7 @@ const ZUL_DIGA = 5;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "05.11.2026";
+const NEWS_STAND = "06.11.2026";
 const NEWS = [
   {titel:"Gesundheitsdaten für Prävention nutzen: BIG direkt gesund zum GeDIG", datum:"2026-10-28", url:"https://www.monitor-versorgungsforschung.de/news/gesundheitsdaten-fuer-praevention-nutzen-big-direkt-gesund-zum-gedig/"},
   {titel:"Telemedizin und Krisenresilienz: Zi-Congress 2026 in Berlin", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/telemedizin-und-krisenresilienz-zi-congress-2026-in-berlin/"},
