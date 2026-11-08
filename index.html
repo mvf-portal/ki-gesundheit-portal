@@ -2217,71 +2217,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "7. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "8. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Musculoskeletal Care", year:"2026", pmid:"42993890",
-    author:"Vincent R et al.", pubdate:"Dez. 2026",
+    journal:"JMIR Mhealth Uhealth", year:"2026", pmid:"42993869",
+    author:"Wu H et al.", pubdate:"06.11.2026",
     added:"06.11.2026",
-    title:"Telemedizin zur Erstuntersuchung von Muskel-Skelett-Erkrankungen: französische Stakeholder-Perspektiven",
-    sum:"Qualitative Studie mit 29 leitfadengestützten Interviews in Frankreich (Patienten, Hausärzte, Spezialisten, Physiotherapeuten, Verbände, Softwarespezialisten) zur Akzeptabilität und Implementierung von Videosprechstunden für muskuloskelettale Erkrankungen.",
-    result:"Konsens, dass Remote-Triage akzeptabel ist; vier zentrale Themen: (1) Telemedizin als Kontinuum von Triage bis Diagnose, bedingt durch Gültigkeit der adaptierten Untersuchung; (2) kann Patient-Anbieter-Beziehung komplizieren; (3) Videosprechstunden erhöhen Workload; (4) Vollpotenzial erfordert koordinierte Planung und Systemunterstützung. Remote-Triage als praktikable Einstiegsvariante empfohlen.",
-    transfer:"Frankreich, vergleichbare Sozialversicherung; Implementierungsanforderungen europaweit analog."
+    title:"Digitale Therapie mit elektronischem Inhalator-Monitoring bei COPD: RCT zu Therapieadhärenz",
+    sum:"Offene randomisierte Studie (n=158, 2:1, 24 Wochen) mit digitalem Inhalator-Monitoring plus Erinnerungen/Feedback versus Kontrolle – misst elektronisch erfasste Adhärenz und klinische Outcomes.",
+    result:"Elektronisch gemessene Adhärenz signifikant höher in Interventionsgruppe: 59,5% vs. 33,1% (p=0,009). Adhärenz sank zeitlich in beiden Gruppen (Woche 0–4: 85,3% vs. 76,8%; Woche 12–24: 43,0% vs. 11,9%), Gruppenunterschied wuchs. Selbstberichtete Adhärenz zeigte keine Unterschiede. Explorativ: mehr Teilnehmer in Interventionsgruppe erreichten minimal clinically important difference im COPD Assessment Test (OR 2,21, p=0,02). Exazerbationen, Lungenfunktion, Lebensqualität: keine Unterschiede.",
+    transfer:"China, aber digitales Inhalator-Monitoring und Behavioral-Support-Design übertragbar auf Deutschland."
   },
   {
-    journal:"J Med Internet Res", year:"2026", pmid:"42993868",
-    author:"Reimann TE et al.", pubdate:"06.11.2026",
+    journal:"JMIR Form Res", year:"2026", pmid:"42993945",
+    author:"Mohamed-Jawad NK et al.", pubdate:"06.11.2026",
     added:"06.11.2026",
-    title:"LLM-gestützte Vereinfachung von Patientenberichten in der Geriatrie: Vergleich mit ärztlichen Versionen",
-    sum:"Studie zur Einsetzbarkeit von Large Language Models (Gemma-3-27B-it) für die automatische Vereinfachung klinischer Berichte in allgemeinverständliche Sprache bei geriatrischen Patienten.",
-    result:"KI-generierte Vereinfachungen waren vergleichbar mit Fachleuten verfassten Versionen (p=0,02 für semantische Ähnlichkeit) und wurden von Patientenvertretern sogar bevorzugt (p&lt;0,001). Ein Expertengutachter bewertete KI-Texte ebenfalls signifikant besser (p=0,001), während der andere Experte ärztliche Fassungen als vollständiger einstufte (p&lt;0,001).",
-    transfer:"Deutsches Sprachmodell trainierbar; universell einsetzbar für Versorgungspraxis."
+    title:"Mobile App zur Insulindosisanpassung bei Typ-1-Diabetes: Usability-Pilot",
+    sum:"Entwicklungs- und Machbarkeitsstudie einer App für irakische T1DM-Patienten mit Bolus-Insulinrechnung, Blutzucker-Tracking und Patientenedukation – getestet mit 10 Fachleuten und 10 Patienten über 10–14 Tage.",
+    result:"Positive Bewertungen beider Gruppen: 80% der Experten und 90% der Patienten positiv zur Usability. 90% der Experten und nahezu alle Patienten hielten App wirksam zur Dosisanpassung, Adhärenzverbesserung und Hypoglykämie-Reduktion. Mindestens 70% der Experten verzeichneten Vorteile für Provider (weniger Aufwand, bessere Überwachung). Alle zufrieden, würden App empfehlen. Kleine Fallzahl, aber durchgehend positive Machbarkeitssignale.",
+    transfer:"Ressourcenbegrenzter Kontext, aber App-Logik und Schulungskonzept für Bildungs- und Einkommenssettings relevant."
   },
   {
-    journal:"JMIR Form Res", year:"2026", pmid:"42993930",
-    author:"Olomi GA et al.", pubdate:"06.11.2026",
-    added:"06.11.2026",
-    title:"Elektronische Patientenakte für Mutter-Kind-Versorgung in Tansania: qualitative Akzeptanzanalyse",
-    sum:"Qualitative Studie mit 35 Gesundheitsfachkräften und Managern in zwei Distrikten (urban/rural) zur Implementationserfahrung des Systems EHRS-ULTRA für die Perinatologie.",
-    result:"Fachkräfte berichten Verbesserung der Informationszugriff, Kontinuität, Qualität klinischer Entscheidungen und Dokumentation; Echtzeit-Benachrichtigungen unterstützen zeitgerechte Reaktionen. Kernerfolgsfaktoren: Führungsengagement, Supervision, Workflow-Alignment. Barrieren: instabile Stromversorgung, fehlende Internet-Zuverlässigkeit, unzureichende Geräteanzahl, unterschiedliche digitale Kompetenz.",
-    transfer:"Sub-Sahara-Afrika mit vergleichbarer Ressourcensituation; Erkenntnisse zur Infrastruktur-kritikalität universal."
-  },
-  {
-    journal:"JMIR Med Inform", year:"2026", pmid:"42993904",
-    author:"Mochizuki N et al.", pubdate:"06.11.2026",
-    added:"06.11.2026",
-    title:"Datenschutz und Reproduzierbarkeit in EHR-Narrativen: BERT-basierte Entitätserkennung in Japan",
-    sum:"Retrospektive Studie an Daten von 2 japanischen Krankenhäusern (Jan 2019–Juni 2025) zur Balance zwischen Datenschutz und analytischer Nutzbarkeit: Entwicklung eines Frameworks zur Deidentifizierung japanischer EHR-Freitexte mittels BERT-basierter NLP und gleichzeitigem Erhalt von TNM- und Staging-Informationen für Auditierbarkeit.",
-    result:"Von 10.214 Krebspatienten: 4.383 mit verlinkten Notizen verfügbar, Analysekohorte 3.689 Patienten. Rückgewinnungsquote TNM/Stadium: 36,3% Patienten, 30,7% Dokumente; unter vordefinierten Bedingungen 78,8% für T/N/M, 76,8% für Stadium. Maskierungsraten 9,9–15%; M1/Stadium-IV-Übereinstimmung 94,7%; keine residualen direkten Identifier nach Audit.",
-    transfer:"Japan; Methode für alle DSGVO/GDPR-regulierten EHR-Systeme relevant, Interoperabilität mit europäischen Standards möglich."
-  },
-  {
-    journal:"J Med Internet Res", year:"2026", pmid:"42987316",
-    author:"Wang X et al.", pubdate:"05.11.2026",
+    journal:"World J Urol", year:"2026", pmid:"42986462",
+    author:"Talyshinskii A et al.", pubdate:"05.11.2026",
     added:"05.11.2026",
-    title:"KI-gestützte Patient-Simulator-Chatbots zum Trainieren klinischer Kommunikation: RCT über ein Jahr",
-    sum:"Randomisierte kontrollierte Studie an einer britischen Medizinschule zur Wirkung von SimPatient (KI-Chatbot als Patientensimulator) auf die Kommunikationsfähigkeiten von Studierenden über einen akademischen Jahrgang.",
-    result:"Beide Gruppen verbesserten ihre OSCE-Kommunikationsfähigkeiten, doch der Unterschied zwischen AI-Gruppe und Kontrollgruppe war nicht statistisch signifikant. Intrinsische Motivation und Verhaltensengagement waren die stärksten Prädiktoren für Skill-Verbesserung. Die AI-Gruppe berichtete hohe Zufriedenheit, doch höheres Vertrauen in die KI korrelierte paradox mit geringeren Skill-Gewinnen.",
-    transfer:"Großbritannien; Methodik modular, aber technische Grenzen bei Simulation echter emotionaler Komplexität."
+    title:"KI zur Nierensteindiagnose in der CT: Systematische Übersicht und Performance-Risiken",
+    sum:"Meta-Analyse von 14 KI-Studien (5 Detektion, 9 Klassifikation) zur Steinerkennung in CT-Aufnahmen – prüft Sensitivität/Spezifität und Verzerrungsrisiken für klinische Anwendbarkeit.",
+    result:"Gepoolte Sensitivität 0,967, Spezifität 0,979 (AUC 0,987). Klassifikationsstudien höher (Sens 0,977, Spez 0,990) als Detektionsstudien (0,935, 0,919). Aber: hohe methodologische Heterogenität, hohes Verzerrungsrisiko, fehlende externe Validierung, häufig vorselektierte Datensätze – Performance wird überestimiert. Schluss: klinische Implementierung derzeit nicht gerechtfertigt ohne standardisierte Berichterstattung und robuste externe Validierung.",
+    transfer:"Europäisches Autorenteam, aber Nachweise für Generalisierbarkeit begrenzt – Warnung vor Überschätzung ist übertragbar."
   },
   {
-    journal:"Trials", year:"2026", pmid:"42989313",
-    author:"Sliwinski S et al.", pubdate:"05.11.2026",
-    added:"05.11.2026",
-    title:"App-gestützte Patientenaufklärung vor Tumor-Chirurgie zur Verbesserung von Gesundheitskompetenz: Studienprotokoll APERIO",
-    sum:"Prospektives, multizentrisch-randomisiertes Protokoll (3 Länder) zur Prüfung, ob eine digitale Lern-App Ready4OP die Gesundheitskompetenz onkologischer Patienten vor Großoperationen erhöht und chirurgische Kurzergebnisse verbessert (primärer Endpunkt: Reduktion schlecht informierter Patienten von 60% auf 45%).",
-    result:"Protokollstudie (noch keine Ergebnisse). Hypothese: die App reduziert den Anteil schlecht informierter Patienten von 60% auf 45%. Sekundäre Endpunkte: 90-Tage-Mortalität, Compliance, Gleichheit der Gesundheitskompetenz zwischen Ländern, Einfluss auf Morbidität. Geplant: 382 Patienten randomisiert, ethisch genehmigt (DRKS00031507).",
-    transfer:"Deutschland, Österreich, Spanien; Daten und Versorgungskontext direkt übertragbar."
-  },
-  {
-    journal:"Eur Stroke J", year:"2026", pmid:"42993805",
-    author:"Groenendijk EA et al.", pubdate:"02.11.2026",
+    journal:"Rural Remote Health", year:"2026", pmid:"42994913",
+    author:"Lezcano M et al.", pubdate:"04.11.2026",
     added:"06.11.2026",
-    title:"Machine Learning auf EEG zur präklinischen Erkennung von Large-Vessel-Occlusion-Stroke",
-    sum:"Prospektive multizentrische Studie (prehospital und in-hospital, Amsterdam) mit zwei RCT-Kohorten zur Entwicklung und Validierung von ML-Algorithmen für EEG-basierte Erkennung von anterioren Zirkulationsobstruktionen (LVO-a) mittels 8-Elektroden-Trockenelektroden in 2–3 min.",
-    result:"Von 1.293 Verdachtsfällen 336 Patienten eingeschlossen (74% präklinisch, 26% in-hospital). LVO-a: 16 Patienten (5%). Naive-Bayes-Modell bestes Ergebnis: AUC 0,85 (95%-KI 0,77–0,93), Sensitivität 69% (95%-KI 44–86%), Spezifität 86% (95%-KI 82–89%). EEG-Symmetriemessungen zeigen moderates diagnostisches Potenzial für präklinische Triage.",
-    transfer:"Niederlande, vergleichbare Notfallversorgungsstruktur; verbesserte EEG-Akquisition erforderlich vor Umsetzung."
+    title:"Telemedizin auf dem Land: Akzeptanz und Technostress bei Fachkräften in Italien",
+    sum:"Qualitative Studie mit 20 Fachkräften aus ländlichen italienischen Regionen zur Wahrnehmung von Telemedizin seit deren Regulierung 2020 – untersucht Akzeptanz, Technostress und Faktoren für erfolgreiche Implementierung.",
+    result:"Vier zentrale Akzeptanzfaktoren identifiziert: Vermeidung von Anfahrtswegen, alternde Bevölkerung, Kostenersparnisse und Gemeinschaftsbindung. Trotz moderatem Technostress bleibt Unterstützung bei Fachkräften stabil. Hauptbarrieren: niedrige digitale Grundkompetenzen, reduzierter sozialer Kontakt – zeigt: wahrgenommene Nützlichkeit überwiegt Belastungsempfinden.",
+    transfer:"Italienische ländliche Regionen, ähnliche Versorgungsstruktur und Digitalisierungsgrad wie deutsche Flächenländer."
+  },
+  {
+    journal:"Pharmacoepidemiol Drug Saf", year:"2026", pmid:"42989522",
+    author:"Aiton E et al.", pubdate:"Nov. 2026",
+    added:"06.11.2026",
+    title:"Biologika in der Schwangerschaft: Real-World-Nutzung aus italienischen EHR-Daten",
+    sum:"Populationsweite Analyse von 855.865 Schwangerschaften in der Lombardei 2012–2024 anhand strukturierter elektronischer Patientendaten zur Anwendungshäufigkeit von Monoklonalen Antikörpern vor, während und nach Schwangerschaft.",
+    result:"Verbrauch stieg 60-fach von 0,0041% (2012) auf 0,27% (2024). Schwangerschaft senkte Prävalenz von 0,081% auf 0,051% (drittes Trimenon). 53,3% der Nutzer setzten Therapie ab; 3,3% wechselten zwischen Präparaten. Diskontinuation nahm zeitlich ab; keine starken Unterschiede nach Soziodemographie, aber OR=1,92 (95%-KI 0,98–3,77) für assistierte Reproduktion assoziiert.",
+    transfer:"Italien, vergleichbares Sozialversicherungssystem und Dateninfrastruktur, robuste Real-World-Evidence aus EHR."
+  },
+  {
+    journal:"Front Public Health", year:"2026", pmid:"42974250",
+    author:"Ferreira-Pinto M et al.", pubdate:"19.10.2026",
+    added:"03.11.2026",
+    title:"Elektronischer Gesundheitsdatenraum für Public Health Surveillance: EHDS-Potenziale und Governance",
+    sum:"Scoping Review (PRISMA-ScR, 35 Studien + 6 Policy-Dokumente, 2016–2026) zu Rolle der EHDS-Verordnung bei Stärkung der länderübergreifenden Public-Health-Surveillance und Notfallbereichtschaft in Europa.",
+    result:"Befund: Digitalisierung und EHR-Umsetzung haben Bedarfe verschärft, aber fragmentierte Infrastrukturen, verteilte Daten und unkare Governance bremsen Timeliness von Surveillance. EHDS könnte gemeinsame Governance-Regeln, sichere Verarbeitung und föderiertes Zugangsmodell schaffen. Konzeptionelles 3-Schichten-Modell (EHDS als Enabler für dezentralisierte Public-Health-Intelligence) und drei Governance-Optionen zur Operationalisierung vorgeschlagen. Schluss: EHDS wird als Schlüsselrahmen für Modernisierung und koordinierte Notfallreaktion in Europa positioniert.",
+    transfer:"Europäische Regulierung und Governance, direkt auf Deutschland übertragbar – Foundation für künftige Implementierungsstudien."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2306,7 +2297,7 @@ const ZUL_DIGA = 5;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "07.11.2026";
+const NEWS_STAND = "08.11.2026";
 const NEWS = [
   {titel:"Gesundheitsdaten für Prävention nutzen: BIG direkt gesund zum GeDIG", datum:"2026-10-28", url:"https://www.monitor-versorgungsforschung.de/news/gesundheitsdaten-fuer-praevention-nutzen-big-direkt-gesund-zum-gedig/"},
   {titel:"Telemedizin und Krisenresilienz: Zi-Congress 2026 in Berlin", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/telemedizin-und-krisenresilienz-zi-congress-2026-in-berlin/"},
