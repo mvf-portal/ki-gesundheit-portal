@@ -2284,71 +2284,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "12. Nov. 2026, 05:21 Uhr";
+const SNAP_DATE = "13. Nov. 2026, 05:00 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"JMIR Med Inform", year:"2026", pmid:"43013344",
-    author:"Kume N et al.", pubdate:"11.11.2026",
+    journal:"PLoS One", year:"2026", pmid:"43019328",
+    author:"Santos TLC et al.", pubdate:"12.11.2026",
+    added:"12.11.2026",
+    title:"Klinische Entscheidungsunterstützung in der Pharmazie: Auswirkung auf Interventionen und Ergebnisse",
+    sum:"Retrospektive Vorher-Nachher-Studie zur Implementierung eines regelbasierten Clinical Decision Support System (Medi-Span) in ein Computerized Physician Order Entry System in einer brasilianischen Uniklinik; Messung von Änderungen in Häufigkeit und Muster klinisch-pharmazeutischer Interventionen sowie unerwünschten ICU-Aufnahmen.",
+    result:"Anteil von Klinikaufenthalten mit klinisch-pharmazeutischen Interventionen stieg von 11,2% auf 13,4% (p&lt;0,01; adjustierte OR=1,34, 95%-CI 1,26–1,41); Verschiebung von Dosierung/Posologie (54,8%→44,6%) zu therapeutischen Duplizierungen (54,5%→68,2%); ungeplante ICU-Aufnahmen sanken von 5,4% auf 4,1% (OR=0,84, 95%-CI 0,77–0,91, p&lt;0,01; NNT=118).",
+    transfer:"Brasilien, aber CDSS-Effekt auf Pharmazie-Prozesse prinzipiell übertragbar; deutsches CPOE-System ähnlich strukturiert."
+  },
+  {
+    journal:"JMIR Med Inform", year:"2026", pmid:"43018400",
+    author:"Komenda M et al.", pubdate:"10.11.2026",
+    added:"12.11.2026",
+    title:"Synthetische Gesundheitsdaten für sichere Forschung: Implementierung in Tschechien",
+    sum:"Entwicklung und Betrieb einer nationalen Infrastruktur für pseudonymisierte, synthetische Gesundheitsdaten, die Forschern die Entwicklung und Validierung von Analyseworkflows ermöglicht, ohne Zugang zu echten Patientendaten.",
+    result:"170 registrierte Nutzer, 199 eingereichte Anfragen, 184 verarbeitete Anfragen (davon 173 mit Datenbefund) zwischen Plattformstart und Juli 2026; 20,6 % der Anfragen teilten SQL-Scripts zur Transparenz; keine Datenschutzvorfälle gemeldet. Die Plattform ermöglichte standardisierte Analyseworkflows in Onkologie, Nephrologie, Kardiologie und Impfforschung.",
+    transfer:"Europäisches Modell, DSGVO-konform, direkt auf deutsches Gesundheitssystem übertragbar."
+  },
+  {
+    journal:"BMC Health Serv Res", year:"2026", pmid:"43015780",
+    author:"Wainwright K et al.", pubdate:"10.11.2026",
     added:"11.11.2026",
-    title:"Nachhaltiges nationales EHR-System in Japan durch Monetarisierung von Daten-Sekundärnutzung",
-    sum:"Implementierungsstudie des Sennen-Karte-Projekts seit 2015 in Japan zur Schaffung eines bundesweiten integrierten EHRs, das durch Daten-Sekundärnutzung selbstfinanzierbar ist, mit rechtlichen und technischen Komponenten.",
-    result:"Neue Gesetzgebung 2017 verabschiedet, 2018 in Kraft getreten. EHR seit 2015 implementiert; über 100 Kliniken beteiligt innerhalb von 4 Jahren, 77 Vertragspartner liefern medizinische Daten. System operativ seit 2015, nachhaltige Struktur etabliert ohne externe Subventionen.",
-    transfer:"Japan-Modell; strukturell nicht direkt übertragbar (andere Rechtsrahmen), aber regulatorische Lerneffekte für Elektronische Patientenakte in Deutschland."
+    title:"Telekonsultationen in der ländlichen Neurologie: Machbarkeit und Akzeptanz in Nordostdeutschland",
+    sum:"Evaluierung von Videokonsultationen zwischen Hausarztpraxen und Universitätsneurologen in ländlichen Regionen Mecklenburg-Vorpommerns mittels RE-AIM-Framework zur Bewertung von Erreichbarkeit, Wirksamkeit, Adoption, Implementierung und Verstetigung.",
+    result:"Reach 98,8%, Adoption 83,0%, Implementierung 99,2%, Verstetigung 85,0%; Wirksamkeit \"grundsätzlich positiv\" (66,0%); Telemedizin verbesserte Zugang zu Spezialistenkompetenz für neurologische Patienten in der Primärversorgung; Repräsentativität der Stichprobe begrenzt, aber regional vergleichbar mit Zielbevölkerung.",
+    transfer:"Deutsche Studie in deutschem Versorgungssystem, direkt übertragbar."
   },
   {
-    journal:"JMIR Form Res", year:"2026", pmid:"43002740",
-    author:"Schäfer LM et al.", pubdate:"09.11.2026",
-    added:"09.11.2026",
-    title:"LLM-gestützter Chatbot zur psychischen Gesundheit: reale Nutzung und Ergebnisse",
-    sum:"Einjahres-Beobachtungsstudie mit 527 selbstakquirierten Nutzern eines KI-Chatbots (Clare) zur psychischen Gesundheit, die über 8 Wochen Engagement, therapeutische Allianz und psychische Symptome erfasste.",
-    result:"Von 527 Baseline-Teilnehmern erfüllten 53 (10,1 %) die 4-Wochen-Kriterien und 21 (4,0 %) die 8-Wochen-Kriterien. Bei Completer-Paaren (n=52) zeigten sich Verbesserungen: PHQ-Distress -1,13 Punkte (95 % CI 0,25–2,02), Mini-Social Phobia Inventory -1,73 (0,88–2,58), Life Satisfaction Scale +6,23 (4,70–7,76). Hohe Abbruchquoten und fehlende Kontrolle limitieren Aussagekraft.",
-    transfer:"Deutschland/EU: Implementierungsstudie qualitativ (real-world), aber unklar generalisierbar wegen selektiver Stichprobe."
+    journal:"Alzheimers Res Ther", year:"2026", pmid:"43015907",
+    author:"Scheuermann JS et al.", pubdate:"09.11.2026",
+    added:"11.11.2026",
+    title:"Digitales Gedächtnistraining mit Online-Ernährungsberatung bei leichter kognitiver Beeinträchtigung",
+    sum:"Randomisierte kontrollierte Studie zu computergestütztem kognitiven Training (CCT) kombiniert mit digitaler Ernährungsberatung bei Patienten mit leichter kognitiver Beeinträchtigung in Deutschland; 2×2-faktorielles Design mit vier Gruppen.",
+    result:"Alle vier Gruppen zeigten signifikante Verbesserung um etwa 2 Punkte auf der Montreal Cognitive Assessment nach 6 Monaten (p=0,048); keine signifikanten Unterschiede zwischen individualisiertem und Basis-CCT oder zwischen pflanzlicher und Standard-Ernährungsberatung; 55% aller Teilnehmenden erreichten nicht-MCI-Werte nach 6 Monaten.",
+    transfer:"Deutsche Studie, vollständig digital, direkt auf deutsches Versorgungssystem übertragbar."
   },
   {
-    journal:"JMIR Hum Factors", year:"2026", pmid:"43002657",
-    author:"Flemm C et al.", pubdate:"09.11.2026",
-    added:"09.11.2026",
-    title:"eHealth-Kompetenz bei älteren Patienten: Assoziationen mit Gebrechlichkeit und Funktion",
-    sum:"Querschnittstudie in deutscher Geriatrie-Klinik (n=244, mittleres Alter 77,2 Jahre) zu Zusammenhängen zwischen selbstberichteter eHealth-Literalität (GR-eHEALS) und kognitiven, funktionalen sowie Gebrechlichkeitsmerkmalen.",
-    result:"Höhere eHealth-Literalität in Subskala Informationssuche (3,64±0,84) als in kritischer Bewertung (3,32±0,80). Gebrechlichkeit assoziiert mit schlechterer kritischer Informationsbewertung (B=-1,372, 95 % CI -2,554 bis -0,189). Keine signifikanten Assoziationen mit kognitiver Funktion (MoCA), Bildung oder Geschlecht.",
-    transfer:"Deutsche Klinikdaten, direkt übertragbar; zeigt Bedarf für Interventionen bei älteren Menschen."
+    journal:"Eur J Neurol", year:"2026", pmid:"43018172",
+    author:"Corrias R et al.", pubdate:"Nov. 2026",
+    added:"12.11.2026",
+    title:"Sichere KI-Plattform für neurogenetische Datenintegration: CoMPaSS-NMD",
+    sum:"Entwicklung einer europäischen Forschungsplattform zur pseudonymisierten Erfassung klinischer, genetischer, bildgebender und histopathologischer Daten aus Referenzzentren für neuromuskuläre Erkrankungen, vorbereitet für Machine Learning-basierte Patientenstratifizierung.",
+    result:"Plattform unterstützt rollenbasierte Zugriffe, strukturierte Dateneingabe mit Human Phenotype Ontology, Datei-Uploads und ontologie-gesteuerte Kohortenerkundung; ermöglicht hierarchische Phänotypnavigation und Cross-Domain-Abfragen; klinische Validierung läuft.",
+    transfer:"Europäisches Mehrzentren-Konsortium, strukturelle Vergleichbarkeit mit deutschem Versorgungsauftrag."
   },
   {
-    journal:"J Card Fail", year:"2026", pmid:"43009242",
-    author:"Khurshid S et al.", pubdate:"Nov. 2026",
-    added:"10.11.2026",
-    title:"KI-gestützte EKG-Analyse zur Vorhersage von Herzinsuffizienz-Subtypen",
-    sum:"Entwicklung und externe Validierung eines Deep-Learning-Modells zur Vorhersage des 10-Jahres-Risikos für Herzinsuffizienz mit erhaltener vs. reduzierter Ejektionsfraktion anhand von Ruhe-EKGs an drei US-amerikanischen Zentren.",
-    result:"ECG2HF-Subtype zeigte konsistente Diskriminationsfähigkeit für HFrEF-Risiko (AUC 0,88–0,89 über die drei Zentren, kumulative Inzidenz 1,73–2,23 %) und HFpEF-Risiko (AUC 0,79–0,83, kumulative Inzidenz 2,75–3,49 %). Gegenüber klinischen Variablen allein zeigte das KI-Modell bessere Diskriminationsfähigkeit für HFrEF (AUC 0,86 vs. 0,78 für PREVENT-HF-Variablen).",
-    transfer:"USA-Studie, aber klinische Validierbarkeit des Ansatzes unabhängig von System übertragbar."
-  },
-  {
-    journal:"Int J Med Inform", year:"2026", pmid:"42967410",
-    author:"Han X et al.", pubdate:"30.10.2026",
-    added:"01.11.2026",
-    title:"Ärztliche digitale Kompetenz und generative KI in der Gesundheitskommunikation",
-    sum:"Vergleichende Analyse (Dokumentenanalyse, Regulations- und Programmreview) zur digitalen Kompetenz von Ärzten und KI-Nutzung für Gesundheitskommunikation in China, Südkorea, Singapur, USA und UK; Entwicklung eines Modells für Shanghai basierend auf Singapurs MedVid-Programm.",
-    result:"Genauigkeit war in allen Systemen mit Messung ein Kernproblem (Score ≥2). Ärztliche Datenschutzbedenken bezüglich Gesichtsbiometrie selten gemessen. Singapurs MedVid produzierte über 300 KI-generierte Beratungsvideos in vier Sprachen. Institutionelle Kanalisierung fördert Authentizität; USA und UK zeigen eher individuelle, schwach unterstützte Adoption.",
-    transfer:"Singapur-Studie mit potentiellen Lehren für Shanghai, aber begrenzte direkte Übertragbarkeit auf Deutschland."
-  },
-  {
-    journal:"Transl Psychiatry", year:"2026", pmid:"43009487",
-    author:"Heckel JM et al.", pubdate:"14.08.2026",
-    added:"10.11.2026",
-    title:"Smartphone-basierte Tests exekutiver Funktionen bei Depression: Validierung gegen Hirnkonnektivität",
-    sum:"Prospektive Kohortenstudie (n=72, davon 30 mit aktueller Depression, 42 Kontrollen) zur Validierung von Smartphone-basierten Set-Shifting-Tests über 2 Wochen gegen funktionelle Konnektivität.",
-    result:"Patienten mit Depression zeigten niedrigere Set-Shifting-Genauigkeit (β=-0,24, p=0,044) und höhere Variabilität (β=0,25, p=0,049). Assoziationen zwischen Test-Performance und Aktivierung des dorsolateralen Aufmerksamkeitsnetzwerks unterschieden sich signifikant zwischen Patienten und Kontrollen. Smartphone-Assessments könnten skalierbare Methode zur longitudinalen Überwachung kognitiver Defizite sein.",
-    transfer:"USA-Studie; Methodik prinzipiell auf Europa übertragbar, aber US-Infrastruktur-spezifisch."
-  },
-  {
-    journal:"BMC Psychol", year:"2026", pmid:"42947244",
-    author:"Altin R et al.", pubdate:"10.08.2026",
-    added:"28.10.2026",
-    title:"Nomophobie und digitale Kompetenz bei Lehrkräften: Cluster-Analyse zeigt ambivalente Profile",
-    sum:"Querschnitts-Clusteranalyse mit 245 türkischen Lehrkräften zu Profilen von Nomophobie, Lehrer-Selbstwirksamkeit und IKT-Kompetenz zur Klärung, ob hohe digitale Nutzung immer pathologisch ist.",
-    result:"Identifikation von zwei kontrastierenden Lehrkräfte-Profilen: Profil mit erhöhter Nomophobie zeigte in einigen Fällen parallel hohe berufliche Sicherheit und digitale Kompetenz. Chi-Quadrat-Tests zeigten keine signifikanten Unterschiede nach Geschlecht oder Unterrichtsstufe. Ergebnis deutet darauf hin, dass funktionale digitale Abhängigkeit sich von problematischer unterscheidet.",
-    transfer:"Türkei; befundfähig für EU-Kontext, aber kulturell spezifisches Lehrkräfte-Sample."
+    journal:"Wellcome Open Res", year:"2026", pmid:"42984772",
+    author:"Yap V et al.", pubdate:"17.08.2026",
+    added:"05.11.2026",
+    title:"KI-Nutzung durch Jugendliche in Großbritannien: Wissenslücken und Vertrauensprobleme",
+    sum:"Querschnittstudie zur Häufigkeit, Art und Bewertung von generativer KI-Nutzung durch 12–15-jährige Schüler in Bradford, Großbritannien; Fokus auf Schulkontexte, Vertrauen in KI-Ausgaben und Verifikationsverhalten.",
+    result:"Von 1.443 Schülern nutzen 73,5% generative KI mindestens selten, 25,5% täglich; Schularbeiten mit 36,6% wöchentlich häufigste Nutzung; 39,4% vertrauen KI-Ausgaben gar nicht, 47,5% überprüfen diese nie; wahrgenommener Nutzen niedrig (41,1% sagen creative subjects \"nicht nützlich\", 21,1% sagen maths \"sehr nützlich\"); deutliche Geschlechts- und Jahrgangsdifferenzen.",
+    transfer:"Großbritannien, verschiedenes Bildungssystem; Befund zu KI-Literalität übertragbar."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2373,7 +2364,7 @@ const ZUL_DIGA = 5;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "12.11.2026";
+const NEWS_STAND = "13.11.2026";
 const NEWS = [
   {titel:"Gesundheitsdaten für Prävention nutzen: BIG direkt gesund zum GeDIG", datum:"2026-10-28", url:"https://www.monitor-versorgungsforschung.de/news/gesundheitsdaten-fuer-praevention-nutzen-big-direkt-gesund-zum-gedig/"},
   {titel:"Telemedizin und Krisenresilienz: Zi-Congress 2026 in Berlin", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/telemedizin-und-krisenresilienz-zi-congress-2026-in-berlin/"},
