@@ -2305,71 +2305,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "17. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "18. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"JMIR Hum Factors", year:"2026", pmid:"43038511",
-    author:"Schorr C et al.", pubdate:"16.11.2026",
-    added:"16.11.2026",
-    title:"Patienten-Feedback zu Symptom-Assessment-App in der Notfallambulanz",
-    sum:"Qualitative Studie mit 18 Patienten in Berlin zur Nutzung einer Symptom-Assessment-App (Ada Health) vor Notfallarztbesuch; Patienten sahen die App als Hilfsmittel zur Symptomreflexion und Vorbereitung auf Gespräche, vertrauten aber stärker Fachpersonen als dem Algorithmus.",
-    result:"14 von 18 Patienten würden die App erneut nutzen. Häufig diskutierte Themen waren Home/Education/Activities; Risikoverhalten, Sexualität und Substanzkonsum wurden selten angesprochen. Patienten wünschten sich Integration der App-Berichte in die elektronische Patientenakte und Verlinkung mit evidenzgestützten Gesundheitsinformationen.",
-    transfer:"Deutsche Studie mit deutschem Gesundheitssystem, vergleichbare Versorgungsstrukturen."
+    journal:"JMIR Mhealth Uhealth", year:"2026", pmid:"43044097",
+    author:"Swain R et al.", pubdate:"17.11.2026",
+    added:"17.11.2026",
+    title:"Telemedizinische Aufsicht in KI-Apps zur Hautkrebserkennung erhöht Patientenvertrauen und Therapietreue",
+    sum:"Randomisierte Studie an 879 Niederländern zur Frage, ob die Überwachung durch Teledermatologische Fachpersonen (hybrid) gegenüber reinen KI-Vorhersagen zu besserem Patientenvertrauen und höherer Therapieadhärenz in einer Screening-App für Hautkrebs führt.",
+    result:"Vertrauen in Ratschläge war höher bei hybrider Aufsicht (Mittelwert 76,9) als bei reiner KI (65,7; Unterschied 11,98 Punkte, p&lt;0,001). Adherenzwahrscheinlichkeit war mit hybrider Variante 1,7× höher (Odds Ratio 1,7, 95%-KI 1,28–2,22, p&lt;0,001). Effekt wurde vollständig durch Vertrauen vermittelt.",
+    transfer:"Niederlande, vergleichbares Versicherungssystem mit Deutschland"
   },
   {
-    journal:"PLoS One", year:"2026", pmid:"43038192",
-    author:"Vences Garrido A et al.", pubdate:"16.11.2026",
-    added:"16.11.2026",
-    title:"KI-Bereitschaft bei Hausarztpraxen-Personal: Kompetenzlücke trotz hoher Erwartungen",
-    sum:"Fragebogenerhebung mit 102 Pflegefachpersonen in Galicien (Spanien, Urban und Rural) zu Wahrnehmung und Vorbereitung auf KI; Diskrepanz zwischen optimistischen Erwartungen (Mittelwert 4,25) und niedriger Schulung (1,75 auf 5er-Skala).",
-    result:"19,6% nutzten bereits KI klinisch, 69,6% hatten keine Vorbereitung erhalten. Hauptbarrieren: Wissensmangel (81,4%) und Ethik-/Datenschutz-Bedenken (30,4%). Frühere Schulung war einziger unabhängiger Prädiktor für klinische Nutzung (OR 3,73; 95%-KI 1,37–10,54; p=0,010). 99,0% interessiert an Fortbildung.",
-    transfer:"Südeuropäisches Gesundheitssystem, vergleichbarer Versorgungsauftrag wie Deutschland."
+    journal:"JMIR Form Res", year:"2026", pmid:"43044104",
+    author:"Pico J et al.", pubdate:"17.11.2026",
+    added:"17.11.2026",
+    title:"LLM-gestützte Analyse von Simulationsdebriefings in der Ausbildung: Machbarkeitsstudie",
+    sum:"Prospektive Beobachtungsstudie an 30 Anästhesie-Assistenzärzten: ChatGPT wurde eingesetzt, um Transkripte von Simulationsdebriefings automatisiert mit dem DASH-Rahmen (Debriefing Assessment for Simulation in Healthcare) zu bewerten und strukturierte qualitative Rückmeldungen sowie Effektivitätsratings zu generieren.",
+    result:"Für alle 30 (100%) Debriefings wurden vollständige, strukturierte KI-generierte Bewertungen über alle 6 DASH-Elemente hinweg erreicht, was die Machbarkeit belegt. Medianratings für vier Elemente (Lernumgebung etablieren/aufrechterhalten, diskussionsorientiert sein, Leistungslücken identifizieren): je 6 auf 7er-Skala. Strukturierung hatte niedrigstes Median-Rating (4), zukünftige Leistung unterstützen (5). Querdebriefing-Analyse zeigte Muster der Schülerbeteiligung und Verbesserungspotenziale.",
+    transfer:"Kanada, Proof-of-Concept für LLM in der medizinischen Simulationslehre, Validierung gegen Experten noch ausstehend"
   },
   {
-    journal:"J Med Syst", year:"2026", pmid:"43037770",
-    author:"Asperger H et al.", pubdate:"16.11.2026",
-    added:"16.11.2026",
-    title:"LLM-gestützte Klassifikation von Komplikationen in Schlaganfall-Registern",
-    sum:"Workflow mit GPT-4 und lokalem Qwen-Modell zur automatisierten Auswertung von Freitextfeldern aus dem Deutschen Schlaganfall-Register (11.216 Einträge, 18.069 Patienten); Ziel: Strukturierte Analyse von Nebenereignissen ohne manuelle Kodierung.",
-    result:"GPT-4 erreichte F1-Score 92,4% (95%-KI 91,4–93,4) auf Entwicklungsset; auf 300 gehaltenen Einträgen gewichteter F1 96,5% (94,6–98,1). Freitextdokumentation identifizierte 1.345 zusätzliche Nebenereignisse (+19,6% über strukturierte Felder). Integration von Komplikationskonzepten erhöhte AUC für gutes funktionelles Ergebnis um 0,025 (95%-KI 0,021–0,028).",
-    transfer:"Deutsche Registerdaten, direkt anwendbar auf hiesige Dokumentationspflichten."
+    journal:"J Med Internet Res", year:"2026", pmid:"43043653",
+    author:"Armento Lee A et al.", pubdate:"17.11.2026",
+    added:"17.11.2026",
+    title:"Reinforcement Learning optimiert digitale Bewegungsempfehlungen und erhöht Schrittanzahl nachweisbar",
+    sum:"Großangelegte 4-armige RCT mit 13.463 Fitbit-Nutzern, in der ein Reinforcement-Learning-Algorithmus personalisierte Bewegungs-Nudges (kombiniert mit Verhaltenstheorie) gegen fixe regelbasierte und zufällige Nudges sowie Kontrollgruppe testete – Outcome: tägliche Schrittanzahl über 2 Monate.",
+    result:"Nach 1 Monat zeigte die RL-Gruppe signifikante Steigerung gegenüber Kontrolle (+296 Schritte, p&lt;0,001), zufällig (+218, p=0,005) und fix (+238, p=0,002). Nach 2 Monaten (primärer Endpunkt) persistierte Unterschied zu Kontrolle (+210 Schritte, p=0,01). GEE-Modelle bestätigten +208 Schritte (p=0,002). RL-Gruppe berichtete höhere Zufriedenheit mit Personalisierung (37% favorable responses). Population: 86,3% weiblich, 7.711 in Analyse.",
+    transfer:"USA, aber Effekt ist versorgungsrelevant und bevölkerungsweit skalierbar, Generalisierbarkeit auf deutschsprachigen Raum mit diverserer Population zu testen"
   },
   {
-    journal:"JCO Clin Cancer Inform", year:"2026", pmid:"43038486",
-    author:"Mullins MA et al.", pubdate:"16.11.2026",
-    added:"16.11.2026",
-    title:"LLM gegen Algorithmus: Fernerkennung von Brustkrebs-Metastasen aus EHR-Text",
-    sum:"Vergleich von GPT-4-mini mit validiertem Discrete-Field-Algorithmus zur Identifikation von Fernmetastasen bei Brustkrebs-Patientinnen aus EHR-Noten (429 Frauen, Daten 2010–2023); Benchmark: manuelle Chart-Übersicht durch Ärzte.",
-    result:"GPT-4-mini: Sensitivität 1,00 (95%-KI 0,96–1,00), Spezifität 0,94 (0,91–0,96), PPV 0,80 (0,72–0,87), NPV 1,00 (0,99–1,00). Algorithmus: Sensitivität 0,82 (0,73–0,89), Spezifität 0,98 (0,96–0,99), PPV 0,91 (0,83–0,96), NPV 0,95 (0,93–0,97). LLM-Datumsangaben: 69% innerhalb ±1 Monat vom Gold-Standard vs. 10% beim Algorithmus. LLM mit minimalem Lernaufwand anwendbar.",
-    transfer:"USA-Struktur, Datenprobleme (EHR-Text-Auswertung) in Deutschland ähnlich relevant."
+    journal:"JAMA Netw Open", year:"2026", pmid:"43043638",
+    author:"Goldsmith K et al.", pubdate:"02.11.2026",
+    added:"17.11.2026",
+    title:"LLM-generierte Entlassbriefe erreichen Versorgungsstandard und werden von Klinikern akzeptiert",
+    sum:"Vergleichende Effektivitätsstudie an 1294 Entlassbriefen aus fünf Londoner Kliniken, in der ärztlich verfasste Briefe gegen GPT-4o-mini-generierte Varianten getestet wurden – gemessen wurde ärztliche Akzeptanz ohne oder mit nur geringen Änderungen.",
+    result:"LLM-generierte Briefe erreichten Nicht-Unterlegenheit (22,2 Prozentpunkte höher akzeptiert als ärztlich geschriebene; 95%-KI 19,0–27,5; Schwelle -5 Punkte überschritten). Sie erhielten höhere Bewertungen für Genauigkeit, Vollständigkeit, Ton und Klarheit (adjustierte Risikodifferenzen 19,4–29,1 Punkte). Potenzieller Schaden war in KI-Briefen seltener (26,2% vs. 45,1% bei klinischen Summaries).",
+    transfer:"Großbritannien, Studienpopulation und Anforderungen nicht direkt auf Deutschland übertragbar, Methodik und Nutzenergebnis aber relevant"
   },
   {
-    journal:"JMIR Med Inform", year:"2026", pmid:"43037145",
-    author:"Riquelme-Tornel Á et al.", pubdate:"13.11.2026",
-    added:"16.11.2026",
-    title:"LLM-gestützte Zuordnung von Klinikvariablen zu FHIR-Standards",
-    sum:"LLMs (GPT-4o, Llama 3.3 70B) mit Retrieval-Augmented Generation getestet zur automatisierten Zuordnung von 65 strukturierten Klinikvariablen (MIMIC-IV-Daten) zu HL7 FHIR-Ressourcen; zwei Szenarien mit unterschiedlicher Kontextmenge.",
-    result:"Im Baseline-Szenario (reichhaltige Beschreibungen): Ressourcen-Identifikation Top2 100% genau, Best-Attribute-Mapping (GPT-4o) 80,61% (SD 2,06). Im Low-Context-Szenario (reduzierte Kontextinformation): Top5 Ressourcen-Identifikation 94%, GPT-4o Attribute-Mapping 73,23–76,77% (je nach Temperature). Clustering unterstützte Kontext-Erholung.",
-    transfer:"USA-basierte Daten, Interoperabilitäts-Challenge universal, Befund zu Modell-Unterschieden global relevant."
+    journal:"Sci Rep", year:"2026", pmid:"43042650",
+    author:"Khan DZ et al.", pubdate:"24.10.2026",
+    added:"17.11.2026",
+    title:"Erklärbarkeit von KI-Entscheidungshilfen in der Neurochirurgie: Welche Visualisierungen Chirurgen vertrauen",
+    sum:"Internationale Befragung von 47 Neurochirurgen zur Bewertung verschiedener Erklärungstechniken für KI-Vorhersagen bei endoskopischer Hypophysenchirurgie – als Testfall für Interpretierbarkeit von Anatomie-Erkennungssystemen im OP.",
+    result:"Zertifizierungsbasierte Techniken (Konfidenzscores und -karten) wurden durchgehend am höchsten bewertet und als klinisch relevantesten eingestuft, da sie Vertrauen und anatomische Grenzen vermittelten. Salienz- und Ähnlichkeitsmethoden galten als weniger klinisch relevant, aber besser für Lehre geeignet. Autoren betonen: Prospektive Validierung zum Einfluss auf Vertrauen und Leistung erforderlich.",
+    transfer:"Internationale Studie mit Beteiligung deutscher und britischer Zentren, qualitative Ergebnisse zu Anforderungen an Erklärbarkeit übertragbar"
   },
   {
-    journal:"JMIR Aging", year:"2026", pmid:"43037439",
-    author:"Denecke K et al.", pubdate:"12.11.2026",
-    added:"16.11.2026",
-    title:"Inklusive Design-Richtlinien für digitale Gesundheits-Apps für ältere Erwachsene",
-    sum:"3-stufige Fuzzy-eDelphi mit 28 Experten (Runde 1), 20 (Runde 2), 19 (Runde 3) zur Validierung von 14 Design-Richtlinien für digitale Gesundheitsanwendungen für über 60-Jährige; Bewertung auf 7er-Likert-Skala zu Nutzen, Klarheit und Anwendbarkeit.",
-    result:"Konsens erreicht für 33 von 42 Bewertungen (78,6%). Alle 14 Richtlinien zeigten Konsens zu Nutzen und Klarheit; nur 35% (5 von 14) erreichten Konsens zur Benutzerfreundlichkeit. Experten identifizierten fehlende praktische Beispiele als Implementierungshindernis; diese wurden in finale Version integriert.",
-    transfer:"Internationale Expertengruppe (Schweiz, Spanien, UK, Deutschland, Türkiye), Design-Prinzipien systemübergreifend anwendbar."
-  },
-  {
-    journal:"Acta Neuropsychiatr", year:"2026", pmid:"42924461",
-    author:"Kalem B et al.", pubdate:"23.10.2026",
-    added:"24.10.2026",
-    title:"ChatGPT-Antworten zur Psychoedukation bei Magnetstimulation: Qualität und Grenzen",
-    sum:"Drei Psychiater bewerteten 25 häufig gestellte Fragen zu repetitiver Magnetstimulation (rTMS), beantwortet von ChatGPT-4; Qualität, Zuverlässigkeit und Lesbarkeit wurden mit etablierten Scales gemessen.",
-    result:"Globale Qualitätsscala (GQS): Mittelwert 3,69 (moderat bis gut). DISCERN-Score: 35,33 (schlecht). JAMA-Benchmark: 0 für alle Fragen. Mittleres Lesbarkeits-Level: 10,98 Klasse (zu hoch für Laien). Fazit: Akzeptable Qualität, aber begrenzte Zuverlässigkeit und hoher Lese-Anforderung.",
-    transfer:"Sprachmodell-Validierung, Befunde zur Zuverlässigkeit übertragbar unabhängig vom System."
+    journal:"Transl Psychiatry", year:"2026", pmid:"43035468",
+    author:"Just SA et al.", pubdate:"19.08.2026",
+    added:"15.11.2026",
+    title:"Natural Language Processing erkennt Veränderungen in Psychosesymptomen an Sprachmerkmalien in Längsschnitt",
+    sum:"Längsschnittstudie an 95 Personen mit Schizophrenie oder schizoaffektiver Störung: Sprechproben und klinische Bewertungen wurden zu Baseline und nach 6 Monaten mit Natural Language Processing analysiert, um zu prüfen, ob automatisierte Sprachmarker intraindividuelle Symptomschwankungen abbilden.",
+    result:"Acht NLP-Marker für Sprachmenge, Lexik-, Syntaxkomplexität, semantische Ähnlichkeit und Vernetzung zeigten longitudinale Sensitivität für Symptomveränderungen. Moving-Average-Type-Token-Ratio, Token-Count, semantische Ähnlichkeit und Graph-Konnektivität waren am aussagekräftigsten (p&lt;0,05). Partial Least Squares-Regression zeigte signifikante Assoziation zwischen NLP-Markerveränderungen und Komponenten für Negativ- und Gesamtsymptome.",
+    transfer:"Deutsche und britische Zentren, offene Kohorten-Langzeitforschung zur Symptomüberwachung in Psychose"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2394,7 +2385,7 @@ const ZUL_DIGA = 5;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "17.11.2026";
+const NEWS_STAND = "18.11.2026";
 const NEWS = [
   {titel:"Gesundheitsdaten für Prävention nutzen: BIG direkt gesund zum GeDIG", datum:"2026-10-28", url:"https://www.monitor-versorgungsforschung.de/news/gesundheitsdaten-fuer-praevention-nutzen-big-direkt-gesund-zum-gedig/"},
   {titel:"Telemedizin und Krisenresilienz: Zi-Congress 2026 in Berlin", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/telemedizin-und-krisenresilienz-zi-congress-2026-in-berlin/"},
