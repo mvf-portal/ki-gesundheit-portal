@@ -2305,7 +2305,7 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "19. Nov. 2026, 05:00 Uhr";
+const SNAP_DATE = "19. Nov. 2026, 05:21 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
@@ -2317,20 +2317,65 @@ const STUDIES = [
     result:"Die Modelle erreichten AUC-Werte nahe 0,9 bei der Vorhersage kurzfristiger Pflegeleistungsansprüche; die häufigsten Prädiktoren waren Arztbesuche, Krankenhausaufenthalte und Diagnosen wie Demenz und Hirnschlag. Die Analyse zeigt, dass Routinedaten substantielle Vorhersagekraft für Pflegeplanung bieten.",
     transfer:"Österreich, direkter Transfer auf deutsches Sozialversicherungssystem und Leistungsvergabe"
   },
+  {
+    journal:"J Med Internet Res", year:"2026", pmid:"43044105",
+    author:"Schuitmaker L et al.", pubdate:"17.11.2026",
+    added:"17.11.2026",
+    title:"Prädiktive KI in der Neonatologie: Was Eltern sich wünschen und befürchten",
+    sum:"Qualitative Fokusgruppenstudie mit 18 niederländischen Eltern von ehemals intensivpflegigen Neugeborenen zu deren Wahrnehmung von KI-gestützten Frühwarnsystemen und Vorhersagemodellen in der Neonatalmedizin.",
+    result:"Eltern begrüßten prädikte KI grundsätzlich als Unterstützung für das ärztliche Team. Kurzfristprognosen wurden deutlich akzeptiert, Langzeitprognosen skeptischer bewertet. Zentrale Bedenken waren Untergrabung elterlicher Intuition, Überreliance auf KI bei Entscheidungen und ethische Bedenken bei langfristigen Gesundheitsprognosen. Eltern wünschten sich zusätzlich KI-Tools, die stärker ihre Partizipation in Entscheidungsprozessen unterstützen.",
+    transfer:"Niederlande, vergleichbares Versicherungssystem, Versorgungskontexte ähnlich"
+  },
+  {
+    journal:"Cell Rep Med", year:"2026", pmid:"43044569",
+    author:"Duan Z et al.", pubdate:"17.11.2026",
+    added:"17.11.2026",
+    title:"LLMs in der Onkologie: Vom Labor in die Praxis – was noch fehlt",
+    sum:"Perspektiv-Papier (Charité/Fudan University) zur Kritik am Mismatch zwischen Benchmark-Performance von Large Language Models und klinischer Einsatzfähigkeit in der Onkologieversorgung mit Vorschlag eines vierstufigen Evaluierungsparadigmas.",
+    result:"Autoren identifizieren vier systematische Mismatches: (1) vollständige Information in Benchmarks vs. aktive Informationssuche in der Praxis, (2) einzelne Referenzantworten vs. präferenzabhängige Entscheidungen, (3) Querschnitts-Snapshots vs. longitudinale Krankheitsverläufe, (4) isolierte Modellperformanz vs. Modell-im-System-Einsatzfähigkeit. Sie schlagen vier-Stufen-Evaluation vor: strukturiertes Wissen → interaktive Dialoge → longitudinale Trajektorien → Modell-im-System-Bewertung mit kontinuierlichem Monitoring über den Modell-Lebenszyklus.",
+    transfer:"Deutschland und Charité beteiligt, regulatorischer Kontext EU-KI-Verordnung relevant"
+  },
+  {
+    journal:"JMIR Med Inform", year:"2026", pmid:"43039899",
+    author:"Januário F et al.", pubdate:"13.11.2026",
+    added:"16.11.2026",
+    title:"Elektronische Patientenakte in Europa: Ist die Realität ready für den Datenaustausch?",
+    sum:"Multinationale Erhebung mit Feasibility-Demonstratoren in vier EU-Ländern (Ungarn, Portugal, Griechenland, Slowakei) zur Bewertung von Strukturierungsgrad und Abdeckung kritischer Datenfelder für standardisierten EHR-Austausch unter EHDS-Verordnung.",
+    result:"Von 30 gültigen Antworten zeigten Patientenzusammenfassungen die höchste Strukturierung mit 46 % (317/682) strukturierter Felder, Laborbefunde 35 % (204/591) und Entlassbriefe nur 28 % (438/1549). Erhebliche Wichtigkeits-Praxis-Lücke: 35–54 % der EEHRxF-Felder als »sehr wichtig« bewertet, aber 32–49 % davon unstrukturiert oder 13–26 % völlig nicht verfügbar. Semantische Analyse zeigte niedrige LOINC-Übereinstimmung (14 Codes in Ungarn, 26 in Portugal von insgesamt 57).",
+    transfer:"Vier EU-Länder, direkter Bezug zu deutschem Datenschutzrecht und Interoperabilität"
+  },
+  {
+    journal:"NEJM Catal Innov Care Deliv", year:"2026", pmid:"43049313",
+    author:"Stephens J et al.", pubdate:"23.10.2026",
+    added:"18.11.2026",
+    title:"KI-gestützte Kliniker-Assistenten: Weniger Dokumentation, mehr Zeit für Patienten – messbar",
+    sum:"Implementierungsstudie eines Ambient-AI-Systems (KI-gestützte Spracherkennung für Dokumentation) in einem US-Krankenhaus mit 283.028 ambulanten Terminen über 6 Monate und Patient-Experience-Befragungen bei zwei elektronischen Systemen mit unterschiedlicher Vorgeschichte.",
+    result:"Unter 1.802 aktiven Klinikern reduzierte Ambient AI die Dokumentationszeit im Schnitt um 84 % (History of Present Illness und Assessment/Plan). Nach-Stunden-Dokumentation (»Pajama Time«) fiel um 8,9 % bis 16,6 %. Obere Quartile gewannen knapp 17 Minuten täglich zurück, Chart-Closure-Zeit sank um 25,3 % bis 39,3 %. Effekt konzentrierte sich auf die dokumentationsbelastetsten Kliniker (Advanced-Practice-Clinicians: −9,9 min/Tag vs. Ärzte −3,8 min/Tag, p&lt;0,001). Patient Experience zeigte keine Einbußen. Dose-Response statistisch signifikant für Dokumentationszeit pro Tag (p&lt;0,001), Chart-Closure (p=0,002), Same-Day-Closure (p&lt;0,001).",
+    transfer:"USA – nur Nutzenbefund (Zeitersparnis, Workflow) übertragbar, nicht Zulassungsmodell"
+  },
+  {
+    journal:"Trials", year:"2026", pmid:"43040432",
+    author:"Frijns FO et al.", pubdate:"21.08.2026",
+    added:"16.11.2026",
+    title:"App-gestütztes Coaching bei wiederkehrenden Harnwegsinfektionen: Versorgungsstudie mit Implementierungsforschung",
+    sum:"Registriertes RCT-Protokoll aus den Niederlanden zur Evaluierung einer Digital-Health-Anwendung mit interaktiver Schulung, Symptomverfolgung und Lebensstilberatung versus Standardversorgung bei Frauen mit rezidivierenden Harnwegsinfektionen über 12 Monate mit umfassender Prozessevaluation.",
+    result:"Studiendesign beschreibt geplante Erhebung von HWI-Häufigkeit, Antibiotikanutzung, Lebensqualität, Gesundheitsausgaben und Kosteneffektivität. Prozessevaluation soll Barrieren und Förderfaktoren für die Implementierung ermitteln. Baseline-Daten stehen aus.",
+    transfer:"Niederlande, primärärztliche Versorgung, Transfer auf deutsches Gesundheitssystem mittelhoch"
+  },
 ];
 // === STUDIES-BLOCK-ENDE ===
 
 // Offene Foerderausschreibungen zum Thema — taeglich von scripts/radar_hinweis.py
 // === RADAR-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const RADAR_STAND = "16.11.2026";
+const RADAR_STAND = "19.11.2026";
 const RADAR_URL = "https://wissen.m-vf.de/ausschreibungen.html#ki-gesundheit";
 const RADAR_EIGENES = 2;
 const RADAR_ZUHAUSE = false;
-const RADAR_FRISTEN = [["2026-12-31"], [], ["2027-01-07"], [], [], [], [], ["2026-11-18", "2026-11-18"], [], [], [], ["2027-01-07", "2027-01-26", "2027-01-26"], ["2027-01-07", "2027-01-07", "2027-01-11", "2027-01-25", "2026-11-18", "2026-11-18", "2026-11-18", "2026-11-18"], [], [], ["2026-11-18", "2026-11-18"], [], ["2026-11-17", "2027-01-07"], ["2026-11-19", "2026-11-19"], ["2027-01-11", "2027-01-08", "2027-01-08", "2027-01-08", "2026-11-18", "2026-11-18", "2026-11-16", "2027-02-26"]];
+const RADAR_FRISTEN = [["2026-12-31", "2026-12-07", "2027-01-08"], [], ["2027-01-07", "2027-02-11"], [], [], ["2027-01-08"], [], [], ["2027-01-08"], [], [], ["2027-01-07", "2027-01-26", "2027-01-26"], ["2027-01-11", "2027-01-07", "2027-01-07", "2027-01-07", "2027-01-25", "2027-02-11", "2027-01-07", "2027-01-11"], ["2026-11-19", "2027-03-10", "2027-02-03", "2027-02-03"], ["2027-01-27"], [], [], ["2026-12-14", "2026-12-02", "2027-01-07"], ["2026-11-19", "2026-11-19"], ["2027-01-11", "2027-01-08", "2027-01-08", "2027-01-08"]];
 // === RADAR-BLOCK-ENDE ===
 
 // === ZULASSUNG-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const ZUL_STAND = "18.11.2026";
+const ZUL_STAND = "19.11.2026";
 const ZUL_EIGENE = 5;
 const ZUL_GUTACHTEN = 0;
 const ZUL_ZULASSUNG = 0;
