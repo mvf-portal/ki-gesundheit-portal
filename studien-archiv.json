@@ -1,5 +1,18 @@
 [
  {
+  "pmid": "43046138",
+  "journal": "BMC Geriatr",
+  "year": "2026",
+  "author": "Famira-Mühlberger U et al.",
+  "pubdate": "20.08.2026",
+  "added": "17.11.2026",
+  "transfer": "Österreich, direkter Transfer auf deutsches Sozialversicherungssystem und Leistungsvergabe",
+  "title": "Vorhersage von Pflegeleistungsanspruch aus Routinedaten: Machine Learning in Österreich",
+  "sum": "Machine-Learning-Modelle zur Vorhersage der erstmaligen Inanspruchnahme von Pflegeleistungen aus administrativen Gesundheitsdaten von knapp 474.000 österreichischen Versicherten im Alter von 60–85 Jahren.",
+  "result": "Die Modelle erreichten AUC-Werte nahe 0,9 bei der Vorhersage kurzfristiger Pflegeleistungsansprüche; die häufigsten Prädiktoren waren Arztbesuche, Krankenhausaufenthalte und Diagnosen wie Demenz und Hirnschlag. Die Analyse zeigt, dass Routinedaten substantielle Vorhersagekraft für Pflegeplanung bieten.",
+  "aufgenommen": "2026-11-19"
+ },
+ {
   "pmid": "43044104",
   "journal": "JMIR Form Res",
   "year": "2026",

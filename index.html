@@ -2305,62 +2305,17 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "18. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "19. Nov. 2026, 05:00 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"JMIR Mhealth Uhealth", year:"2026", pmid:"43044097",
-    author:"Swain R et al.", pubdate:"17.11.2026",
+    journal:"BMC Geriatr", year:"2026", pmid:"43046138",
+    author:"Famira-Mühlberger U et al.", pubdate:"20.08.2026",
     added:"17.11.2026",
-    title:"Telemedizinische Aufsicht in KI-Apps zur Hautkrebserkennung erhöht Patientenvertrauen und Therapietreue",
-    sum:"Randomisierte Studie an 879 Niederländern zur Frage, ob die Überwachung durch Teledermatologische Fachpersonen (hybrid) gegenüber reinen KI-Vorhersagen zu besserem Patientenvertrauen und höherer Therapieadhärenz in einer Screening-App für Hautkrebs führt.",
-    result:"Vertrauen in Ratschläge war höher bei hybrider Aufsicht (Mittelwert 76,9) als bei reiner KI (65,7; Unterschied 11,98 Punkte, p&lt;0,001). Adherenzwahrscheinlichkeit war mit hybrider Variante 1,7× höher (Odds Ratio 1,7, 95%-KI 1,28–2,22, p&lt;0,001). Effekt wurde vollständig durch Vertrauen vermittelt.",
-    transfer:"Niederlande, vergleichbares Versicherungssystem mit Deutschland"
-  },
-  {
-    journal:"JMIR Form Res", year:"2026", pmid:"43044104",
-    author:"Pico J et al.", pubdate:"17.11.2026",
-    added:"17.11.2026",
-    title:"LLM-gestützte Analyse von Simulationsdebriefings in der Ausbildung: Machbarkeitsstudie",
-    sum:"Prospektive Beobachtungsstudie an 30 Anästhesie-Assistenzärzten: ChatGPT wurde eingesetzt, um Transkripte von Simulationsdebriefings automatisiert mit dem DASH-Rahmen (Debriefing Assessment for Simulation in Healthcare) zu bewerten und strukturierte qualitative Rückmeldungen sowie Effektivitätsratings zu generieren.",
-    result:"Für alle 30 (100%) Debriefings wurden vollständige, strukturierte KI-generierte Bewertungen über alle 6 DASH-Elemente hinweg erreicht, was die Machbarkeit belegt. Medianratings für vier Elemente (Lernumgebung etablieren/aufrechterhalten, diskussionsorientiert sein, Leistungslücken identifizieren): je 6 auf 7er-Skala. Strukturierung hatte niedrigstes Median-Rating (4), zukünftige Leistung unterstützen (5). Querdebriefing-Analyse zeigte Muster der Schülerbeteiligung und Verbesserungspotenziale.",
-    transfer:"Kanada, Proof-of-Concept für LLM in der medizinischen Simulationslehre, Validierung gegen Experten noch ausstehend"
-  },
-  {
-    journal:"J Med Internet Res", year:"2026", pmid:"43043653",
-    author:"Armento Lee A et al.", pubdate:"17.11.2026",
-    added:"17.11.2026",
-    title:"Reinforcement Learning optimiert digitale Bewegungsempfehlungen und erhöht Schrittanzahl nachweisbar",
-    sum:"Großangelegte 4-armige RCT mit 13.463 Fitbit-Nutzern, in der ein Reinforcement-Learning-Algorithmus personalisierte Bewegungs-Nudges (kombiniert mit Verhaltenstheorie) gegen fixe regelbasierte und zufällige Nudges sowie Kontrollgruppe testete – Outcome: tägliche Schrittanzahl über 2 Monate.",
-    result:"Nach 1 Monat zeigte die RL-Gruppe signifikante Steigerung gegenüber Kontrolle (+296 Schritte, p&lt;0,001), zufällig (+218, p=0,005) und fix (+238, p=0,002). Nach 2 Monaten (primärer Endpunkt) persistierte Unterschied zu Kontrolle (+210 Schritte, p=0,01). GEE-Modelle bestätigten +208 Schritte (p=0,002). RL-Gruppe berichtete höhere Zufriedenheit mit Personalisierung (37% favorable responses). Population: 86,3% weiblich, 7.711 in Analyse.",
-    transfer:"USA, aber Effekt ist versorgungsrelevant und bevölkerungsweit skalierbar, Generalisierbarkeit auf deutschsprachigen Raum mit diverserer Population zu testen"
-  },
-  {
-    journal:"JAMA Netw Open", year:"2026", pmid:"43043638",
-    author:"Goldsmith K et al.", pubdate:"02.11.2026",
-    added:"17.11.2026",
-    title:"LLM-generierte Entlassbriefe erreichen Versorgungsstandard und werden von Klinikern akzeptiert",
-    sum:"Vergleichende Effektivitätsstudie an 1294 Entlassbriefen aus fünf Londoner Kliniken, in der ärztlich verfasste Briefe gegen GPT-4o-mini-generierte Varianten getestet wurden – gemessen wurde ärztliche Akzeptanz ohne oder mit nur geringen Änderungen.",
-    result:"LLM-generierte Briefe erreichten Nicht-Unterlegenheit (22,2 Prozentpunkte höher akzeptiert als ärztlich geschriebene; 95%-KI 19,0–27,5; Schwelle -5 Punkte überschritten). Sie erhielten höhere Bewertungen für Genauigkeit, Vollständigkeit, Ton und Klarheit (adjustierte Risikodifferenzen 19,4–29,1 Punkte). Potenzieller Schaden war in KI-Briefen seltener (26,2% vs. 45,1% bei klinischen Summaries).",
-    transfer:"Großbritannien, Studienpopulation und Anforderungen nicht direkt auf Deutschland übertragbar, Methodik und Nutzenergebnis aber relevant"
-  },
-  {
-    journal:"Sci Rep", year:"2026", pmid:"43042650",
-    author:"Khan DZ et al.", pubdate:"24.10.2026",
-    added:"17.11.2026",
-    title:"Erklärbarkeit von KI-Entscheidungshilfen in der Neurochirurgie: Welche Visualisierungen Chirurgen vertrauen",
-    sum:"Internationale Befragung von 47 Neurochirurgen zur Bewertung verschiedener Erklärungstechniken für KI-Vorhersagen bei endoskopischer Hypophysenchirurgie – als Testfall für Interpretierbarkeit von Anatomie-Erkennungssystemen im OP.",
-    result:"Zertifizierungsbasierte Techniken (Konfidenzscores und -karten) wurden durchgehend am höchsten bewertet und als klinisch relevantesten eingestuft, da sie Vertrauen und anatomische Grenzen vermittelten. Salienz- und Ähnlichkeitsmethoden galten als weniger klinisch relevant, aber besser für Lehre geeignet. Autoren betonen: Prospektive Validierung zum Einfluss auf Vertrauen und Leistung erforderlich.",
-    transfer:"Internationale Studie mit Beteiligung deutscher und britischer Zentren, qualitative Ergebnisse zu Anforderungen an Erklärbarkeit übertragbar"
-  },
-  {
-    journal:"Transl Psychiatry", year:"2026", pmid:"43035468",
-    author:"Just SA et al.", pubdate:"19.08.2026",
-    added:"15.11.2026",
-    title:"Natural Language Processing erkennt Veränderungen in Psychosesymptomen an Sprachmerkmalien in Längsschnitt",
-    sum:"Längsschnittstudie an 95 Personen mit Schizophrenie oder schizoaffektiver Störung: Sprechproben und klinische Bewertungen wurden zu Baseline und nach 6 Monaten mit Natural Language Processing analysiert, um zu prüfen, ob automatisierte Sprachmarker intraindividuelle Symptomschwankungen abbilden.",
-    result:"Acht NLP-Marker für Sprachmenge, Lexik-, Syntaxkomplexität, semantische Ähnlichkeit und Vernetzung zeigten longitudinale Sensitivität für Symptomveränderungen. Moving-Average-Type-Token-Ratio, Token-Count, semantische Ähnlichkeit und Graph-Konnektivität waren am aussagekräftigsten (p&lt;0,05). Partial Least Squares-Regression zeigte signifikante Assoziation zwischen NLP-Markerveränderungen und Komponenten für Negativ- und Gesamtsymptome.",
-    transfer:"Deutsche und britische Zentren, offene Kohorten-Langzeitforschung zur Symptomüberwachung in Psychose"
+    title:"Vorhersage von Pflegeleistungsanspruch aus Routinedaten: Machine Learning in Österreich",
+    sum:"Machine-Learning-Modelle zur Vorhersage der erstmaligen Inanspruchnahme von Pflegeleistungen aus administrativen Gesundheitsdaten von knapp 474.000 österreichischen Versicherten im Alter von 60–85 Jahren.",
+    result:"Die Modelle erreichten AUC-Werte nahe 0,9 bei der Vorhersage kurzfristiger Pflegeleistungsansprüche; die häufigsten Prädiktoren waren Arztbesuche, Krankenhausaufenthalte und Diagnosen wie Demenz und Hirnschlag. Die Analyse zeigt, dass Routinedaten substantielle Vorhersagekraft für Pflegeplanung bieten.",
+    transfer:"Österreich, direkter Transfer auf deutsches Sozialversicherungssystem und Leistungsvergabe"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2385,10 +2340,10 @@ const ZUL_DIGA = 5;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "18.11.2026";
+const NEWS_STAND = "19.11.2026";
 const NEWS = [
-  {titel:"Elektronische Patientenakte: Viel Potenzial, bislang wenig Nutzen", datum:"2026-02-18", url:"https://www.monitor-versorgungsforschung.de/news/elektronische-patientenakte-viel-potenzial-bislang-wenig-nutzen/"},
-  {titel:"Hoyer zur Digitalisierungsstrategie: Ausbau der elektronischen Patientenakte ist der richtige Weg", datum:"2026-02-12", url:"https://www.monitor-versorgungsforschung.de/news/hoyer-zur-digitalisierungsstrategie-ausbau-der-elektronischen-patientenakte-ist-der-richtige-weg/"},
+  {titel:"Gesundheitsdaten für Prävention nutzen: BIG direkt gesund zum GeDIG", datum:"2026-10-28", url:"https://www.monitor-versorgungsforschung.de/news/gesundheitsdaten-fuer-praevention-nutzen-big-direkt-gesund-zum-gedig/"},
+  {titel:"Telemedizin und Krisenresilienz: Zi-Congress 2026 in Berlin", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/telemedizin-und-krisenresilienz-zi-congress-2026-in-berlin/"},
 ];
 // === NEWS-BLOCK-ENDE ===
 
