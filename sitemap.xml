@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- erzeugt von hub-scripts/studienseiten.py -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://ki.m-vf.de/</loc><lastmod>2026-11-20</lastmod></url>
-<url><loc>https://ki.m-vf.de/studie/</loc><lastmod>2026-11-20</lastmod></url>
+<url><loc>https://ki.m-vf.de/</loc><lastmod>2026-11-21</lastmod></url>
+<url><loc>https://ki.m-vf.de/studie/</loc><lastmod>2026-11-21</lastmod></url>
 <url><loc>https://ki.m-vf.de/neue-studien.html</loc></url>
 <url><loc>https://ki.m-vf.de/newsletter.html</loc></url>
 <url><loc>https://ki.m-vf.de/themen-quellen.html</loc></url>
+<url><loc>https://ki.m-vf.de/studie/43061924/</loc><lastmod>2026-11-21</lastmod></url>
+<url><loc>https://ki.m-vf.de/studie/43059328/</loc><lastmod>2026-11-21</lastmod></url>
+<url><loc>https://ki.m-vf.de/studie/43058959/</loc><lastmod>2026-11-21</lastmod></url>
+<url><loc>https://ki.m-vf.de/studie/43058386/</loc><lastmod>2026-11-21</lastmod></url>
+<url><loc>https://ki.m-vf.de/studie/43058111/</loc><lastmod>2026-11-21</lastmod></url>
+<url><loc>https://ki.m-vf.de/studie/43037703/</loc><lastmod>2026-11-21</lastmod></url>
 <url><loc>https://ki.m-vf.de/studie/43055762/</loc><lastmod>2026-11-20</lastmod></url>
 <url><loc>https://ki.m-vf.de/studie/43055135/</loc><lastmod>2026-11-20</lastmod></url>
 <url><loc>https://ki.m-vf.de/studie/43055132/</loc><lastmod>2026-11-20</lastmod></url>
