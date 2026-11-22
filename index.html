@@ -2305,62 +2305,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "21. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "22. Nov. 2026, 05:00 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"HIV Res Clin Pract", year:"2026", pmid:"43059328",
-    author:"Benković I et al.", pubdate:"31.12.2026",
+    journal:"Scand J Prim Health Care", year:"2026", pmid:"43065153",
+    author:"Norberg BL et al.", pubdate:"20.11.2026",
+    added:"21.11.2026",
+    title:"Telemedizin in der Primärversorgung: Übereinstimmung von Ärzte- und Patientensicht",
+    sum:"Matched-Paar-Studie zu Videotelefonie, Telefon und Textnachrichten in norwegischen Hausarztpraxen; Vergleich von Arztsicht und Patientenzufriedenheit mit derselben Konsultation.",
+    result:"85 % der Ärzte und Patienten stimmten überein, dass die Modalität geeignet war; Zustimmung bei Vertrauen in Diagnose 93 %, zur Wiedernutzung 75 %. Zustimmung sank, wenn Patienten Fragen nicht beantwortet bekamen (aOR 0,02, 95-%-KI 0,002–0,20). Text-Konsultationen zeigten niedrigere Vertrauenswerte als Videosprechstunden (aOR 0,06). Die Ergebnisse zeigen hohe Qualitätsübereinstimmung, besonders bei bekannten Problemen und geplanten Terminen.",
+    transfer:"Norwegen, vergleichbares Versorgungssystem; übertragbar auf deutschsprachige Länder."
+  },
+  {
+    journal:"Z Gastroenterol", year:"2026", pmid:"43063928",
+    author:"Engel A et al.", pubdate:"20.11.2026",
     added:"20.11.2026",
-    title:"mHealth-Plattform für HIV-Patienten: Aktivierung stabil, Sicherheit gewährleistet",
-    sum:"Längsschnittstudie zur mHealth-Anwendung (EmERGE) bei 304 HIV-Patienten in Kroatien über 3,2 Jahre mit Messungen der Patientenaktivierung und klinischen Sicherheit im Routinebetrieb.",
-    result:"Mittlere Patientenaktivierung blieb über 3 Jahre stabil (Baseline 69,6; Jahr 3: 68,9). Virusunterdrückung wurde bei allen Gruppen aufrechterhalten, schwerwiegende Ereignisse waren selten. Ältere Patienten zeigten jedoch erhöhte Wahrscheinlichkeit für Aktivierungsrückgang (Interaktion p=0,004).",
-    transfer:"Kroatien, vergleichbare Sozialversicherungsstruktur; mHealth-Modell übertragbar auf deutsches Gesundheitssystem"
+    title:"Deep Learning in Endoskopie: Realbedingungen bei Früherkennung präkanzeröser Magenbefunde",
+    sum:"Prospektive Validierungsstudie zweier bereits publizierter Deep-Learning-Klassifizierer an unkomplizierten Patientendaten aus drei Zentren (Deutschland, Portugal, Polen); Vergleich mit Fachleuten.",
+    result:"Für präkanzeröse Magenbefunde: Der Algorithmus produzierte zahlreiche Falsch-Positive, besonders bei bestimmten Endoskoppositionen, während Falsch-Negative selten waren. Eosinophile Ösophagitis: Weniger Falsch-Positive, sehr selten Falsch-Negative. Bei Beschränkung auf Standardposition zeigte der Magenbefund-Algorithmus zufriedenstellende Leistung. Ergebnis: Klinischer Nutzen des präkanzerösen-Magenbefund-Klassifizierers ist begrenzt.",
+    transfer:"Deutschland und europäische Daten; Versorgungsrealität mit unkomplizierten Bildern abgebildet."
   },
   {
-    journal:"Clin Oral Investig", year:"2026", pmid:"43058386",
-    author:"Saleh O et al.", pubdate:"20.11.2026",
-    added:"19.11.2026",
-    title:"KI-gestützte Zahnprothesenherstellung: Machbarkeit aus Intraoralscans",
-    sum:"Feasibility-Studie mit KI-Modell (PointNet++) zur Rekonstruktion kompletter Oberkiefer-Zahnprothesenbasen aus Intraoralscans bei 79 Patienten, mit Test an 15 Fällen und Versuch in 3 hergestellten Prothesen.",
-    result:"Mittlere Chamfer Distance 2,6±0,1 mm, Hausdorff-Distanz 2,4 mm; F-Scores 0,8 bei 0,5-mm-Toleranz, 1,0 bei 2,0 mm. RMSE der 3 pilot-Fälle 0,4–0,6 mm. Konventionelle Zahnprothesen zeigten subjektiv besseren Halt als KI-generierte Basen.",
-    transfer:"Deutschland, Zahnmedizin; nur Proof-of-Concept, externe Validierung erforderlich"
-  },
-  {
-    journal:"Int J Technol Assess Health Care", year:"2026", pmid:"43061924",
-    author:"Prakash A et al.", pubdate:"20.11.2026",
+    journal:"Appl Clin Inform", year:"2026", pmid:"43064362",
+    author:"Smith KD et al.", pubdate:"20.11.2026",
     added:"20.11.2026",
-    title:"Patientenbezogene Bewertung digitaler Gesundheitsanwendungen: Systematik für HTA",
-    sum:"Scoping Review von 336 Studien zur Patientenevaluation digitaler Technologien mit Ziel einer Bewertungsstruktur (EDiHTA-Framework); Mapping auf qualitative und validierte Messinstrumente.",
-    result:"Identifiziert 9 Themen und 28 Outcomemaße (Usability, Zufriedenheit, Belastung, Vertrauen). Davon 164 qualitative, 127 nicht-validierte, 119 validierte Instrumente. Warwick-Framework deckt 7 von 9 Themen; Pflegerlastung und Satisfaktion nur teilweise erfasst.",
-    transfer:"Europäischer Konsens (NL, Dänemark, Italien, Spanien, Belgien); direkt auf deutsches HTA-System übertragbar"
+    title:"LLM-gestützte EHR-Zusammenfassung: Machbarkeit und Halluzinationen im klinischen Alltag",
+    sum:"Drei-Phasen-Bewertung eines LLM-gestützten Tools in Epic Hyperdrive (EHR-Integration) zur Zusammenfassung von Patientendaten in Echtzeit; Feedback von 32 Fachleuten aus sieben Fachrichtungen.",
+    result:"Ärzte bewerteten Genauigkeit und Vollständigkeit der Zusammenfassungen als gut. Halluzinationsrate 6,2 % während Routineeinsatz. Statistisch signifikante Verbesserungen zwischen Proof-of-Concept und Pilotphase (Gründlichkeit, Nützlichkeit, Anordnung, Klarheit durch Prompt-Engineering). Das Tool könnte die Workflow-Effizienz unterstützen.",
+    transfer:"USA (Chicago); Fachleute waren enthusiastisch; technische Machbarkeit demonstrated, klinische Auswirkungen noch zu validieren."
   },
   {
-    journal:"Transl Psychiatry", year:"2026", pmid:"43058111",
-    author:"Wiegert J et al.", pubdate:"19.11.2026",
-    added:"19.11.2026",
-    title:"MRT-Deep-Learning zur Alkoholabhängigkeit: biomarkerbasierte Schweregradschätzung",
-    sum:"Externe Validierungsstudie Deep-Learning-abgeleiteter MRT-Repräsentationen zum Alkoholkonsum (AUDIT-C) mit Training in NAKO (N≈28.000), externer Validierung in UK Biobank (N≈25.000) und Tests gegen ICD-10-Alkoholverlauf.",
-    result:"In NAKO: Korrelation mit AUDIT-C r=0,11 (95%-KI 0,09–0,12, q=1,2×10⁻⁷⁰). UK Biobank Replikation: r=0,09 (95%-KI 0,07–0,10, q=4,9×10⁻⁴¹). Odds Ratio für AUC-Quintil 2,28 (95%-KI 1,49–3,48). Schwache, aber reproduzierbare Effekte bei Populationsebene.",
-    transfer:"NAKO/Deutschland, vergleichbare Kohortengröße; Schwelle für Individualprädiktion nicht erreicht"
-  },
-  {
-    journal:"Neurosurg Rev", year:"2026", pmid:"43037703",
-    author:"Leone A et al.", pubdate:"16.11.2026",
-    added:"16.11.2026",
-    title:"Deep Learning für MGMT-Status bei Glioblastom: Benchmark vs. Routinepraxis",
-    sum:"Multicenter-Validierungsstudie Deep-Learning-Modelle zur MGMT-Statusvorhersage aus multiparametrischen MRT bei 949 Glioblastom-Patienten, Vergleich BraTS-Benchmark vs. unabhängiger Multicenter-Testset.",
-    result:"Benchmark (BraTS): DenseNet121 AUC 0,80. Multicenter-Testset: Markante Leistungsverschlechterung. Segmentations-gelenkte ROI-Modelle zeigten stabilere Performance. Explicit Läsionslokalisierung reduzierte False-Positives und verbesserte Stabilität über heterogene Datensätze.",
-    transfer:"Österreich, Italien, Deutschland beteiligt; Lücke Benchmark–Routine dokumentiert, externe Validierung erforderlich"
-  },
-  {
-    journal:"Int Wound J", year:"2026", pmid:"43058959",
-    author:"Busch DA et al.", pubdate:"Nov. 2026",
+    journal:"Appl Clin Inform", year:"2026", pmid:"43064363",
+    author:"Hunter RB et al.", pubdate:"20.11.2026",
     added:"20.11.2026",
-    title:"Deep Learning zur automatisierten Erkennung von Wundheilungskomplikationen",
-    sum:"Validierungsstudie an 1000 annotierte Wundfotos aus 5 Deep-Learning-Modellen zur Früherkennung von Komplikationen (Rötung, Ödem, Mazeration, Nekrose, mangelnde Granulation) an chronischen Beingeschwüren.",
-    result:"Nekrose und fehlende Granulation: Genauigkeit 0,90 und 0,80, AUC 0,98 und 0,96. Mazeration und Rötung: Genauigkeit 0,75, AUC 0,89. Ödem am schwierigsten: Genauigkeit 0,70, AUC 0,64. Zuverlässigste Vorhersagen für Nekrose und Granulationsmangel.",
-    transfer:"Deutsche Kliniken, vergleichbare Dokumentationspflichten; Modell für Spezialist-arme Settings geeignet"
+    title:"KI-Chatbot für Eltern auf Intensivstation: Sicherheitstest gegen Fehlaussagen",
+    sum:"Red-Teaming-Studie eines EHR-integrierten, Eltern-gerichteten Chatbots auf einer pädiatrischen Intensivstation mit 120 Antworten zu 10 Patienten; Prüfung gegen sechs Angriffsszenarien.",
+    result:"Erfolgsquote 86,7 % (104/120, 95-%-KI 79,3–92,2 %). Von 16 Fehlern akzeptierten 10 (63 %) falsche Aussagen der Eltern, obwohl die richtigen EHR-Daten verfügbar waren. 75 % der Fehler waren keine oder vernachlässigbar; 2 waren schwerwiegend, keiner katastrophal. Modifizierter Systemprompt löste 75 % der Fehler (Proof-of-Concept).",
+    transfer:"USA (Houston, Philadelphia); dominantes Versagensmuster (unkritische Zustimmung) ist versorgungsunabhängig; Nachverbessern durch Prompt-Anpassung funktioniert."
+  },
+  {
+    journal:"J Med Internet Res", year:"2026", pmid:"43063475",
+    author:"Weber K et al.", pubdate:"20.11.2026",
+    added:"20.11.2026",
+    title:"NLP zur Alkoholgefährdung: Automatische Klassifizierung aus klinischen Noten",
+    sum:"Zweistufige NLP-Pipeline zur Klassifizierung von Alkoholverzehr-Risiko (keine, niedrig, hoch, wahrscheinliche Abhängigkeit) in EHR-Noten chirurgischer Patienten; Nutzung von Annotationsprozess-Artefakten zur Handhabung von Klassenungleichgewicht.",
+    result:"Human-Annotator-Übereinstimmung 93,7 % (κ=0,889, aber 67,5 % bei wahrscheinlicher Abhängigkeit). LSTM-Klassifizierer erzielte gewichtetes F1=0,86, makro-F1=0,77. Binäre Klassifizierung (hoch/niedrig Risiko) Genauigkeit 0,92, macro-F1 0,80. One-vs-Rest AUCs: 0,97 (kein Alkohol), 0,88 (niedrig), 0,90 (abhängig), 0,71 (hoch).",
+    transfer:"USA (Michigan); Versorgungsdaten und Workflow haben Parallelen; klinische Validierung ausstehend."
+  },
+  {
+    journal:"Front Endocrinol (Lausanne)", year:"2026", pmid:"43065352",
+    author:"Chen L et al.", pubdate:"06.11.2026",
+    added:"21.11.2026",
+    title:"Machine Learning zur Endometriose-Diagnose: Vergleich von Interpretierbarkeit und Genauigkeit",
+    sum:"Retrospektive Entwicklungs- und interne Validierungsstudie an 233 Patientinnen (Trainings-/Validierungssplit 7:3) zur Diagnose von Endometriose aus klinischen Merkmalen, Blutbild und Tumormarkern.",
+    result:"Logistische Regression, Random Forest, Support Vector Machine und XGBoost zeigten in der Validierungsmenge AUCs von 0,878–0,860. Logistische Regression war nicht signifikant schlechter als komplexere Modelle. Sensitivität 69–94 %, Spezifität 71–91 %. Unabhängige Risikofaktoren: Myomvorgeschichte, Menopausenstatus, Dysmenorrhö, Leukozytenzahl, CA125, CA199.",
+    transfer:"China, begrenzte Fallzahl; interne Validierung nur; Vorsicht bei Generalisierung erforderlich."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2385,7 +2385,7 @@ const ZUL_DIGA = 5;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "21.11.2026";
+const NEWS_STAND = "22.11.2026";
 const NEWS = [
   {titel:"Gesundheitsdaten für Prävention nutzen: BIG direkt gesund zum GeDIG", datum:"2026-10-28", url:"https://www.monitor-versorgungsforschung.de/news/gesundheitsdaten-fuer-praevention-nutzen-big-direkt-gesund-zum-gedig/"},
   {titel:"Telemedizin und Krisenresilienz: Zi-Congress 2026 in Berlin", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/telemedizin-und-krisenresilienz-zi-congress-2026-in-berlin/"},
