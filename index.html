@@ -2305,62 +2305,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "22. Nov. 2026, 05:00 Uhr";
+const SNAP_DATE = "23. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Scand J Prim Health Care", year:"2026", pmid:"43065153",
-    author:"Norberg BL et al.", pubdate:"20.11.2026",
+    journal:"JMIR Med Inform", year:"2026", pmid:"43066931",
+    author:"Toh C et al.", pubdate:"20.11.2026",
     added:"21.11.2026",
-    title:"Telemedizin in der Primärversorgung: Übereinstimmung von Ärzte- und Patientensicht",
-    sum:"Matched-Paar-Studie zu Videotelefonie, Telefon und Textnachrichten in norwegischen Hausarztpraxen; Vergleich von Arztsicht und Patientenzufriedenheit mit derselben Konsultation.",
-    result:"85 % der Ärzte und Patienten stimmten überein, dass die Modalität geeignet war; Zustimmung bei Vertrauen in Diagnose 93 %, zur Wiedernutzung 75 %. Zustimmung sank, wenn Patienten Fragen nicht beantwortet bekamen (aOR 0,02, 95-%-KI 0,002–0,20). Text-Konsultationen zeigten niedrigere Vertrauenswerte als Videosprechstunden (aOR 0,06). Die Ergebnisse zeigen hohe Qualitätsübereinstimmung, besonders bei bekannten Problemen und geplanten Terminen.",
-    transfer:"Norwegen, vergleichbares Versorgungssystem; übertragbar auf deutschsprachige Länder."
+    title:"Deep-Learning-Modelle für automatische Fallidentifikation in Krebsregistern aus Pathologiebefunden",
+    sum:"Evaluation von Deep-Learning-Architekturen (CNN, RNN, LSTM) mit verschiedenen schwach überwachten Trainingsansätzen zur automatischen Erkennung von Krebspatienten aus Pathologieberichten in einem Krankenhaus-Krebsregister (Songkhla, Thailand, 2005–2023).",
+    result:"CNN-Modelle mit schwach überwachtem Labeling (inakkurate/unexakte Kennzeichnung) erreichten auf Patientenebene höhere Performance als Report-Level-Annotation. Bei Patient-Level-Klassifikation AUC &gt;0,85; bei Report-Level-Klassifikation starker Leistungsabfall. Schwach überwachte Ansätze erkannten Patienten durch diverse Berichttypen, während kuratierte Daten zu Überanpassung an primäre Tumortypen führten.",
+    transfer:"Einzelnes Krankenhaus mit Überweisungsverzerrung; deutsche Register haben bessere Datenvollständigkeit, aber Methode auf EHR-Texte übertragbar"
   },
   {
-    journal:"Z Gastroenterol", year:"2026", pmid:"43063928",
-    author:"Engel A et al.", pubdate:"20.11.2026",
-    added:"20.11.2026",
-    title:"Deep Learning in Endoskopie: Realbedingungen bei Früherkennung präkanzeröser Magenbefunde",
-    sum:"Prospektive Validierungsstudie zweier bereits publizierter Deep-Learning-Klassifizierer an unkomplizierten Patientendaten aus drei Zentren (Deutschland, Portugal, Polen); Vergleich mit Fachleuten.",
-    result:"Für präkanzeröse Magenbefunde: Der Algorithmus produzierte zahlreiche Falsch-Positive, besonders bei bestimmten Endoskoppositionen, während Falsch-Negative selten waren. Eosinophile Ösophagitis: Weniger Falsch-Positive, sehr selten Falsch-Negative. Bei Beschränkung auf Standardposition zeigte der Magenbefund-Algorithmus zufriedenstellende Leistung. Ergebnis: Klinischer Nutzen des präkanzerösen-Magenbefund-Klassifizierers ist begrenzt.",
-    transfer:"Deutschland und europäische Daten; Versorgungsrealität mit unkomplizierten Bildern abgebildet."
+    journal:"JMIR Hum Factors", year:"2026", pmid:"43068361",
+    author:"Hong S et al.", pubdate:"19.11.2026",
+    added:"22.11.2026",
+    title:"KI-gestützte Rehabilitations-App für angeborene Schiefhals-Behandlung: Usability-Evaluation",
+    sum:"Formative Usability-Bewertung eines KI-basierten Rehabilitationssystems mit klinischem Web-Interface und Betreuer-Mobile-App für angeborene muskuläre Schiefhals (CMT) durch 8 klinische Experten mittels Fokusgruppendiskussionen und System Usability Scale.",
+    result:"Mittlere SUS-Score 73,44 (SD 18,01). Thematische Analyse identifizierte zwei Kernthemen mit 10 Subthemen: Hauptbedenken waren Zuverlässigkeit und Interpretierbarkeit des KI-Feedbacks sowie Komplexität der Datenvisualisierung für Betreuer. Experten betonten, dass KI als therapeutische Brücke zwischen Kliniker und Betreuer fungieren sollte, nicht als Ersatz.",
+    transfer:"Südkorea; deutsche Pädiatrie-Zentren könnten ähnliche digitale Reha-Systeme evaluieren"
   },
   {
-    journal:"Appl Clin Inform", year:"2026", pmid:"43064362",
-    author:"Smith KD et al.", pubdate:"20.11.2026",
-    added:"20.11.2026",
-    title:"LLM-gestützte EHR-Zusammenfassung: Machbarkeit und Halluzinationen im klinischen Alltag",
-    sum:"Drei-Phasen-Bewertung eines LLM-gestützten Tools in Epic Hyperdrive (EHR-Integration) zur Zusammenfassung von Patientendaten in Echtzeit; Feedback von 32 Fachleuten aus sieben Fachrichtungen.",
-    result:"Ärzte bewerteten Genauigkeit und Vollständigkeit der Zusammenfassungen als gut. Halluzinationsrate 6,2 % während Routineeinsatz. Statistisch signifikante Verbesserungen zwischen Proof-of-Concept und Pilotphase (Gründlichkeit, Nützlichkeit, Anordnung, Klarheit durch Prompt-Engineering). Das Tool könnte die Workflow-Effizienz unterstützen.",
-    transfer:"USA (Chicago); Fachleute waren enthusiastisch; technische Machbarkeit demonstrated, klinische Auswirkungen noch zu validieren."
+    journal:"JMIR Nurs", year:"2026", pmid:"43068358",
+    author:"Chan MCM et al.", pubdate:"19.11.2026",
+    added:"22.11.2026",
+    title:"LLM-gesteuerte virtuelle Patienten für Pflegesimulatoren: Implementierung und Evaluation",
+    sum:"Entwicklung und Evaluation eines GPT-4o-basierten Simulationspatienten in Kantonisch/Chinesisch für eine Triage-Simulationsspiel integriert in die Pflegausbildung, mit Fokus auf Halluzinations-Minderung und Rollenkohärenz durch Prompt-Engineering.",
+    result:"In der Skript-Treue-Evaluation sanken inkonsistente Antworten von 62,4 % (Version 1) auf 16,8 % (Version 2)—eine absolute Reduktion von 45,6 Prozentpunkten. Version 2 erzielte 90 % (45/50) vollständig skriptkonsistente GPT-4o-Antworten. Das System bewies Praktikabilität in echtem Tutorial-Einsatz mit zwei Kohorten von Pflegestudierenden.",
+    transfer:"Hong Kong/Hongkong; deutsche Pflegeschulen könnten ähnliche LLM-Systeme mit deutschen Sprach-Modellen entwickeln"
   },
   {
-    journal:"Appl Clin Inform", year:"2026", pmid:"43064363",
-    author:"Hunter RB et al.", pubdate:"20.11.2026",
-    added:"20.11.2026",
-    title:"KI-Chatbot für Eltern auf Intensivstation: Sicherheitstest gegen Fehlaussagen",
-    sum:"Red-Teaming-Studie eines EHR-integrierten, Eltern-gerichteten Chatbots auf einer pädiatrischen Intensivstation mit 120 Antworten zu 10 Patienten; Prüfung gegen sechs Angriffsszenarien.",
-    result:"Erfolgsquote 86,7 % (104/120, 95-%-KI 79,3–92,2 %). Von 16 Fehlern akzeptierten 10 (63 %) falsche Aussagen der Eltern, obwohl die richtigen EHR-Daten verfügbar waren. 75 % der Fehler waren keine oder vernachlässigbar; 2 waren schwerwiegend, keiner katastrophal. Modifizierter Systemprompt löste 75 % der Fehler (Proof-of-Concept).",
-    transfer:"USA (Houston, Philadelphia); dominantes Versagensmuster (unkritische Zustimmung) ist versorgungsunabhängig; Nachverbessern durch Prompt-Anpassung funktioniert."
-  },
-  {
-    journal:"J Med Internet Res", year:"2026", pmid:"43063475",
-    author:"Weber K et al.", pubdate:"20.11.2026",
-    added:"20.11.2026",
-    title:"NLP zur Alkoholgefährdung: Automatische Klassifizierung aus klinischen Noten",
-    sum:"Zweistufige NLP-Pipeline zur Klassifizierung von Alkoholverzehr-Risiko (keine, niedrig, hoch, wahrscheinliche Abhängigkeit) in EHR-Noten chirurgischer Patienten; Nutzung von Annotationsprozess-Artefakten zur Handhabung von Klassenungleichgewicht.",
-    result:"Human-Annotator-Übereinstimmung 93,7 % (κ=0,889, aber 67,5 % bei wahrscheinlicher Abhängigkeit). LSTM-Klassifizierer erzielte gewichtetes F1=0,86, makro-F1=0,77. Binäre Klassifizierung (hoch/niedrig Risiko) Genauigkeit 0,92, macro-F1 0,80. One-vs-Rest AUCs: 0,97 (kein Alkohol), 0,88 (niedrig), 0,90 (abhängig), 0,71 (hoch).",
-    transfer:"USA (Michigan); Versorgungsdaten und Workflow haben Parallelen; klinische Validierung ausstehend."
-  },
-  {
-    journal:"Front Endocrinol (Lausanne)", year:"2026", pmid:"43065352",
-    author:"Chen L et al.", pubdate:"06.11.2026",
+    journal:"Front Public Health", year:"2026", pmid:"43066358",
+    author:"Yuan D et al.", pubdate:"11.11.2026",
     added:"21.11.2026",
-    title:"Machine Learning zur Endometriose-Diagnose: Vergleich von Interpretierbarkeit und Genauigkeit",
-    sum:"Retrospektive Entwicklungs- und interne Validierungsstudie an 233 Patientinnen (Trainings-/Validierungssplit 7:3) zur Diagnose von Endometriose aus klinischen Merkmalen, Blutbild und Tumormarkern.",
-    result:"Logistische Regression, Random Forest, Support Vector Machine und XGBoost zeigten in der Validierungsmenge AUCs von 0,878–0,860. Logistische Regression war nicht signifikant schlechter als komplexere Modelle. Sensitivität 69–94 %, Spezifität 71–91 %. Unabhängige Risikofaktoren: Myomvorgeschichte, Menopausenstatus, Dysmenorrhö, Leukozytenzahl, CA125, CA199.",
-    transfer:"China, begrenzte Fallzahl; interne Validierung nur; Vorsicht bei Generalisierung erforderlich."
+    title:"KI-Chatbots für Verhaltenstherapie: Metaanalyse zu Angst und Depression",
+    sum:"Systematische Übersicht und Metaanalyse von 10 Studien (n=1.301) zur Wirksamkeit von KI-Chatbots mit kognitiver Verhaltenstherapie (CBT) auf Angst- und Depressionssymptome.",
+    result:"AI-CBT-Chatbots reduzierten Depressionssymptome signifikant (d = -0,40; 95%-KI: -0,62 bis -0,17; p=0,0005). Für Angstsymptome kein signifikanter Effekt (d = -0,029; 95%-KI: -0,145 bis 0,087; p=0,623). Subgruppenanalysen zeigten Effekte bei älteren Teilnehmern und längeren Interventionsdauern, aber kleine Studienzahl limitiert Generalisierbarkeit.",
+    transfer:"Internationale Studien, Effekt auf Depression übertragbar; Deutschland könnte KI-Apps zur psychischen Gesundheit evaluieren"
+  },
+  {
+    journal:"Phys Med Biol", year:"2026", pmid:"42962374",
+    author:"Wei C et al.", pubdate:"10.11.2026",
+    added:"30.10.2026",
+    title:"Probabilistische Deep-Learning-Bildregistrierung für adaptive Lungenkrebsbestrahlung",
+    sum:"Entwicklung eines variationalen Bayes-Modells (TransMorph-prob) zur Vorhersage von Verschiebungsfeldern mit Unsicherheitsquantifizierung für die Dosisakkumulation in der MRT-gesteuerten Radiotherapie von Lungenkrebspatienten.",
+    result:"TransMorph-prob erzielte auf dem DIRLAB-Datensatz einen Zielregistrierungsfehler (TRE) von 1,8 mm bei manuellen Landmarken und zeigte eine mittlere Dice-Ähnlichkeit von 0,87 auf MRT-Daten. Die kalibrierte Unsicherheitsquantifizierung ermöglichte klinisch relevante Vorhersagen der Dosis-D95-Variabilität für adaptive Strahlentherapie-Entscheidungen.",
+    transfer:"Deutsche Klinikdaten (München, Freiburg), vergleichbare Strahlentherapie-Infrastruktur"
+  },
+  {
+    journal:"Anticancer Res", year:"2026", pmid:"42946403",
+    author:"Sperling C et al.", pubdate:"Nov. 2026",
+    added:"27.10.2026",
+    title:"LLM-gestützte KI-Entscheidungsunterstützung zur iterativen Bestrahlungsplanoptimierung",
+    sum:"Proof-of-Concept für ein Large-Language-Model als Entscheidungsinstanz zur Optimierung von VMAT-Bestrahlungsplänen bei Kraniospinaler Bestrahlung, das iterativ Dosisverteilungen bewertet und Verbesserungen empfiehlt.",
+    result:"Der LLM-basierte Planer erhöhte den Van't-Riet-Konformitätsindex von 0,84 (Baseline) auf 0,99 in Experiment B und verbesserte die PTV-D98% von 94,8 % auf 96,4 %. Die iterative, dialogbasierte Optimierung übertraf regelbasierte Systeme bei der Reduktion lokaler Dosisdefizite in Übergangszonen.",
+    transfer:"Deutsche Strahlentherapie-Zentren (Lübeck), vergleichbare Anforderungen an Bestrahlungsplanung"
+  },
+  {
+    journal:"BMC Psychiatry", year:"2026", pmid:"43035713",
+    author:"Xiao F et al.", pubdate:"19.08.2026",
+    added:"15.11.2026",
+    title:"Multimodale KI-Modelle zur Diagnose und Risikovorhersage von Depressionen",
+    sum:"Entwicklung von Machine-Learning-Modellen zur Diagnose und 15-Jahres-Risikovorhersage von Depressionen unter Einbeziehung von Proteomik, Metabolomik, Lebensstilfaktoren, Familienanamnese und polygenen Risikoscores bei 30.040 UK-Biobank-Teilnehmern.",
+    result:"Das integrierte multimodale Modell erreichte eine AUC von 0,679 für die Inzidenzvorhersage und 0,791 für die Prävalenzdiagnose. Lebensstilfaktoren, insbesondere Schlaf, übertroffen genetische Scores. Das Modell zeigte hohe Spezifität bei der Unterscheidung von Depression von Schizophrenie (AUC 0,865), Bipolarer Störung (AUC 0,799) und Angststörungen (AUC 0,729).",
+    transfer:"UK-Daten, vergleichbare Sozialversicherungsstrukturen zu Deutschland"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2385,7 +2394,7 @@ const ZUL_DIGA = 5;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "22.11.2026";
+const NEWS_STAND = "23.11.2026";
 const NEWS = [
   {titel:"Gesundheitsdaten für Prävention nutzen: BIG direkt gesund zum GeDIG", datum:"2026-10-28", url:"https://www.monitor-versorgungsforschung.de/news/gesundheitsdaten-fuer-praevention-nutzen-big-direkt-gesund-zum-gedig/"},
   {titel:"Telemedizin und Krisenresilienz: Zi-Congress 2026 in Berlin", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/telemedizin-und-krisenresilienz-zi-congress-2026-in-berlin/"},
