@@ -2305,71 +2305,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "23. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "24. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"JMIR Med Inform", year:"2026", pmid:"43066931",
-    author:"Toh C et al.", pubdate:"20.11.2026",
-    added:"21.11.2026",
-    title:"Deep-Learning-Modelle für automatische Fallidentifikation in Krebsregistern aus Pathologiebefunden",
-    sum:"Evaluation von Deep-Learning-Architekturen (CNN, RNN, LSTM) mit verschiedenen schwach überwachten Trainingsansätzen zur automatischen Erkennung von Krebspatienten aus Pathologieberichten in einem Krankenhaus-Krebsregister (Songkhla, Thailand, 2005–2023).",
-    result:"CNN-Modelle mit schwach überwachtem Labeling (inakkurate/unexakte Kennzeichnung) erreichten auf Patientenebene höhere Performance als Report-Level-Annotation. Bei Patient-Level-Klassifikation AUC &gt;0,85; bei Report-Level-Klassifikation starker Leistungsabfall. Schwach überwachte Ansätze erkannten Patienten durch diverse Berichttypen, während kuratierte Daten zu Überanpassung an primäre Tumortypen führten.",
-    transfer:"Einzelnes Krankenhaus mit Überweisungsverzerrung; deutsche Register haben bessere Datenvollständigkeit, aber Methode auf EHR-Texte übertragbar"
+    journal:"Neurosurg Rev", year:"2026", pmid:"43071202",
+    author:"Estupiñan-Pepinosa DF et al.", pubdate:"23.11.2026",
+    added:"23.11.2026",
+    title:"KI in der Epilepsiediagnostik: systematische Übersicht mit Meta-Analyse",
+    sum:"Systematische Übersicht und Meta-Analyse von 102 Studien (2014–März 2026) zu KI-Anwendungen in Epilepsiediagnose, Klassifikation, Outcome-Vorhersage und chirurgischer Entscheidungsfindung mit Bewertung der Modellqualität mittels PROBAST.",
+    result:"Pooled AUC für Klassifikation 0,929 (95% KI 0,837–0,971), Diagnose 0,899 (95% KI 0,859–0,929), chirurgische Zuweisung 0,895 (95% KI 0,870–0,916) und Outcome-Vorhersage 0,807 (95% KI 0,740–0,861). Sensitivität für Diagnose 0,885 (95% KI 0,840–0,918), für chirurgische Zuweisung aber nur 0,729 (95% KI 0,681–0,771). Hohe Heterogenität, überwiegend interne Validierung, hohe Bias-Risiken; externe Validierung selten.",
+    transfer:"Internationale Daten, aber Mangel an Validierung und Lücke zu klinischer Translation relevant für Deutschland"
   },
   {
-    journal:"JMIR Hum Factors", year:"2026", pmid:"43068361",
-    author:"Hong S et al.", pubdate:"19.11.2026",
+    journal:"J Med Internet Res", year:"2026", pmid:"43071442",
+    author:"Wu Z et al.", pubdate:"23.11.2026",
+    added:"23.11.2026",
+    title:"LLMs zur EHR-Verarbeitung in Notaufnahmen: systematische Übersicht",
+    sum:"Systematische Übersicht (PRISMA) von 31 Studien (Jan. 2022–Nov. 2025) zu LLM-Anwendungen auf Notaufnahme-EHR-Daten; Bewertung von Aufgaben, Adaptationsstrategien, Evaluation und Workflow-Integration.",
+    result:"71% der Studien waren nur technische Leistungsauswertungen; klinischer Nutzen wurde empirisch in nur 9,7% getestet, prospektive Deployment in 12,9%. Die meisten Anwendungen funktionierten als Dokumentations-, Überwachungs- und Audit-Assistenten, nicht als autonome Entscheidungssysteme. Häufig: kleine Datensätze (&lt;10.000 Fälle), Single-Center, Prompt-Engineering dominant, aber externe Validierung und Patientensicherheitsergebnisse fehlten.",
+    transfer:"Internationale Evidenz zeigt Mangel an klinischer Integration und Sicherheitsbeweis"
+  },
+  {
+    journal:"JMIR Form Res", year:"2026", pmid:"43071441",
+    author:"Jiang X et al.", pubdate:"23.11.2026",
+    added:"23.11.2026",
+    title:"Multiagent-LLM zur Verfolgung der nassen Makuladegeneration: Machbarkeitsstudie",
+    sum:"Retrospektive Machbarkeitsstudie eines 3-Schichten-Multiagent-LLM-Rahmens (GPT-4o, AutoGen) zur Integration longitudinaler multimodaler Imaging- und Behandlungsdaten in strukturierte Berichte für nasse AMD bei 12 Patienten über 69 Follow-up-Besuche.",
+    result:"Visit-Level-Genauigkeit der Aktivitätsklassifikation 80,8% (SD 3,4%) über 4 unabhängige Läufe (Spanne 78,3%–85,5%), Cohen κ mean 0,605 (SD 0,072, Spanne 0,549–0,705). Visual-Grounding-Strategie reduzierte Nonimage-Referenzrate von 13,8% (12/87) auf 1,1% (1/87). Framework generierte strukturierte Längsschnitt-summaries von Krankheitsaktivität, multimodalen Befunden und Behandlungshistorie.",
+    transfer:"Chinesische Daten, aber LLM-Technologie global verfügbar; Proof-of-Concept in Versorgung noch nicht demonstriert"
+  },
+  {
+    journal:"JMIR Form Res", year:"2026", pmid:"43070100",
+    author:"Nonaka F et al.", pubdate:"20.11.2026",
+    added:"23.11.2026",
+    title:"Mixed-Reality-Telemedizin bei Rheumapatienten: technische und operative Machbarkeit",
+    sum:"Prospektive Machbarkeitsstudie zur Mixed-Reality-basierten Telemedizin (NURAS) für rheumatoide Arthritis in einem entlegenen japanischen Insenlazarett: 6 Patienten mit 18 geplanten Telemedizinskonsultationen über 12 Monate.",
+    result:"Alle 18 geplanten Sitzungen wurden erfolgreich durchgeführt ohne Verbindungsunterbrechungen. Die Konsultationsdauer sank von median 37 Min. 45 s (IQR 33 Min. 19 s–47 Min. 34 s) auf 17 Min. 47 s (IQR 15 Min. 16 s–20 Min. 38 s) nach 12 Monaten. DAS28-CRP sank von median 2,98 (IQR 2,60–3,61) auf 1,69 (IQR 1,19–1,79). Das System war technisch und operativ machbar für spezialisierte rheumatologische Fernbetreuung.",
+    transfer:"Japan, aber technische Lösung für Länder mit Spezialistenmangel überall relevant"
+  },
+  {
+    journal:"Nat Commun", year:"2026", pmid:"43069285",
+    author:"Wolf RM et al.", pubdate:"23.10.2026",
     added:"22.11.2026",
-    title:"KI-gestützte Rehabilitations-App für angeborene Schiefhals-Behandlung: Usability-Evaluation",
-    sum:"Formative Usability-Bewertung eines KI-basierten Rehabilitationssystems mit klinischem Web-Interface und Betreuer-Mobile-App für angeborene muskuläre Schiefhals (CMT) durch 8 klinische Experten mittels Fokusgruppendiskussionen und System Usability Scale.",
-    result:"Mittlere SUS-Score 73,44 (SD 18,01). Thematische Analyse identifizierte zwei Kernthemen mit 10 Subthemen: Hauptbedenken waren Zuverlässigkeit und Interpretierbarkeit des KI-Feedbacks sowie Komplexität der Datenvisualisierung für Betreuer. Experten betonten, dass KI als therapeutische Brücke zwischen Kliniker und Betreuer fungieren sollte, nicht als Ersatz.",
-    transfer:"Südkorea; deutsche Pädiatrie-Zentren könnten ähnliche digitale Reha-Systeme evaluieren"
+    title:"KI-gestützte Screening-Augen-examen reduziert Disparitäten in Diabetiker-Vorsorge",
+    sum:"Prospektive Studie an 397 Jugendlichen (72% Typ-1-, 28% Typ-2-Diabetes) an Johns Hopkins zum Einsatz autonomer KI-basierter diabetischer Augenuntersuchungen versus Standardpraxis zur Verringerung von Screening-Disparitäten zwischen weißen und nicht-weißen Patienten.",
+    result:"Nach KI-Intervention stieg die Screening-Abschlussquote in der weißen Kohorte von 79,8% auf 99,5% und in der nicht-weißen Kohorte von 61,8% auf 98%, womit Disparitäten ausgeglichen wurden. KI zeigte Sensitivität 100% (95% KI 67,6%–100%) und Spezifität 76% (95% KI 71,4%–79,9%) für Detektion von mehr als mild diabetischer Retinopathie.",
+    transfer:"USA, aber Implementierungsmodell für Screening-Zugang übertragbar"
   },
   {
-    journal:"JMIR Nurs", year:"2026", pmid:"43068358",
-    author:"Chan MCM et al.", pubdate:"19.11.2026",
+    journal:"Scand J Trauma Resusc Emerg Med", year:"2026", pmid:"43069158",
+    author:"Shibata J et al.", pubdate:"26.08.2026",
     added:"22.11.2026",
-    title:"LLM-gesteuerte virtuelle Patienten für Pflegesimulatoren: Implementierung und Evaluation",
-    sum:"Entwicklung und Evaluation eines GPT-4o-basierten Simulationspatienten in Kantonisch/Chinesisch für eine Triage-Simulationsspiel integriert in die Pflegausbildung, mit Fokus auf Halluzinations-Minderung und Rollenkohärenz durch Prompt-Engineering.",
-    result:"In der Skript-Treue-Evaluation sanken inkonsistente Antworten von 62,4 % (Version 1) auf 16,8 % (Version 2)—eine absolute Reduktion von 45,6 Prozentpunkten. Version 2 erzielte 90 % (45/50) vollständig skriptkonsistente GPT-4o-Antworten. Das System bewies Praktikabilität in echtem Tutorial-Einsatz mit zwei Kohorten von Pflegestudierenden.",
-    transfer:"Hong Kong/Hongkong; deutsche Pflegeschulen könnten ähnliche LLM-Systeme mit deutschen Sprach-Modellen entwickeln"
-  },
-  {
-    journal:"Front Public Health", year:"2026", pmid:"43066358",
-    author:"Yuan D et al.", pubdate:"11.11.2026",
-    added:"21.11.2026",
-    title:"KI-Chatbots für Verhaltenstherapie: Metaanalyse zu Angst und Depression",
-    sum:"Systematische Übersicht und Metaanalyse von 10 Studien (n=1.301) zur Wirksamkeit von KI-Chatbots mit kognitiver Verhaltenstherapie (CBT) auf Angst- und Depressionssymptome.",
-    result:"AI-CBT-Chatbots reduzierten Depressionssymptome signifikant (d = -0,40; 95%-KI: -0,62 bis -0,17; p=0,0005). Für Angstsymptome kein signifikanter Effekt (d = -0,029; 95%-KI: -0,145 bis 0,087; p=0,623). Subgruppenanalysen zeigten Effekte bei älteren Teilnehmern und längeren Interventionsdauern, aber kleine Studienzahl limitiert Generalisierbarkeit.",
-    transfer:"Internationale Studien, Effekt auf Depression übertragbar; Deutschland könnte KI-Apps zur psychischen Gesundheit evaluieren"
-  },
-  {
-    journal:"Phys Med Biol", year:"2026", pmid:"42962374",
-    author:"Wei C et al.", pubdate:"10.11.2026",
-    added:"30.10.2026",
-    title:"Probabilistische Deep-Learning-Bildregistrierung für adaptive Lungenkrebsbestrahlung",
-    sum:"Entwicklung eines variationalen Bayes-Modells (TransMorph-prob) zur Vorhersage von Verschiebungsfeldern mit Unsicherheitsquantifizierung für die Dosisakkumulation in der MRT-gesteuerten Radiotherapie von Lungenkrebspatienten.",
-    result:"TransMorph-prob erzielte auf dem DIRLAB-Datensatz einen Zielregistrierungsfehler (TRE) von 1,8 mm bei manuellen Landmarken und zeigte eine mittlere Dice-Ähnlichkeit von 0,87 auf MRT-Daten. Die kalibrierte Unsicherheitsquantifizierung ermöglichte klinisch relevante Vorhersagen der Dosis-D95-Variabilität für adaptive Strahlentherapie-Entscheidungen.",
-    transfer:"Deutsche Klinikdaten (München, Freiburg), vergleichbare Strahlentherapie-Infrastruktur"
-  },
-  {
-    journal:"Anticancer Res", year:"2026", pmid:"42946403",
-    author:"Sperling C et al.", pubdate:"Nov. 2026",
-    added:"27.10.2026",
-    title:"LLM-gestützte KI-Entscheidungsunterstützung zur iterativen Bestrahlungsplanoptimierung",
-    sum:"Proof-of-Concept für ein Large-Language-Model als Entscheidungsinstanz zur Optimierung von VMAT-Bestrahlungsplänen bei Kraniospinaler Bestrahlung, das iterativ Dosisverteilungen bewertet und Verbesserungen empfiehlt.",
-    result:"Der LLM-basierte Planer erhöhte den Van't-Riet-Konformitätsindex von 0,84 (Baseline) auf 0,99 in Experiment B und verbesserte die PTV-D98% von 94,8 % auf 96,4 %. Die iterative, dialogbasierte Optimierung übertraf regelbasierte Systeme bei der Reduktion lokaler Dosisdefizite in Übergangszonen.",
-    transfer:"Deutsche Strahlentherapie-Zentren (Lübeck), vergleichbare Anforderungen an Bestrahlungsplanung"
-  },
-  {
-    journal:"BMC Psychiatry", year:"2026", pmid:"43035713",
-    author:"Xiao F et al.", pubdate:"19.08.2026",
-    added:"15.11.2026",
-    title:"Multimodale KI-Modelle zur Diagnose und Risikovorhersage von Depressionen",
-    sum:"Entwicklung von Machine-Learning-Modellen zur Diagnose und 15-Jahres-Risikovorhersage von Depressionen unter Einbeziehung von Proteomik, Metabolomik, Lebensstilfaktoren, Familienanamnese und polygenen Risikoscores bei 30.040 UK-Biobank-Teilnehmern.",
-    result:"Das integrierte multimodale Modell erreichte eine AUC von 0,679 für die Inzidenzvorhersage und 0,791 für die Prävalenzdiagnose. Lebensstilfaktoren, insbesondere Schlaf, übertroffen genetische Scores. Das Modell zeigte hohe Spezifität bei der Unterscheidung von Depression von Schizophrenie (AUC 0,865), Bipolarer Störung (AUC 0,799) und Angststörungen (AUC 0,729).",
-    transfer:"UK-Daten, vergleichbare Sozialversicherungsstrukturen zu Deutschland"
+    title:"Mobile EMS-App-Implementierung: Datenerfassung in bevölkerungsbasierter Studie",
+    sum:"Bevölkerungsgestützte deskriptive Studie zur Implementierung einer mobilen App für standardisierte EMS-Datenerfassung in Hiroshima-Präfektur (Okt. 2023–Dez. 2024), einschließlich Kardiakarrest-Modus und interklinische Transfers.",
+    result:"147.213 EMS-Transporte dokumentiert (131.843 = 90% Notfalltransporte, 15.370 = 10% interklinische Transfers). Mediane Vor-Ort-Zeit 19 Min., Transportzeit 11 Min. Erste Krankenhaus-Anforderung erfolgreich bei 66% der Fälle mit medianer Verhandlungszeit 5,2 Min. OCR-Feature in 74% genutzt, Sprachinput in 5%. Strukturierte Echtzeitdatenerfassung für kardiale Fälle (1.988 Fälle). App ermöglichte Standardisierung und Integration prehospitaler Daten.",
+    transfer:"Japan; Implementierungsmuster für digitale Notfalldokumentation übertragbar, aber Outcome-Effekte noch nicht gemessen"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2394,7 +2385,7 @@ const ZUL_DIGA = 5;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "23.11.2026";
+const NEWS_STAND = "24.11.2026";
 const NEWS = [
   {titel:"Gesundheitsdaten für Prävention nutzen: BIG direkt gesund zum GeDIG", datum:"2026-10-28", url:"https://www.monitor-versorgungsforschung.de/news/gesundheitsdaten-fuer-praevention-nutzen-big-direkt-gesund-zum-gedig/"},
   {titel:"Telemedizin und Krisenresilienz: Zi-Congress 2026 in Berlin", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/telemedizin-und-krisenresilienz-zi-congress-2026-in-berlin/"},
