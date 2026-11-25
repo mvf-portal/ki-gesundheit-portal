@@ -2457,62 +2457,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "24. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "25. Nov. 2026, 05:00 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Neurosurg Rev", year:"2026", pmid:"43071202",
-    author:"Estupiñan-Pepinosa DF et al.", pubdate:"23.11.2026",
+    journal:"Aust J Prim Health", year:"2026", pmid:"43072357",
+    author:"Edwards J et al.", pubdate:"17.12.2026",
     added:"23.11.2026",
-    title:"KI in der Epilepsiediagnostik: systematische Übersicht mit Meta-Analyse",
-    sum:"Systematische Übersicht und Meta-Analyse von 102 Studien (2014–März 2026) zu KI-Anwendungen in Epilepsiediagnose, Klassifikation, Outcome-Vorhersage und chirurgischer Entscheidungsfindung mit Bewertung der Modellqualität mittels PROBAST.",
-    result:"Pooled AUC für Klassifikation 0,929 (95% KI 0,837–0,971), Diagnose 0,899 (95% KI 0,859–0,929), chirurgische Zuweisung 0,895 (95% KI 0,870–0,916) und Outcome-Vorhersage 0,807 (95% KI 0,740–0,861). Sensitivität für Diagnose 0,885 (95% KI 0,840–0,918), für chirurgische Zuweisung aber nur 0,729 (95% KI 0,681–0,771). Hohe Heterogenität, überwiegend interne Validierung, hohe Bias-Risiken; externe Validierung selten.",
-    transfer:"Internationale Daten, aber Mangel an Validierung und Lücke zu klinischer Translation relevant für Deutschland"
+    title:"Hausärztliche Akzeptanz von KI-gestützter Entscheidungsunterstützung zur Hypertonie-Therapie",
+    sum:"Qualitative Studie mit 22 Hausärzt*innen (14 Australien, 8 England) zu Akzeptanz und Usability von KI-Tools für Hypertonie-Management in der Primärversorgung; halbstrukturierte Interviews mit klinischen Szenarien.",
+    result:"Hausärzt*innen in beiden Ländern betonten, dass KI-Tools nur akzeptiert werden, wenn sie trusted klinischen Fachgesellschaften zugeordnet werden und Workflow-Effizienz bieten (nahtlose Datenintegration, Synthesis patientenspezifischer Komplexität). Länder-Unterschiede: England protokollierter, Australien skeptischer zur Datenqualität. Kern-Anforderung: Tools müssen Zeit sparen und kontextsensitive, individualisierte Entscheidungen unterstützen.",
+    transfer:"England und Australien, vergleichbare Primärversorgungsstrukturen, Datenschutzbedenken auch in Deutschland relevant"
   },
   {
-    journal:"J Med Internet Res", year:"2026", pmid:"43071442",
-    author:"Wu Z et al.", pubdate:"23.11.2026",
+    journal:"JMIR Med Inform", year:"2026", pmid:"43077244",
+    author:"Hsieh YC et al.", pubdate:"24.11.2026",
+    added:"24.11.2026",
+    title:"Digitale Blutbank-Koordinationsplattform in der ländlichen Perinatologie: 4-Jahre-Implementierung",
+    sum:"Vierjährige Implementierungsevaluierung einer webbasierten Plattform, die Blutbank mit 4 Geburtskliniken in ländlich-Taiwan koordiniert; Messungen nach RE-AIM-Framework (Reach, Effectiveness, Adoption, Implementation, Maintenance).",
+    result:"Plattform verwaltete 252 Blutabrufe (38 Notfall, 214 Routine) mit 554 Blutprodukten. 100% Adoption (4/4 Kliniken). Notfall-Service-Level-Agreement (SLA) erfüllt in 84,2% (32/38, Zielwert ≥90%; 100% in 2025–2026); Median-Turnaround 28 (IQR 23–29) Minuten. Routine-SLA erfüllt in 97,7% (209/214); Median 72 (IQR 62–79) Minuten. Null ernsthafte transfusionsbedingte Nebenwirkungen. SERVQUAL-Zufriedenheit stieg von 4,65 auf 5,00 (Deckeneffekt). UAV-Substudie: Blutparameter stabil über 4 Lagertage.",
+    transfer:"Taiwan, ländliche Versorgung; Modell für deutsche Flächenländer relevant, Implementierungs-Framework auf strukturvergleichbare Regionen übertragbar"
+  },
+  {
+    journal:"JMIR Aging", year:"2026", pmid:"43071959",
+    author:"Conway A et al.", pubdate:"23.11.2026",
     added:"23.11.2026",
-    title:"LLMs zur EHR-Verarbeitung in Notaufnahmen: systematische Übersicht",
-    sum:"Systematische Übersicht (PRISMA) von 31 Studien (Jan. 2022–Nov. 2025) zu LLM-Anwendungen auf Notaufnahme-EHR-Daten; Bewertung von Aufgaben, Adaptationsstrategien, Evaluation und Workflow-Integration.",
-    result:"71% der Studien waren nur technische Leistungsauswertungen; klinischer Nutzen wurde empirisch in nur 9,7% getestet, prospektive Deployment in 12,9%. Die meisten Anwendungen funktionierten als Dokumentations-, Überwachungs- und Audit-Assistenten, nicht als autonome Entscheidungssysteme. Häufig: kleine Datensätze (&lt;10.000 Fälle), Single-Center, Prompt-Engineering dominant, aber externe Validierung und Patientensicherheitsergebnisse fehlten.",
-    transfer:"Internationale Evidenz zeigt Mangel an klinischer Integration und Sicherheitsbeweis"
+    title:"Adoption einer digitalen Reminiszenz-App in Pflegeheimen: Barrieren und Erfolgsfaktoren",
+    sum:"Qualitative Fokusgruppen-Studie mit 21 Pflegheim-Mitarbeitenden aus verschiedenen Heimen in UK-Region zu Faktoren, die Akzeptanz und nachhaltige Nutzung der InspireD Reminiszenz-App beeinflussen.",
+    result:"Drei übergeordnete Themen: (1) Digitale Infrastruktur und organisationale Reife ermöglichen Adoption; (2) Digitalkompetenz, Leitungs-Entscheidungen beeinflussen Akzeptanz; (3) Nachhaltige Nutzung hängt ab von bedeutungsvoller Integration in Alltagspraxis und Bewährung über Zeit. Adoption ist Prozess, nicht Ereignis. Erfolg erfordert Organisations-Support, Schulung, Leadership-Commitment und Anpassung an wechselnde Versorgungserfordernisse.",
+    transfer:"UK, ähnliche Pflegheim-Strukturen und Fachkräftemangel wie Deutschland"
   },
   {
-    journal:"JMIR Form Res", year:"2026", pmid:"43071441",
-    author:"Jiang X et al.", pubdate:"23.11.2026",
+    journal:"J Med Internet Res", year:"2026", pmid:"43070450",
+    author:"Spurway C et al.", pubdate:"20.11.2026",
     added:"23.11.2026",
-    title:"Multiagent-LLM zur Verfolgung der nassen Makuladegeneration: Machbarkeitsstudie",
-    sum:"Retrospektive Machbarkeitsstudie eines 3-Schichten-Multiagent-LLM-Rahmens (GPT-4o, AutoGen) zur Integration longitudinaler multimodaler Imaging- und Behandlungsdaten in strukturierte Berichte für nasse AMD bei 12 Patienten über 69 Follow-up-Besuche.",
-    result:"Visit-Level-Genauigkeit der Aktivitätsklassifikation 80,8% (SD 3,4%) über 4 unabhängige Läufe (Spanne 78,3%–85,5%), Cohen κ mean 0,605 (SD 0,072, Spanne 0,549–0,705). Visual-Grounding-Strategie reduzierte Nonimage-Referenzrate von 13,8% (12/87) auf 1,1% (1/87). Framework generierte strukturierte Längsschnitt-summaries von Krankheitsaktivität, multimodalen Befunden und Behandlungshistorie.",
-    transfer:"Chinesische Daten, aber LLM-Technologie global verfügbar; Proof-of-Concept in Versorgung noch nicht demonstriert"
+    title:"Patientenschutz in Telemedizin-Konsultationen zum Sexual- und Reproduktivgesundheit",
+    sum:"Qualitative Studie mit 89 Interviews (54 Patient*innen, 35 Fachpersonen) in England und Wales, die Herausforderungen und Strategien zur Wahrnehmung von Schutzaufträgen in Telemedizin-Konsultationen zur Sexualgesundheit untersuchte.",
+    result:"Vier Themen: (1) Schwierigkeiten bei Remote-Safeguarding (begrenzte visuellen Hinweise, Privatsphäre-Probleme); (2) Sichere Räume essentiell; (3) Generischer Ansatz unzureichend; (4) Adaptive Strategien durch Kliniker-Urteil und sensitive Kommunikation. Vulnerable Gruppen (Obdachlosigkeit, Kontrolle) haben stärkere Schutzbedarfe. Wirksamkeit hängt ab von Zugang zu privaten Orten und Kliniker-Training.",
+    transfer:"England und Wales, Datenschutz und Safeguarding-Standards ähnlich europäischen Anforderungen"
   },
   {
-    journal:"JMIR Form Res", year:"2026", pmid:"43070100",
-    author:"Nonaka F et al.", pubdate:"20.11.2026",
+    journal:"BMC Med Educ", year:"2026", pmid:"43073900",
+    author:"Yuan Y et al.", pubdate:"31.08.2026",
     added:"23.11.2026",
-    title:"Mixed-Reality-Telemedizin bei Rheumapatienten: technische und operative Machbarkeit",
-    sum:"Prospektive Machbarkeitsstudie zur Mixed-Reality-basierten Telemedizin (NURAS) für rheumatoide Arthritis in einem entlegenen japanischen Insenlazarett: 6 Patienten mit 18 geplanten Telemedizinskonsultationen über 12 Monate.",
-    result:"Alle 18 geplanten Sitzungen wurden erfolgreich durchgeführt ohne Verbindungsunterbrechungen. Die Konsultationsdauer sank von median 37 Min. 45 s (IQR 33 Min. 19 s–47 Min. 34 s) auf 17 Min. 47 s (IQR 15 Min. 16 s–20 Min. 38 s) nach 12 Monaten. DAS28-CRP sank von median 2,98 (IQR 2,60–3,61) auf 1,69 (IQR 1,19–1,79). Das System war technisch und operativ machbar für spezialisierte rheumatologische Fernbetreuung.",
-    transfer:"Japan, aber technische Lösung für Länder mit Spezialistenmangel überall relevant"
+    title:"LLM-gestützte Generierung und Bewertung bildgebungsabhängiger Prüfungsfragen in der Neurochirurgie",
+    sum:"Single-Center-Studie zur Machbarkeit von Multimodal-LLMs (ChatGPT, Gemini) für die Expert*innen-überwachte Erstellung von Prüfungsfragen und automatische Bewertung von Antworten von Neurochirurgie-Assistenten (n=10 Ärzte).",
+    result:"ChatGPT zeigte höhere Bewertung der Bildabhängigkeit (4,06 vs. 3,58, p&lt;0,001). KI-Bewertung stimmte in 90% (324/360 Antworten) exakt mit Expert*innen-Scoring überein (kappa=0,905). Einzelne Prüflinge: Korrelation r=0,970. Beide LLMs zeigten hohe Bewertungen für wissenschaftliche Genauigkeit, Lernwert und Klarheit (kein signifikanter Unterschied).",
+    transfer:"Deutschsprachige und europäische Universitäten mit vergleichbaren Assistenz-Strukturen"
   },
   {
-    journal:"Nat Commun", year:"2026", pmid:"43069285",
-    author:"Wolf RM et al.", pubdate:"23.10.2026",
-    added:"22.11.2026",
-    title:"KI-gestützte Screening-Augen-examen reduziert Disparitäten in Diabetiker-Vorsorge",
-    sum:"Prospektive Studie an 397 Jugendlichen (72% Typ-1-, 28% Typ-2-Diabetes) an Johns Hopkins zum Einsatz autonomer KI-basierter diabetischer Augenuntersuchungen versus Standardpraxis zur Verringerung von Screening-Disparitäten zwischen weißen und nicht-weißen Patienten.",
-    result:"Nach KI-Intervention stieg die Screening-Abschlussquote in der weißen Kohorte von 79,8% auf 99,5% und in der nicht-weißen Kohorte von 61,8% auf 98%, womit Disparitäten ausgeglichen wurden. KI zeigte Sensitivität 100% (95% KI 67,6%–100%) und Spezifität 76% (95% KI 71,4%–79,9%) für Detektion von mehr als mild diabetischer Retinopathie.",
-    transfer:"USA, aber Implementierungsmodell für Screening-Zugang übertragbar"
-  },
-  {
-    journal:"Scand J Trauma Resusc Emerg Med", year:"2026", pmid:"43069158",
-    author:"Shibata J et al.", pubdate:"26.08.2026",
-    added:"22.11.2026",
-    title:"Mobile EMS-App-Implementierung: Datenerfassung in bevölkerungsbasierter Studie",
-    sum:"Bevölkerungsgestützte deskriptive Studie zur Implementierung einer mobilen App für standardisierte EMS-Datenerfassung in Hiroshima-Präfektur (Okt. 2023–Dez. 2024), einschließlich Kardiakarrest-Modus und interklinische Transfers.",
-    result:"147.213 EMS-Transporte dokumentiert (131.843 = 90% Notfalltransporte, 15.370 = 10% interklinische Transfers). Mediane Vor-Ort-Zeit 19 Min., Transportzeit 11 Min. Erste Krankenhaus-Anforderung erfolgreich bei 66% der Fälle mit medianer Verhandlungszeit 5,2 Min. OCR-Feature in 74% genutzt, Sprachinput in 5%. Strukturierte Echtzeitdatenerfassung für kardiale Fälle (1.988 Fälle). App ermöglichte Standardisierung und Integration prehospitaler Daten.",
-    transfer:"Japan; Implementierungsmuster für digitale Notfalldokumentation übertragbar, aber Outcome-Effekte noch nicht gemessen"
+    journal:"BMC Health Serv Res", year:"2026", pmid:"43073987",
+    author:"Kristiansen E et al.", pubdate:"27.08.2026",
+    added:"23.11.2026",
+    title:"Telemedizin in der Allgemeinmedizin: Nutzungsmuster bei häufigen und seltenen Patienten",
+    sum:"Retrospektive Registerstudie aller norwegischen Hausarzt-Konsultationen 2023 (n=16,9 Mio.), die Unterschiede in der Telemedizin-Nutzung zwischen Patienten-Gruppen untersuchte.",
+    result:"21% aller Konsultationen waren Telemedizin (3,6 Mio. von 16,9 Mio.). Häufignutzer (≥10 Konsultationen/Jahr, 9% der Patienten) nutzten Telemedizin zu 29%, Seltennutzer (91% der Patienten) nur zu 14%; 69% der Seltennutzer hatten keine Telemedizin-Konsultation. Höhere Telemedizin-Nutzung in größeren Gemeinden. Telemedizin wurde breit für Atemwegs-, Muskel-Skelett- und psychische Erkrankungen eingesetzt.",
+    transfer:"Norwegen, vollständige Registerdaten, Gemeinwesen-Setting vergleichbar mit Deutschland"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2537,7 +2537,7 @@ const ZUL_DIGA = 5;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "24.11.2026";
+const NEWS_STAND = "25.11.2026";
 const NEWS = [
   {titel:"Gesundheitsdaten für Prävention nutzen: BIG direkt gesund zum GeDIG", datum:"2026-10-28", url:"https://www.monitor-versorgungsforschung.de/news/gesundheitsdaten-fuer-praevention-nutzen-big-direkt-gesund-zum-gedig/"},
   {titel:"Telemedizin und Krisenresilienz: Zi-Congress 2026 in Berlin", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/telemedizin-und-krisenresilienz-zi-congress-2026-in-berlin/"},
